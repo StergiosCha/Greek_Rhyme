@@ -1,0 +1,183 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[review]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Greek Rhyme System: System Overview}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a separate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{First Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\\And
+  Second Author \\
+  Affiliation / Address line 1 \\
+  Affiliation / Address line 2 \\
+  Affiliation / Address line 3 \\
+  \texttt{email@domain} \\}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This document provides an overview of the Greek Rhyme System, a specialized AI-powered tool for analyzing and generating Modern Greek poetry. The system combines Large Language Models (LLMs) with deterministic phonetic algorithms to ensure phonologically accurate rhyme detection and generation. Key features include advanced rhyme identification (Pure, Rich, Imperfect, Mosaic, IDV) and an agentic generation pipeline with a verification feedback loop.
+\end{abstract}
+
+\section{Core Purpose}
+
+The Greek Rhyme System is designed to address the challenges of computational poetry in Modern Greek.
+\begin{itemize}
+    \item \textbf{AI-Powered Analysis \& Generation}: A specialized system for analyzing and generating Modern Greek poetry, with a strong focus on phonologically accurate rhyme.
+    \item \textbf{Hybrid Architecture}: Combines Large Language Models (LLMs) with deterministic phonetic algorithms for high precision.
+\end{itemize}
+
+\section{Key Features}
+
+\subsection{Rhyme Identification (Analysis)}
+
+The system employs a sophisticated engine for detecting and classifying rhymes based on stress position and phonetic matching.
+
+\begin{itemize}
+    \item \textbf{Phonetic Classification}:
+    \begin{itemize}
+        \item \textbf{Stress Types}: Masculine (Oxytone), Feminine (Paroxytone), Proparoxytone.
+        \item \textbf{Rhyme Categories}:
+        \begin{itemize}
+            \item \textbf{Pure}: Perfect phonetic match.
+            \item \textbf{Rich}: Matches involving more than the required rhyme domain.
+            \item \textbf{Imperfect}: Assonance or consonance (e.g., matching vowels but different consonants).
+            \item \textbf{Mosaic}: Rhymes formed by splitting words across lines or using multiple words.
+            \item \textbf{Identical Vowel (IDV)}: Specific vowel-based rhymes.
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Advanced Prompting}: Utilizes multiple strategies to improve LLM accuracy:
+    \begin{itemize}
+        \item Zero-shot \& Few-shot learning.
+        \item Chain-of-Thought (CoT) reasoning.
+        \item \textbf{RAG (Retrieval-Augmented Generation)}: Retrieves relevant examples from a verified corpus to guide the model.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Agentic Poetry Generation}
+
+The generation module uses an agentic approach to ensure high-quality output.
+
+\begin{itemize}
+    \item \textbf{Feedback Loop}: Implements a ``Generate-Verify-Refine'' cycle:
+    \begin{enumerate}
+        \item \textbf{Draft}: LLM generates a poem based on user constraints (Theme, Rhyme Type, Style).
+        \item \textbf{Verify}: A deterministic Python tool (\texttt{VerificationTool}) checks every rhyme pair against phonological rules.
+        \item \textbf{Refine}: If errors are found, the agent receives specific feedback (e.g., ``Lines 1-2 do not rhyme'') and retries (up to 3 attempts).
+    \end{enumerate}
+    \item \textbf{Stylistic Control}:
+    \begin{itemize}
+        \item \textbf{Poet Mimicry}: Can emulate specific poets (Solomos, Cavafy, Karyotakis, etc.) using RAG.
+        \item \textbf{Constraint Satisfaction}: Enforces specific rhyme schemes and types (e.g., ``Make a 4-line poem with Rich Feminine rhymes'').
+    \end{itemize}
+\end{itemize}
+
+\section{Technical Architecture}
+
+The system is built on a robust modern stack.
+
+\begin{itemize}
+    \item \textbf{Backend}: Python-based (FastAPI) application.
+    \item \textbf{Frontend}: Modern, responsive web interface (HTML/JS/CSS) for easy interaction.
+    \item \textbf{Phonological Engine}: Custom Python library (\texttt{greek\_phonology.py}) for:
+    \begin{itemize}
+        \item Syllabification of Greek text.
+        \item Stress detection.
+        \item Rhyme domain extraction (handling clitics and multi-word phrases).
+    \end{itemize}
+    \item \textbf{Model Agnostic}: Supports multiple LLM providers:
+    \begin{itemize}
+        \item Anthropic (Claude 3.7/4.5)
+        \item Google (Gemini 3/2.5)
+        \item OpenAI (GPT-4o)
+        \item Open Models via OpenRouter (Llama 3, Qwen 2.5)
+    \end{itemize}
+\end{itemize}
+
+\section{Data \& Corpus}
+
+\begin{itemize}
+    \item \textbf{Extensive Corpus}: Built from major Modern Greek poets.
+    \item \textbf{Data Processing}: Pipeline for cleaning, normalizing, and analyzing raw text/Excel data into structured JSON corpora.
+\end{itemize}
+
+\section*{Limitations}
+
+This document does not cover the content requirements for ACL or any
+other specific venue.  Check the author instructions for
+information on
+maximum page lengths, the required ``Limitations'' section,
+and so on.
+
+\section*{Acknowledgments}
+
+This document has been adapted
+by Steven Bethard, Ryan Cotterell and Rui Yan
+from the instructions for earlier ACL and NAACL proceedings.
+
+% Bibliography entries for the entire Anthology, followed by custom entries
+%\bibliography{anthology,custom}
+% Custom bibliography entries only
+\bibliography{custom}
+
+\appendix
+
+\section{Example Appendix}
+\label{sec:appendix}
+
+This is an appendix.
+
+\end{document}

@@ -1,0 +1,304 @@
+# Disassembly of __pycache__/phonology.cpython-311.pyc
+# Constants: (0, None, ('G2P',), <code object PhoneticAnalyzer at 0x102d80830, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 7>, 'PhoneticAnalyzer')
+# Names: ('re', 'g2p_greek.g2p_greek', 'G2P', 'ImportError', 'PhoneticAnalyzer')
+----------------------------------------
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (None)
+              6 IMPORT_NAME              0 (re)
+              8 STORE_NAME               0 (re)
+
+  2          10 NOP
+
+  3          12 LOAD_CONST               0 (0)
+             14 LOAD_CONST               2 (('G2P',))
+             16 IMPORT_NAME              1 (g2p_greek.g2p_greek)
+             18 IMPORT_FROM              2 (G2P)
+             20 STORE_NAME               2 (G2P)
+             22 POP_TOP
+             24 JUMP_FORWARD            13 (to 52)
+        >>   26 PUSH_EXC_INFO
+
+  4          28 LOAD_NAME                3 (ImportError)
+             30 CHECK_EXC_MATCH
+             32 POP_JUMP_FORWARD_IF_FALSE     5 (to 44)
+             34 POP_TOP
+
+  5          36 LOAD_CONST               1 (None)
+             38 STORE_NAME               2 (G2P)
+             40 POP_EXCEPT
+             42 JUMP_FORWARD             4 (to 52)
+
+  4     >>   44 RERAISE                  0
+        >>   46 COPY                     3
+             48 POP_EXCEPT
+             50 RERAISE                  1
+
+  7     >>   52 PUSH_NULL
+             54 LOAD_BUILD_CLASS
+             56 LOAD_CONST               3 (<code object PhoneticAnalyzer at 0x102d80830, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 7>)
+             58 MAKE_FUNCTION            0
+             60 LOAD_CONST               4 ('PhoneticAnalyzer')
+             62 PRECALL                  2
+             66 CALL                     2
+             76 STORE_NAME               4 (PhoneticAnalyzer)
+             78 LOAD_CONST               1 (None)
+             80 RETURN_VALUE
+ExceptionTable:
+  12 to 22 -> 26 [0]
+  26 to 38 -> 46 [1] lasti
+  44 to 44 -> 46 [1] lasti
+
+Disassembly of <code object PhoneticAnalyzer at 0x102d80830, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 7>:
+  7           0 RESUME                   0
+              2 LOAD_NAME                0 (__name__)
+              4 STORE_NAME               1 (__module__)
+              6 LOAD_CONST               0 ('PhoneticAnalyzer')
+              8 STORE_NAME               2 (__qualname__)
+
+  8          10 LOAD_CONST               1 (<code object __init__ at 0x102d50fa0, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 8>)
+             12 MAKE_FUNCTION            0
+             14 STORE_NAME               3 (__init__)
+
+ 22          16 LOAD_CONST               2 ('text')
+             18 LOAD_NAME                4 (str)
+             20 LOAD_CONST               3 ('return')
+             22 LOAD_NAME                4 (str)
+             24 BUILD_TUPLE              4
+             26 LOAD_CONST               4 (<code object get_phonetic at 0x144611ea0, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 22>)
+             28 MAKE_FUNCTION            4 (annotations)
+             30 STORE_NAME               5 (get_phonetic)
+
+ 45          32 LOAD_CONST               5 ('word')
+             34 LOAD_NAME                4 (str)
+             36 LOAD_CONST               3 ('return')
+             38 LOAD_NAME                4 (str)
+             40 BUILD_TUPLE              4
+             42 LOAD_CONST               6 (<code object extract_rime at 0x102d71980, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 45>)
+             44 MAKE_FUNCTION            4 (annotations)
+             46 STORE_NAME               6 (extract_rime)
+
+ 64          48 LOAD_CONST               7 ('word1')
+             50 LOAD_NAME                4 (str)
+             52 LOAD_CONST               8 ('word2')
+             54 LOAD_NAME                4 (str)
+             56 LOAD_CONST               3 ('return')
+             58 LOAD_NAME                7 (bool)
+             60 BUILD_TUPLE              6
+             62 LOAD_CONST               9 (<code object are_rhyming at 0x102c2df10, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 64>)
+             64 MAKE_FUNCTION            4 (annotations)
+             66 STORE_NAME               8 (are_rhyming)
+             68 LOAD_CONST              10 (None)
+             70 RETURN_VALUE
+
+Disassembly of <code object __init__ at 0x102d50fa0, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 8>:
+  8           0 RESUME                   0
+
+  9           2 LOAD_GLOBAL              0 (G2P)
+             14 POP_JUMP_FORWARD_IF_FALSE    26 (to 68)
+
+ 12          16 LOAD_GLOBAL              1 (NULL + G2P)
+
+ 13          28 LOAD_CONST               1 (True)
+
+ 14          30 LOAD_CONST               2 ('dummy')
+
+ 15          32 LOAD_CONST               2 ('dummy')
+
+ 16          34 LOAD_CONST               2 ('dummy')
+
+ 12          36 KW_NAMES                 3
+             38 PRECALL                  4
+             42 CALL                     4
+             52 LOAD_FAST                0 (self)
+             54 STORE_ATTR               1 (g2p)
+             64 LOAD_CONST               0 (None)
+             66 RETURN_VALUE
+
+ 19     >>   68 LOAD_CONST               0 (None)
+             70 LOAD_FAST                0 (self)
+             72 STORE_ATTR               1 (g2p)
+
+ 20          82 LOAD_GLOBAL              5 (NULL + print)
+             94 LOAD_CONST               4 ('Warning: g2p-greek not installed. Phonetic analysis will be disabled.')
+             96 PRECALL                  1
+            100 CALL                     1
+            110 POP_TOP
+            112 LOAD_CONST               0 (None)
+            114 RETURN_VALUE
+
+Disassembly of <code object get_phonetic at 0x144611ea0, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 22>:
+ 22           0 RESUME                   0
+
+ 26           2 LOAD_FAST                0 (self)
+              4 LOAD_ATTR                0 (g2p)
+             14 POP_JUMP_FORWARD_IF_TRUE     2 (to 20)
+
+ 27          16 LOAD_FAST                1 (text)
+             18 RETURN_VALUE
+
+ 29     >>   20 NOP
+
+ 32          22 LOAD_FAST                0 (self)
+             24 LOAD_ATTR                0 (g2p)
+             34 LOAD_METHOD              1 (convert_test_word)
+             56 LOAD_FAST                1 (text)
+             58 PRECALL                  1
+             62 CALL                     1
+             72 STORE_FAST               2 (results)
+
+ 33          74 LOAD_FAST                2 (results)
+             76 POP_JUMP_FORWARD_IF_FALSE   117 (to 312)
+             78 LOAD_GLOBAL              5 (NULL + isinstance)
+             90 LOAD_FAST                2 (results)
+             92 LOAD_GLOBAL              6 (list)
+            104 PRECALL                  2
+            108 CALL                     2
+            118 POP_JUMP_FORWARD_IF_FALSE    96 (to 312)
+            120 LOAD_GLOBAL              9 (NULL + len)
+            132 LOAD_FAST                2 (results)
+            134 PRECALL                  1
+            138 CALL                     1
+            148 LOAD_CONST               1 (0)
+            150 COMPARE_OP               4 (>)
+            156 POP_JUMP_FORWARD_IF_FALSE    77 (to 312)
+
+ 34         158 LOAD_FAST                2 (results)
+            160 LOAD_CONST               1 (0)
+            162 BINARY_SUBSCR
+            172 LOAD_METHOD              5 (strip)
+            194 PRECALL                  0
+            198 CALL                     0
+            208 STORE_FAST               3 (raw_line)
+
+ 36         210 LOAD_FAST                3 (raw_line)
+            212 LOAD_METHOD              6 (split)
+            234 LOAD_CONST               2 (' ')
+            236 LOAD_CONST               3 (1)
+            238 PRECALL                  2
+            242 CALL                     2
+            252 STORE_FAST               4 (parts)
+
+ 37         254 LOAD_GLOBAL              9 (NULL + len)
+            266 LOAD_FAST                4 (parts)
+            268 PRECALL                  1
+            272 CALL                     1
+            282 LOAD_CONST               3 (1)
+            284 COMPARE_OP               4 (>)
+            290 POP_JUMP_FORWARD_IF_FALSE     8 (to 308)
+
+ 38         292 LOAD_FAST                4 (parts)
+            294 LOAD_CONST               3 (1)
+            296 BINARY_SUBSCR
+            306 RETURN_VALUE
+
+ 39     >>  308 LOAD_FAST                3 (raw_line)
+            310 RETURN_VALUE
+
+ 40     >>  312 LOAD_GLOBAL             15 (NULL + str)
+            324 LOAD_FAST                2 (results)
+            326 PRECALL                  1
+            330 CALL                     1
+            340 RETURN_VALUE
+        >>  342 PUSH_EXC_INFO
+
+ 41         344 LOAD_GLOBAL             16 (Exception)
+            356 CHECK_EXC_MATCH
+            358 POP_JUMP_FORWARD_IF_FALSE    30 (to 420)
+            360 STORE_FAST               5 (e)
+
+ 42         362 LOAD_GLOBAL             19 (NULL + print)
+            374 LOAD_CONST               4 ('Error in G2P conversion: ')
+            376 LOAD_FAST                5 (e)
+            378 FORMAT_VALUE             0
+            380 BUILD_STRING             2
+            382 PRECALL                  1
+            386 CALL                     1
+            396 POP_TOP
+
+ 43         398 LOAD_FAST                1 (text)
+            400 SWAP                     2
+            402 POP_EXCEPT
+            404 LOAD_CONST               5 (None)
+            406 STORE_FAST               5 (e)
+            408 DELETE_FAST              5 (e)
+            410 RETURN_VALUE
+        >>  412 LOAD_CONST               5 (None)
+            414 STORE_FAST               5 (e)
+            416 DELETE_FAST              5 (e)
+            418 RERAISE                  1
+
+ 41     >>  420 RERAISE                  0
+        >>  422 COPY                     3
+            424 POP_EXCEPT
+            426 RERAISE                  1
+ExceptionTable:
+  22 to 304 -> 342 [0]
+  308 to 308 -> 342 [0]
+  312 to 338 -> 342 [0]
+  342 to 360 -> 422 [1] lasti
+  362 to 398 -> 412 [1] lasti
+  400 to 400 -> 422 [1] lasti
+  412 to 420 -> 422 [1] lasti
+
+Disassembly of <code object extract_rime at 0x102d71980, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 45>:
+ 45           0 RESUME                   0
+
+ 53           2 LOAD_FAST                0 (self)
+              4 LOAD_METHOD              0 (get_phonetic)
+             26 LOAD_FAST                1 (word)
+             28 PRECALL                  1
+             32 CALL                     1
+             42 STORE_FAST               2 (phonetic)
+
+ 62          44 LOAD_FAST                2 (phonetic)
+             46 RETURN_VALUE
+
+Disassembly of <code object are_rhyming at 0x102c2df10, file "/Users/graogro/Dropbox/greek_rhyme_system/phonology.py", line 64>:
+ 64           0 RESUME                   0
+
+ 68           2 LOAD_FAST                0 (self)
+              4 LOAD_METHOD              0 (get_phonetic)
+             26 LOAD_FAST                1 (word1)
+             28 PRECALL                  1
+             32 CALL                     1
+             42 STORE_FAST               3 (p1)
+
+ 69          44 LOAD_FAST                0 (self)
+             46 LOAD_METHOD              0 (get_phonetic)
+             68 LOAD_FAST                2 (word2)
+             70 PRECALL                  1
+             74 CALL                     1
+             84 STORE_FAST               4 (p2)
+
+ 73          86 LOAD_GLOBAL              3 (NULL + len)
+             98 LOAD_FAST                3 (p1)
+            100 PRECALL                  1
+            104 CALL                     1
+            114 LOAD_CONST               1 (3)
+            116 COMPARE_OP               5 (>=)
+            122 POP_JUMP_FORWARD_IF_FALSE    41 (to 206)
+            124 LOAD_GLOBAL              3 (NULL + len)
+            136 LOAD_FAST                4 (p2)
+            138 PRECALL                  1
+            142 CALL                     1
+            152 LOAD_CONST               1 (3)
+            154 COMPARE_OP               5 (>=)
+            160 POP_JUMP_FORWARD_IF_FALSE    22 (to 206)
+            162 LOAD_FAST                3 (p1)
+            164 LOAD_CONST               2 (-3)
+            166 LOAD_CONST               3 (None)
+            168 BUILD_SLICE              2
+            170 BINARY_SUBSCR
+            180 LOAD_FAST                4 (p2)
+            182 LOAD_CONST               2 (-3)
+            184 LOAD_CONST               3 (None)
+            186 BUILD_SLICE              2
+            188 BINARY_SUBSCR
+            198 COMPARE_OP               2 (==)
+            204 JUMP_FORWARD             5 (to 216)
+        >>  206 LOAD_FAST                3 (p1)
+            208 LOAD_FAST                4 (p2)
+            210 COMPARE_OP               2 (==)
+        >>  216 RETURN_VALUE

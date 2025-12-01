@@ -1,0 +1,9289 @@
+{
+  "NapoleonLapathiotis": {
+    "poet": "NapoleonLapathiotis",
+    "source": "Data/NapoleonLapathiotis.txt",
+    "total_rhymes": 471,
+    "examples": [
+      {
+        "lines": [
+          "Τα καηµένα τα πουλάκια",
+          "τρέµουν οι φωτιές στα τζάκια,"
+        ],
+        "line_numbers": [
+          2,
+          4
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πουλάκια",
+          "τζάκια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τρέµουν οι φωτιές στα τζάκια,",
+          "τα καηµένα τα πουλάκια!"
+        ],
+        "line_numbers": [
+          4,
+          6
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τζάκια",
+          "πουλάκια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια είναι στα δάση,",
+          "τα πουλάκια θα τα πάρει"
+        ],
+        "line_numbers": [
+          8,
+          9
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "δάση",
+          "πάρει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['r']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια είναι στα δάση,",
+          "ο βοριάς που θα περάσει,"
+        ],
+        "line_numbers": [
+          8,
+          10
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "δάση",
+          "περάσει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια είναι στα δάση,",
+          "η βροχή και το χαλάζι"
+        ],
+        "line_numbers": [
+          8,
+          11
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "δάση",
+          "χαλάζι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['z']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια θα τα πάρει",
+          "ο βοριάς που θα περάσει,"
+        ],
+        "line_numbers": [
+          9,
+          10
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάρει",
+          "περάσει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['r']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια θα τα πάρει",
+          "η βροχή και το χαλάζι"
+        ],
+        "line_numbers": [
+          9,
+          11
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάρει",
+          "χαλάζι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['r']-['z']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια θα τα πάρει",
+          "κι ο βοριάς που θα περάσει,"
+        ],
+        "line_numbers": [
+          9,
+          12
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάρει",
+          "περάσει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['r']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "ο βοριάς που θα περάσει,",
+          "η βροχή και το χαλάζι"
+        ],
+        "line_numbers": [
+          10,
+          11
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "περάσει",
+          "χαλάζι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['z']"
+        ]
+      },
+      {
+        "lines": [
+          "ο βοριάς που θα περάσει,",
+          "κι ο βοριάς που θα περάσει,"
+        ],
+        "line_numbers": [
+          10,
+          12
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "περάσει",
+          "περάσει"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "η βροχή και το χαλάζι",
+          "κι ο βοριάς που θα περάσει,"
+        ],
+        "line_numbers": [
+          11,
+          12
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "χαλάζι",
+          "περάσει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['z']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "η βροχή και το χαλάζι",
+          "στις αυλές µέ το φαράσι..."
+        ],
+        "line_numbers": [
+          11,
+          14
+        ],
+        "classification": "F2-IMP-C-IMPERFECT-IDV",
+        "phonetic": [
+          "χαλάζι",
+          "φαράσι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['z']-['s']",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι ο βοριάς που θα περάσει,",
+          "στις αυλές µέ το φαράσι..."
+        ],
+        "line_numbers": [
+          12,
+          14
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "περάσει",
+          "φαράσι"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κι ο βοριάς που θα περάσει,",
+          "Κι αν η νύχτα είναι µεγάλη,"
+        ],
+        "line_numbers": [
+          12,
+          15
+        ],
+        "classification": "F2-IMP-C-IMPERFECT-IDV",
+        "phonetic": [
+          "περάσει",
+          "µεγάλη"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['l']",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "στις αυλές µέ το φαράσι...",
+          "Κι αν η νύχτα είναι µεγάλη,"
+        ],
+        "line_numbers": [
+          14,
+          15
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "φαράσι",
+          "µεγάλη"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "κι έρχεται γιοµάτη τρόµους,",
+          "φέρνει γύρα µές τους δρόµους,"
+        ],
+        "line_numbers": [
+          16,
+          18
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τρόµους",
+          "δρόµους"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι είναι δίχως ρουχαλάκια,",
+          "τα καηµένα τα πουλάκια..."
+        ],
+        "line_numbers": [
+          20,
+          22
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "ρουχαλάκια",
+          "πουλάκια"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια είναι στα δάση,",
+          "τα πουλάκια θα τα πάρει"
+        ],
+        "line_numbers": [
+          24,
+          25
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "δάση",
+          "πάρει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['r']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια είναι στα δάση,",
+          "ο βοριάς που θα περάσει."
+        ],
+        "line_numbers": [
+          24,
+          26
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "δάση",
+          "περάσει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια θα τα πάρει",
+          "ο βοριάς που θα περάσει."
+        ],
+        "line_numbers": [
+          25,
+          26
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάρει",
+          "περάσει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['r']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "Στα παιδάκια είναι τα χάδια,",
+          "στα παιδάκια τα φιλάκια,"
+        ],
+        "line_numbers": [
+          27,
+          28
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "χάδια",
+          "φιλάκια"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['D']-['k']"
+        ]
+      },
+      {
+        "lines": [
+          "Στα παιδάκια είναι τα χάδια,",
+          "τα καηµένα τα πουλάκια!"
+        ],
+        "line_numbers": [
+          27,
+          30
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "χάδια",
+          "πουλάκια"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['D']-['k']"
+        ]
+      },
+      {
+        "lines": [
+          "στα παιδάκια τα φιλάκια,",
+          "τα καηµένα τα πουλάκια!"
+        ],
+        "line_numbers": [
+          28,
+          30
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "φιλάκια",
+          "πουλάκια"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "τα καηµένα τα πουλάκια!",
+          "να χωθούν µές τα κρεβάτια,"
+        ],
+        "line_numbers": [
+          30,
+          33
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πουλάκια",
+          "κρεβάτια"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['k']-['t']"
+        ]
+      },
+      {
+        "lines": [
+          "κι όλοι πάνε να πλαγιάσουν,",
+          "µή τυχόν και ξεπαγιάσουν,"
+        ],
+        "line_numbers": [
+          32,
+          34
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "πλαγιάσουν",
+          "ξεπαγιάσουν"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια τα καηµένα,",
+          "τα πουλάκια, τώρα, πέρα"
+        ],
+        "line_numbers": [
+          35,
+          36
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "καηµένα",
+          "πέρα"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['n']-['r']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια τα καηµένα,",
+          "να φανούν την άλλη µέρα..."
+        ],
+        "line_numbers": [
+          35,
+          38
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "καηµένα",
+          "µέρα"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['n']-['r']"
+        ]
+      },
+      {
+        "lines": [
+          "τα πουλάκια, τώρα, πέρα",
+          "να φανούν την άλλη µέρα..."
+        ],
+        "line_numbers": [
+          36,
+          38
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πέρα",
+          "µέρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τα χλωµά τα κοριτσάκια",
+          "Τα χλωµά τα κοριτσάκια"
+        ],
+        "line_numbers": [
+          39,
+          40
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "κοριτσάκια",
+          "κοριτσάκια"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µαραµένα σαν τα κρίνα,",
+          "στέκουνται, σά µαγεµένα,"
+        ],
+        "line_numbers": [
+          41,
+          42
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "κρίνα",
+          "µαγεµένα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "i-e"
+        ]
+      },
+      {
+        "lines": [
+          "µαραµένα σαν τα κρίνα,",
+          "και κοιτάνε τη βιτρίνα,"
+        ],
+        "line_numbers": [
+          41,
+          43
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κρίνα",
+          "βιτρίνα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "στέκουνται, σά µαγεµένα,",
+          "και κοιτάνε τη βιτρίνα,"
+        ],
+        "line_numbers": [
+          42,
+          43
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "µαγεµένα",
+          "βιτρίνα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-i"
+        ]
+      },
+      {
+        "lines": [
+          "στέκουνται, σά µαγεµένα,",
+          "δεν τα νοιάζει για την πείνα,"
+        ],
+        "line_numbers": [
+          42,
+          45
+        ],
+        "classification": "F2-IMP-V-IMPERFECT-IDV",
+        "phonetic": [
+          "µαγεµένα",
+          "πείνα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-i",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και κοιτάνε τη βιτρίνα,",
+          "δεν τα νοιάζει για την πείνα,"
+        ],
+        "line_numbers": [
+          43,
+          45
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βιτρίνα",
+          "πείνα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και κοιτάνε τη βιτρίνα,",
+          "κάθουνται µαρµαρωµένα,"
+        ],
+        "line_numbers": [
+          43,
+          46
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "βιτρίνα",
+          "µαρµαρωµένα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "i-e"
+        ]
+      },
+      {
+        "lines": [
+          "δεν τα νοιάζει για την πείνα,",
+          "κάθουνται µαρµαρωµένα,"
+        ],
+        "line_numbers": [
+          45,
+          46
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "πείνα",
+          "µαρµαρωµένα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "i-e"
+        ]
+      },
+      {
+        "lines": [
+          "δεν τα νοιάζει για την πείνα,",
+          "και κοιτάνε τη βιτρίνα..."
+        ],
+        "line_numbers": [
+          45,
+          47
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πείνα",
+          "βιτρίνα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κάθουνται µαρµαρωµένα,",
+          "και κοιτάνε τη βιτρίνα..."
+        ],
+        "line_numbers": [
+          46,
+          47
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "µαρµαρωµένα",
+          "βιτρίνα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-i"
+        ]
+      },
+      {
+        "lines": [
+          "κάθουνται µαρµαρωµένα,",
+          "Κι οι κουκλίτσες, από µέσα,"
+        ],
+        "line_numbers": [
+          46,
+          48
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "µαρµαρωµένα",
+          "µέσα"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['n']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "µέ τα κόκκινα λακκάκια,",
+          "και γι᾿ αυτό δεν έχουν κάκια,"
+        ],
+        "line_numbers": [
+          49,
+          51
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "λακκάκια",
+          "κάκια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "άλλο τόσο µ᾿ απορία,",
+          "σαν αλλόκοτα θηρία!"
+        ],
+        "line_numbers": [
+          53,
+          55
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "απορία",
+          "θηρία"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "καλά κάθουνται στη ζέστα,",
+          "όµως γύρισε και δές τα,"
+        ],
+        "line_numbers": [
+          57,
+          59
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ζέστα",
+          "δές τα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "ξεφτισµένο και τριµµένο,",
+          "ντροπαλά µισοκρυµµένο,"
+        ],
+        "line_numbers": [
+          61,
+          63
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "τριµµένο",
+          "µισοκρυµµένο"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "το µικρούλι τους χεράκι,",
+          "µοιάζουν νάναι από κεράκι..."
+        ],
+        "line_numbers": [
+          65,
+          67
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "χεράκι",
+          "κεράκι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µέ τα ξένα εκείνα χάδια,",
+          "την καρδούλα τους την άδεια.."
+        ],
+        "line_numbers": [
+          69,
+          71
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "χάδια",
+          "άδεια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "που κανένας δεν τα βλέπει,",
+          "µέ τον ουρανό στη σκέπη,"
+        ],
+        "line_numbers": [
+          73,
+          75
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βλέπει",
+          "σκέπη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κρύβουν έτσι απελπισµένα,",
+          "τα µατάκια στον αγκώνα,"
+        ],
+        "line_numbers": [
+          76,
+          77
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "απελπισµένα",
+          "αγκώνα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-o"
+        ]
+      },
+      {
+        "lines": [
+          "κρύβουν έτσι απελπισµένα,",
+          "στην πικρήν αυτήν εικόνα..."
+        ],
+        "line_numbers": [
+          76,
+          79
+        ],
+        "classification": "F2-IMP-V-IMPERFECT-IDV",
+        "phonetic": [
+          "απελπισµένα",
+          "εικόνα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-o",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τα µατάκια στον αγκώνα,",
+          "στην πικρήν αυτήν εικόνα..."
+        ],
+        "line_numbers": [
+          77,
+          79
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "αγκώνα",
+          "εικόνα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Έχω ένα αηδόνι...",
+          "κι απ᾿ το καηµό του λιώνει."
+        ],
+        "line_numbers": [
+          80,
+          82
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "αηδόνι",
+          "λιώνει"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Έχω έν᾿ αηδόνι στο κλουβί",
+          "Έχω έν᾿ αηδόνι στο κλουβί"
+        ],
+        "line_numbers": [
+          81,
+          83
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "κλουβί",
+          "κλουβί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι απ᾿ το καηµό του λιώνει.",
+          "και µοίρεται, τ᾿ αηδόνι."
+        ],
+        "line_numbers": [
+          82,
+          84
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "λιώνει",
+          "αηδόνι"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και µοίρεται, τ᾿ αηδόνι.",
+          "π᾿ ανθίζουν άσπρο χιόνι,"
+        ],
+        "line_numbers": [
+          84,
+          86
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "αηδόνι",
+          "χιόνι"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μού λέει για τις αµυγδαλιές",
+          "µού λέει για τριανταφυλλιές"
+        ],
+        "line_numbers": [
+          85,
+          87
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "αµυγδαλιές",
+          "τριανταφυλλιές"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "π᾿ ανθίζουν άσπρο χιόνι,",
+          "και µοίρεται, τ᾿ αηδόνι.."
+        ],
+        "line_numbers": [
+          86,
+          88
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "χιόνι",
+          "αηδόνι"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και µοίρεται, τ᾿ αηδόνι..",
+          "και τα φτερά τ᾿ απλώνει,"
+        ],
+        "line_numbers": [
+          88,
+          90
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "αηδόνι",
+          "απλώνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και τα φτερά τ᾿ απλώνει,",
+          "κι αναρριγούν οι κλώνοι..."
+        ],
+        "line_numbers": [
+          90,
+          92
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "απλώνει",
+          "κλώνοι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πόσο βαθύ κι ασήµαντο συνάµα,",
+          "της Ζωής και της Τέχνης σου το δράµα,"
+        ],
+        "line_numbers": [
+          93,
+          94
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "συνάµα",
+          "δράµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "σ᾿ ένα παιχνίδι µάταιο και γελοίο,",
+          "του Νού σου να σκορπάς το µεγαλείο!"
+        ],
+        "line_numbers": [
+          95,
+          96
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "γελοίο",
+          "µεγαλείο"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μέρα-νύχτα να παίζεις µέ τις λέξεις,",
+          "πως, πρέπει, µεταξύ των, να τις πλέξεις"
+        ],
+        "line_numbers": [
+          97,
+          98
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "λέξεις",
+          "πλέξεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και πως, µαζί, να σµίξεις κάποιους ήχους,",
+          "ώστε να κλείσεις τ᾿ Όνειρο σε στίχους!"
+        ],
+        "line_numbers": [
+          99,
+          100
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ήχους",
+          "στίχους"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πόσος κόπος και πόνος κι αγωνία,",
+          "να πλάσεις απ᾿ τη θλίψη σου αρµονία"
+        ],
+        "line_numbers": [
+          101,
+          102
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "αγωνία",
+          "αρµονία"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και να τη πλάσεις µ᾿ όλους σου τους τρόπους,",
+          "για να τη ξαναδώσεις στους ανθρώπους!"
+        ],
+        "line_numbers": [
+          103,
+          104
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τρόπους",
+          "ανθρώπους"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μήτε κι αληθινά που ξέρω πράµα",
+          "πιό θλιβερό, απ᾿ του πόνου σου το δράµα,"
+        ],
+        "line_numbers": [
+          105,
+          106
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πράµα",
+          "δράµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "του Πόνου αυτού, που στέργει για κλουβί του,",
+          "το χώρο ενός ανθρώπινου αλφαβήτου!"
+        ],
+        "line_numbers": [
+          107,
+          108
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "κλουβί του",
+          "αλφαβήτου"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Κι αφού, σά τα µικρά παιδάκια, παίξεις,",
+          "τόσο καιρό, µέ ρίµες και µέ λέξεις"
+        ],
+        "line_numbers": [
+          109,
+          110
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "παίξεις",
+          "λέξεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι όλες σου τις ελπίδες αφανίσεις,",
+          "χαµένος, όλος, µέσ᾿ στις αναµνήσεις,"
+        ],
+        "line_numbers": [
+          111,
+          112
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "αφανίσεις",
+          "αναµνήσεις"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι όλες σου τις ελπίδες αφανίσεις,",
+          "µόλις φανούν οι πρώτες µαύρες τύψεις"
+        ],
+        "line_numbers": [
+          111,
+          113
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "αφανίσεις",
+          "τύψεις"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['p', 's', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "κι όλες σου τις ελπίδες αφανίσεις,",
+          "κι έρθ᾿ η στιγµή να σκύψεις, να µή σκύψεις,"
+        ],
+        "line_numbers": [
+          111,
+          114
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "αφανίσεις",
+          "σκύψεις"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['p', 's', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "χαµένος, όλος, µέσ᾿ στις αναµνήσεις,",
+          "µόλις φανούν οι πρώτες µαύρες τύψεις"
+        ],
+        "line_numbers": [
+          112,
+          113
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "αναµνήσεις",
+          "τύψεις"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['p', 's', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "χαµένος, όλος, µέσ᾿ στις αναµνήσεις,",
+          "κι έρθ᾿ η στιγµή να σκύψεις, να µή σκύψεις,"
+        ],
+        "line_numbers": [
+          112,
+          114
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "αναµνήσεις",
+          "σκύψεις"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['p', 's', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "µόλις φανούν οι πρώτες µαύρες τύψεις",
+          "κι έρθ᾿ η στιγµή να σκύψεις, να µή σκύψεις,"
+        ],
+        "line_numbers": [
+          113,
+          114
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τύψεις",
+          "σκύψεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µά παίρνοντας µαζί το θησαυρό σου,",
+          "το Γολγοθά σου ανέβα και σταυρώσου!"
+        ],
+        "line_numbers": [
+          115,
+          116
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "θησαυρό σου",
+          "σταυρώσου"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι άλλες από χαµόγελο, είτε πόνο.",
+          "όµως εκείνη δε τη φανερώνω!"
+        ],
+        "line_numbers": [
+          119,
+          121
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πόνο",
+          "φανερώνω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Βάνω µία κλειδαριά γερή στο στόµα!",
+          "και δε τη µάντεψε κανείς ακόµα;"
+        ],
+        "line_numbers": [
+          123,
+          125
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "στόµα",
+          "ακόµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι άλλες ψυχές µέ κλάµατα έχουν γίνει.",
+          "µά δε θα σας τη ῾πώ ποτέ µου ῾κείνη!"
+        ],
+        "line_numbers": [
+          127,
+          129
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "γίνει",
+          "῾κείνη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µά πάλι... ποιος ξέρει... καµµιάν ώρα...",
+          "να κλείσω το τραγούδι µ᾿ από τώρα..."
+        ],
+        "line_numbers": [
+          131,
+          133
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ώρα",
+          "τώρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μάτι δειλό που σε κοιτάζει",
+          "κι έτσι πιστά, σά να σου τάζει:"
+        ],
+        "line_numbers": [
+          134,
+          136
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "κοιτάζει",
+          "τάζει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "βαθιά, βουβά και σκοτεινά",
+          "Θα σ᾿ αγαπώ παντοτινά."
+        ],
+        "line_numbers": [
+          135,
+          137
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "σκοτεινά",
+          "παντοτινά"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι έτσι πιστά, σά να σου τάζει:",
+          "Ψηλό, λιγνό, τρελό για χάδι,"
+        ],
+        "line_numbers": [
+          136,
+          138
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "τάζει",
+          "χάδι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['z']-['D']"
+        ]
+      },
+      {
+        "lines": [
+          "Ψηλό, λιγνό, τρελό για χάδι,",
+          "Το πήρα ένα Σαββάτο βράδυ"
+        ],
+        "line_numbers": [
+          138,
+          140
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "χάδι",
+          "βράδυ"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "δουλεύει σ᾿ ένα µαγαζί.",
+          "και κοιµηθήκαµε µαζί."
+        ],
+        "line_numbers": [
+          139,
+          141
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "µαγαζί",
+          "µαζί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "δουλεύει σ᾿ ένα µαγαζί.",
+          "Πάντα κάτι µέ κρατεί"
+        ],
+        "line_numbers": [
+          139,
+          142
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "µαγαζί",
+          "κρατεί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και κοιµηθήκαµε µαζί.",
+          "Πάντα κάτι µέ κρατεί"
+        ],
+        "line_numbers": [
+          141,
+          142
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "µαζί",
+          "κρατεί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και κοιµηθήκαµε µαζί.",
+          "στο καιρό που κάθε τί"
+        ],
+        "line_numbers": [
+          141,
+          144
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "µαζί",
+          "τί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πάντα κάτι µέ κρατεί",
+          "στο καιρό που κάθε τί"
+        ],
+        "line_numbers": [
+          142,
+          144
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "κρατεί",
+          "τί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "και µέ φέρνει πίσω,",
+          "µού ῾λεγε να ζήσω."
+        ],
+        "line_numbers": [
+          143,
+          145
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πίσω",
+          "ζήσω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Που όλα, σκέψεις µου κρυφές",
+          "δε µού θύµιζε µορφές,"
+        ],
+        "line_numbers": [
+          146,
+          148
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "κρυφές",
+          "µορφές"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ότι ζει στη πλάση,",
+          "που τις έχω χάσει."
+        ],
+        "line_numbers": [
+          147,
+          149
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πλάση",
+          "χάσει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "δε µού θύµιζε µορφές,",
+          "Κι όλα τ᾿ άκουγα να λέν,"
+        ],
+        "line_numbers": [
+          148,
+          150
+        ],
+        "classification": "M-IMP-C-IMPERFECT",
+        "phonetic": [
+          "µορφές",
+          "λέν"
+        ],
+        "features": [
+          "IMP-C",
+          "M",
+          "IMPERFECT",
+          "['s']-['n']"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όλα τ᾿ άκουγα να λέν,",
+          "πως τ᾿ αγάπησα και δέν"
+        ],
+        "line_numbers": [
+          150,
+          152
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "λέν",
+          "δέν"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µ᾿ ένα τρόπο πλάνο,",
+          "πρέπει να πεθάνω..."
+        ],
+        "line_numbers": [
+          151,
+          153
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πλάνο",
+          "πεθάνω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τώρα που όλα τα φτερά",
+          "µού το λένε καθαρά:"
+        ],
+        "line_numbers": [
+          154,
+          156
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "φτερά",
+          "καθαρά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "σκόρπισαν, της πλάνης,",
+          "Πρέπει να πεθάνεις!"
+        ],
+        "line_numbers": [
+          155,
+          157
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πλάνης",
+          "πεθάνεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όσο πιό βαθιά κοιτώ",
+          "τόσο πιό καλά και τό"
+        ],
+        "line_numbers": [
+          158,
+          160
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "κοιτώ",
+          "τό"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κάτω από τη σκέπη,",
+          "µάτι µου το βλέπει."
+        ],
+        "line_numbers": [
+          159,
+          161
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σκέπη",
+          "βλέπει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι αν τυχαίνει κι ο νούς νά",
+          "δε κρατεί πολύ και νά"
+        ],
+        "line_numbers": [
+          162,
+          164
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "νά",
+          "νά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κάνει σκέψην άλλη,",
+          "πάλι αυτή προβάλλει..."
+        ],
+        "line_numbers": [
+          163,
+          165
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "άλλη",
+          "προβάλλει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "...Μά όσο και στους ουρανούς",
+          "κι όσα θέλησεν ο νούς,"
+        ],
+        "line_numbers": [
+          166,
+          168
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "ουρανούς",
+          "νούς"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι όσο αν είµαστε πικρά",
+          "κάπου υπάρχει µιά Χαρά"
+        ],
+        "line_numbers": [
+          170,
+          172
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "πικρά",
+          "Χαρά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τώρα στερηµένοι,",
+          "και µάς περιµένει..."
+        ],
+        "line_numbers": [
+          171,
+          173
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "στερηµένοι",
+          "περιµένει"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Έτσι µέ σύντριψε το Φως, γιατί είδα προς το Φως",
+          "στη Μελωδία, µέ σύντριψε η Μελωδία: Κουφός!"
+        ],
+        "line_numbers": [
+          174,
+          177
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "Φως",
+          "Κουφός"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "και γιατί µέθυσ᾿ από Ζωή, µ᾿ έχει συντρίψει η Ζωή.",
+          "Επειδή στράφηκα κι εγώ, µ᾿ όλη µου τη πνοή"
+        ],
+        "line_numbers": [
+          175,
+          176
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "Ζωή",
+          "πνοή"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "στη Μελωδία, µέ σύντριψε η Μελωδία: Κουφός!",
+          "Γιατί µιλώ πλατιά, σά Θεός, µέ φθόνεσε και ο Θεός."
+        ],
+        "line_numbers": [
+          177,
+          180
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "Κουφός",
+          "Θεός"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ούτ᾿ ένα τι κι ούτ᾿ ένας ποιος και δε µέ θέν᾿ τα Ύψη!",
+          "Και γιατί πήγα στη Χαρά, µέ σύντριψε κι η Θλίψη..."
+        ],
+        "line_numbers": [
+          179,
+          181
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "Ύψη",
+          "Θλίψη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ούτ᾿ ένα τι κι ούτ᾿ ένας ποιος και δε µέ θέν᾿ τα Ύψη!",
+          "Αναµνήσεις"
+        ],
+        "line_numbers": [
+          179,
+          182
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "Ύψη",
+          "Αναµνήσεις"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['p', 's']-['s', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "Και γιατί πήγα στη Χαρά, µέ σύντριψε κι η Θλίψη...",
+          "Αναµνήσεις"
+        ],
+        "line_numbers": [
+          181,
+          182
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "Θλίψη",
+          "Αναµνήσεις"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['p', 's']-['s', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "Και γιατί πήγα στη Χαρά, µέ σύντριψε κι η Θλίψη...",
+          "κι όσο γυρεύεις Σήµερα, το Χτές να µ᾿ αφανίσεις,"
+        ],
+        "line_numbers": [
+          181,
+          184
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "Θλίψη",
+          "αφανίσεις"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['p', 's']-['s', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "Αναµνήσεις",
+          "κι όσο γυρεύεις Σήµερα, το Χτές να µ᾿ αφανίσεις,"
+        ],
+        "line_numbers": [
+          182,
+          184
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "Αναµνήσεις",
+          "αφανίσεις"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Το κάθε τι που πέρασε, για πάντα µ᾿ έχει σκλάβο",
+          "τόσο σε ῾κείνο θα γυρνώ και τόσο δε θα παύω"
+        ],
+        "line_numbers": [
+          183,
+          185
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σκλάβο",
+          "παύω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι όσο γυρεύεις Σήµερα, το Χτές να µ᾿ αφανίσεις,",
+          "να ζώ στις αναµνήσεις..."
+        ],
+        "line_numbers": [
+          184,
+          186
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "αφανίσεις",
+          "αναµνήσεις"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Θαρρείς και κάτι µόνιµα, µπροστά µ᾿ είναι πεσµένο",
+          "µέ κάνει να µή χαίρουµαι και µήτε να προσµένω"
+        ],
+        "line_numbers": [
+          187,
+          189
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "πεσµένο",
+          "προσµένω"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "και κρύβοντας και σβήνοντας ολότελα το Τώρα,",
+          "καινούργια, τάχα, δώρα..."
+        ],
+        "line_numbers": [
+          188,
+          190
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "Τώρα",
+          "δώρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Σ᾿ ότι ποθεί και σ᾿ ότι ζεί, η ψυχή µου µένει ξένη",
+          "παρά θαµπά και µακρινά, σά µουσική που βγαίνει"
+        ],
+        "line_numbers": [
+          191,
+          193
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ξένη",
+          "βγαίνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ούτε µπορείς, Φωνή Ζωής, αλλιώς να τη δονήσεις,",
+          "µέσ᾿ απ᾿ τις αναµνήσεις..."
+        ],
+        "line_numbers": [
+          192,
+          194
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "δονήσεις",
+          "αναµνήσεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ούτε µπορείς, Φωνή Ζωής, αλλιώς να τη δονήσεις,",
+          "Της πεθαµένης της χαράς, έχει στερέψει η βρύση"
+        ],
+        "line_numbers": [
+          192,
+          195
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "δονήσεις",
+          "βρύση"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "µέσ᾿ απ᾿ τις αναµνήσεις...",
+          "Της πεθαµένης της χαράς, έχει στερέψει η βρύση"
+        ],
+        "line_numbers": [
+          194,
+          195
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "αναµνήσεις",
+          "βρύση"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "µέσ᾿ απ᾿ τις αναµνήσεις...",
+          "κι ούτε µπορεί πιά τίποτα να τη παρηγορήσει,"
+        ],
+        "line_numbers": [
+          194,
+          197
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "αναµνήσεις",
+          "παρηγορήσει"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s', 's']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "Της πεθαµένης της χαράς, έχει στερέψει η βρύση",
+          "κι ούτε µπορεί πιά τίποτα να τη παρηγορήσει,"
+        ],
+        "line_numbers": [
+          195,
+          197
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βρύση",
+          "παρηγορήσει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ούτε γυρεύει θάµατα κι ούτε προσµένει δώρα",
+          "παρά ότι ήταν ως τώρα..."
+        ],
+        "line_numbers": [
+          196,
+          198
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "δώρα",
+          "τώρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Το παλιό µας τραγούδι",
+          "Το παλιό µας το τραγούδι,"
+        ],
+        "line_numbers": [
+          199,
+          200
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "τραγούδι",
+          "τραγούδι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "που τ᾿ ακούγαµε µαζί,",
+          "ποιος θα το ῾λεγε να ζεί!"
+        ],
+        "line_numbers": [
+          201,
+          203
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "µαζί",
+          "ζεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Από τότε που η καρδιά µου",
+          "δε το πίστευα ποτέ µου,"
+        ],
+        "line_numbers": [
+          204,
+          206
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "καρδιά µου",
+          "ποτέ µου"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e"
+        ]
+      },
+      {
+        "lines": [
+          "σ᾿ έχασε παντοτινά,",
+          "για να τ᾿ άκουγα ξανά..."
+        ],
+        "line_numbers": [
+          205,
+          207
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "παντοτινά",
+          "ξανά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όµως να που τ᾿ άλλο βράδυ",
+          "µ᾿ έν᾿ αλλόκοτο φεγγάρι,"
+        ],
+        "line_numbers": [
+          208,
+          209
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "βράδυ",
+          "φεγγάρι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['D']-['r']"
+        ]
+      },
+      {
+        "lines": [
+          "µόνος µέσ᾿ στη γειτονιά,",
+          "και στην ίδια τη γωνιά!"
+        ],
+        "line_numbers": [
+          212,
+          214
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "γειτονιά",
+          "γωνιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "το ξανάκουσα και πάλι",
+          "Και το γνώρισα και πάλι"
+        ],
+        "line_numbers": [
+          213,
+          215
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "πάλι",
+          "πάλι"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "το τραγούδι π᾿ αγαπώ",
+          "στο παλιό του το σκοπό."
+        ],
+        "line_numbers": [
+          216,
+          218
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "αγαπώ",
+          "σκοπό"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Γιατί τώρα δε σκορπούσε",
+          "µά βογγούσε και θρηνούσε,"
+        ],
+        "line_numbers": [
+          219,
+          221
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "σκορπούσε",
+          "θρηνούσε"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τον καηµό του το βαθύ,",
+          "µιά φωνή που ῾χε χαθεί..."
+        ],
+        "line_numbers": [
+          220,
+          222
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "βαθύ",
+          "χαθεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "καθώς τ᾿ άκουγα ξανά,",
+          "γίναν έτσι σκοτεινά,"
+        ],
+        "line_numbers": [
+          224,
+          226
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ξανά",
+          "σκοτεινά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "µεσ᾿ στο βράδυ το πικρό,",
+          "σά ν᾿ απάντησα νεκρό..."
+        ],
+        "line_numbers": [
+          228,
+          230
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "πικρό",
+          "νεκρό"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Ο παλιός µας Έρωτας,",
+          "ο καλός µας Έρωτας,"
+        ],
+        "line_numbers": [
+          232,
+          234
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "Έρωτας",
+          "Έρωτας"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Δέκα χρόνια στη σειρά,",
+          "δέκα χρόνια στη σειρά,"
+        ],
+        "line_numbers": [
+          236,
+          238
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "σειρά",
+          "σειρά"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "δίχως να το ξέρει,",
+          "µάς κρατούσε ταίρι."
+        ],
+        "line_numbers": [
+          237,
+          239
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ξέρει",
+          "ταίρι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "δέκα χρόνια στη σειρά,",
+          "Μάς βαστούσε συντροφιά,"
+        ],
+        "line_numbers": [
+          238,
+          240
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "σειρά",
+          "συντροφιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µάς κρατούσε ταίρι.",
+          "µάς κρατούσε ταίρι,"
+        ],
+        "line_numbers": [
+          239,
+          241
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "ταίρι",
+          "ταίρι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μάς βαστούσε συντροφιά,",
+          "δέκα χρόνια στη σειρά"
+        ],
+        "line_numbers": [
+          240,
+          242
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "συντροφιά",
+          "σειρά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µάς κρατούσε ταίρι,",
+          "κι ένα καλοκαίρι..."
+        ],
+        "line_numbers": [
+          241,
+          243
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "ταίρι",
+          "καλοκαίρι"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και χαρές και πόνοι,",
+          "άρχισε να λιώνει."
+        ],
+        "line_numbers": [
+          245,
+          247
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πόνοι",
+          "λιώνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "βράδυ πικραµένο,",
+          "να σε περιµένω,"
+        ],
+        "line_numbers": [
+          249,
+          251
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "πικραµένο",
+          "περιµένω"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "καθώς είχα κουραστεί",
+          "δίχως λέξη να µού πεί,"
+        ],
+        "line_numbers": [
+          250,
+          252
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "κουραστεί",
+          "πεί"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "γύρισε στη µπάντα,",
+          "κι έσβησε για πάντα..."
+        ],
+        "line_numbers": [
+          253,
+          255
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µπάντα",
+          "πάντα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μια φορά κι ένα καιρό,",
+          "σ᾿ ένα τόπο µακρινό,"
+        ],
+        "line_numbers": [
+          256,
+          258
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "καιρό",
+          "µακρινό"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "πάνε τώρα χρόνια,",
+          "ζούσαν µέσ᾿ στα χιόνια."
+        ],
+        "line_numbers": [
+          257,
+          259
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "χρόνια",
+          "χιόνια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "ζούσαν µέσ᾿ στα χιόνια.",
+          "µίσευαν τ᾿ αηδόνια,"
+        ],
+        "line_numbers": [
+          259,
+          261
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "χιόνια",
+          "αηδόνια"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µίσευαν τ᾿ αηδόνια,",
+          "κι ήταν όλο χιόνια!"
+        ],
+        "line_numbers": [
+          261,
+          263
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "αηδόνια",
+          "χιόνια"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µέτωπα σκυµµένα,",
+          "µέ ρυθµό κανένα..."
+        ],
+        "line_numbers": [
+          265,
+          267
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σκυµµένα",
+          "κανένα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µέ τις πλατιές, βαριές σου στάλες",
+          "που µέ µεθούσατε τις άλλες..."
+        ],
+        "line_numbers": [
+          272,
+          274
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "στάλες",
+          "άλλες"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 's']-['l', 'l', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "Τα καλοκαίρια µ᾿ έψησαν και τα λιοπύρια τα βαριά,",
+          "απόψε µου ποθεί η καρδιά πότε να ῾ρθεί µέσ᾿ τα κλαριά,"
+        ],
+        "line_numbers": [
+          275,
+          277
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "βαριά",
+          "κλαριά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι οι ξάστεροι ουρανοί οι γαλάζοι:",
+          "ο θείος βοριάς και το χαλάζι!"
+        ],
+        "line_numbers": [
+          276,
+          278
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "γαλάζοι",
+          "χαλάζι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "απόψε µου ποθεί η καρδιά πότε να ῾ρθεί µέσ᾿ τα κλαριά,",
+          "Τότε, γερτός κι εγώ ξανά, µέσ᾿ τα µουγγά τα δειλινά,"
+        ],
+        "line_numbers": [
+          277,
+          279
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "κλαριά",
+          "δειλινά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "θ᾿ αναπολώ γλυκά, -ποιός ξέρει-,",
+          "το περασµένο καλοκαίρι..."
+        ],
+        "line_numbers": [
+          280,
+          282
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ξέρει",
+          "καλοκαίρι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και θα µέ σφάζει πιό πολύ, σαν ένα µακρινό βιολί,",
+          "Τώρα που παίζει το βιολί κι έχουµε πιεί τόσο πολύ,"
+        ],
+        "line_numbers": [
+          281,
+          284
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "βιολί",
+          "πολύ"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "το περασµένο καλοκαίρι...",
+          "που µ᾿ έναν έρωτα τρελό σά να ῾µαστε δεµένοι,"
+        ],
+        "line_numbers": [
+          282,
+          285
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "καλοκαίρι",
+          "δεµένοι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['r']-['n']"
+        ]
+      },
+      {
+        "lines": [
+          "που µ᾿ έναν έρωτα τρελό σά να ῾µαστε δεµένοι,",
+          "µέσ᾿ στ᾿ όνειρό σου να κλειστώ. Το µόνο που µού µένει."
+        ],
+        "line_numbers": [
+          285,
+          287
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "δεµένοι",
+          "µένει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "και βουβαθεί και το βιολί µέ το γλυκό βραχνά του,",
+          "θ᾿ ακούσω πάλι το βραχνό τραγούδι του θανάτου..."
+        ],
+        "line_numbers": [
+          289,
+          291
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "βραχνά του",
+          "θανάτου"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "θ᾿ ακούσω πάλι το βραχνό τραγούδι του θανάτου...",
+          "Έν᾿ αλλόκοτο φεγγάρι σαν ένα κοµµάτι πάγου,"
+        ],
+        "line_numbers": [
+          291,
+          293
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "θανάτου",
+          "πάγου"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['t']-['G']"
+        ]
+      },
+      {
+        "lines": [
+          "θ᾿ ακούσω πάλι το βραχνό τραγούδι του θανάτου...",
+          "πεθαµένο και στηµένο µέσ᾿ στη µέση του πελάγου,"
+        ],
+        "line_numbers": [
+          291,
+          294
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "θανάτου",
+          "πελάγου"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['t']-['G']"
+        ]
+      },
+      {
+        "lines": [
+          "Έν᾿ αλλόκοτο φεγγάρι σαν ένα κοµµάτι πάγου,",
+          "πεθαµένο και στηµένο µέσ᾿ στη µέση του πελάγου,"
+        ],
+        "line_numbers": [
+          293,
+          294
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πάγου",
+          "πελάγου"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µιά βουβή, µεγάλη ξέρα, πιό γυµνή κι από παλάµη,",
+          "µ᾿ ένα γέρικο, θλιµµένο, τραγικό, µικρό καλάµι"
+        ],
+        "line_numbers": [
+          295,
+          296
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "παλάµη",
+          "καλάµι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι ένας ίσκιος -ένα κάτι- που δε ξέρω τι έχει χάσει",
+          "κι από τότε φέρνει γύρα, µή µπορώντας να ῾συχάσει."
+        ],
+        "line_numbers": [
+          297,
+          298
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "χάσει",
+          "῾συχάσει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Παγωµένο το χαµένο κι όλο φως, εκείνο τρίο,",
+          "σιωπούσε κι αγρυπνούσε, µέσ᾿ στη νύχτα, µέσ᾿ στο κρύο..."
+        ],
+        "line_numbers": [
+          299,
+          300
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τρίο",
+          "κρύο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "χωρίς, ως το τέλος, να ξέρω το πως,",
+          "ποιο κρίµα µέ δέρνει, και ποιος ο σκοπός!"
+        ],
+        "line_numbers": [
+          302,
+          303
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "πως",
+          "σκοπός"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Λυπήσου τα χρόνια που πάνε χαµένα,",
+          "ζητώντας τους άλλους, ζητώντας και µένα,"
+        ],
+        "line_numbers": [
+          304,
+          306
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "χαµένα",
+          "µένα"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "προτού η νύχτα πάλι βαριά ν᾿ απλωθεί,",
+          "ζητώντας εκείνο που δε θα βρεθεί!"
+        ],
+        "line_numbers": [
+          305,
+          307
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "απλωθεί",
+          "βρεθεί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Λυπήσου όλα κείνα που πάνε του κάκου,",
+          "και γίνουνται χώµα, στα βάθη ενός λάκκου,"
+        ],
+        "line_numbers": [
+          308,
+          310
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "κάκου",
+          "λάκκου"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['k']-['k', 'k']"
+        ]
+      },
+      {
+        "lines": [
+          "γιατί έτσι τους είπαν πως είναι γραφτό,",
+          "χωρίς να γυρέψουν το λόγο γι᾿ αυτό!"
+        ],
+        "line_numbers": [
+          309,
+          311
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "γραφτό",
+          "αυτό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Λυπήσου κι εκείνα, λυπήσου κι εµένα,",
+          "ζητώντας µία λύση σε πράµατα ξένα,"
+        ],
+        "line_numbers": [
+          312,
+          313
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "εµένα",
+          "ξένα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Λιγάκι να κάνω πως κάτι µέ σέρνει,",
+          "κι αµέσως η µοίρα µου το ξαναπαίρνει,"
+        ],
+        "line_numbers": [
+          315,
+          317
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σέρνει",
+          "ξαναπαίρνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "λιγάκι να φέξει, µές στα σκοτεινά,",
+          "κι αµέσως η νύχτα γυρίζει ξανά..."
+        ],
+        "line_numbers": [
+          316,
+          318
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "σκοτεινά",
+          "ξανά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "λυπήσου τη φλόγα που µάταια σκορπώ,",
+          "να ζώ δίχως λόγο, και δίχως σκοπό..."
+        ],
+        "line_numbers": [
+          320,
+          321
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "σκορπώ",
+          "σκοπό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "από το βογγητό µου",
+          "κι οι ποταµοί του δρόµου..."
+        ],
+        "line_numbers": [
+          328,
+          330
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βογγητό µου",
+          "δρόµου"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µά σύ δεν εφαινόσουν!",
+          "να µέ ξανακλειδώσουν..."
+        ],
+        "line_numbers": [
+          332,
+          334
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "εφαινόσουν",
+          "ξανακλειδώσουν"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Είµαι τόσο κουρασµένος απ᾿ τα λόγια τα ῾πωµένα",
+          "κι απ᾿ τα λόγια που θα πούµε κι απ᾿ τους άλλους κι από µένα"
+        ],
+        "line_numbers": [
+          335,
+          336
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "῾πωµένα",
+          "µένα"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κι απ᾿ το κάλεσµα του στίχου, µέ το µάταιο λυρισµό,",
+          "τον αιώνιο Γυρισµό!"
+        ],
+        "line_numbers": [
+          337,
+          340
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "λυρισµό",
+          "Γυρισµό"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "που η ψυχή µου δεν ελπίζει, παρά µόνο στο Λιµάνι",
+          "και στο σάλπισµα της Μοίρας, που µιά µέρα θα σηµάνει"
+        ],
+        "line_numbers": [
+          338,
+          339
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "Λιµάνι",
+          "σηµάνει"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Τότε µόνο, λυτρωµένος απ᾿ της γης την ιστορία,",
+          "µέσ᾿ στών κόσµων και των άστρων την ατέρµονη πορεία,"
+        ],
+        "line_numbers": [
+          341,
+          342
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "ιστορία",
+          "πορεία"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "φως ανέσπερο, χυµένο σε µιάν έξαλλη στροφή,",
+          "τότε µόνο θα γραφεί!"
+        ],
+        "line_numbers": [
+          343,
+          346
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "στροφή",
+          "γραφεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "το Τραγούδι το Μεγάλο, που ποτέ δεν έχω γράψει,",
+          "το στερνό µου το Τραγούδι, σά µιά δόξα που θ᾿ ανάψει,"
+        ],
+        "line_numbers": [
+          344,
+          345
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "γράψει",
+          "ανάψει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τότε µόνο θα γραφεί!",
+          "και την πόρτα σφάλισε και σβήσε το κερί."
+        ],
+        "line_numbers": [
+          346,
+          349
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "γραφεί",
+          "κερί"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κλείσε τα παράθυρα µή βλέπουν οι γειτόνοι,",
+          "Η αγκαλιά µου επύρωσε σαν το κερί και λιώνει,"
+        ],
+        "line_numbers": [
+          348,
+          350
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "γειτόνοι",
+          "λιώνει"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και την πόρτα σφάλισε και σβήσε το κερί.",
+          "για σφιχταγκαλιάσµατα κι όλο καρτερεί."
+        ],
+        "line_numbers": [
+          349,
+          351
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "κερί",
+          "καρτερεί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "δώσ᾿ µου το χειλάκι σου, πούναι απαλό, νωπό.",
+          "έχω κάτι ολόγλυκο σά µέλι να σου πώ."
+        ],
+        "line_numbers": [
+          353,
+          355
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "νωπό",
+          "πώ"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Έλα πέσε απάνω µου και µήν κοιτάς µέ τρόµο.",
+          "Ξέχασε πως βρίσκονται κι άλλες ψυχές στο δρόµο,"
+        ],
+        "line_numbers": [
+          356,
+          358
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τρόµο",
+          "δρόµο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Το κερί µας έσβησε, δεν µάς θωρεί κανείς.",
+          "κι άσε να κυλήσουµε σε πέλαγα ηδονής."
+        ],
+        "line_numbers": [
+          357,
+          359
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "κανείς",
+          "ηδονής"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Έλα, ως τα µεσάνυχτα θα σε φιλώ στο στόµα,",
+          "που το γλυκοχάραµα θα µάς προλάβει ακόµα"
+        ],
+        "line_numbers": [
+          360,
+          362
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "στόµα",
+          "ακόµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "έλα, κι είναι οι πόθοι µου τρελοί, τόσο τρελοί,",
+          "στο πρώτο µας αγκάλιασµα, στο πρώτο µας φιλί."
+        ],
+        "line_numbers": [
+          361,
+          363
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "τρελοί",
+          "φιλί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όταν σε ρωτήσουνε τη χαραυγή οι γειτόνοι,",
+          "πές τους πως στην κάµαρα φοβάσαι άµα νυχτώνει,"
+        ],
+        "line_numbers": [
+          364,
+          366
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "γειτόνοι",
+          "νυχτώνει"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "για ποιο λόγο σφάλισες, άχ! πές τους, να χαρείς,",
+          "κι έπεσες και πλάγιασες νωρίς, τ᾿ ακούς; Νωρίς!"
+        ],
+        "line_numbers": [
+          365,
+          367
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "χαρείς",
+          "Νωρίς"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ Άγνωστο γύρω και παντού κι ο Νόµος ο Τρανός του!",
+          "Κι ενώ δεν είµαστε παρά µορφές αυτού τ᾿ Αγνώστου,"
+        ],
+        "line_numbers": [
+          369,
+          370
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "Τρανός του",
+          "Αγνώστου"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µάταια φαντάσµατα, τυφλά, που το σκοτάδι σπέρνει,",
+          "που η νύχτα φέρνει µία στιγµή κι η νύχτα πάλι παίρνει,"
+        ],
+        "line_numbers": [
+          372,
+          373
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σπέρνει",
+          "παίρνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "χαµένοι, δίχως γυρισµό, µέσ᾿ στον αιώνιο σάλο,",
+          "µισούµε κι εχθρευόµαστε και κρίνει ο ένας τον άλλο..."
+        ],
+        "line_numbers": [
+          374,
+          375
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "σάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "Βαθύ κι εξαίσιο βράδυ",
+          "Ήταν ένα βαθύ κι εξαίσιο βράδυ."
+        ],
+        "line_numbers": [
+          376,
+          377
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "βράδυ",
+          "βράδυ"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Βαθύ κι εξαίσιο βράδυ",
+          "δεν είχε λάµψει τόσο, σά πετράδι..."
+        ],
+        "line_numbers": [
+          376,
+          379
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βράδυ",
+          "πετράδι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ήταν ένα βαθύ κι εξαίσιο βράδυ.",
+          "δεν είχε λάµψει τόσο, σά πετράδι..."
+        ],
+        "line_numbers": [
+          377,
+          379
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βράδυ",
+          "πετράδι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κατέβαινε το φως -µιά ωχρή αγωνία-,",
+          "µέσα σε µιάν ανείπωτη αρµονία..."
+        ],
+        "line_numbers": [
+          380,
+          383
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "αγωνία",
+          "αρµονία"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Δεν είχε κάν υπάρξει τέτοια δύση,",
+          "µιά δόξα µυστικά τα ῾χε κερδίσει..."
+        ],
+        "line_numbers": [
+          384,
+          387
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "δύση",
+          "κερδίσει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µήτε στο νού των πιό γλυκών ζωγράφων.",
+          "Ακόµα και τα µάρµαρα των τάφων,"
+        ],
+        "line_numbers": [
+          385,
+          386
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ζωγράφων",
+          "τάφων"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όταν το θάµπος άρχιζε να φθάνει",
+          "Κι ήταν το βράδυ αυτό που ῾χα πεθάνει..."
+        ],
+        "line_numbers": [
+          388,
+          391
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "φθάνει",
+          "πεθάνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι η νύχτα τ᾿ αργά µάγια να κλώθει,",
+          "το φεγγάρι, παντού, σά φλόγα απλώθη..."
+        ],
+        "line_numbers": [
+          389,
+          390
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κλώθει",
+          "απλώθη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Είµαι µόνος. Βραδυάζει. Τι να κάνω...",
+          "Τ᾿ αφήνω και γλιστρούν, αργά στο πιάνο..."
+        ],
+        "line_numbers": [
+          392,
+          395
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κάνω",
+          "πιάνο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τα χέρια µου είναι τόσο απελπισµένα!",
+          "Τα χέρια µου είναι τόσο κουρασµένα!"
+        ],
+        "line_numbers": [
+          393,
+          394
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "απελπισµένα",
+          "κουρασµένα"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ αφήνω και γλιστρούν, αργά στο πιάνο...",
+          "Παίζω στη τύχη κάτι αγαπηµένο,"
+        ],
+        "line_numbers": [
+          395,
+          396
+        ],
+        "classification": "F2-IMP-V-IMPERFECT-IDV",
+        "phonetic": [
+          "πιάνο",
+          "αγαπηµένο"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ αφήνω και γλιστρούν, αργά στο πιάνο...",
+          "κάτι παλιό και γνώριµο και πλάνο..."
+        ],
+        "line_numbers": [
+          395,
+          397
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πιάνο",
+          "πλάνο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ αφήνω και γλιστρούν, αργά στο πιάνο...",
+          "Και πάλι σταµατώ. Δεν επιµένω."
+        ],
+        "line_numbers": [
+          395,
+          398
+        ],
+        "classification": "F2-IMP-V-IMPERFECT-IDV",
+        "phonetic": [
+          "πιάνο",
+          "επιµένω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Παίζω στη τύχη κάτι αγαπηµένο,",
+          "κάτι παλιό και γνώριµο και πλάνο..."
+        ],
+        "line_numbers": [
+          396,
+          397
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "αγαπηµένο",
+          "πλάνο"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-a"
+        ]
+      },
+      {
+        "lines": [
+          "Παίζω στη τύχη κάτι αγαπηµένο,",
+          "Και πάλι σταµατώ. Δεν επιµένω."
+        ],
+        "line_numbers": [
+          396,
+          398
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "αγαπηµένο",
+          "επιµένω"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Παίζω στη τύχη κάτι αγαπηµένο,",
+          "Θα προτιµούσα µάλλον, να πεθάνω..."
+        ],
+        "line_numbers": [
+          396,
+          399
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "αγαπηµένο",
+          "πεθάνω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-a"
+        ]
+      },
+      {
+        "lines": [
+          "κάτι παλιό και γνώριµο και πλάνο...",
+          "Και πάλι σταµατώ. Δεν επιµένω."
+        ],
+        "line_numbers": [
+          397,
+          398
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "πλάνο",
+          "επιµένω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e"
+        ]
+      },
+      {
+        "lines": [
+          "κάτι παλιό και γνώριµο και πλάνο...",
+          "Θα προτιµούσα µάλλον, να πεθάνω..."
+        ],
+        "line_numbers": [
+          397,
+          399
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πλάνο",
+          "πεθάνω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Και πάλι σταµατώ. Δεν επιµένω.",
+          "Θα προτιµούσα µάλλον, να πεθάνω..."
+        ],
+        "line_numbers": [
+          398,
+          399
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "επιµένω",
+          "πεθάνω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-a"
+        ]
+      },
+      {
+        "lines": [
+          "...Je suis sure quʹ elle est vierge.",
+          "Elle a la beaute dʹ un vierge..."
+        ],
+        "line_numbers": [
+          401,
+          402
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "vierge",
+          "vierge"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "...Je suis sure quʹ elle est vierge.",
+          "Qui, elle est vierge. Elle ne sʹ est"
+        ],
+        "line_numbers": [
+          401,
+          403
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "vierge",
+          "est"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "...Je suis sure quʹ elle est vierge.",
+          "jamais souillee."
+        ],
+        "line_numbers": [
+          401,
+          404
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "vierge",
+          "souillee"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "Elle a la beaute dʹ un vierge...",
+          "Qui, elle est vierge. Elle ne sʹ est"
+        ],
+        "line_numbers": [
+          402,
+          403
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "vierge",
+          "est"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "Elle a la beaute dʹ un vierge...",
+          "jamais souillee."
+        ],
+        "line_numbers": [
+          402,
+          404
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "vierge",
+          "souillee"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "Qui, elle est vierge. Elle ne sʹ est",
+          "jamais souillee."
+        ],
+        "line_numbers": [
+          403,
+          404
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "est",
+          "souillee"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "Qui, elle est vierge. Elle ne sʹ est",
+          "κι άβυσσος πόθου τη δονεί:"
+        ],
+        "line_numbers": [
+          403,
+          406
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "est",
+          "δονεί"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "jamais souillee.",
+          "κι άβυσσος πόθου τη δονεί:"
+        ],
+        "line_numbers": [
+          404,
+          406
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "souillee",
+          "δονεί"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "...Απόψε πρόβαλε γυµνή, σά τέρας, η Σελήνη",
+          "την είδαν όλοι από νωρίς, τις πόρπες της να λύνει,"
+        ],
+        "line_numbers": [
+          405,
+          407
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "Σελήνη",
+          "λύνει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κι άβυσσος πόθου τη δονεί:",
+          "σά να διψούσεν ηδονή..."
+        ],
+        "line_numbers": [
+          406,
+          408
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "δονεί",
+          "ηδονή"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "σά να διψούσεν ηδονή...",
+          "που ῾χουν µέ πάθος κρεµαστεί,"
+        ],
+        "line_numbers": [
+          408,
+          410
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "ηδονή",
+          "κρεµαστεί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τι να ῾δε ξάφνου ῾δώ στη γη και τόσο το λυµπίστη",
+          "σά να ῾θελαν να λυτρωθούν, απ᾿ τη παλιά την πίστη"
+        ],
+        "line_numbers": [
+          409,
+          411
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "λυµπίστη",
+          "πίστη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "που ῾χουν µέ πάθος κρεµαστεί,",
+          "κι οι δυό της οι νεκροί µαστοί;"
+        ],
+        "line_numbers": [
+          410,
+          412
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "κρεµαστεί",
+          "µαστοί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Παρθένα, στείρα και βουβή, όµοια µέ σαλαµάντρα,",
+          "πως έτσι, απόψε, φρένιασε να σµίξει τρελά µ᾿ άντρα"
+        ],
+        "line_numbers": [
+          413,
+          415
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σαλαµάντρα",
+          "άντρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "στα βάθια βράδυα τ᾿ αττικά.",
+          "και φλογερά κι εκστατικά;"
+        ],
+        "line_numbers": [
+          414,
+          416
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "αττικά",
+          "εκστατικά"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "...Τι κι αν η νύχτα γέρν᾿ αργά, µέσ᾿ τα πυκνά ερέβη",
+          "Στη δύση, ῾κείνη µοναχή, που κείτεται και ρεύει,"
+        ],
+        "line_numbers": [
+          417,
+          419
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "ερέβη",
+          "ρεύει"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "κι αλλόκοτα µεθούν οι ανθοί;",
+          "ζητεί του κάκου να ευφρανθεί..."
+        ],
+        "line_numbers": [
+          418,
+          420
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ανθοί",
+          "ευφρανθεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Ένα φεγγάρι πράσινο, µεγάλο,",
+          "που λάµπει µέσ᾿ τη νύχτα -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          421,
+          422
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "µεγάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "Ένα φεγγάρι πράσινο, µεγάλο,",
+          "Μια φωνή γρικιέται µέσ᾿ το σάλο"
+        ],
+        "line_numbers": [
+          421,
+          423
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µεγάλο",
+          "σάλο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ένα φεγγάρι πράσινο, µεγάλο,",
+          "και που σε λίγο παύει -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          421,
+          424
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "µεγάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "που λάµπει µέσ᾿ τη νύχτα -τίποτ᾿ άλλο.",
+          "Μια φωνή γρικιέται µέσ᾿ το σάλο"
+        ],
+        "line_numbers": [
+          422,
+          423
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "άλλο",
+          "σάλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "που λάµπει µέσ᾿ τη νύχτα -τίποτ᾿ άλλο.",
+          "και που σε λίγο παύει -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          422,
+          424
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "άλλο",
+          "άλλο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "που λάµπει µέσ᾿ τη νύχτα -τίποτ᾿ άλλο.",
+          "Πέρα µακριά, κάποιο στερνό σινιάλο"
+        ],
+        "line_numbers": [
+          422,
+          425
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "άλλο",
+          "σινιάλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "Μια φωνή γρικιέται µέσ᾿ το σάλο",
+          "και που σε λίγο παύει -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          423,
+          424
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "σάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "Μια φωνή γρικιέται µέσ᾿ το σάλο",
+          "Πέρα µακριά, κάποιο στερνό σινιάλο"
+        ],
+        "line_numbers": [
+          423,
+          425
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σάλο",
+          "σινιάλο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μια φωνή γρικιέται µέσ᾿ το σάλο",
+          "του καραβιού που φεύγει -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          423,
+          426
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "σάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "και που σε λίγο παύει -τίποτ᾿ άλλο.",
+          "Πέρα µακριά, κάποιο στερνό σινιάλο"
+        ],
+        "line_numbers": [
+          424,
+          425
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "άλλο",
+          "σινιάλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "και που σε λίγο παύει -τίποτ᾿ άλλο.",
+          "του καραβιού που φεύγει -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          424,
+          426
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "άλλο",
+          "άλλο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και που σε λίγο παύει -τίποτ᾿ άλλο.",
+          "Και µόνον εν παράπονο µεγάλο"
+        ],
+        "line_numbers": [
+          424,
+          427
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "άλλο",
+          "µεγάλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "Πέρα µακριά, κάποιο στερνό σινιάλο",
+          "του καραβιού που φεύγει -τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          425,
+          426
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "σινιάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "Πέρα µακριά, κάποιο στερνό σινιάλο",
+          "Και µόνον εν παράπονο µεγάλο"
+        ],
+        "line_numbers": [
+          425,
+          427
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σινιάλο",
+          "µεγάλο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πέρα µακριά, κάποιο στερνό σινιάλο",
+          "στα βάθη του µυαλού µου. -Τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          425,
+          428
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "σινιάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "του καραβιού που φεύγει -τίποτ᾿ άλλο.",
+          "Και µόνον εν παράπονο µεγάλο"
+        ],
+        "line_numbers": [
+          426,
+          427
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "άλλο",
+          "µεγάλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "του καραβιού που φεύγει -τίποτ᾿ άλλο.",
+          "στα βάθη του µυαλού µου. -Τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          426,
+          428
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "άλλο",
+          "άλλο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Και µόνον εν παράπονο µεγάλο",
+          "στα βάθη του µυαλού µου. -Τίποτ᾿ άλλο."
+        ],
+        "line_numbers": [
+          427,
+          428
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "µεγάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "στη νύχτα, απάνω στο τραπέζι",
+          "σαν έρηµη πνοή ανασαίνει."
+        ],
+        "line_numbers": [
+          431,
+          432
+        ],
+        "classification": "F2-IMP-C-IMPERFECT-IDV",
+        "phonetic": [
+          "τραπέζι",
+          "ανασαίνει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['z']-['n']",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "στη νύχτα, απάνω στο τραπέζι",
+          "µές στα σκοτάδια τρεµοπαίζει,"
+        ],
+        "line_numbers": [
+          431,
+          434
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "τραπέζι",
+          "τρεµοπαίζει"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "σαν έρηµη πνοή ανασαίνει.",
+          "µές στα σκοτάδια τρεµοπαίζει,"
+        ],
+        "line_numbers": [
+          432,
+          434
+        ],
+        "classification": "F2-IMP-C-IMPERFECT-IDV",
+        "phonetic": [
+          "ανασαίνει",
+          "τρεµοπαίζει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['n']-['z']",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "σαν έρηµη πνοή ανασαίνει.",
+          "χλωµή ψυχούλα φοβισµένη..."
+        ],
+        "line_numbers": [
+          432,
+          435
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ανασαίνει",
+          "φοβισµένη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µές στα σκοτάδια τρεµοπαίζει,",
+          "χλωµή ψυχούλα φοβισµένη..."
+        ],
+        "line_numbers": [
+          434,
+          435
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "τρεµοπαίζει",
+          "φοβισµένη"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['z']-['n']"
+        ]
+      },
+      {
+        "lines": [
+          "κάτι ονειρεύεται στα χάη",
+          "µ᾿ αναλαµπές ψυχοµαχάει"
+        ],
+        "line_numbers": [
+          437,
+          440
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "χάη",
+          "ψυχοµαχάει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "τα ζαφειρένια της ερήµου...",
+          "το ετοιµοθάνατο κερί µου..."
+        ],
+        "line_numbers": [
+          438,
+          441
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "ερήµου",
+          "κερί µου"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "που χρόνια τώρα έχει σωπάσει,",
+          "χωρίς αιτία, κι οι τρείς στην πλάση"
+        ],
+        "line_numbers": [
+          443,
+          445
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σωπάσει",
+          "πλάση"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και το κερί µου που πεθαίνει",
+          "είµαστε τόσο λυπηµένοι..."
+        ],
+        "line_numbers": [
+          444,
+          446
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πεθαίνει",
+          "λυπηµένοι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι έπινα µές απ᾿ τα χείλη σου",
+          "Κι έπινα µές απ᾿ τα χείλη σου"
+        ],
+        "line_numbers": [
+          450,
+          452
+        ],
+        "classification": "F3-RICH-IDV",
+        "phonetic": [
+          "χείλη σου",
+          "χείλη σου"
+        ],
+        "features": [
+          "F3",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "γλυκειάν άχνα σαν το µύρα",
+          "κι οι µπερντέδες σαν πορφύρα."
+        ],
+        "line_numbers": [
+          453,
+          455
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µύρα",
+          "πορφύρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι ήταν άσπρο το κρεβάτι.",
+          "το γλυκό, γλυκό σου µάτι."
+        ],
+        "line_numbers": [
+          457,
+          459
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κρεβάτι",
+          "µάτι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι έτσι τη γλυκάδα σου ήπια,",
+          "τα άνοµα τα καρδιοχτύπια."
+        ],
+        "line_numbers": [
+          461,
+          463
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ήπια",
+          "καρδιοχτύπια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "το κορµί σου και το µάτι",
+          "κι ήταν άσπρο το κρεβάτι."
+        ],
+        "line_numbers": [
+          465,
+          467
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µάτι",
+          "κρεβάτι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Καηµός αλήθεια να περνώ",
+          "του έρωτα πάλι το στενό,"
+        ],
+        "line_numbers": [
+          468,
+          469
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "περνώ",
+          "στενό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "του έρωτα πάλι το στενό,",
+          "Στενό βαθύ και θλιβερό,"
+        ],
+        "line_numbers": [
+          469,
+          472
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "στενό",
+          "θλιβερό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Στενό βαθύ και θλιβερό,",
+          "που θα θυµάµαι για καιρό,"
+        ],
+        "line_numbers": [
+          472,
+          473
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "θλιβερό",
+          "καιρό"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Άς είναι, ωστόσο, - τι ωφελεί;",
+          "Γυρεύω πάντα το φιλί,"
+        ],
+        "line_numbers": [
+          475,
+          476
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ωφελεί",
+          "φιλί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Άς είναι, ωστόσο, - τι ωφελεί;",
+          "στερνό φιλί, πρώτο φιλί"
+        ],
+        "line_numbers": [
+          475,
+          477
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ωφελεί",
+          "φιλί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Γυρεύω πάντα το φιλί,",
+          "στερνό φιλί, πρώτο φιλί"
+        ],
+        "line_numbers": [
+          476,
+          477
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "φιλί",
+          "φιλί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "στερνό φιλί, πρώτο φιλί",
+          "που µού το τάξανε πολλοί,"
+        ],
+        "line_numbers": [
+          477,
+          480
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "φιλί",
+          "πολλοί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ίσως µιά µέρα, όταν χαθώ,",
+          "γυρνώντας πάλι στο βυθό"
+        ],
+        "line_numbers": [
+          483,
+          484
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "χαθώ",
+          "βυθό"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "αυτό το ανεύρετο φιλί,",
+          "που το λαχτάρησα πολύ,"
+        ],
+        "line_numbers": [
+          487,
+          488
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "φιλί",
+          "πολύ"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Οι κύκνοι το φθινόπωρο ζητάνε τη χαρά τους",
+          "...γιατί µπορεί και να χαθούν πρίν βρούνε τη χαρά τους..."
+        ],
+        "line_numbers": [
+          490,
+          493
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "χαρά τους",
+          "χαρά τους"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "γιατί η χαρά τους πέταξε µαζί µέ τ᾿ αγιοκαίρι...",
+          "Θα ζήσουν τάχα να τη βρούν, την άνοιξη; -Ποιος ξέρει;"
+        ],
+        "line_numbers": [
+          491,
+          492
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "αγιοκαίρι",
+          "ξέρει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "...γιατί µπορεί και να χαθούν πρίν βρούνε τη χαρά τους...",
+          "κι έγειραν και κοιµήθηκαν απάνω στα φτερά τους..."
+        ],
+        "line_numbers": [
+          493,
+          496
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "χαρά τους",
+          "φτερά τους"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Απόψε την περίµεναν, σχεδόν όλο το βράδι,",
+          "ώσπου στο τέλος νύσταξαν κοιτώντας το σκοτάδι,"
+        ],
+        "line_numbers": [
+          494,
+          495
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βράδι",
+          "σκοτάδι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Λυπήσου εκείνους που πονούν,",
+          "και παίρνουν, για να λησµονούν,"
+        ],
+        "line_numbers": [
+          498,
+          500
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "πονούν",
+          "λησµονούν"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "βουβά κι ανώφελα, για κάτι,",
+          "της ζωής κάποιο άθλιο µονοπάτι..."
+        ],
+        "line_numbers": [
+          499,
+          501
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κάτι",
+          "µονοπάτι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Λυπήσου αυτούς που έχουν χαθεί,",
+          "κι έγιναν αίνιγµα βαθύ,"
+        ],
+        "line_numbers": [
+          502,
+          504
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "χαθεί",
+          "βαθύ"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κι έγιναν αίνιγµα βαθύ,",
+          "Κι αυτόν, κι αυτόν που αναπολεί"
+        ],
+        "line_numbers": [
+          504,
+          506
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "βαθύ",
+          "αναπολεί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι αυτόν, κι αυτόν που αναπολεί",
+          "µά όµως, ακόµα πιό πολύ,"
+        ],
+        "line_numbers": [
+          506,
+          508
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "αναπολεί",
+          "πολύ"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "τα περασµένα του λυπήσου:",
+          "τις ώρες της βαθειάς σιωπής σου,"
+        ],
+        "line_numbers": [
+          507,
+          509
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "λυπήσου",
+          "σιωπής σου"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['s']-['s', ' ', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "λυπήσου αυτούς, πού, µιά φορά,",
+          "και δεν τους µένει άλλη χαρά,"
+        ],
+        "line_numbers": [
+          510,
+          512
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "φορά",
+          "χαρά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "µέ φτερά ζούσαν, και τα χάνουν,",
+          "παρά η χαρά πως θα πεθάνουν..."
+        ],
+        "line_numbers": [
+          511,
+          513
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "χάνουν",
+          "πεθάνουν"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και δεν τους µένει άλλη χαρά,",
+          "Θυµάµαι, νύχτα ήταν βαθειά,"
+        ],
+        "line_numbers": [
+          512,
+          515
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "χαρά",
+          "βαθειά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Προσµένω πάλι",
+          "µά η µέρα κόντευε να φτάσει,"
+        ],
+        "line_numbers": [
+          514,
+          516
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάλι",
+          "φτάσει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['l']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "µά η µέρα κόντευε να φτάσει,",
+          "για να χαθούµε µές στην πλάση..."
+        ],
+        "line_numbers": [
+          516,
+          518
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "φτάσει",
+          "πλάση"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "για να χαθούµε µές στην πλάση...",
+          "παγίδες, λάθη, πλάνες, πάθη,"
+        ],
+        "line_numbers": [
+          518,
+          520
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πλάση",
+          "πάθη"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['T']"
+        ]
+      },
+      {
+        "lines": [
+          "Και σ᾿ όσα πέσαµε κακά,",
+          "κανένας µας δε µπορεί πιά"
+        ],
+        "line_numbers": [
+          519,
+          521
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "κακά",
+          "πιά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "παγίδες, λάθη, πλάνες, πάθη,",
+          "µήτε να δεί µήτε να µάθει..."
+        ],
+        "line_numbers": [
+          520,
+          522
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πάθη",
+          "µάθει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι επειδής είχαµε δεχτεί,",
+          "πήρες τον ένα δρόµο εσύ,"
+        ],
+        "line_numbers": [
+          526,
+          528
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "δεχτεί",
+          "εσύ"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "καθένας τη δική του µοίρα,",
+          "κι εγώ τον άλλο δρόµο πήρα."
+        ],
+        "line_numbers": [
+          527,
+          529
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µοίρα",
+          "πήρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και πλανηθήκαµε στην τύχη,",
+          "δεν ήταν παρά κάποιοι στίχοι),"
+        ],
+        "line_numbers": [
+          531,
+          533
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τύχη",
+          "στίχοι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "(κι ως τώρα, µόνος µας δεσµός",
+          "τώρα, που τ᾿ όνειρο για µάς"
+        ],
+        "line_numbers": [
+          532,
+          534
+        ],
+        "classification": "M-IMP-V-IMPERFECT",
+        "phonetic": [
+          "δεσµός",
+          "µάς"
+        ],
+        "features": [
+          "IMP-V",
+          "M",
+          "IMPERFECT",
+          "o-a"
+        ]
+      },
+      {
+        "lines": [
+          "τα φώτα σβήνει τα στερνά του,",
+          "µές στη γαλήνη του θανάτου..."
+        ],
+        "line_numbers": [
+          535,
+          536
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "στερνά του",
+          "θανάτου"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Γύρω η µαυρίλα,",
+          "τρίζουν τα φύλλα."
+        ],
+        "line_numbers": [
+          537,
+          540
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "µαυρίλα",
+          "φύλλα"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "τρίζουν τα φύλλα.",
+          "Νερό, αργοκύλα!"
+        ],
+        "line_numbers": [
+          540,
+          541
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "φύλλα",
+          "αργοκύλα"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "Νερό, αργοκύλα!",
+          "Ανατριχίλα."
+        ],
+        "line_numbers": [
+          541,
+          544
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "αργοκύλα",
+          "Ανατριχίλα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Στολίδια γάµου",
+          "ξεσκίδια χάµου."
+        ],
+        "line_numbers": [
+          542,
+          543
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "γάµου",
+          "χάµου"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μέσ᾿ στο βιβλίο",
+          "Σιωπή, ερµιά, κρύο."
+        ],
+        "line_numbers": [
+          545,
+          548
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "βιβλίο",
+          "κρύο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "σκυµµένα µάτια,",
+          "Πέρα; Παλάτια."
+        ],
+        "line_numbers": [
+          546,
+          549
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µάτια",
+          "Παλάτια"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και δε διαβάζω.",
+          "Σκοινιά. Σπαράζω."
+        ],
+        "line_numbers": [
+          547,
+          550
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "διαβάζω",
+          "Σπαράζω"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Σουρτά, σουρτά µέ µπαµπεσιά",
+          "Και µάς εβάναν µπροστά:"
+        ],
+        "line_numbers": [
+          557,
+          560
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "µπαµπεσιά",
+          "µπροστά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "........................................",
+          "Τα ποιήµατα της σκιάς 1939-1943"
+        ],
+        "line_numbers": [
+          581,
+          582
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "",
+          "σκιάς 1939-1943"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "........................................",
+          "προς την άνοιξη ο καιρός,"
+        ],
+        "line_numbers": [
+          581,
+          584
+        ],
+        "classification": "M-UNKNOWN",
+        "phonetic": [
+          "",
+          "καιρός"
+        ],
+        "features": [
+          "M",
+          "UNKNOWN"
+        ]
+      },
+      {
+        "lines": [
+          "Τώρα, που γυρίζει πάλι,",
+          "κι ο ήλιος, σαν καρδιά µεγάλη,"
+        ],
+        "line_numbers": [
+          583,
+          585
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πάλι",
+          "µεγάλη"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "προς την άνοιξη ο καιρός,",
+          "µάς αγγίζει φλογερός·"
+        ],
+        "line_numbers": [
+          584,
+          586
+        ],
+        "classification": "M-IMP-0-IMPERFECT-IDV",
+        "phonetic": [
+          "καιρός",
+          "φλογερός·"
+        ],
+        "features": [
+          "IMP-0",
+          "M",
+          "IMPERFECT",
+          "['s']-['s', '·']",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "που όλα γύρω απ᾿ του χειµώνα",
+          "λυτρωµένα να ζούνε µόνα,"
+        ],
+        "line_numbers": [
+          587,
+          588
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "χειµώνα",
+          "µόνα"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "κι όλα βρίσκουν το ῾να τ᾿ άλλο",
+          "Με το νού µου είπα να βάλω"
+        ],
+        "line_numbers": [
+          590,
+          592
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "άλλο",
+          "βάλω"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l', 'l']-['l']"
+        ]
+      },
+      {
+        "lines": [
+          "Σά χαµένο θησαυρό",
+          "Κι εγώ κάτι πως θα βρώ..."
+        ],
+        "line_numbers": [
+          591,
+          593
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "θησαυρό",
+          "βρώ"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Και κινώντας ένα γιόµα,",
+          "(καί απ᾿ αυτόν ίσως ακόµα"
+        ],
+        "line_numbers": [
+          594,
+          596
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "γιόµα",
+          "ακόµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Σαν αλήτης που πεινά",
+          "πιό βουβά και ταπεινά)"
+        ],
+        "line_numbers": [
+          595,
+          597
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "πεινά",
+          "ταπεινά"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και µέ κάποιον κρυφό τρόµο,",
+          "γύρεψα δειλά στο δρόµο"
+        ],
+        "line_numbers": [
+          598,
+          600
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τρόµο",
+          "δρόµο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "στην ψυχή την ορφανή,",
+          "κάτι, θέ µου να φανεί!"
+        ],
+        "line_numbers": [
+          599,
+          601
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ορφανή",
+          "φανεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μά δεν πρόκανες ελπίδα",
+          "Και για µένα, αµέσως, είδα,"
+        ],
+        "line_numbers": [
+          602,
+          604
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "ελπίδα",
+          "είδα"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μια στιγµή να µού φανείς",
+          "Πως δε βρίσκεται κανείς,"
+        ],
+        "line_numbers": [
+          603,
+          605
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "φανείς",
+          "κανείς"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Και χωρίς να ρίχνω πίσω",
+          "Πρέπει ν᾿ αποχαιρετήσω"
+        ],
+        "line_numbers": [
+          606,
+          608
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πίσω",
+          "αποχαιρετήσω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μάτια πόθου φλογερά.",
+          "Κάθε σκέψη και χαρά..."
+        ],
+        "line_numbers": [
+          607,
+          609
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "φλογερά",
+          "χαρά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Τι κι αν όλα λένε, γύρα,",
+          "Κι αρχινάν, της γης τα µύρα,"
+        ],
+        "line_numbers": [
+          610,
+          612
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "γύρα",
+          "µύρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πως δεν ήταν ως εκεί,",
+          "Την παλιά τους µουσική;"
+        ],
+        "line_numbers": [
+          611,
+          613
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "εκεί",
+          "µουσική"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Πλούσιος ο ήλιος ο παλιός;",
+          "Πόσο, τότε, ήταν αλλιώς..."
+        ],
+        "line_numbers": [
+          615,
+          617
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παλιός",
+          "αλλιώς"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι έτσι, ανοίγοντας τη θύρα,",
+          "Να σκορπίσουν όλα, γύρα"
+        ],
+        "line_numbers": [
+          618,
+          620
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "θύρα",
+          "γύρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Που οδηγεί προς τα Παλιά,",
+          "Σαν ανώφελα πουλιά,"
+        ],
+        "line_numbers": [
+          619,
+          621
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "Παλιά",
+          "πουλιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Να σκορπίσουν όλα, γύρα",
+          "Θα βαδίσω προς το Πέρα,"
+        ],
+        "line_numbers": [
+          620,
+          622
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "γύρα",
+          "Πέρα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "i-e"
+        ]
+      },
+      {
+        "lines": [
+          "Θα βαδίσω προς το Πέρα,",
+          "Χωρισµένος κάθε µέρα"
+        ],
+        "line_numbers": [
+          622,
+          624
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "Πέρα",
+          "µέρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Δίχως τίποτα να πώ,",
+          "Κι από κάτι π᾿ αγαπώ"
+        ],
+        "line_numbers": [
+          623,
+          625
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "πώ",
+          "αγαπώ"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Χωρισµένος κάθε µέρα",
+          "Καρτερώντας ως την ώρα,"
+        ],
+        "line_numbers": [
+          624,
+          626
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "µέρα",
+          "ώρα"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-o"
+        ]
+      },
+      {
+        "lines": [
+          "Καρτερώντας ως την ώρα,",
+          "Σµίξουµε, για πάντα τώρα"
+        ],
+        "line_numbers": [
+          626,
+          628
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ώρα",
+          "τώρα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πάλι, Θέ µου, που θενά",
+          "Μές στο Μέγα Πουθενά..."
+        ],
+        "line_numbers": [
+          627,
+          629
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "θενά",
+          "Πουθενά"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Το Άγνωστο γύρω και παντού, - κι ο Νόµος ο Τρανός του!",
+          "Κι ενώ σε είµαστε παρά µορφές αυτού του Αγνώστου,"
+        ],
+        "line_numbers": [
+          630,
+          631
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "Τρανός του",
+          "Αγνώστου"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µάταια φαντάσµατα, τυφλά, που το σκοτάδι σπέρνει",
+          "που η νύχτα φέρνει µία στιγµή, κι η νύχτα, πάλι, παίρνει,"
+        ],
+        "line_numbers": [
+          634,
+          635
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "σπέρνει",
+          "παίρνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "χαµένοι, δίχως γυρισµό µές στον αιώνιο σάλο,",
+          "µισούµε και εχθρευόµαστε – και κρίνει ο ένας τον άλλο..."
+        ],
+        "line_numbers": [
+          636,
+          637
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "σάλο",
+          "άλλο"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['l']-['l', 'l']"
+        ]
+      },
+      {
+        "lines": [
+          "Τις βαριές τις ώρες που είµαι µόνος",
+          "Πούδέν είµαι παρά µόνο πόνος,"
+        ],
+        "line_numbers": [
+          638,
+          640
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µόνος",
+          "πόνος"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Και δεν είναι γύρω µου κανείς",
+          "Πρίν, Σά ρόδο, σπάσεις και σαπείς"
+        ],
+        "line_numbers": [
+          639,
+          642
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "κανείς",
+          "σαπείς"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όµως ήξερε όλες σου τις πράξεις",
+          "Σχεδόν ξέρω πως θα µέ κοιτάξεις"
+        ],
+        "line_numbers": [
+          641,
+          643
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πράξεις",
+          "κοιτάξεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πρίν, Σά ρόδο, σπάσεις και σαπείς",
+          "Και τα λόγια ακόµα, που θα πείς..."
+        ],
+        "line_numbers": [
+          642,
+          644
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "σαπείς",
+          "πείς"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Ξέρω ακόµα, πως θα µέ χαϊδέψεις",
+          "Που θα σβήσεις όλες µου τις σκέψεις"
+        ],
+        "line_numbers": [
+          645,
+          647
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "χαϊδέψεις",
+          "σκέψεις"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μ᾿ ένα τρόπο τόσο τρυφερό,",
+          "Που µέ βαραίνουν, τόσο καιρό..."
+        ],
+        "line_numbers": [
+          646,
+          648
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "τρυφερό",
+          "καιρό"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι άµα νιώσεις όλο µου τον πόνο,",
+          "Φτάνει τη µατιά µου να δείς µόνο,"
+        ],
+        "line_numbers": [
+          649,
+          651
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πόνο",
+          "µόνο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι άµα νιώσεις όλο µου τον πόνο,",
+          "Είµαι µόνος..."
+        ],
+        "line_numbers": [
+          649,
+          652
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "πόνο",
+          "µόνος"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['n']-['n', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "Φτάνει τη µατιά µου να δείς µόνο,",
+          "Είµαι µόνος..."
+        ],
+        "line_numbers": [
+          651,
+          652
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "µόνο",
+          "µόνος"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['n']-['n', 's']"
+        ]
+      },
+      {
+        "lines": [
+          "Φτάνει τη µατιά µου να δείς µόνο,",
+          "Είµαι µόνος. Βραδιάζει. Τι να κάνω..."
+        ],
+        "line_numbers": [
+          651,
+          653
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "µόνο",
+          "κάνω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "o-a"
+        ]
+      },
+      {
+        "lines": [
+          "Είµαι µόνος. Βραδιάζει. Τι να κάνω...",
+          "Τα αφήνω και γλιστρούν αργά στο πιάνο..."
+        ],
+        "line_numbers": [
+          653,
+          656
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κάνω",
+          "πιάνο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τα χέρια µου είναι τόσο απελπισµένα!",
+          "Τα χέρια µου είναι τόσο κουρασµένα!"
+        ],
+        "line_numbers": [
+          654,
+          655
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "απελπισµένα",
+          "κουρασµένα"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Τα αφήνω και γλιστρούν αργά στο πιάνο...",
+          "Παίζω στην τύχη, κάτι αγαπηµένο,"
+        ],
+        "line_numbers": [
+          656,
+          657
+        ],
+        "classification": "F2-IMP-V-IMPERFECT-IDV",
+        "phonetic": [
+          "πιάνο",
+          "αγαπηµένο"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Τα αφήνω και γλιστρούν αργά στο πιάνο...",
+          "Κάτι παλιό, και γνώριµο, και πλάνο.."
+        ],
+        "line_numbers": [
+          656,
+          658
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πιάνο",
+          "πλάνο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τα αφήνω και γλιστρούν αργά στο πιάνο...",
+          "Και πάλι σταµατώ. Δεν επιµένω."
+        ],
+        "line_numbers": [
+          656,
+          659
+        ],
+        "classification": "F2-IMP-V-IMPERFECT-IDV",
+        "phonetic": [
+          "πιάνο",
+          "επιµένω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Παίζω στην τύχη, κάτι αγαπηµένο,",
+          "Κάτι παλιό, και γνώριµο, και πλάνο.."
+        ],
+        "line_numbers": [
+          657,
+          658
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "αγαπηµένο",
+          "πλάνο"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-a"
+        ]
+      },
+      {
+        "lines": [
+          "Παίζω στην τύχη, κάτι αγαπηµένο,",
+          "Και πάλι σταµατώ. Δεν επιµένω."
+        ],
+        "line_numbers": [
+          657,
+          659
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "αγαπηµένο",
+          "επιµένω"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Παίζω στην τύχη, κάτι αγαπηµένο,",
+          "Θα προτιµούσα µάλλον να πεθάνω..."
+        ],
+        "line_numbers": [
+          657,
+          660
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "αγαπηµένο",
+          "πεθάνω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-a"
+        ]
+      },
+      {
+        "lines": [
+          "Κάτι παλιό, και γνώριµο, και πλάνο..",
+          "Και πάλι σταµατώ. Δεν επιµένω."
+        ],
+        "line_numbers": [
+          658,
+          659
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "πλάνο",
+          "επιµένω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "a-e"
+        ]
+      },
+      {
+        "lines": [
+          "Κάτι παλιό, και γνώριµο, και πλάνο..",
+          "Θα προτιµούσα µάλλον να πεθάνω..."
+        ],
+        "line_numbers": [
+          658,
+          660
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πλάνο",
+          "πεθάνω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Και πάλι σταµατώ. Δεν επιµένω.",
+          "Θα προτιµούσα µάλλον να πεθάνω..."
+        ],
+        "line_numbers": [
+          659,
+          660
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "επιµένω",
+          "πεθάνω"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-a"
+        ]
+      },
+      {
+        "lines": [
+          "Παλιά τραγούδια µακρινά χαµένα από καιρό",
+          "Τώρα πού, εντός µου, τίποτα δεν µένει πιά γερό"
+        ],
+        "line_numbers": [
+          661,
+          663
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "καιρό",
+          "γερό"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι εσάς που πάντα φύλαγα, για µία παρηγοριά",
+          "Σας βλέπω τώρα, ξαφνικά ν᾿ αλλάζετε θωριά"
+        ],
+        "line_numbers": [
+          665,
+          666
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παρηγοριά",
+          "θωριά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Γιά αυτό, σφαλώντας τη µατιά πηγαίνω να χαθώ.",
+          "Τώρα που τίποτα γερό δεν έµεινε κι ορθό"
+        ],
+        "line_numbers": [
+          668,
+          670
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "χαθώ",
+          "ορθό"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τώρα που τίποτα γερό δεν έµεινε κι ορθό",
+          "Κι απονιβώντας εροµιδαλιό"
+        ],
+        "line_numbers": [
+          670,
+          672
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "ορθό",
+          "εροµιδαλιό"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ζινώντας παβίδονο σαβίνι,",
+          "Κουµάνισα το βίρο του λαβίνι"
+        ],
+        "line_numbers": [
+          671,
+          673
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "σαβίνι",
+          "λαβίνι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι απονιβώντας εροµιδαλιό",
+          "Με σάβανο γιδένι του Θαλιό."
+        ],
+        "line_numbers": [
+          672,
+          674
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "εροµιδαλιό",
+          "Θαλιό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κουµάνισα το βίρο του λαβίνι",
+          "Κι ανέδοντας έν᾿ άκονο λαβίνι"
+        ],
+        "line_numbers": [
+          673,
+          675
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "λαβίνι",
+          "λαβίνι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Με σάβανο γιδένι του Θαλιό.",
+          "Που ραδαγοσαλιούσε τον αλιό"
+        ],
+        "line_numbers": [
+          674,
+          676
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "Θαλιό",
+          "αλιό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι ανέδοντας έν᾿ άκονο λαβίνι",
+          "Σινέρωσα τον άβο του ραβίνι"
+        ],
+        "line_numbers": [
+          675,
+          677
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "λαβίνι",
+          "ραβίνι"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Που ραδαγοσαλιούσε τον αλιό",
+          "Σ᾿ ένα άφαρο δαµένικο ραλιό!"
+        ],
+        "line_numbers": [
+          676,
+          678
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "αλιό",
+          "ραλιό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Σουβέροδα στ᾿ αλίκοπα σουνέκια",
+          "Βαρίλωσα τ᾿ ακίµορα κουνέκια."
+        ],
+        "line_numbers": [
+          679,
+          681
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "σουνέκια",
+          "κουνέκια"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μέσ᾿ στ᾿ άλινα που δεν εσιβονεί",
+          "Και λαδαµποσαλώντας την ονή"
+        ],
+        "line_numbers": [
+          680,
+          682
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "εσιβονεί",
+          "ονή"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Καράµπωσα το βούλινο διράνι",
+          "Σαν άλιφο τουρένι που κιράνει."
+        ],
+        "line_numbers": [
+          683,
+          684
+        ],
+        "classification": "F2-RICH-IDV",
+        "phonetic": [
+          "διράνι",
+          "κιράνει"
+        ],
+        "features": [
+          "F2",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "δεν έχει τρόπους να φερθεί και µήτε να ντυθεί,",
+          "µπορεί ν᾿ απαντηθεί!"
+        ],
+        "line_numbers": [
+          687,
+          688
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "ντυθεί",
+          "απαντηθεί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τα ρούχα του είναι της δουλειάς, τριµµένα και παλιά,",
+          "τα ξένοιαστα πουλιά..."
+        ],
+        "line_numbers": [
+          690,
+          691
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παλιά",
+          "πουλιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τα ρούχα του είναι της δουλειάς, τριµµένα και παλιά,",
+          "να περπατήσω συντροφιά µέ διάφορα παιδιά,"
+        ],
+        "line_numbers": [
+          690,
+          693
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παλιά",
+          "παιδιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τα ξένοιαστα πουλιά...",
+          "να περπατήσω συντροφιά µέ διάφορα παιδιά,"
+        ],
+        "line_numbers": [
+          691,
+          693
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "πουλιά",
+          "παιδιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "τα ξένοιαστα πουλιά...",
+          "σά µιά µικρή καρδιά..."
+        ],
+        "line_numbers": [
+          691,
+          694
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "πουλιά",
+          "καρδιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "να περπατήσω συντροφιά µέ διάφορα παιδιά,",
+          "σά µιά µικρή καρδιά..."
+        ],
+        "line_numbers": [
+          693,
+          694
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παιδιά",
+          "καρδιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όταν των άλλων των παιδιών τα λούσα βλέπει πλάι",
+          "τότε γυρίζει τη µατιά -καί µού χαµογελάει,"
+        ],
+        "line_numbers": [
+          695,
+          697
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "πλάι",
+          "χαµογελάει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "1- Το δροµάκι το παλιό,",
+          "Το δροµάκι το καλό"
+        ],
+        "line_numbers": [
+          699,
+          701
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "παλιό",
+          "καλό"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "που ευωδάν οι κρίνοι",
+          "σε µιά πόρτα κλείνει..."
+        ],
+        "line_numbers": [
+          700,
+          702
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "κρίνοι",
+          "κλείνει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "δε σε φτάνει ανέµου,",
+          "κάθεσαι, ακριβέ µου..."
+        ],
+        "line_numbers": [
+          704,
+          706
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ανέµου",
+          "ακριβέ µου"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "3- Ήρθα απόψε, από νωρίς",
+          "µά ήµουν απ᾿ τις ευωδιές,"
+        ],
+        "line_numbers": [
+          707,
+          709
+        ],
+        "classification": "M-IMP-V-IMPERFECT",
+        "phonetic": [
+          "νωρίς",
+          "ευωδιές"
+        ],
+        "features": [
+          "IMP-V",
+          "M",
+          "IMPERFECT",
+          "i-e"
+        ]
+      },
+      {
+        "lines": [
+          "για να σ᾿ ανταµώσω:",
+          "λαγγεµένος τόσο..."
+        ],
+        "line_numbers": [
+          708,
+          710
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ανταµώσω",
+          "τόσο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "4- µέ τα µάτια έτσι τυφλά,",
+          "που δε σ᾿ ηύρα πουθενά"
+        ],
+        "line_numbers": [
+          711,
+          713
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "τυφλά",
+          "πουθενά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "σαν από κραιπάλη,-",
+          "και θα φύγω πάλι..."
+        ],
+        "line_numbers": [
+          712,
+          714
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "κραιπάλη",
+          "πάλι"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "σαν από κραιπάλη,-",
+          "Όταν βραδιάζει"
+        ],
+        "line_numbers": [
+          712,
+          715
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "κραιπάλη",
+          "βραδιάζει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['l']-['z']"
+        ]
+      },
+      {
+        "lines": [
+          "και θα φύγω πάλι...",
+          "Όταν βραδιάζει"
+        ],
+        "line_numbers": [
+          714,
+          715
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάλι",
+          "βραδιάζει"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['l']-['z']"
+        ]
+      },
+      {
+        "lines": [
+          "Όταν βραδιάζει, µέσα µου, ξυπνούν τα περασµένα...",
+          "κι έρχονται πάλι, µαγικά κι ανέλπιδα, σε µένα..."
+        ],
+        "line_numbers": [
+          716,
+          718
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "περασµένα",
+          "µένα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κι έρχονται πάλι, µαγικά κι ανέλπιδα, σε µένα...",
+          "λόγια βαθιά κι αξέχαστα, κι ωστόσο ξεχασµένα,"
+        ],
+        "line_numbers": [
+          718,
+          720
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µένα",
+          "ξεχασµένα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Πόθοι, παράπονα παλιά, νοσταλγικές φωνές,",
+          "παράξενα χειµαιρικές αγάπες µακρινές,"
+        ],
+        "line_numbers": [
+          719,
+          721
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "φωνές",
+          "µακρινές"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "λόγια βαθιά κι αξέχαστα, κι ωστόσο ξεχασµένα,",
+          "όπως η φλόγα µιάς αυγής, υψώνονται σε µένα"
+        ],
+        "line_numbers": [
+          720,
+          722
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ξεχασµένα",
+          "µένα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και το τραγούδι ρυθµικό στα χείλη µου ανεβαίνει,",
+          "που µέσα του λυτρώνονται, και ζούν οι πεθαµένοι..."
+        ],
+        "line_numbers": [
+          724,
+          725
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "ανεβαίνει",
+          "πεθαµένοι"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "στού Αγνώστου την αθώρητη κορφή",
+          "υπήρχε από καιρό, δεν ξέρω, τί"
+        ],
+        "line_numbers": [
+          730,
+          732
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "κορφή",
+          "τί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "στού Αγνώστου την αθώρητη κορφή",
+          "που γύριζε, και γύρευε µορφή."
+        ],
+        "line_numbers": [
+          730,
+          733
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "κορφή",
+          "µορφή"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "υπήρχε από καιρό, δεν ξέρω, τί",
+          "που γύριζε, και γύρευε µορφή."
+        ],
+        "line_numbers": [
+          732,
+          733
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "τί",
+          "µορφή"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Θέ να ῾ταν απ᾿ την µοίρα του γραφτό·",
+          "Να µήν είχε φανεί καθώς αυτό·"
+        ],
+        "line_numbers": [
+          735,
+          737
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "γραφτό·",
+          "αυτό·"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Ζητώντας, µέσ᾿ απ᾿ άστρα να φανεί,",
+          "Ένα φτωχό λουλούδι, ένα πρωί..."
+        ],
+        "line_numbers": [
+          741,
+          743
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "φανεί",
+          "πρωί"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ένα φτωχό λουλούδι, ένα πρωί...",
+          "Χαρά θεού, γελούσαν οι ουρανοί!"
+        ],
+        "line_numbers": [
+          743,
+          745
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "πρωί",
+          "ουρανοί"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Και µήτε και µπορώ να πώ το πού:",
+          "Του κάµπου των αγρών η του γιαλού,"
+        ],
+        "line_numbers": [
+          747,
+          749
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "πού",
+          "γιαλού"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Και µήτε και µπορώ να πώ το πού:",
+          "η µήν αυτό συνέβη αλλού..."
+        ],
+        "line_numbers": [
+          747,
+          750
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "πού",
+          "αλλού"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Του κάµπου των αγρών η του γιαλού,",
+          "η µήν αυτό συνέβη αλλού..."
+        ],
+        "line_numbers": [
+          749,
+          750
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "γιαλού",
+          "αλλού"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "στα πέταλά του τα χιµαιρικά,",
+          "σ᾿ όλο τον τόπο εκείνη τη χρονιά..."
+        ],
+        "line_numbers": [
+          754,
+          756
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "χιµαιρικά",
+          "χρονιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µεγάλωσε, έτσι, αµέριµνα, ως το βράδυ·",
+          "περνούσ᾿ ένας βοσκός µέ το κοπάδι,"
+        ],
+        "line_numbers": [
+          757,
+          759
+        ],
+        "classification": "F2-IMP-0-IMPERFECT",
+        "phonetic": [
+          "βράδυ·",
+          "κοπάδι"
+        ],
+        "features": [
+          "IMP-0",
+          "F2",
+          "IMPERFECT",
+          "['D', '·']-['D']"
+        ]
+      },
+      {
+        "lines": [
+          "ήταν ένα γατάκι γαλανό·",
+          "λαµπρό φεγγάρι ήταν στον ουρανό·"
+        ],
+        "line_numbers": [
+          764,
+          766
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "γαλανό·",
+          "ουρανό·"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μια γριούλα µέ τα πέντε της παιδιά·",
+          "Χωρίς ελπίδα να γυρίσουν πιά·"
+        ],
+        "line_numbers": [
+          770,
+          772
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παιδιά·",
+          "πιά·"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Που ζούσαν πάντα τόσο ταπεινοί,",
+          "Ν᾿ ακούσουν τη µεγάλη τη Φωνή."
+        ],
+        "line_numbers": [
+          782,
+          784
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "ταπεινοί",
+          "Φωνή"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Που ζούσαν πάντα τόσο ταπεινοί,",
+          "δεν ξέρω πόσους αιώνες να φανεί!"
+        ],
+        "line_numbers": [
+          782,
+          785
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ταπεινοί",
+          "φανεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Ν᾿ ακούσουν τη µεγάλη τη Φωνή.",
+          "δεν ξέρω πόσους αιώνες να φανεί!"
+        ],
+        "line_numbers": [
+          784,
+          785
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "Φωνή",
+          "φανεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μ᾿ ένα µυστήριο τόσο αγγελικό,",
+          "Να διώξει απ᾿ τους ανθρώπους το κακό..."
+        ],
+        "line_numbers": [
+          789,
+          791
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "αγγελικό",
+          "κακό"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Γύρισε ο πρώτος γιός, ο ναυτικός,",
+          "Σε λίγο ήρθε και ο δεύτερος ο γιός·"
+        ],
+        "line_numbers": [
+          793,
+          795
+        ],
+        "classification": "M-IMP-0-IMPERFECT-IDV",
+        "phonetic": [
+          "ναυτικός",
+          "γιός·"
+        ],
+        "features": [
+          "IMP-0",
+          "M",
+          "IMPERFECT",
+          "['s']-['s', '·']",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Σε λίγο ήρθε και ο δεύτερος ο γιός·",
+          "Κι έπαψε η γρίνια πιά και ο τσακωµός..."
+        ],
+        "line_numbers": [
+          795,
+          797
+        ],
+        "classification": "M-IMP-0-IMPERFECT",
+        "phonetic": [
+          "γιός·",
+          "τσακωµός"
+        ],
+        "features": [
+          "IMP-0",
+          "M",
+          "IMPERFECT",
+          "['s', '·']-['s']"
+        ]
+      },
+      {
+        "lines": [
+          "Δούλευε τώρα, κι έβγαζε αρκετά.",
+          "Κοιµήθηκε, κι αυτή παντοτινά..."
+        ],
+        "line_numbers": [
+          801,
+          803
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "αρκετά",
+          "παντοτινά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κοιµήθηκε, κι αυτή παντοτινά...",
+          "Κι όλα βαδίζαν, όλα, µιά χαρά!"
+        ],
+        "line_numbers": [
+          803,
+          805
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "παντοτινά",
+          "χαρά"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όλα βαδίζαν, όλα, µιά χαρά!",
+          "Το βρήκε πάλι κάποια συφορά:"
+        ],
+        "line_numbers": [
+          805,
+          807
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "χαρά",
+          "συφορά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Το βρήκε πάλι κάποια συφορά:",
+          "Και του ῾σπασε και τα δυό του τα πλευρά..."
+        ],
+        "line_numbers": [
+          807,
+          809
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "συφορά",
+          "πλευρά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Καλώντας, λές, κι εγώ δεν ξέρω τί,",
+          "Θλιµµένη τόσο, και σπαραχτική!"
+        ],
+        "line_numbers": [
+          811,
+          813
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "τί",
+          "σπαραχτική"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Θλιµµένη τόσο, και σπαραχτική!",
+          "Ήταν αδιάφοροι και βιαστικοί..."
+        ],
+        "line_numbers": [
+          813,
+          815
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "σπαραχτική",
+          "βιαστικοί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μήτε καµιάν ελπίδα πουθενά...",
+          "Κι αρχίνησε να βρέχει σιγανά."
+        ],
+        "line_numbers": [
+          819,
+          821
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "πουθενά",
+          "σιγανά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μά τώρα πιά η φωνή του ήταν φριχτή,",
+          "Ώσπου, στο τέλος, έπαψε κι αυτή..."
+        ],
+        "line_numbers": [
+          823,
+          826
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "φριχτή",
+          "αυτή"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ώσπου, στο τέλος, έπαψε κι αυτή...",
+          "δοκίµασε άλλη µιά φορά για να ῾ρθει"
+        ],
+        "line_numbers": [
+          826,
+          827
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "αυτή",
+          "῾ρθει"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "κακό µεγάλο, εκείνο τον καιρό:",
+          "το τι γινόταν ήταν φοβερό!"
+        ],
+        "line_numbers": [
+          829,
+          831
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "καιρό",
+          "φοβερό"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Και πήγε στο σκολείο της γειτονιάς,",
+          "Που κλέφτης δεν υπήρχε ούτε φονιάς!"
+        ],
+        "line_numbers": [
+          833,
+          835
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "γειτονιάς",
+          "φονιάς"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Που κλέφτης δεν υπήρχε ούτε φονιάς!",
+          "Ήταν γιοµάτες άνθη λεµονιάς..."
+        ],
+        "line_numbers": [
+          835,
+          837
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "φονιάς",
+          "λεµονιάς"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Με την µικρή του ζώνη, τη λευκή",
+          "Γυρνούσαν το κεφάλι εκστατικοί"
+        ],
+        "line_numbers": [
+          839,
+          841
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "λευκή",
+          "εκστατικοί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Γυρνούσαν το κεφάλι εκστατικοί",
+          "Τ᾿ ακολουθούσαν µυστικά ως εκεί!"
+        ],
+        "line_numbers": [
+          841,
+          843
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "εκστατικοί",
+          "εκεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ αλλόκοτα, γλυκά και τρυφερά",
+          "Κι ήτανε τώρα τόσο φλογερά"
+        ],
+        "line_numbers": [
+          845,
+          847
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "τρυφερά",
+          "φλογερά"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ αλλόκοτα, γλυκά και τρυφερά",
+          "να φέρουν την στοργή και την χαρά..."
+        ],
+        "line_numbers": [
+          845,
+          848
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "τρυφερά",
+          "χαρά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Κι ήτανε τώρα τόσο φλογερά",
+          "να φέρουν την στοργή και την χαρά..."
+        ],
+        "line_numbers": [
+          847,
+          848
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "φλογερά",
+          "χαρά"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μά µ᾿ όλ᾿ αυτά δεν γλύτωσε και πάλι:",
+          "Την ώρα που αρχινούσε το σκοτάδι"
+        ],
+        "line_numbers": [
+          849,
+          851
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "πάλι",
+          "σκοτάδι"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['l']-['D']"
+        ]
+      },
+      {
+        "lines": [
+          "Κάποιο µουντό βραδάκι θλιβερό,",
+          "Καθώς γυρνούσε µόνο απ᾿ το σκολειό"
+        ],
+        "line_numbers": [
+          850,
+          852
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "θλιβερό",
+          "σκολειό"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Καθώς γυρνούσε µόνο απ᾿ το σκολειό",
+          "Το πρόλαβε, - και το ῾κοψε στα δυό..."
+        ],
+        "line_numbers": [
+          852,
+          854
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "σκολειό",
+          "δυό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "µέ τρείς µορφές δοκίµασε να ῾ρθεί",
+          "να δεί, σ᾿ αυτή την πλάση, προκοπή"
+        ],
+        "line_numbers": [
+          856,
+          858
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "῾ρθεί",
+          "προκοπή"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "να δεί, σ᾿ αυτή την πλάση, προκοπή",
+          "και χάθηκε, ξανά µές στην Σιωπή."
+        ],
+        "line_numbers": [
+          858,
+          860
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "προκοπή",
+          "Σιωπή"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "γι᾿ αυτό, κι εκείνο, γύρισε για πάντα",
+          "Είπα πιό πάνω: γύρισε για πάντα"
+        ],
+        "line_numbers": [
+          859,
+          861
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "πάντα",
+          "πάντα"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "και χάθηκε, ξανά µές στην Σιωπή.",
+          "Και χάθηκε, ξανά µές στην Σιωπή"
+        ],
+        "line_numbers": [
+          860,
+          862
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "Σιωπή",
+          "Σιωπή"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "και χάθηκε, ξανά µές στην Σιωπή.",
+          "σε αυτή την φράση πρέπει να κοπεί."
+        ],
+        "line_numbers": [
+          860,
+          863
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "Σιωπή",
+          "κοπεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Και χάθηκε, ξανά µές στην Σιωπή",
+          "σε αυτή την φράση πρέπει να κοπεί."
+        ],
+        "line_numbers": [
+          862,
+          863
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "Σιωπή",
+          "κοπεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Και χάθηκε, ξανά µές στην Σιωπή",
+          "Ποιος θα ῾ταν ικανός να µάς το πεί;..."
+        ],
+        "line_numbers": [
+          862,
+          865
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "Σιωπή",
+          "πεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "σε αυτή την φράση πρέπει να κοπεί.",
+          "Ποιος θα ῾ταν ικανός να µάς το πεί;..."
+        ],
+        "line_numbers": [
+          863,
+          865
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "κοπεί",
+          "πεί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "σε αυτή την φράση πρέπει να κοπεί.",
+          "Αποχαιρετισµοί στη µουσική"
+        ],
+        "line_numbers": [
+          863,
+          866
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "κοπεί",
+          "µουσική"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Ποιος θα ῾ταν ικανός να µάς το πεί;...",
+          "Αποχαιρετισµοί στη µουσική"
+        ],
+        "line_numbers": [
+          865,
+          866
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "πεί",
+          "µουσική"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τ᾿ όνειρό µου πιά δεν είναι να χαρώ, µήτε να ζήσω,",
+          "µά να πώ µιά λέξη µόνο, σά µιά φλόγα και να σβήσω."
+        ],
+        "line_numbers": [
+          867,
+          868
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ζήσω",
+          "σβήσω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Κι αν ακόµα ζώ του κάκου και γυρνώ στην επάνω,",
+          "µόνον ένα πιά µού µένει: να τη πώ και να πεθάνω..."
+        ],
+        "line_numbers": [
+          869,
+          870
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "επάνω",
+          "πεθάνω"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όµως κάν αυτή η λέξη δε µού δόθηκεν ακόµα",
+          "να τη πώ και µού παιδεύει τη ψυχή µου και το στόµα."
+        ],
+        "line_numbers": [
+          871,
+          872
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ακόµα",
+          "στόµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "να τη πώ και µού παιδεύει τη ψυχή µου και το στόµα.",
+          "Κι αφού τ᾿ άχαρά µου χείλη δε τη πρόφεραν ακόµα,"
+        ],
+        "line_numbers": [
+          872,
+          875
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "στόµα",
+          "ακόµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μήτε κάν αυτή τη λέξη, την απέραντα θλιµµένη,",
+          "µήτε τρόπος να τη µάθω, µήτε χρόνος δε µού µένει."
+        ],
+        "line_numbers": [
+          873,
+          874
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "θλιµµένη",
+          "µένει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "µήτε τρόπος να τη µάθω, µήτε χρόνος δε µού µένει.",
+          "Μόνος ήρθα κάποιο βράδυ κι ήσαν όλοι γύρω µόνοι"
+        ],
+        "line_numbers": [
+          874,
+          877
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "µένει",
+          "µόνοι"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "e-o"
+        ]
+      },
+      {
+        "lines": [
+          "Κι αφού τ᾿ άχαρά µου χείλη δε τη πρόφεραν ακόµα,",
+          "θα τη πάρω και σά ξένοι θα χαθούµε µέσ᾿ στο χώµα..."
+        ],
+        "line_numbers": [
+          875,
+          876
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "ακόµα",
+          "χώµα"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μόνος ήρθα κάποιο βράδυ κι ήσαν όλοι γύρω µόνοι",
+          "κι όλοι ξένοι, τραγουδάµε, µέσ᾿ στη νύχτα που σιµώνει."
+        ],
+        "line_numbers": [
+          877,
+          878
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "µόνοι",
+          "σιµώνει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "το βαθύ και το µεγάλο κι απροσµέτρητο κενό µου!",
+          "Τη στιγµή του σταυρωµού µου και για µόνη συντροφιά µου,"
+        ],
+        "line_numbers": [
+          880,
+          881
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "κενό µου",
+          "συντροφιά µου"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "o-a"
+        ]
+      },
+      {
+        "lines": [
+          "το βαθύ και το µεγάλο κι απροσµέτρητο κενό µου!",
+          "µόλις ένιωσα τα χέρια που καρφώσαν τα καρφιά µου..."
+        ],
+        "line_numbers": [
+          880,
+          882
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "κενό µου",
+          "καρφιά µου"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "o-a"
+        ]
+      },
+      {
+        "lines": [
+          "Τη στιγµή του σταυρωµού µου και για µόνη συντροφιά µου,",
+          "µόλις ένιωσα τα χέρια που καρφώσαν τα καρφιά µου..."
+        ],
+        "line_numbers": [
+          881,
+          882
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "συντροφιά µου",
+          "καρφιά µου"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μόνος ήρθα κάποιο βράδυ, µόνος πόνεσα για λίγο,",
+          "µόνος έζησα του κάκου κι όπως ήρθα και θα φύγω."
+        ],
+        "line_numbers": [
+          883,
+          884
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "λίγο",
+          "φύγω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Μόνος ήρθα, κάποιο βράδυ, κι ήσαν όλοι, γύρω, µόνοι,",
+          "κι όλοι ξένοι, τραγουδάµε, µές στη νύχτα που σιµώνει."
+        ],
+        "line_numbers": [
+          888,
+          889
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "µόνοι",
+          "σιµώνει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "το βαθύ και το µεγάλο κι απροσµέτρητο κενό µου.",
+          "Τη στιγµή του σταυρωµού µου, και για µόνη συντροφιά µου,"
+        ],
+        "line_numbers": [
+          891,
+          892
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "κενό µου",
+          "συντροφιά µου"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "o-a"
+        ]
+      },
+      {
+        "lines": [
+          "το βαθύ και το µεγάλο κι απροσµέτρητο κενό µου.",
+          "µόλις ένιωσα τα χέρια που σταυρώσαν τα καρφιά µου..."
+        ],
+        "line_numbers": [
+          891,
+          893
+        ],
+        "classification": "F2-IMP-V-IMPERFECT",
+        "phonetic": [
+          "κενό µου",
+          "καρφιά µου"
+        ],
+        "features": [
+          "IMP-V",
+          "F2",
+          "IMPERFECT",
+          "o-a"
+        ]
+      },
+      {
+        "lines": [
+          "Τη στιγµή του σταυρωµού µου, και για µόνη συντροφιά µου,",
+          "µόλις ένιωσα τα χέρια που σταυρώσαν τα καρφιά µου..."
+        ],
+        "line_numbers": [
+          892,
+          893
+        ],
+        "classification": "F2-PURE-IDV",
+        "phonetic": [
+          "συντροφιά µου",
+          "καρφιά µου"
+        ],
+        "features": [
+          "F2",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Μόνος ήρθα, κάποιο βράδυ, µόνος πόνεσα για λίγο,",
+          "µόνος έζησα του κάκου - κι όπως ήρθα και θα φύγω."
+        ],
+        "line_numbers": [
+          894,
+          895
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "λίγο",
+          "φύγω"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Το γράµµα σου τ᾿ αποψινό µέ βρήκε λυπηµένο.",
+          "Λές κι από πρίν, κάποια φωνή, µού το ῾χεν ειπωµένο."
+        ],
+        "line_numbers": [
+          898,
+          899
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "λυπηµένο",
+          "ειπωµένο"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Έτυχεν όµως η βραδιά τόσο βουβά να σβήσει",
+          "Τέτοιες βραδιές, η σκέψη µου, που νοσταλγεί κι εκείνη,"
+        ],
+        "line_numbers": [
+          901,
+          903
+        ],
+        "classification": "F2-IMP-C-IMPERFECT",
+        "phonetic": [
+          "σβήσει",
+          "εκείνη"
+        ],
+        "features": [
+          "IMP-C",
+          "F2",
+          "IMPERFECT",
+          "['s']-['n']"
+        ]
+      },
+      {
+        "lines": [
+          "κι ο ήλιος µακριά, τόσο θλιβά να χάνεται µαζί...",
+          "δε θα ῾θελε να ζεί!"
+        ],
+        "line_numbers": [
+          902,
+          904
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "µαζί",
+          "ζεί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "δε θα ῾θελε να ζεί!",
+          "Λόγια γραµµένα βιαστικά, µέ πείσµα και χολή."
+        ],
+        "line_numbers": [
+          904,
+          906
+        ],
+        "classification": "M-PURE",
+        "phonetic": [
+          "ζεί",
+          "χολή"
+        ],
+        "features": [
+          "M",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Εξάλλου, λές για πράµατα που ῾γώ δε βρίσκω βάση.",
+          "Εκείνος που τα λόγια σου τα πρίν, έχει διαβάσει,"
+        ],
+        "line_numbers": [
+          905,
+          907
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "βάση",
+          "διαβάσει"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Λόγια γραµµένα βιαστικά, µέ πείσµα και χολή.",
+          "θα ξαφνιαστεί πολύ..."
+        ],
+        "line_numbers": [
+          906,
+          908
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "χολή",
+          "πολύ"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι εγώ που το ῾χα καύχηµα κρυφό, τόσο καιρό,",
+          "σαν άστρο φεγγερό!"
+        ],
+        "line_numbers": [
+          910,
+          912
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "καιρό",
+          "φεγγερό"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Το γράµµα σου τ᾿ αποψινό, µέ βρήκε λυπηµένο,",
+          "Κι όσο για ῾κείνο που µού λές: «Μια άγνωστη θα µένω»,"
+        ],
+        "line_numbers": [
+          913,
+          915
+        ],
+        "classification": "F2-RICH",
+        "phonetic": [
+          "λυπηµένο",
+          "µένω"
+        ],
+        "features": [
+          "F2",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "λές κι η καρδιά µου, σαν ανθός, για πάντα έχει σαπεί.",
+          "δε ξέρω τι θα πεί..."
+        ],
+        "line_numbers": [
+          914,
+          916
+        ],
+        "classification": "M-RICH-IDV",
+        "phonetic": [
+          "σαπεί",
+          "πεί"
+        ],
+        "features": [
+          "M",
+          "RICH",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Το βράδυ που σ᾿ αγάπησα δεν ήταν καλοκαίρι.",
+          "κι ούτε θυµάµαι να σου πώ, τι µ᾿ είχε τότε φέρει,"
+        ],
+        "line_numbers": [
+          917,
+          919
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "καλοκαίρι",
+          "φέρει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "Τα φύλλα µόλις πρόβαλλαν επάνω στα κλαριά",
+          "σε ῾κείνη τη µεριά."
+        ],
+        "line_numbers": [
+          918,
+          920
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "κλαριά",
+          "µεριά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "σε ῾κείνη τη µεριά.",
+          "και το µυαλό µου γύριζε σε πράµατα παλιά,"
+        ],
+        "line_numbers": [
+          920,
+          922
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "µεριά",
+          "παλιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Θυµάµαι µόνο που ῾σερνα το βήµα το νωθρό µου",
+          "την ώρα που σ᾿ απάντησα να στέκεσαι στού δρόµου"
+        ],
+        "line_numbers": [
+          921,
+          923
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "νωθρό µου",
+          "δρόµου"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και το µυαλό µου γύριζε σε πράµατα παλιά,",
+          "τα πέτρινα σκαλιά."
+        ],
+        "line_numbers": [
+          922,
+          924
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "παλιά",
+          "σκαλιά"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Τη νύχτα ῾κείνη τη τρελή, τη νύχτα τη µεγάλη,",
+          "«Τα περασµένα πέρασαν, µή τα θυµάσαι πάλι»,"
+        ],
+        "line_numbers": [
+          925,
+          927
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "µεγάλη",
+          "πάλι"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "να στη θυµήσω τώρα ῾δώ, το βρίσκω περιττό.",
+          "µάς λέει το ρητό..."
+        ],
+        "line_numbers": [
+          926,
+          928
+        ],
+        "classification": "M-PURE-IDV",
+        "phonetic": [
+          "περιττό",
+          "ρητό"
+        ],
+        "features": [
+          "M",
+          "PURE",
+          "IDV"
+        ]
+      },
+      {
+        "lines": [
+          "Κι όµως κι εσύ µ᾿ αγάπησες βαθύτατα, το νιώθω",
+          "πως όσο κι αν µαραίναµε το πρώτο µας το πόθο,"
+        ],
+        "line_numbers": [
+          929,
+          931
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "νιώθω",
+          "πόθο"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "και ξέρω ακόµα πως συχνά µού το ῾χες ορκιστεί,",
+          "θα µέναµε πιστοί!"
+        ],
+        "line_numbers": [
+          930,
+          932
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "ορκιστεί",
+          "πιστοί"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      },
+      {
+        "lines": [
+          "Μιάς και δεν ήταν να σταθείς σε ῾κείνα που ῾χες τάξει,",
+          "Τον όρκο σου τον πάτησες, µά ῾γώ δεν έχω αλλάξει:"
+        ],
+        "line_numbers": [
+          933,
+          935
+        ],
+        "classification": "F2-PURE",
+        "phonetic": [
+          "τάξει",
+          "αλλάξει"
+        ],
+        "features": [
+          "F2",
+          "PURE"
+        ]
+      },
+      {
+        "lines": [
+          "τότε γιατί το λόγο αυτό µ᾿ ανάγκασες να πώ;",
+          "Ακόµα σ᾿ αγαπώ!"
+        ],
+        "line_numbers": [
+          934,
+          936
+        ],
+        "classification": "M-RICH",
+        "phonetic": [
+          "πώ",
+          "αγαπώ"
+        ],
+        "features": [
+          "M",
+          "RICH"
+        ]
+      }
+    ]
+  }
+}
