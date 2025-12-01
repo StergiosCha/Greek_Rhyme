@@ -330,6 +330,37 @@ Now analyze the following poem using the same detailed five-step reasoning. Show
 {text}
 """
 
+MOSAIC_ENHANCED_PROMPT = """Analyze Greek rhyme with PHONETIC PREPROCESSING for MOSAIC detection.
+
+CRITICAL: MOSAIC (MOS) = rhyme crosses word boundaries.
+
+{phonetic_analysis}
+
+MOSAIC DETECTION:
+1. Line ends with SHORT word (της/μου/σου/του/μας/σας/να/θα)?
+2. Rhyme sound includes parts from BOTH last words?
+3. Use PHONETICS, not spelling
+
+TRUE MOSAIC EXAMPLES:
+"όνομά της" [MA-tis] ~ "μπάτης" [BA-tis]  
+→ Rhyme [MA tis] ~ [BA-tis] crosses "ονομά+της"
+
+NOT MOSAIC:
+"καρδιά" ~ "αγαπημένη" - single words
+
+{rag_context}
+
+POEM:
+{text}
+
+OUTPUT:
+1. Line numbers
+2. Phonetic (from preprocessing)
+3. Word boundary check
+4. Classification
+5. Sound-based explanation
+"""
+
 GENERATION_PROMPT_TEMPLATE = """Generate Greek poetry lines with specific rhyme patterns.
 
 TARGET SPECIFICATIONS:
@@ -383,23 +414,32 @@ GENERATION CONSTRAINTS:
 IMPORTANT FOR MOSAIC RHYMES:
 If MOS is requested, you MUST create rhymes that span word boundaries. Examples:
 - "στο χέρι μου" [sto XÉ-ri mu] ~ "φέρε μου" [FÉ-re mu] (rhyme: "έ-ρι μου" / "έ-ρε μου")
-- "την καρδιά μας" [tin kar-diÁ mas] ~ "η αγκαλιά σας" [i an-ga-liÁ sas] (rhyme: "διά μας" / "λιά σας")
+- "την καρδιά μας" [tin kar-diÁ mas] ~ "η αγκαλιά μας" [i an-ga-liÁ sas] (rhyme: "διά μας" / "λιά σας")
 - "δίνει φως μου" [Dí-ni fos mu] ~ "κι είναι δικό σου" [ki Í-ne di-KÓ su] (rhyme crosses words)
 
 Generate the poem with phonetic annotations showing the rhyme pattern.
 """
 
-def get_identification_prompt(text: str, strategy: str, rag_context: str = "") -> str:
+def get_identification_prompt(text: str, strategy: str, rag_context: str = "", 
+                             phonetic_analysis: str = "") -> str:
     """Get prompt for rhyme identification"""
     prompts = {
         "zero_shot_structured": ZERO_SHOT_STRUCTURED,
         "zero_shot_algorithm": ZERO_SHOT_ALGORITHM,
         "few_shot": FEW_SHOT,
         "zero_shot_cot": ZERO_SHOT_COT,
-        "few_shot_cot": FEW_SHOT_COT
+        "few_shot_cot": FEW_SHOT_COT,
+        "mosaic_enhanced": MOSAIC_ENHANCED_PROMPT
     }
     
     rag_section = f"\n\nRELEVANT EXAMPLES FROM CORPUS:\n{rag_context}\n" if rag_context else ""
+    
+    if strategy == "mosaic_enhanced":
+        return prompts[strategy].format(
+            text=text, 
+            rag_context=rag_section,
+            phonetic_analysis=phonetic_analysis
+        )
     
     return prompts[strategy].format(text=text, rag_context=rag_section)
 

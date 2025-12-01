@@ -23,7 +23,7 @@ app.add_middleware(
 class RhymeIdentificationRequest(BaseModel):
     text: str
     model: str
-    prompt_strategy: Literal["zero_shot_structured", "zero_shot_algorithm", "few_shot", "zero_shot_cot", "few_shot_cot"]
+    prompt_strategy: Literal["zero_shot_structured", "zero_shot_algorithm", "few_shot", "zero_shot_cot", "few_shot_cot", "mosaic_enhanced"]
     use_rag: bool = False
     api_key: str
 
@@ -34,11 +34,12 @@ class RhymeGenerationRequest(BaseModel):
     num_lines: int = 4
     model: str
     use_rag: bool = False
+    poet: Optional[str] = ""  # Optional poet style
     api_key: str
 
 class RhymeResponse(BaseModel):
     result: str
-    model_used: str
+    generation_model: str
     prompt_used: str
     tokens_used: Optional[int] = None
 
@@ -197,6 +198,7 @@ async def get_models():
 async def identify_rhymes(request: RhymeIdentificationRequest):
     """Identify rhymes in Greek text"""
     from prompts import get_identification_prompt
+    from greek_phonology import extract_rhyme_domain, analyze_mosaic_pattern, format_for_llm_prompt
     
     # Get RAG context if requested
     rag_context = ""
@@ -204,17 +206,30 @@ async def identify_rhymes(request: RhymeIdentificationRequest):
         from rag_system import get_relevant_examples
         rag_context = await get_relevant_examples(request.text)
     
+    # PHONETIC PREPROCESSING for mosaic_enhanced strategy
+    phonetic_analysis = ""
+    if request.prompt_strategy == "mosaic_enhanced":
+        lines = [l.strip() for l in request.text.split('\n') if l.strip()]
+        
+        analyses = []
+        for i in range(len(lines)-1):
+            analysis = analyze_mosaic_pattern(lines[i], lines[i+1])
+            analyses.append(format_for_llm_prompt(analysis))
+        
+        phonetic_analysis = "\n\n".join(analyses)
+    
     prompt = get_identification_prompt(
         request.text,
         request.prompt_strategy,
-        rag_context
+        rag_context,
+        phonetic_analysis
     )
     
     result, tokens = await call_model(request.model, prompt, request.api_key)
     
     return RhymeResponse(
         result=result,
-        model_used=request.model,
+        generation_model=request.model,
         prompt_used=prompt[:500] + "..." if len(prompt) > 500 else prompt,
         tokens_used=tokens
     )
@@ -231,7 +246,8 @@ async def generate_rhymes(request: RhymeGenerationRequest):
         rag_context = await get_generation_examples(
             request.rhyme_type,
             request.features,
-            request.theme
+            request.theme,
+            poet=request.poet if request.poet else None
         )
     
     prompt = get_generation_prompt(
@@ -246,14 +262,52 @@ async def generate_rhymes(request: RhymeGenerationRequest):
     
     return RhymeResponse(
         result=result,
-        model_used=request.model,
+        generation_model=request.model,
         prompt_used=prompt[:500] + "..." if len(prompt) > 500 else prompt,
         tokens_used=tokens
     )
 
+@app.post("/agent/generate")
+async def agent_generate_rhymes(request: RhymeGenerationRequest):
+    """
+    Generate Greek poetry using the Agentic Pipeline (Generation + Verification Loop)
+    """
+    from agent_pipeline import AgentPipeline
+    
+    # Define callback to bridge Agent -> App -> LLM
+    async def llm_callback(model, prompt):
+        return await call_model(model, prompt, request.api_key)
+    
+    # Initialize Pipeline with real LLM
+    pipeline = AgentPipeline(model_name=request.model, generate_callback=llm_callback)
+    
+    # Run Pipeline
+    result = await pipeline.generate_poem(
+        theme=request.theme,
+        rhyme_type=request.rhyme_type,
+        features=request.features,
+        num_lines=request.num_lines,
+        poet=request.poet if request.poet else None
+    )
+    
+    if "error" in result:
+        raise HTTPException(500, result["error"])
+        
+    return {
+        "poem": result["poem"],
+        "verification": result["verification"],
+        "generation_model": request.model
+    }
+
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+# Mount static files
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
 @app.get("/")
 async def root():
-    return {"message": "Greek Rhyme System API", "docs": "/docs"}
+    return FileResponse('static/index.html')
 
 if __name__ == "__main__":
     import uvicorn

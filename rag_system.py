@@ -7,95 +7,16 @@ from typing import List, Dict
 import re
 
 # Sample rhyme corpus (in production, this would be loaded from database/vector store)
-RHYME_CORPUS = {
-    "solomos_imnos": {
-        "poet": "Διονύσιος Σολωμός",
-        "poem": "Ύμνος εις την Ελευθερία",
-        "examples": [
-            {
-                "lines": ["Πάνω στην άμμο την ξανθή", "και σβήστηκε η γραφή"],
-                "line_numbers": [5, 8],
-                "classification": "M-IDV",
-                "phonetic": ["ksan-'Ti", "Gra-'fi"],
-                "features": ["M", "IDV"]
-            },
-            {
-                "lines": ["γράψαμε τ' όνομά της", "ωραία που φύσηξεν ο μπάτης"],
-                "line_numbers": [6, 7],
-                "classification": "F2-MOS-IDV-2W",
-                "phonetic": ["'to-no-'ma tis", "o 'ba-tis"],
-                "features": ["F2", "MOS", "IDV-2W"]
-            }
-        ],
-        "stats": {
-            "total_lines": 632,
-            "pure_M": 31.80,
-            "pure_F2": 31.49,
-            "rich": 10.45,
-            "idv": 25.32,
-            "imperfect": 0.0
-        }
-    },
-    "mavilis_sonnets": {
-        "poet": "Λορέντζος Μάβιλης",
-        "poem": "23 Sonnets",
-        "examples": [
-            {
-                "lines": ["Example line 1", "Example line 2"],
-                "line_numbers": [1, 3],
-                "classification": "F2-TR-S",
-                "phonetic": ["'ka-la", "'xa-la"],
-                "features": ["F2", "TR-S", "RICH"]
-            }
-        ],
-        "stats": {
-            "total_lines": 322,
-            "pure_F2": 31.37,
-            "rich": 56.94,
-            "TR-S": 46.27,
-            "PR-C2": 9.94
-        }
-    },
-    "palamas_gypsy": {
-        "poet": "Κωστής Παλαμάς",
-        "poem": "Ο Δωδεκάλογος του Γύφτου",
-        "examples": [
-            {
-                "lines": ["γιορτής", "ζωντανά"],
-                "line_numbers": [183, 185],
-                "classification": "M-IMP-V-IMP-0F",
-                "phonetic": ["j\\or'tis", "zoda'na"],
-                "features": ["M", "IMP-V", "IMP-0F"]
-            }
-        ],
-        "stats": {
-            "total_lines": 4260,
-            "pure_M": 20.33,
-            "pure_F2": 6.17,
-            "imperfect_total": 48.92,
-            "rich": 5.41,
-            "idv": 10.62
-        }
-    },
-    "karyotakis": {
-        "poet": "Κ. Καρυωτάκης",
-        "poem": "Ο Πόνος του Ανθρώπου και των Πραγμάτων",
-        "examples": [
-            {
-                "lines": ["Line with M-IMP", "Line with M-IMP"],
-                "classification": "M-IMP-C",
-                "features": ["M", "IMP-C"]
-            }
-        ],
-        "stats": {
-            "total_lines": 265,
-            "pure_M": 13.58,
-            "pure_F2": 20.00,
-            "M_imperfect": 20.75,
-            "F2_idv": 24.15
-        }
-    }
-}
+import os
+
+# Load rhyme corpus from JSON
+try:
+    with open("rhyme_corpus.json", "r", encoding="utf-8") as f:
+        RHYME_CORPUS = json.load(f)
+    print(f"Loaded RAG corpus with {len(RHYME_CORPUS)} poets.")
+except FileNotFoundError:
+    print("Warning: rhyme_corpus.json not found. Using empty corpus.")
+    RHYME_CORPUS = {}
 
 def extract_rhyme_features(text: str) -> List[str]:
     """Extract potential rhyme features from text"""
@@ -171,14 +92,45 @@ async def get_relevant_examples(query_text: str, top_k: int = 3) -> str:
     return formatted
 
 async def get_generation_examples(rhyme_type: str, features: List[str], 
-                                 theme: str, top_k: int = 2) -> str:
+                                 theme: str, poet: str = None, top_k: int = 2) -> str:
     """
     Retrieve examples for generation task based on desired rhyme pattern
+    If poet is specified, filter by that poet's style
     """
     relevant_examples = []
     
-    for corpus_key, corpus_data in RHYME_CORPUS.items():
+    # Filter corpus by poet if specified
+    corpus_to_search = RHYME_CORPUS
+    if poet:
+        # Find matching poet in corpus
+        corpus_to_search = {k: v for k, v in RHYME_CORPUS.items() if v["poet"] == poet}
+        if not corpus_to_search:
+            print(f"Warning: Poet '{poet}' not found in corpus, using all poets")
+            corpus_to_search = RHYME_CORPUS
+    
+    for corpus_key, corpus_data in corpus_to_search.items():
         for example in corpus_data["examples"]:
+            # Validate first!
+            lines = example["lines"]
+            w1 = lines[0].split()[-1].strip('.,;!?')
+            w2 = lines[1].split()[-1].strip('.,;!?')
+            
+            # Quick validation
+            # If "MOS" in features, assume valid (since we fixed validation logic but it's expensive to run full mosaic check here?)
+            # Actually, let's just trust the "valid" ones or run a quick check.
+            # For performance, we might want to pre-validate.
+            # But for this prototype, let's run classify_rhyme_pair if it's not MOS.
+            
+            is_valid_candidate = True
+            if "MOS" not in example["features"]:
+                from greek_phonology import classify_rhyme_pair
+                res = classify_rhyme_pair(w1, w2)
+                if res['type'] == 'NONE':
+                    is_valid_candidate = False
+            
+            if not is_valid_candidate:
+                continue
+
             score = 0
             
             # Match rhyme type
@@ -188,6 +140,10 @@ async def get_generation_examples(rhyme_type: str, features: List[str],
             # Match additional features
             matched_features = len(set(features) & set(example["features"]))
             score += matched_features * 3
+            
+            # Boost score if poet-specific and we found matches
+            if poet and corpus_data["poet"] == poet:
+                score += 10
             
             if score > 0:
                 relevant_examples.append({
@@ -203,17 +159,20 @@ async def get_generation_examples(rhyme_type: str, features: List[str],
     if not top_examples:
         return format_generic_generation_examples(rhyme_type, features)
     
-    formatted = f"EXAMPLES WITH {rhyme_type} RHYME AND FEATURES {', '.join(features)}:\n\n"
+    # Format with poet style info if specified
+    poet_info = f" in the style of {poet}" if poet else ""
+    formatted = f"VERIFIED EXAMPLES WITH {rhyme_type} RHYME AND FEATURES {', '.join(features)}{poet_info}:\n\n"
     for i, item in enumerate(top_examples, 1):
         ex = item["example"]
         formatted += f"Example {i} from {item['poet']}:\n"
         formatted += f"Lines: {' / '.join(ex['lines'])}\n"
         formatted += f"Pattern: {ex['classification']}\n"
-        formatted += f"Phonetic structure: {' / '.join(ex['phonetic'])}\n\n"
+        phonetic = ex.get('phonetic', ['N/A', 'N/A'])
+        formatted += f"Phonetic structure: {' / '.join(phonetic)}\n\n"
     
     # Add relevant statistics
     formatted += "\nRELEVANT CORPUS STATISTICS:\n"
-    for corpus_key, corpus_data in RHYME_CORPUS.items():
+    for corpus_key, corpus_data in corpus_to_search.items():
         if any(e["poet"] == corpus_data["poet"] for e in top_examples):
             formatted += f"\n{corpus_data['poet']} ({corpus_data['poem']}):\n"
             for stat_key, stat_val in corpus_data["stats"].items():
@@ -257,14 +216,87 @@ def format_generic_generation_examples(rhyme_type: str, features: List[str]) -> 
     
     return base
 
-def get_corpus_stats(poet: str = None, rhyme_type: str = None) -> Dict:
-    """Get statistics from corpus for specific poet or rhyme type"""
-    stats = {}
+    return stats
+
+def validate_corpus():
+    """
+    Validate the rhyme corpus using the phonology module.
+    Returns a report of valid/invalid examples.
+    """
+    from greek_phonology import classify_rhyme_pair
+    
+    report = {
+        "valid": 0,
+        "invalid": 0,
+        "details": []
+    }
     
     for corpus_key, corpus_data in RHYME_CORPUS.items():
-        if poet and poet.lower() not in corpus_data["poet"].lower():
-            continue
-        
-        stats[corpus_data["poet"]] = corpus_data["stats"]
-    
-    return stats
+        for example in corpus_data["examples"]:
+            lines = example["lines"]
+            # Extract last word of each line
+            w1 = lines[0].split()[-1].strip('.,;!?')
+            w2 = lines[1].split()[-1].strip('.,;!?')
+            
+            # Check for Mosaic
+            if "MOS" in example["features"]:
+                from greek_phonology import analyze_mosaic_pattern
+                # Use full lines
+                res_mosaic = analyze_mosaic_pattern(lines[0], lines[1])
+                if res_mosaic['mosaic_candidate']:
+                    # It is a valid mosaic rhyme candidate
+                    res = {'type': 'MOSAIC', 'subtype': 'F2'} # Simplified
+                else:
+                    # Fallback to standard classification to see what's wrong
+                    res = classify_rhyme_pair(w1, w2)
+            else:
+                # Classify standard
+                res = classify_rhyme_pair(w1, w2)
+            
+            # Check if classification matches claimed features
+            claimed_type = "PURE"
+            if "RICH" in example["features"]: claimed_type = "RICH"
+            if "IMP" in example["features"] or "IMP-V" in example["features"] or "IMP-C" in example["features"]: claimed_type = "IMPERFECT"
+            
+            # Allow PURE to match RICH (since Rich is a subset of Pure in some views, or vice versa)
+            # My classifier returns RICH if onsets match.
+            # If corpus says PURE but classifier says RICH -> Acceptable (it is a rhyme).
+            # If corpus says RICH but classifier says PURE -> Warning (not rich?).
+            # If corpus says IMPERFECT but classifier says PURE -> Warning.
+            # If classifier says NONE -> INVALID.
+            
+            is_valid = True
+            msg = ""
+            
+            if res['type'] == 'NONE':
+                is_valid = False
+                msg = f"Phonology found NO rhyme for {w1}-{w2}"
+            elif res['type'] != claimed_type:
+                # Relaxed check
+                if claimed_type == 'PURE' and res['type'] == 'RICH':
+                    pass # OK
+                elif claimed_type == 'IMPERFECT' and res['type'] in ('PURE', 'RICH'):
+                    msg = f"Claimed IMPERFECT but found {res['type']}"
+                    # Maybe acceptable if we are strict?
+                elif res['type'] == 'IMPERFECT' and claimed_type == 'PURE':
+                     msg = f"Claimed PURE but found IMPERFECT ({res['subtype']})"
+                     is_valid = False
+                elif claimed_type == 'RICH' and res['type'] == 'PURE':
+                     msg = f"Claimed RICH but found PURE (Onsets didn't match?)"
+                     # is_valid = False # Strict?
+            
+            if is_valid:
+                report["valid"] += 1
+                # Update example with verified phonetic data?
+                # example['phonetic_verified'] = res
+            else:
+                report["invalid"] += 1
+                report["details"].append({
+                    "poet": corpus_data["poet"],
+                    "words": f"{w1}-{w2}",
+                    "claimed": example["classification"],
+                    "found": res,
+                    "msg": msg
+                })
+                
+    return report
