@@ -1,152 +1,58 @@
-# Greek Rhyme Analyzer & Generator
+# Greek Rhyme: Hybrid Neuro-Symbolic System
 
-A complete system for identifying and generating rhyme patterns in Modern Greek poetry using LLMs. Based on the taxonomy from Topintzi et al. (2019).
+This repository contains the official implementation of the **Hybrid Neuro-Symbolic Greek Rhyme Generation System**, as described in our research. It includes both the interactive web application and the code required to reproduce our experimental results.
 
-## Features
+## Repository Structure
 
-### 🔍 Rhyme Identification
-- **Multiple Prompting Strategies**: Zero-shot, Few-shot, Chain-of-Thought
-- **Comprehensive Taxonomy**: M/F2/F3, RICH, IDV, MOS, IMP, COPY patterns
-- **Multi-Model Support**: Claude, Gemini, GPT, Llama, Qwen, Mistral
+- **`app.py`**: The FastAPI backend for the interactive web application.
+- **`static/`**: Frontend assets (HTML, JS, CSS) for the web interface.
+- **`src/`**: Core source code for the phonological engine and logic (used by both the App and Reproduction scripts).
+- **`data/`**: The verified rhyme corpus (`complete_corpus_enhanced.json`).
+- **`requirements.txt`**: Python dependencies.
 
-### ✍️ Rhyme Generation
-- **Customizable Parameters**: Theme, rhyme type, features, line count
-- **Pattern-Based**: Generate specific rhyme structures
-- **RAG-Enhanced**: Use corpus examples for better quality
+## 1. Running the Web Application
 
-### 🤖 Supported Models
+The web app provides an interactive interface to generate poems with specific rhyme constraints and visualize the verification feedback loop.
 
-**Claude**
-- Sonnet 4.5 (Latest)
-- Sonnet 3.7
+### Setup
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Set API Keys in a `.env` file (see `.env.example` or code):
+   - `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`
 
-**Gemini**
-- 3 Pro (Best multimodal)
-- 2.5 Pro (Advanced thinking)
-- 2.5 Flash (Fast & intelligent)
-- 2.5 Flash-Lite (Ultra fast)
-- 2.0 Flash
-
-**OpenAI**
-- GPT-4o
-
-**Open Models (via OpenRouter)**
-- Llama 3.3 70B / 3.1 70B
-- Qwen 2.5 72B
-- Mistral Large
-
-## Setup
-
-### 1. Install Dependencies
+### Launch
+Run the server:
 ```bash
-pip install -r requirements.txt
+uvicorn app:app --reload
 ```
+Open `http://localhost:8000` in your browser.
 
-### 2. Configure API Keys
+## 2. Reproducing Research Results
+
+To reproduce the statistics and benchmarks reported in the paper, use the scripts in the `src/` directory.
+
+### Setup
+Ensure your PYTHONPATH includes the `src` directory:
 ```bash
-cp .env.example .env
-# Edit .env with your API keys
+export PYTHONPATH=$PYTHONPATH:$(pwd)/src
 ```
 
-### 3. Run Backend
+### Experiments
+
+**A. Evaluation of Generation (Table 5)**
+Measures validity rates of different models with and without verification.
 ```bash
-python app.py
+python src/evaluate_system.py --model gpt-4o --num-samples 50
 ```
 
-### 4. Open Frontend
-Open `index.html` in your browser or serve it:
+**B. Rhyme Identification Benchmarks (Table 2)**
+Tests the model's ability to classify rhyme types (M, F2, F3, etc.).
 ```bash
-python -m http.server 8080
+python src/evaluate_identification.py --model claude-3-sonnet
 ```
-Then visit http://localhost:8080
-
-## Architecture
-
-```
-greek_rhyme_system/
-├── app.py              # FastAPI backend with model APIs
-├── prompts.py          # Prompting strategies (5 types)
-├── rag_system.py       # RAG retrieval from corpus
-├── index.html          # Frontend interface
-├── requirements.txt    # Python dependencies
-└── .env               # API keys (create from .env.example)
-```
-
-## Rhyme Classification System
-
-### Position Types
-- **M** (Masculine): Final stressed vowel
-- **F2** (Feminine-2): Penultimate stressed vowel
-- **F3** (Feminine-3): Antepenultimate stressed vowel
-
-### Features
-- **RICH**: Onset consonants match (TR-S, TR-CC, PR-C1, PR-C2)
-- **IDV**: Pre-rhyme vowel identity (IDV-2W across words)
-- **MOS**: Mosaic (crosses word boundaries)
-- **IMP**: Imperfect (IMP-V vowel, IMP-C consonant, IMP-0F/0M zero alternation)
-- **COPY**: Complete repetition
-
-## API Endpoints
-
-### POST /identify
-Identify rhymes in Greek text.
-```json
-{
-  "text": "Πάνω στην άμμο...",
-  "model": "gemini-2.5-pro",
-  "prompt_strategy": "few_shot_cot",
-  "use_rag": true
-}
-```
-
-### POST /generate
-Generate Greek poetry with specified patterns.
-```json
-{
-  "theme": "η θάλασσα",
-  "rhyme_type": "F2",
-  "features": ["RICH", "IDV"],
-  "num_lines": 4,
-  "model": "claude-sonnet-4.5",
-  "use_rag": true
-}
-```
-
-### GET /models
-List available models.
-
-## RAG System
-
-The RAG system retrieves relevant examples from the Greek Rhyme corpus:
-- Solomos (Hymn to Freedom)
-- Mavilis (23 Sonnets)
-- Palamas (The Twelve Words of the Gypsy)
-- Karyotakis
-- Varnalis
-
-## Prompting Strategies
-
-1. **Zero-Shot Structured**: Taxonomy-based instructions
-2. **Zero-Shot Algorithm**: Mimics detection algorithm
-3. **Few-Shot**: 4 worked examples
-4. **Zero-Shot CoT**: Step-by-step reasoning framework
-5. **Few-Shot CoT**: Examples with explicit reasoning
 
 ## Citation
-
-Based on:
-> Topintzi, N., Avdelidis, K., & Valkanou, T. (2019). Greek Rhyme (GrR): A database on rhyme in Greek poetry. *Selected Papers of ISTAL 23*, 429-447.
-
-## Future Enhancements
-
-- [ ] Vector embeddings for semantic RAG
-- [ ] Fine-tuning on GRDD dataset
-- [ ] Phonetic transcription integration
-- [ ] Extended corpus (Seferis, Elytis, etc.)
-- [ ] Statistical analysis dashboard
-- [ ] Multi-poet comparison tools
-- [ ] Real-time collaborative annotation
-
-## License
-
-Research use. See paper for corpus details.
+If you use this code or data, please cite our paper:
+[BibTeX entry]
