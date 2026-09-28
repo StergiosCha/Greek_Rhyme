@@ -1,0 +1,743 @@
+🌟 Loading Complementary Test Set from complementary_test_set.json...
+✓ Loaded 14 complementary poems.
+
+================================================================================
+IDENTIFICATION EVALUATION: mistral-large
+================================================================================
+Strategies: zero_shot_structured, zero_shot_cot
+Total tests: 56
+================================================================================
+
+
+[1/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_1
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 11.54s
+💾 Checkpoint saved: 1/56
+
+[2/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_2
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.44s
+💾 Checkpoint saved: 2/56
+
+[3/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_3
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.21s
+💾 Checkpoint saved: 3/56
+
+[4/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_4
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: BOTH-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.02s
+💾 Checkpoint saved: 4/56
+
+[5/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_5
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.69s
+💾 Checkpoint saved: 5/56
+
+[6/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_6
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.47s
+💾 Checkpoint saved: 6/56
+
+[7/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_7
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: LINE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.27s
+💾 Checkpoint saved: 7/56
+
+[8/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_8
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.62s
+💾 Checkpoint saved: 8/56
+
+[9/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_9
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.50)
+Time: 11.18s
+💾 Checkpoint saved: 9/56
+
+[10/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_10
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.50)
+Time: 9.96s
+💾 Checkpoint saved: 10/56
+
+[11/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_11
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-C1+IMPERFECT+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.33)
+Time: 12.10s
+💾 Checkpoint saved: 11/56
+
+[12/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_12
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: F2-IDV+IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.67)
+Time: 12.92s
+💾 Checkpoint saved: 12/56
+
+[13/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_13
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.92s
+💾 Checkpoint saved: 13/56
+
+[14/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITH-RAG_14
+Model: mistral-large, Strategy: zero_shot_structured, RAG: True
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: F2-IDV+PURE
+Rhyme type: ✓
+Features: ✗ (F1=0.67)
+Time: 9.98s
+💾 Checkpoint saved: 14/56
+
+[15/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_1
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.37s
+💾 Checkpoint saved: 15/56
+
+[16/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_2
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.86s
+💾 Checkpoint saved: 16/56
+
+[17/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_3
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: 1-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.81s
+💾 Checkpoint saved: 17/56
+
+[18/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_4
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: RHYME-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.80s
+💾 Checkpoint saved: 18/56
+
+[19/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_5
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.09s
+💾 Checkpoint saved: 19/56
+
+[20/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_6
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: LINES-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.17s
+💾 Checkpoint saved: 20/56
+
+[21/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_7
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: IMP-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.40s
+💾 Checkpoint saved: 21/56
+
+[22/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_8
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.15s
+💾 Checkpoint saved: 22/56
+
+[23/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_9
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: M-C2+F2+IMPERFECT+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.29)
+Time: 14.33s
+💾 Checkpoint saved: 23/56
+
+[24/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_10
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.75s
+💾 Checkpoint saved: 24/56
+
+[25/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_11
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.57s
+💾 Checkpoint saved: 25/56
+
+[26/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_12
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: STRESS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.49s
+💾 Checkpoint saved: 26/56
+
+[27/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_13
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.31s
+💾 Checkpoint saved: 27/56
+
+[28/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_structured_WITHOUT-RAG_14
+Model: mistral-large, Strategy: zero_shot_structured, RAG: False
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: RHYME-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.86s
+💾 Checkpoint saved: 28/56
+
+[29/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_1
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: ONSET-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.95s
+💾 Checkpoint saved: 29/56
+
+[30/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_2
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: F2-0F+IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 22.96s
+💾 Checkpoint saved: 30/56
+
+[31/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_3
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: F3-IDV+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 17.25s
+💾 Checkpoint saved: 31/56
+
+[32/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_4
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: F3-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 20.88s
+💾 Checkpoint saved: 32/56
+
+[33/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_5
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 22.29s
+💾 Checkpoint saved: 33/56
+
+[34/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_6
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: NOT-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.17s
+💾 Checkpoint saved: 34/56
+
+[35/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_7
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: NOT-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 23.76s
+💾 Checkpoint saved: 35/56
+
+[36/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_8
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: F2-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 30.76s
+💾 Checkpoint saved: 36/56
+
+[37/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_9
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: ONSET-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 24.01s
+💾 Checkpoint saved: 37/56
+
+[38/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_10
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: 2-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.33s
+💾 Checkpoint saved: 38/56
+
+[39/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_11
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: 2-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 27.54s
+💾 Checkpoint saved: 39/56
+
+[40/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_12
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.45s
+💾 Checkpoint saved: 40/56
+
+[41/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_13
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: OF-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.72s
+💾 Checkpoint saved: 41/56
+
+[42/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITH-RAG_14
+Model: mistral-large, Strategy: zero_shot_cot, RAG: True
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: FROM-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.32s
+💾 Checkpoint saved: 42/56
+
+[43/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_1
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 25.19s
+💾 Checkpoint saved: 43/56
+
+[44/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_2
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 28.15s
+💾 Checkpoint saved: 44/56
+
+[45/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_3
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: F3-IDV+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 29.34s
+💾 Checkpoint saved: 45/56
+
+[46/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_4
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: UNSTRESSED-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 27.98s
+💾 Checkpoint saved: 46/56
+
+[47/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_5
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-IMPERFECT+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 35.57s
+💾 Checkpoint saved: 47/56
+
+[48/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_6
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 29.75s
+💾 Checkpoint saved: 48/56
+
+[49/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_7
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 26.54s
+💾 Checkpoint saved: 49/56
+
+[50/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_8
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 44.45s
+💾 Checkpoint saved: 50/56
+
+[51/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_9
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: ONSET-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 24.50s
+💾 Checkpoint saved: 51/56
+
+[52/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_10
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 28.73s
+💾 Checkpoint saved: 52/56
+
+[53/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_11
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-IMPERFECT+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.40)
+Time: 38.80s
+💾 Checkpoint saved: 53/56
+
+[54/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_12
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: F3-IDV+IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.67)
+Time: 29.41s
+💾 Checkpoint saved: 54/56
+
+[55/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_13
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 31.26s
+💾 Checkpoint saved: 55/56
+
+[56/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: mistral-large_zero_shot_cot_WITHOUT-RAG_14
+Model: mistral-large, Strategy: zero_shot_cot, RAG: False
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 28.32s
+💾 Checkpoint saved: 56/56
+
+================================================================================
+✅ mistral-large COMPLETE!
+================================================================================
+📁 Results saved to: complementary_results_mistral_large.json

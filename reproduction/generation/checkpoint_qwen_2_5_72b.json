@@ -1,0 +1,62 @@
+{
+  "model": "qwen-2.5-72b",
+  "completed_tests": 2,
+  "results": [
+    {
+      "test_id": "qwen-2.5-72b_WITH-RAG_1",
+      "model": "qwen-2.5-72b",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Αγάπης το δόρυ μου φωτίζει στη νύχτα,  \nκαι ζωή μου είναι η μία δύναμίσ' της πρωί.  \nσε χειρονομία δεν πεθαίνει, ο δρόμος μου  \nνα ξεκερματίζει, σαν το μάρισι να χθώνι.  \n\nΤις καρδιές μας περνούν από τις γλυκειάς πεινες,  \nκαι ακούω τη φωνή σου, που διασκεδάζει τις μωρίες.  \nσε κάθε κύμα, ο συνδεσμός μου προσπίπτει,  \nκαι πίσα μου αναδύεται, η δύναμη της αγάπης.\n\n**Φωνητικές Αναδρομές:**\n- νύχτα [níkhta] / πρωί [proí] (φωνητική συνέχεια: \"χτα\" / \"ρωί\")\n- δρόμος [drómos] / μαθώνι [mathóni] (φωνητική συνέχεια: \"όσ\" / \"ώνι\")\n- πεινες [pínis] / μωρίες [moríis] (φωνητική συνέχεια: \"ίς\" / \"ίς\")\n- προσπίπτει [prospípte] / αγάπης [agápisis] (φωνητική συνέχεια: \"ί\" / \"ί\")",
+      "no_verify_time": 17.92574191093445,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'νύχτα' / 'πρωί'",
+        "No rhyme: 'δρόμος μου' / 'χθώνι'",
+        "No rhyme: 'γλυκειάς πεινες' / 'μωρίες'",
+        "No rhyme: 'προσπίπτει' / 'αγάπης'",
+        "No rhyme: 'Αναδρομές' / 'νύχτα'",
+        "No rhyme: 'δρόμος' / '- πεινες'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 6,
+      "with_verify_poem": "*eisaste i Glyki Diafora ton Emfilinei Polemon*\n\n1. Eisaste i glýki diaforá ton emfíline polemón,  \n2. Poy káneis kapoees tros iméno sto anemón.  \n3. Sti n ás-prη de ník-ta kse-ku-rá-se,  \n4. Ke ti ni η-re-mi-a mu a-ga-pá,  \n5. Apo to rági ton idríomin, lachio úno fó-son,  \n6. Enas gélos ono-má-tos ke éno to polém翁,  \n7. Se tin diá ton agápis, ka-eís prospa-thós ke a-noi,  \n8. Na sh.UInto kápos moními stin ay-kon ó-nou.  \n\n*Phonetic Annotations:*\n\n1. [eɪˈsa.sti i ˈɡli.ki ði.aˈfo.ra ton emfiˈlini peˈlɔ.mɔn]  \n2. [pi ˈɡa.nez kaˈpo.ɡes ˈtros iˈme.nɔs sto anɛˈmɔ.n]  \n3. [sti n ˈas.pri ðɛ ˈnik.ta kse.kuˈra.se]  \n4. [ce ti ni iˈre.mi.a mu aˈɡa.pa]  \n5. [ˈapo to ˈra.ʝi ton ˈi.dri.omɛn ˈlaxi.o ˈu.no ˈfo.son]  \n6. [eˈnas ˈʝɛ.los oˈno.ma.tos ce ˈe.no to ˈpo.le.mɔn]  \n7. [se tin ˈði.a ton aˈɡapis ca.ˈiːz pros.paˈtʰos ke aˈno.i]  \n8. [na ˈʃin.to ˈka.pos moˈni.mi stin ˈ NXT ˈɔ.nu]  \n\n*Note: The final line has been adjusted to ensure a correct phonetic structure and rhyme pattern.*\n\nPlease verify and let me know if any further adjustments are needed.",
+      "with_verify_time": 64.37127089500427,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 1,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "qwen-2.5-72b_WITH-RAG_2",
+      "model": "qwen-2.5-72b",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στην θάλασσα τη σιωπή, όπου τα κύματα χορεύουν,  \nκαι το φως του μηνημένου σε πάνω χρυσογέννη,  \nψιλά σ' αλκούρδα τηρεί, με τινάκια υποδείκνυσε,  \nκαι διευθύνει τ' εύστροφα στην άγνα πλευρά σου.  \n\nΧαιρετίζει την μπάτη, με αέρα που ντυνίζεται,  \nκαι το κύμα στέλνει διαφανές, σα θεός που δομένει,  \nμε γλυκύ ανάμεσα, την οίνιστρα στο ρεύμα μας,  \nκαφεκάτο, που προσβλέπει σε πικρό χαϊδεύμα, σου.",
+      "no_verify_time": 19.13125205039978,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'χορεύουν' / 'χρυσογέννη'",
+        "No rhyme: 'υποδείκνυσε' / 'πλευρά σου'",
+        "No rhyme: 'ντυνίζεται' / 'δομένει'",
+        "No rhyme: 'ρεύμα μας' / 'χαϊδεύμα, σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Εν μυστικά γεννιόμαστε στην ζήτη,\nΣτην βάθρο 'ναν η αρχή, στη φωνή σου η σήτη,\n\nΜε τα αλμυρά της α Triton, ξεπέρνησε την ζάλη,\nΚαι ο πλανός ναυτός ευχόταν, για ήρεμη στάλη,\n\nΣτις υγρές μορφές της θάλασσας κρύβει ψυχότη,\nΚι οι αλέες με λάλει χαρά, με πολύ ελπίτη,\n\nΑπό σιδηρά γραφικά που ανήκουν εις πραγματότη,\nΚάθε πλοίο πια πλέει μενεξένεργη, με όμορφή θαυματότη,\n\nΤα κύματα μ' αφρόν όλα μοιράζονται ξεψυχολασία,\nΚι ο άνεμος με 'χει αναπνέει, στο αυτερνίσιο Φλιτζελία.",
+      "with_verify_time": 139.32153797149658,
+      "with_verify_attempts": 10,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 5,
+      "with_verify_total_pairs": 5,
+      "improvement": 100.0
+    }
+  ]
+}

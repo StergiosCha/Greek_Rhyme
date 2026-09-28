@@ -1,0 +1,1793 @@
+{
+  "model": "gpt-4o",
+  "completed_tests": 70,
+  "test_poems": [
+    {
+      "text": "στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Για μένα, λέω που σε πολλά βλέπουν πολλές αλήθειες*Θυμούμαι που εδιάβασα σε ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Αλλά η ζωή . . . . . . .  κι είναι άλλοπαρά όνειρο —και δυστυχής όποιος το ιδεί μεγάλο.",
+      "poet": "Anemoskala",
+      "rhyme_type": "M",
+      "features": [
+        "UNKNOWN"
+      ],
+      "pattern": "M-UNKNOWN"
+    },
+    {
+      "text": "Εργάζομ’ εις το έργον μου εγώ. / [........................................]",
+      "poet": "Anemoskala",
+      "rhyme_type": "M",
+      "features": [
+        "UNKNOWN"
+      ],
+      "pattern": "M-UNKNOWN"
+    },
+    {
+      "text": "[1819] / .........................................",
+      "poet": "Anemoskala",
+      "rhyme_type": "M",
+      "features": [
+        "UNKNOWN"
+      ],
+      "pattern": "M-UNKNOWN"
+    },
+    {
+      "text": "απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη με ομιλείς αν θέλεις, μη με πεις γοητευτικά",
+      "poet": "Anemoskala",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "M-PURE"
+    },
+    {
+      "text": "τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτσι, μια σταλιά–",
+      "poet": "TellosAgras",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "pattern": "M-PURE-IDV"
+    },
+    {
+      "text": "Ταχήρ / Αλής",
+      "poet": "Anemoskala",
+      "rhyme_type": "M",
+      "features": [
+        "IMP",
+        "C",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "pattern": "M-IMP-C-IMPERFECT-IDV"
+    },
+    {
+      "text": "φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμολόι του τ' αγαθό",
+      "poet": "TellosAgras",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "pattern": "M-PURE-IDV"
+    },
+    {
+      "text": "η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί.",
+      "poet": "TellosAgras",
+      "rhyme_type": "M",
+      "features": [
+        "RICH"
+      ],
+      "pattern": "M-RICH"
+    },
+    {
+      "text": "Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος; / Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολάδειο. Τόπο! Τόπο!",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "pattern": "F2-IMP-C-IMPERFECT"
+    },
+    {
+      "text": "Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια καλά παιδιά, τα παινεμένα!",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "IMP",
+        "V",
+        "IMPERFECT"
+      ],
+      "pattern": "F2-IMP-V-IMPERFECT"
+    },
+    {
+      "text": "τι τα αρώματά τους / μες στα σωθικά τους,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας, / δράκοντας αίμα ρηγικό μυρίζεται το τέρας.",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσια κι απ' τα χνούδια.",
+      "poet": "TellosAgras",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και σκυλιά την κομματιάζουν",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χειρότερα.",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "pattern": "F3-PURE-IDV"
+    },
+    {
+      "text": "λαμβάνει, αι χορδαί αυτής την ποίησιν / εκπέμπουν της θερμής Ασίας — μύησιν",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F3-PURE"
+    },
+    {
+      "text": "Σπούδαξε, να σε στιμάρουνε! * / Βλέπω γω πώς με τρατάρουνε! *",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F3-PURE"
+    },
+    {
+      "text": "Επέστρεφε συχνά και παίρνε με, / αγαπημένη αίσθησις επέστρεφε και παίρνε με —",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "RICH"
+      ],
+      "pattern": "F3-RICH"
+    },
+    {
+      "text": "για ν’ ακούστε… τί τηράζετε; / Tromba acustica χρειάζεται.",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F3-PURE"
+    },
+    {
+      "text": "Και τώρα, νά, κηρύσσεται / στα σπίτια θα γυρίσετε,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "IMP",
+        "0",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "pattern": "F3-IMP-0-IMPERFECT-IDV"
+    },
+    {
+      "text": "Αυτά οπού ευφραίνουν, αυτά πικραίνουνε· / κι επάνω εις τους τάφους, που κλαίμε, βγαίνουνε,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F3-PURE"
+    },
+    {
+      "text": "παρά καθάριους ουρανούς, αστροφεγγιές και κύματα / χωρίς αφρούς να ξεψυχούν σε περιγιάλια μνήματα!",
+      "poet": "Anemoskala",
+      "rhyme_type": "F3",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F3-PURE"
+    },
+    {
+      "text": "που μου κάνουν των κόσμων οι ομορφάδες· / της καρδιάς, κι οι ορμές, Λάμιες και Μαινάδες,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE"
+      ],
+      "pattern": "F2-PURE"
+    },
+    {
+      "text": "το αστροσυγνεφοσκέπαστο της Φαντασίας παλάτι, / χέρι ασυλλόγιστου ή τυφλού το δρόμο του να κάνει,",
+      "poet": "Anemoskala",
+      "rhyme_type": "F2",
+      "features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "pattern": "F2-IMP-C-IMPERFECT"
+    }
+  ],
+  "results": [
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_1",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Για μένα, λέω που σε πολλά βλέπουν πολλές αλήθειες*Θυμούμαι που εδιάβασα σε ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Αλλά η ζωή . . . . . . .  κι είναι άλλοπαρά όνειρο —και δυστυχής όποιος το ιδεί μεγάλο.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 14.63079023361206,
+      "raw_output": "Let's analyze the provided poetry for rhyme patterns following the given taxonomy:\n\n**Poem Analysis:**\n\n1. **Lines 1 and 2:**\n   - Text: \"Είδα σε φιλοσοφική ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.\"\n   - Phonetic: /ku.ta.'ma.ða/ \n   - Rhyme domain: Starts from the stressed vowel of the word \"κουταμάδα\" in line 2.\n   - **Position-based classification:** Since the stress is on the penultimate syllable of the word \"κουταμάδα,\" it fits the F2 category.\n   - **Complexity features:** \n     - This is an F2-PURE rhyme with line-final rhyming words \"φυλλάδανα\" and \"κουταμάδα.\" No additional complexity features such as RICH, IDV or IMP are observed.\n   - **Classification:** F2-PURE.\n\n2. **Lines 3 and 4:**\n   - Text: \"Αλλά η ζωή . . . . . . . κι είναι άλλοπαρά όνειρο —και δυστυχής όποιος το ιδεί μεγάλο.\"\n   - Phonetic: /me'.ɣa.lo/\n   - Rhyme domain: Starts from the stressed vowel of the word \"μεγάλο\" in line 4.\n   - **Position-based classification:** The stress in \"μεγάλο\" is on the antepenultimate syllable, classifying it as F3.\n   - **Complexity features:** \n     - The rhyme here is imperfect as the word \"αλήθειες\" from line 3 does not have a matching ending with \"μεγάλο\" from line 4.\n     - The pattern can be characterized by F3-IMP-V as the stressed vowel differs.\n   - **Classification:** F3-IMP-V. \n\n**Summary:**\n\n- Lines 1 and 2 form an F2-PURE rhyme with \"φυλλάδα\" and \"κουταμάδα.\"\n- Lines 3 and 4 form an F3-IMP-V rhyme due to the imperfect vowel match between words in line 3 and end of line 4 with \"μεγάλο.\""
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_2",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Εργάζομ’ εις το έργον μου εγώ. / [........................................]",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 3.6560189723968506,
+      "raw_output": "To perform a rhyme analysis on the given line, we'll need additional lines from the poem to identify rhyme pairs and their classifications. Since the task requires comparing rhyme domains between lines, I can only proceed with the analysis assuming additional lines. If there are no additional lines provided, it's impossible to analyze rhyme patterns with just a single line.\n\nIf you provide more lines, I can continue the analysis, identifying potential rhyme pairs and classifying them based on the provided taxonomy."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_3",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "[1819] / .........................................",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 3.052399158477783,
+      "raw_output": "In order to analyze the rhymes of the given poem excerpt [1819], I'll need the text of the poem itself to identify and classify the rhyme patterns. Please provide the lines you would like me to analyze, so I can determine the rhyme domains, their phonetic transcriptions, and apply the rhyme taxonomy appropriately."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_4",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη με ομιλείς αν θέλεις, μη με πεις γοητευτικά",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "M",
+      "predicted_features": [
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.14272403717041,
+      "raw_output": "To analyze the rhyme pattern in the provided lines of Modern Greek poetry, we need to follow these steps:\n\n1. **Identify line-final stress position**:\n   - Line 1: \"καρδιά\" - Stress is on the final syllable.\n   - Line 2: \"γοητευτικά\" - Stress is on the final syllable.\n\n2. **Extract rhyme domain**:\n   - Line 1: From the stressed vowel \"ά\" rightward, the rhyme domain is /a/.\n   - Line 2: From the stressed vowel \"ά\" rightward, the rhyme domain is /ka/.\n\n3. **Compare rhyme domains**:\n   - Phonetic comparison: The two lines end with \"καρδιά\" (/karˈðʝa/) and \"γοητευτικά\" (/ɣoitefˈtiˌka/).\n\n4. **Classify by position**:\n   - Both rhyme domains start from the final stressed vowel, making them masculine rhymes (M).\n\n5. **Identify features using complexity categories**:\n   - **RICH**: The onset consonants after the stressed vowel are different (/-ðʝa/ vs. /-ka/), so they do not match for total or partial rich rhyme.\n   - **IDV**: The pre-rhyme vowels are different (/a/ vs. /i/), so there is no identity vowel match.\n   - **MOS**: There is no crossing of word boundaries in the rhyme domain.\n   - **IMP**: Although they share the same final stressed vowel \"α,\" the consonant sounds (/ðʝ/ vs. /k/) differ, indicating an imperfect consonant match (IMP-C).\n\n6. **Use phonetic similarity, not just orthography**.\n\n### Final Analysis:\n- **Line Numbers**: 1 & 2\n- **Rhyme Domain (Phonetic Transcription)**: /karˈðʝa/ - /ɣoitefˈtiˌka/\n- **Classification**: M-IMP-C\n- **Explanation**: Both lines end in a masculine rhyme with the same final stressed vowel \"α.\" The consonants following the stressed vowels in the rhymes differ, resulting in an imperfect consonant match (IMP-C)."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_5",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτσι, μια σταλιά–",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.614013195037842,
+      "raw_output": "Let's analyze the rhyme from the given lines of your poem.\n\n### Lines:\n1. \"τυφλή βροχή σπάει, στα γυαλιά.\"\n2. \"Αχ, να 'νοιγα –έτσι, μια σταλιά–\"\n\n### Analysis:\n\n1. **Identify Line-Final Stress Position:**\n   - Line 1: »στα γυαλιά« - Final stressed vowel is /a/ in »γυαλιά«.\n   - Line 2: »μια σταλιά« - Final stressed vowel is /a/ in »σταλιά«.\n\n2. **Extract Rhyme Domain (from stressed vowel rightward):**\n   - Line 1: /ʝɐ/\n   - Line 2: /ʝɐ/\n\n3. **Compare with Other Lines:**\n   - Within the provided two lines, the rhyme occurs in this pair.\n\n4. **Classify by Position (M/F2/F3):**\n   - Both lines have the stress on the final syllable, making this a Masculine (M) rhyme.\n\n5. **Identify Features (RICH, IDV, MOS, IMP, COPY):**\n   - The rhyme is a straightforward phonetic match without any consonant mismatch or additional complexities like crossing word boundaries. It is a pure rhyme with identical final suffixes.\n   - **RICH Feature:** Neither line starts with a sufficiently complex onset to merit categorization of TR-S or TR-CC, as \"γυαλιά\" and \"σταλιά\" share identical vowel and consonant rhymes after their final stressed vowel.\n   - There are no indicators of IDV, MOS, or IMP features since the rhymes are matched straightforwardly without mismatches.\n\n### Result:\n- **Pattern:** M-PURE\n- **Phonetic Rhyme Domain:** /ʝɐ/ in both \"γυαλιά\" and \"σταλιά\"\n- **Explanation:** Both lines end with the same vowel sound, with no mismatches or additional features. Thus, it is a pure masculine rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_6",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Ταχήρ / Αλής",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 2.3702728748321533,
+      "raw_output": "Certainly! Let's analyze the rhyme patterns in the poem \"Ταχήρ / Αλής.\" Please provide the lines from the poem so I can identify and classify the rhyme patterns according to the given taxonomy."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_7",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμολόι του τ' αγαθό",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "OF",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 14.51015591621399,
+      "raw_output": "To analyze the rhyme pattern of the given poem lines in Modern Greek poetry, we apply the pre-defined taxonomy and analytical procedure step-by-step:\n\n**Lines:**\n1. φέρνεις τον καλό το μήνα, τον ξανθό,\n2. και το χαμολόι του τ' αγαθό\n\n**Step 1: Identify line-final stress position**\n- Line 1 ends with \"ξανθό\" (ξανθ-ó), where the stressed vowel is \"ó\".\n- Line 2 ends with \"αγαθό\" (αγαθ-ó), where the stressed vowel is \"ó\".\n\n**Step 2: Extract rhyme domain (from stressed vowel rightward)**\n- Rhyme domain of Line 1: -ό\n- Rhyme domain of Line 2: -ό\n\n**Step 3: Compare with other lines (scan 4-line window by default)**\n- Within these two lines, a rhyme is evident between \"ξανθό\" and \"αγαθό\".\n\n**Step 4: Classify by position**\n- Both rhyme domains begin with the final stressed vowel and extend to the line ends. Hence, these fall under the category of Masculine rhymes (M).\n\n**Step 5: Identify features (RICH, IDV, MOS, IMP, COPY)**\n- Observing the noted phonetic features:\n  - The rhyme is pure and direct since it matches perfectly from the stressed vowel to the end of the line.\n\nAs there are no additional complexities like RICH, IDV, MOS, or IMP, these lines classify simply as a pure rhyme.\n\n**Analysis Conclusion:**\n- **Line Numbers:** 1, 2\n- **Rhyme Domain in Phonetic Transcription:** -ό\n- **Classification:** M-PURE\n- **Brief Explanation:** The final stressed vowels and the terminal phonemes of the words rhyme perfectly without any additional complexities or mismatches, resulting in a pure masculine rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_8",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί.",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "RICH"
+      ],
+      "predicted_rhyme_type": null,
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 5.857446908950806,
+      "raw_output": "**Analysis of the Given Poem:**\n\nLines:\n1. η σούστα ουδ᾽ αντηχεί:\n2. βουλιάζουν οι τροχοί.\n\n1. **Identify line-final stress position:**\n   - Line 1: αντηχεί (stressed on the final syllable)\n   - Line 2: τροχοί (stressed on the final syllable)\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Line 1: -χεί\n   - Line 2: -χοί\n\n3. **Compare with other lines (scan 4-line window by default):**\n   - Compare lines 1 and 2.\n\n4. **Classify by position (M/F2/F3):**\n   - Both words have final syllable stress, so they exhibit a masculine rhyme (M).\n\n5. **Then identify features (RICH, IDV, MOS, IMP, COPY):**\n   - The rhyme \"-χεί\" and \"-χοί\" exhibit imperfect rhyme due to a vowel difference in the rhyme domain /e/ and /i/. \n   - No onset consonant matching for rich rhyme, no vowel identity before the stressed syllable for IDV, and no word or phrase repetition for COPY.\n\n**Classification:**\n\n- **Lines:** 1-2\n- **Rhyme domain in phonetic transcription:** [xi] / [çi]\n- **Classification:** M-IMP-V\n- **Explanation:** Masculine imperfect vowel rhyme. The stressed vowels in the rhyme domains are different, but the ending consonant sounds match."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_9",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος; / Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 12.280897617340088,
+      "raw_output": "Let's analyze the rhyme pattern in the provided Modern Greek poetic lines:\n\n**Lines:**\n1. Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος;\n2. Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,\n\n**Rhyme Analysis:**\n\n1. **Line Final Stress Position**:\n   - Line 1: The stress is on the “-κό” in \"σκότος,\" making it F2 since the stress is on the penultimate syllable.\n   - Line 2: The stress is on the “-τος” in \"πρώτος,\" making it F2 as well.\n\n2. **Extract Rhyme Domain**:\n   - Line 1: [αστρικό το σκότος] - phonetic transcription: [skó.tos]\n   - Line 2: [ολύμπιος, πρώτος] - phonetic transcription: [pró.tos]\n\n3. **Rhyme Comparison**:\n   - **Phonetic Ending**: Both lines end with [-tos] which corresponds phonemically. Therefore, they share the same rhyme domain.\n   \n4. **Classification**:\n   - **Position-based**: F2 (both lines have stress on the penultimate position, leading to F2)\n   - **Complexity Features**:\n     - **RICH**: None (even though [skó] and [pró] have the same coda [-os], the onsets do not match, so it's not rich)\n     - **IDV**: None (the vowel before the stressed syllable differs: [i] in \"αστρικό\" and [o] in \"ολύμπιος\")\n     - **MOS**: None (rhyme domain is contained within a single word)\n     - **IMP**: None (the rhyme is perfect)\n\n**Rhyme Pattern Identified**: F2-PURE\n\n**Brief Explanation**: \nLines 1 and 2 exhibit a perfect rhyme of type F2, as the stress is on the penultimate syllable (\"σκότος\" and \"πρώτος\") with perfect alignment in the rhyme domain. \n\nThus, the rhyme pattern for this poem is F2-PURE based on the outlined taxonomy."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_10",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολάδειο. Τόπο! Τόπο!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.89179801940918,
+      "raw_output": "Let's analyze the rhyme pattern in the provided poem lines:\n\nLines to Analyze:\n1. \"Αφήστε μας ελεύτερο το δρόμο,\"\n2. \"φαρδύ, γυμνόν, ολάδειο. Τόπο! Τόπο!\"\n\n**Step 1: Identify line-final stress position**\n- Line 1: \"δρόμο\" ends in \"-όμο,\" with the stress on the first 'o'.\n- Line 2: \"Τόπο\" repeats with \"Τόπο,\" ending in \"-όπο,\" with the stress on the first 'o'.\n\n**Step 2: Extract rhyme domain**\n- Rhyme domain from line 1: \"-ómo\"\n- Rhyme domain from line 2: \"-ópo\"\n\n**Step 3: Compare with other lines (4-line window default)**\n- Comparison: The two lines end in \"-ómo\" and \"-ópo,\" respectively.\n\n**Step 4: Classify by position (M/F2/F3) first**\n- Both lines have a masculine rhyme: M (stress is on the penultimate syllable with the ending stressed vowel followed to line end).\n\n**Step 5: Identify features (RICH, IDV, MOS, IMP, COPY)**\n- While both share the stressed vowel \"ó,\" they differ in the consonant following the stressed vowel: 'm' in \"-ómo\" and 'p' in \"-ópo.\"\n- This is an example of consonantal difference after the stressed vowel, classifying it as an imperfect consonant: IMP-C.\n\n**Rhymes and Classification Summary:**\n- **Line Numbers:** 1 and 2\n- **Rhyme Domain in Phonetic Transcription:** \"-ómo\" / \"-ópo\"\n- **Classification:** M-IMP-C\n- **Explanation:** The rhyme is masculine with an imperfect consonant feature, where the stressed vowel is followed by differing consonants in each line."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_11",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια καλά παιδιά, τα παινεμένα!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "V",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 7.978824853897095,
+      "raw_output": "Let's analyze the given poem for rhyme patterns using the provided taxonomy:\n\n**Poem:**\n1. Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα\n2. Τ’ άξια καλά παιδιά, τα παινεμένα!\n\n**Analysis:**\n\n1. **Line 1: \"Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα\"**\n   - **Stressed vowel position:** The stress in the word \"κρίνα\" is on the penultimate syllable.\n   - **Rhyme domain:** The domain here, phonetic transcription: /krina/ \n\n2. **Line 2: \"Τ’ άξια καλά παιδιά, τα παινεμένα!\"**\n   - **Stressed vowel position:** The stress in the word \"παινεμένα\" is on the antepenultimate syllable.\n   - **Rhyme domain:** The domain here, phonetic transcription: /mena/\n\n**Rhyme Pair:** \n\n- **Lines 1 and 2: κρίνα / mena**\n\n**Classification:**\n\n- **Position-based Classification:** F2 (Feminine-2). Both words have the primary stress on the penultimate syllable.\n- **Complexity Features:**\n  - This pair does not show any RICH (consonant onset match) or IDV features.\n  - **IMP-V:** There is an imperfect rhyme feature here where the stressed vowels differ. \"κρίνα\" and \"παινεμένα\" rhyme imperfectly on the stressed vowel.\n  \n- **Full Classification:** F2-IMP-V-IMPERFECT\n\n**Explanation:**\n\n\"Κρίνα\" from line 1 and \"μένα\" from line 2 form a rhyme where the phonetic ending from the stressed penultimate vowel to the end of the line rhymes imperfectly on the vowel sound. This fits the F2-IMP-V-IMPERFECT pattern due to the mismatch in stressed vowels while maintaining rhyme through the rest of the word endings."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_12",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "τι τα αρώματά τους / μες στα σωθικά τους,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.3729727268219,
+      "raw_output": "Let's analyze the given poem lines for their rhyme pattern:\n\nLines:\n1. τι τα αρώματά τους\n2. μες στα σωθικά τους\n\n### Rhyme Analysis:\n\n1. **Line-Final Stress Position:**\n   - Both lines have their stress on the syllable \"-τά\" and \"-κά\" respectively, creating a feminine rhyme.\n\n2. **Rhyme Domain:**\n   - From the stressed vowel to the end of each line:\n     - Line 1: [aˈtus]\n     - Line 2: [iˈkat̪us]\n   \n3. **Classification**:\n   - **Position-Based Classification**: \n     - Both lines are examples of F2 rhyme, as the stress occurs on the penultimate syllable.\n   \n   - **Features**:\n     - **RICH**: There is no match in onset consonants as the onset of the second word boundary differs ([tʰ] in \"tatous\" and [s] in \"ka-tous\").\n     - **IDV**: The pre-rhyme vowel sounds match across word boundaries resulting in an instance of IDV-2W.\n     - **MOS**: There is no mosaic pattern since the rhyme domain doesn't cross word boundaries beyond what is typical in Greek prosody.\n     - **IMP**: There are no imperfect rhyme conditions here as the stressed vowel and subsequent sounds match.\n     - **COPY**: There is no repetition of words or phrases.\n\n### Summary:\n\nThe rhyme between \"αρώματά τους\" and \"σωθικά τους\" is classified as F2-PURE-IDV-2W, with phonetic transcription: [aˈtus] / [iˈkat̪us]. The rhyme is a pure feminine rhyme with matching pre-rhyme vowels across a word boundary."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_13",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας, / δράκοντας αίμα ρηγικό μυρίζεται το τέρας.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": null,
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 7.260053634643555,
+      "raw_output": "Let's analyze the rhyme in the given lines:\n\nLines:\n1. Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας,\n2. δράκοντας αίμα ρηγικό μυρίζεται το τέρας.\n\n1. **Identify line-final stress position:**\n   - Line 1: ημέρας (hiˈmeras) - Stress is on the penultimate syllable.\n   - Line 2: τέρας (ˈteras) - Stress is on the penultimate syllable.\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Line 1: -heras\n   - Line 2: -teras\n\n3. **Compare with other lines (4-line window by default):**\n   - In this case, only two lines are given, both considered.\n\n4. **Classify by position (M/F2/F3):**\n   - Both lines have their stress on the penultimate syllable, so both rhyme domains are F2.\n\n5. **Identify features (RICH, IDV, MOS, IMP, COPY):**\n   - Both lines end with -eras, making the vowels and the final consonants identical.\n   - There is no onset consonant match before the stressed vowels to consider any RICH classification.\n   - Thus, the rhyme pair is pure.\n\nGiven the analysis, the classification is as follows:\n\n- **Line numbers:** 1 and 2\n- **Rhyme domain in phonetic transcription:** -heras, -teras\n- **Classification:** F2-PURE\n- **Explanation:** The lines exhibit a pure rhyme as the domains match perfectly in the penultimate stressed vowel and all following sounds."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_14",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 6.634651184082031,
+      "raw_output": "Let's analyze the provided poem for rhyme patterns using the RHYME TAXONOMY.\n\n### Poem\n1. της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, \n2. ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα,\n\n### Analysis\n\n1. **Identify line-final stress position:**\n   - Line 1: \"χώρα\" - The stressed syllable is \"χό\"\n   - Line 2: \"τώρα\" - The stressed syllable is \"τό\"\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Phonetic transcription for line 1: [ˈxo.ra]\n   - Phonetic transcription for line 2: [ˈto.ra]\n\n3. **Compare rhyme domain:** \n   - Both lines have rhymes that start from the last stressed vowel and go to the end of the line - \"ώρα.\"\n\n4. **Classify by position (M/F2/F3):**\n   - Both \"χώρα\" and \"τώρα\" are Feminine-2 (F2) rhymes because the stress is on the penultimate syllable.\n\n5. **Identify features:** \n   - The rhyme is pure because the rhyme domain is identical ([o.ra]) without any additional features like onset consonant matches or vowel identity issues.\n\n6. **Conclusion:**\n   - **Line Numbers:** 1 and 2\n   - **Rhyme Domain in Phonetic Transcription:** [ˈxo.ra] / [ˈto.ra]\n   - **Classification:** F2-PURE\n   - **Explanation:** Both lines have a perfect rhyme from the penultimate stressed syllable to the end, creating a pure feminine rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_15",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσια κι απ' τα χνούδια.",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": null,
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 6.8338658809661865,
+      "raw_output": "Here's the analysis for the provided modern Greek poem:\n\n**Lines for Analysis:**\n1. στης παραστιάς τα πελεκούδια\n2. γλυκά, απ' τα κρόσσια κι απ' τα χνούδια.\n\n1. **Identification of line-final stress position:**\n   - Line 1: πελεκούδια (/pe.le.ˈku.ðʝa/)\n   - Line 2: χνούδια (/ˈxnu.ðʝa/)\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Line 1: /-u.ðʝa/\n   - Line 2: /-u.ðʝa/\n\n3. **Compare with other lines (scan 4-line window by default):**\n   - Direct comparison of these two lines as the relevant pair.\n\n4. **Classify by position (M/F2/F3) first:**\n   - The stress is on the antepenultimate syllable, which indicates a Feminine-3 (F3) rhyme.\n\n5. **Identify features (RICH, IDV, MOS, IMP, COPY):**\n   - The rhyme is a perfect rhyme without additional consonants or vowel variations.\n\n**Rhyme Pair Analysis:**\n\n- **Line numbers:** 1, 2\n- **Rhyme domain in phonetic transcription:** /ku.ðʝa/, /nu.ðʝa/\n- **Classification:** F3-PURE\n- **Brief explanation:** The rhyming domains are both /-u.ðʝa/, with stresses on the antepenultimate syllable, perfectly matching in the final vowel and consonant sequence, leading to a pure F3 rhyme. There are no additional features such as rich or imperfect qualities within this rhyme pair."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_16",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και σκυλιά την κομματιάζουν",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.688482761383057,
+      "raw_output": "To analyze the rhyme pattern in the provided Modern Greek poetry, let's follow the procedure step-by-step:\n\n### Poem:\n1. \"Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και σκυλιά την κομματιάζουν\"\n\n### Rhyme Analysis:\n\n1. **Identify Line-Final Stress Positions and Extract Rhyme Domains:**\n   - Line 1: \"κακοσκεπάζουν\"  \n     - Final stressed syllable: \"πάζουν\"\n   - Line 2: \"κομματιάζουν\"\n     - Final stressed syllable: \"τιάζουν\"\n\n2. **Compare and Classify by Position:**\n   - Both lines have stress in the penultimate position, so this is an F2 (Feminine-2) rhyme.\n\n3. **Identify Rhyme Features:**\n   - **Phonetic Transcription:**\n     - \"κακοσκεπάζουν\" → /pázun/\n     - \"κομματιάζουν\" → /tiázun/\n   - **Complexity Features:**\n     - The two rhyme domains differ in the initial consonants following the stressed vowel /a/ (p- vs. t-), and the rest of the domain is phonetically identical. \n     - Therefore, this displays a consonantal difference immediately after the stressed vowel but a match from the vowel rightward.\n\n4. **Classification:**\n   - The pattern is an F2-IMP-C rhyme (Feminine-2, Imperfect with differing Consonants).\n\n5. **Explanation:**\n   - The final stressed rhyme syllables \"/pázun/\" and \"/tiázun/\" showcases an imperfect consonantal rhyme where the onset of the stressed vowel (p and t) differs.\n\n### Summary:\n- **Line Numbers:** 1-2\n- **Rhyme Domain in Phonetic Transcription:** /pázun/ - /tiázun/\n- **Classification:** F2-IMP-C\n- **Explanation:** Feminine-2 rhyme (penultimate stress) with imperfect consonantal variation in the onset of the stressed syllable."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_17",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χειρότερα.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 8.190070867538452,
+      "raw_output": "To analyze the rhyme pattern of the provided poem, we follow the outlined analysis procedure:\n\n### Poem:\n1. Δεν τα λέω τα περισσότερα /\n2. γιατί in fondo είναι χειρότερα.\n\n### Step-by-step Analysis:\n\n1. **Line-final stress position:**\n   - Line 1: The stress in “περισσότερα” is on the antepenultimate syllable (περι-σό-τε-ρα).\n   - Line 2: The stress in “χειρότερα” is also on the antepenultimate syllable (χει-ρό-τε-ρα).\n\n2. **Extract rhyme domain:**\n   - Phonetic transcription for “περισσότερα”: /-sótera/\n   - Phonetic transcription for “χειρότερα”: /-rótera/\n\n3. **Compare with other lines:**\n   - The rhyme domain in both lines is \"-ότερα\", showing an identical match in the suffix.\n\n4. **Classify rhyme by position:**\n   - Both rhymes fall into the **F3** category, as the stressed vowel is antepenultimate.\n\n5. **Identify features:**\n   - **RICH**: No identical onset consonants before the stressed syllable are shared, so RICH does not apply.\n   - **IDV**: The vowels directly before the stressed syllable \"περι\" and \"χει\" differ, so there is no IDV match.\n   - **MOS**: The rhymes do not cross word boundaries.\n   - **IMP**: No imperfect rhyme features noted, as the endings perfectly match after the stressed vowels.\n   - **COPY**: The suffix \"-ότερα\" is completely repeated, indicating a direct copy in this section.\n\n### Final Classification:\n\n- **F3-COPY**\n\n### Explanation:\n- **Lines 1 and 2** share an F3 rhyme, as both “περισσότερα” and “χειρότερα” follow a pattern from the antepenultimate stressed vowel to the line end. This involves a complete copy of the rhyming domain \"-ότερα,\" which classifies this rhyme as **F3-COPY** based on the pattern observed and explained above."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_18",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "λαμβάνει, αι χορδαί αυτής την ποίησιν / εκπέμπουν της θερμής Ασίας — μύησιν",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 8.97647476196289,
+      "raw_output": "To analyze the rhyme pattern in the provided Greek poem lines, follow the outlined procedure:\n\n1. **Extract Line-Final Stress Position:**\n   - Line 1: The final stressed word is \"ποίησιν\" with stress on the penultimate syllable.\n   - Line 2: The final stressed word is \"μύησιν\" with stress on the penultimate syllable.\n\n2. **Extract Rhyme Domain:**\n   - From the stressed vowel to the end of the word:\n     - \"ποίησην\" -> /ˈpo.isin/\n     - \"μύησην\" -> /ˈmi.isin/\n\n3. **Compare and Classify:**\n   - **Position Classification:** Both words have the stress on the penultimate syllable, so the classification is F2.\n   - **Complexity Features:**\n     - The rhyming portion /isin/ is identical for both words.\n     - The onsets /po./ and /mi./ do not share a consonant onset, so no RICH classification.\n     - No consonant or vowel differences in the rhyming portion, so no IMP classification.\n     - Neither of the lines demonstrates word boundary crossing within the rhyme, so no MOS.\n     - The vowel before the stressed syllable (pre-rhyme) does not match.\n\n**Final Rhyme Pattern Classification:**\n- Pattern: F2-PURE\n- Line Numbers: Line 1 & Line 2\n- Rhyme Domain (Phonetic): /ˈpo.isin/ / /ˈmi.isin/\n- Explanation: The words \"ποίησιν\" and \"μύησιν\" rhyme perfectly within the domain extending from the stressed vowel to the end of each word, with a straightforward F2 pattern. Both have matching endings without any additional complexity features such as RICH or IMP."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_19",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Σπούδαξε, να σε στιμάρουνε! * / Βλέπω γω πώς με τρατάρουνε! *",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F2",
+      "predicted_features": [
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.893503904342651,
+      "raw_output": "**Analysis**:\n\nLet's analyze the rhyme pattern in the provided poem:\n\nPoem:\n1. Σπούδαξε, να σε στιμάρουνε!\n2. Βλέπω γω πώς με τρατάρουνε!\n\n**Step-by-step Analysis**:\n\n1. **Identify Line-Final Stress Position**:\n   - Both lines have the stress on the penultimate syllable before the ending \"-ούνε\": στι-μά-ρουνε, τρα-τά-ρουνε.\n\n2. **Extract Rhyme Domain**:\n   - Rhyme domain for both lines is \"άρουνε\".\n\n3. **Compare with Other Lines**:\n   - Since there are only two lines, they will be compared with each other.\n\n4. **Classify by Position**:\n   - Both lines are F2 (Feminine-2) as the stress is on the penultimate syllable.\n\n5. **Identify Features**:\n   - **RICH**: The onsets are \"στι-\" and \"τρα-\", sharing no identical onset consonants after the stressed vowel \"ά\", so no RICH feature applies here.\n   - **IDV**: The vowels before the stressed syllable are not identical (\"ι\" in \"στιμάρουνε\" and \"α\" in \"τρατάρουνε\"), so no IDV feature applies here.\n   - **MOS**: The rhyme domain does not cross a word boundary.\n   - **IMP**: The words are slightly different in the vowel before the stressed syllable and in the onset consonants, making it an Imperfect rhyme:\n     - **IMP-V**: The vowel before the stressed syllable differs (\"σιμάρ\"- / \"ταράρ\").\n     - **IMP-C**: The onset consonants are different.\n\n6. **Result**:\n   - Rhyme classification: F2-IMP-V-IMP-C\n\n**Conclusion**:\n- Line numbers: 1-2\n- Rhyme domain in phonetic transcription: /s̠tiˈmarune/ - /traˈtarune/\n- Classification: F2-IMP-V-IMP-C\n- Explanation: The rhyme occurs in the penultimate position (F2), with differences in the vowel and onset consonants of the rhyme domain, leading to both IMP-V and IMP-C imperfect rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_20",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Επέστρεφε συχνά και παίρνε με, / αγαπημένη αίσθησις επέστρεφε και παίρνε με —",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "RICH"
+      ],
+      "predicted_rhyme_type": "AT",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.413618087768555,
+      "raw_output": "To analyze the provided lines from the Modern Greek poem, we follow the outlined rhyme taxonomy and analysis procedure:\n\nLines to Analyze:\n1. Επέστρεφε συχνά και παίρνε με,\n2. αγαπημένη αίσθησις επέστρεφε και παίρνε με —\n\n**Analysis:**\n\n1. **Line Final Stress Position:**\n   - Line 1: παίρνε με (final words, where \"παίρνε\" carries the stress)\n   - Line 2: παίρνε με (repeated, where \"παίρνε\" carries the stress)\n\n2. **Extract Rhyme Domain:**\n   - Both lines end with \"παίρνε με\" which phonemically could be transcribed as [ˈperne me].\n\n3. **Compare with Other Lines:**\n   - The window of comparison is fulfilled with the two lines provided, both of which end identically.\n\n4. **Classify by Position:**\n   - Both lines exhibit an F2 (Feminine-2) rhyme, as the penultimate syllable \"παίρνε\" carries the stress.\n\n5. **Identify Features:**\n\n   - **COPY**: This case is a direct repetition of the phrase \"παίρνε με,\" hence classified under COPY as the rhyming feature.\n\n**Rhyme Analysis:**\n- **Line Numbers:** 1, 2\n- **Rhyme Domain (Phonetic Transcription):** [ˈperne me]\n- **Classification:** F2-COPY\n- **Explanation:** Both lines end with an identical phrase \"παίρνε με,\" constituting a complete repetition (COPY) of the rhyme domain with a penultimate stress (F2).\n\nThis analysis highlights the use of repetition as a poetic device in creating a strong, recurring auditory pattern at the end of the lines."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_21",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "για ν’ ακούστε… τί τηράζετε; / Tromba acustica χρειάζεται.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.67438006401062,
+      "raw_output": "In the provided poem, we need to analyze the rhyme pattern using the outlined rhyme taxonomy. Let's break it down step by step:\n\n### Step 1: Identify line-final stress position\n1. **Line 1**: \"για ν’ ακούστε… τί τηράζετε;\" – The stress falls on the antepenultimate syllable of \"τηράζετε\".\n2. **Line 2**: \"Tromba acustica χρειάζεται.\" – The stress falls similarly on the antepenultimate syllable of \"χρειάζεται\".\n\n### Step 2: Extract rhyme domain (from stressed vowel rightward)\n- **Line 1 rhyme domain**: -άζετε\n- **Line 2 rhyme domain**: -άζεται\n\n### Step 3: Compare with other lines (scan 4-line window by default)\n- Since this example only includes these two lines, we'll compare these with each other.\n\n### Step 4: Classify by position (M/F2/F3) first\n- Both lines have the stress on the antepenultimate syllable, so this is a **F3** rhyme.\n\n### Step 5: Identify features (RICH, IDV, MOS, IMP, COPY)\n- **Phonetic Transcription**:\n  - Line 1: /tiˈrazete/\n  - Line 2: /çriˈazete/\n\n- **Rhyme Analysis**:\n  - Initial consonants differ: /t/ in \"τηράζετε\" vs. /çr/ in \"χρειάζεται\".\n  - Vowels and subsequent sounds from the stressed position match perfectly (/azete/).\n\n- **Classification**: \n  - **F3-IMP-C**: This rhyme has a consonantal imperfection because the onsets are different but the remainder (from the vowel rightward) matches perfectly.\n\n### Step 6: Provide explanation\n- **Line numbers**: Lines 1 and 2\n- **Rhyme domain in phonetic transcription**: /tiˈrazete/ - /çriˈazete/\n- **Classification**: F3-IMP-C\n- **Explanation**: Both lines end with a similar phonetic structure, with matching vowels and consonants from the stressed vowel onwards, except for the differing initial consonant clusters in their respective rhyme domains."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_22",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Και τώρα, νά, κηρύσσεται / στα σπίτια θα γυρίσετε,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "IMP",
+        "0",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.411247730255127,
+      "raw_output": "To analyze the given lines for rhyme patterns in Modern Greek poetry, we follow the outlined steps. Here is the analysis for the provided poem:\n\n**Lines:**\n1. Και τώρα, νά, κηρύσσεται\n2. στα σπίτια θα γυρίσετε\n\n**Phonetic Transcription:**\n1. kə'rise̞te̞\n2. ji'rise̞te̞\n\n**Rhyme Analysis:**\n\n1. **Identify line-final stress position:**\n   - Both lines end with a penultimate stressed vowel. \n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Lines: /kə'rise̞te̞/ and /ji'rise̞te̞/\n   - Rhyme domain includes: \"risete\"\n\n3. **Compare with other lines (scan 4-line window by default):**\n   - Within these two lines, compare the rhyme domains.\n\n4. **Classify by position (M/F2/F3) first:**\n   - The rhyme is based on the penultimate stressed vowel, so it is classified as F2 (Feminine-2).\n\n5. **Then identify features (RICH, IDV, MOS, IMP, COPY):**\n   - The rhyme occurs between the endings \"κηρύσσεται\" (/kə'rise̞te̞/) and \"γυρίσετε\" (/ji'rise̞te̞/).\n   - Both words share the entire segment \"/-rise̞te̞/\", making it a total rich rhyme. However, this total richness is fortuitous in this case due to similar verb endings in Greek.\n   - There is no indication of complex onset consonant or rhyme features like IDV or MOS.\n\n6. **Use phonetic similarity, NOT just orthography:**\n   - Confirm phonetic similarity by listening to the sounds, which match as observed.\n\n**Classified Rhyme:**\n- Pattern: F2-TR-S\n- Phonetic: /kə'rise̞te̞/ /ji'rise̞te̞/\n\n**Explanation:**\nThe rhyme is a total rich rhyme with a singleton onset (TR-S) in the penultimate stressed vowel position (F2). Both lines share the rich rhyme domain \"risete,\" which is a common feature of Greek verb endings, emphasizing the acoustic rather than just orthographic match."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_23",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "Αυτά οπού ευφραίνουν, αυτά πικραίνουνε· / κι επάνω εις τους τάφους, που κλαίμε, βγαίνουνε,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.671480178833008,
+      "raw_output": "To analyze the rhyme pattern in the given lines of Modern Greek poetry, we follow the prescribed procedure. Here’s the analysis:\n\nLines:\n1. Αυτά οπού ευφραίνουν, αυτά πικραίνουνε· /\n2. κι επάνω εις τους τάφους, που κλαίμε, βγαίνουνε,\n\n### Analysis\n\n1. **Identify line-final stress position:**\n\n   - In both lines, the stressed vowel in \"πικραίνουνε\" and \"βγαίνουνε\" is the antepenultimate, indicating these are feminine-3 (F3) rhymes.\n\n2. **Extract rhyme domain:**\n\n   - Both rhyme from the stressed vowel rightward: \"ι-κραί-νου-νε\" (ikrae-nu-ne) and \"βγαί-νου-νε\" (vgae-nu-ne).\n\n3. **Compare with other lines (scanning a 4-line window):**\n\n   - We focus on these two lines as there are no others in the provided excerpt.\n\n4. **Classify by position:**\n\n   - Both lines end in F3 rhymes according to the antepenultimate stress pattern.\n\n5. **Identify features:**\n\n   - **RICH:** None of the specified rich rhyme complexities apply directly here, since neither TR-S nor other rich classifications match the onset consonants precisely in the lines.\n   \n   - **IDV:** The vowels before the stressed syllables (\"ει\" in both cases) do match.\n   \n   - **MOS:** There's no crossing of word boundaries within the rhyme domain.\n   \n   - **IMP:** No imperfection features apply as both lines match phonetic similarity in the rhyme domain.\n   \n   - **COPY:** No complete word or phrase repetition is evident in the rhyme domain.\n   \n### Conclusion\n\n- **Line numbers:** 1 - 2\n- **Rhyme domain in phonetic transcription:** ι-κραί-νου-νε (ikrae-nu-ne) / βγαί-νου-νε (vgae-nu-ne)\n- **Classification:** F3-IDV\n- **Explanation:** The rhyme occurs at the antepenultimate stress position, and the vowels before the stressed syllables are identical."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_24",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "παρά καθάριους ουρανούς, αστροφεγγιές και κύματα / χωρίς αφρούς να ξεψυχούν σε περιγιάλια μνήματα!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.713206052780151,
+      "raw_output": "To analyze the rhyme pattern in the provided lines of Modern Greek poetry, let's follow the steps outlined in the analysis procedure.\n\n### Poem to Analyze:\n```\nLines:\nπαρά καθάριους ουρανούς, αστροφεγγιές και κύματα /\nχωρίς αφρούς να ξεψυχούν σε περιγιάλια μνήματα!\n```\n\n### Step 1: Identify Line-Final Stress Position\n1. Line 1 (κύματα): The stress is on the antepenultimate syllable (κύ-), hence F3.\n2. Line 2 (μνήματα): The stress is again on the antepenultimate syllable (μνή-), hence F3.\n\n### Step 2: Extract Rhyme Domain\n- Line 1: The rhyme domain is from 'κύματα' -> [ˈki̞.ma.ta]\n- Line 2: The rhyme domain is from 'μνήματα' -> [ˈmni.ma.ta]\n\n### Step 3: Compare with Other Lines\n- These two lines create a rhyme pair.\n\n### Step 4: Classify by Position\n- Both lines feature an F3 rhyme based on the stress position.\n\n### Step 5: Identify Complexity Features\n- **RICH:** Both words share the same ending -ματα. The onset consonants do not match exactly ('κι' vs. 'μν'), so it is not a rich rhyme.\n- **IDV:** There is no vowel identity between pre-stress vowels (Different vowels: 'κύριος' [ki] vs 'μνή' [mni]).\n- **MOS:** The rhyme domains do not cross word boundaries.\n- **IMP:** The stressed vowel is not the same ('κίνημα' [ki] vs 'μνήμη' [mni]), which constitutes an imperfect rhyme based on stressed vowels. This can be classified as IMP-V.\n\n### Final Classification\n- **Lines**: 1 (κύματα), 2 (μνήματα)\n- **Rhyme Domain in Phonetic Transcription**: [ˈki.ma.ta], [ˈmni.ma.ta]\n- **Classification**: F3-IMP-V\n- **Explanation**: The rhyme is based on the antepenultimate stress position. It features an imperfect rhyme due to vowel differences in the stressed syllable which classifies it as an F3-IMP-V rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_25",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "που μου κάνουν των κόσμων οι ομορφάδες· / της καρδιάς, κι οι ορμές, Λάμιες και Μαινάδες,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.644898176193237,
+      "raw_output": "Let's analyze the provided poem lines to identify the rhyme patterns:\n\n**Poem Lines:**\n1. που μου κάνουν των κόσμων οι ομορφάδες·\n2. της καρδιάς, κι οι ορμές, Λάμιες και Μαινάδες,\n\n**Step 1: Identify line-final stress position**\n- Line 1: ομορφάδες (stress on \"φα\")\n- Line 2: Μαινάδες (stress on \"νά\")\n\n**Step 2: Extract rhyme domain (from stressed vowel rightward)**\n- Rhyme domain for both lines: -άδες\n\n**Step 3: Compare with other lines (scan 4-line window by default)**\n- Comparing the rhyme domains of the two lines: ομορφάδες / Μαινάδες\n\n**Step 4 & 5: Classify by position and identify features**\n- **Position-based Classification:** F2 (Feminine-2), both words have the stress on the penultimate syllable\n- **Features:**\n  - **RICH:** None of the rich rhyme features apply as the onset consonants of \"ομορφάδες\" and \"Μαινάδες\" do not match.\n  - **IDV:** None of the pre-rhyme vowel identity features apply.\n  - **MOS:** None of the mosaic features apply.\n  - **IMP:** None of the imperfect rhyme features apply.\n  - **COPY:** No word or phrase repetition is present.\n\n**Final Classification:**\n- **Lines:** 1 and 2\n- **Rhyme Domain (Phonetic Transcription):** [aðes]\n- **Classification:** F2-PURE\n- **Explanation:** The stressed vowels and subsequent sounds create a pure rhyme, with stress falling on the penultimate syllable in both words. There are no additional richness, identity, imperfect, or mosaic features present."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITH-RAG_26",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": true,
+      "poem_text": "το αστροσυγνεφοσκέπαστο της Φαντασίας παλάτι, / χέρι ασυλλόγιστου ή τυφλού το δρόμο του να κάνει,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 8.158294200897217,
+      "raw_output": "To analyze the provided lines for rhyme patterns, we need to identify the rhyme domain and apply the classification scheme outlined.\n\n**Line 1:** \"το αστροσυγνεφοσκέπαστο της Φαντασίας παλάτι\"\n- Phonetic transcription of the rhyme domain: [paláti]\n\n**Line 2:** \"χέρι ασυλλόγιστου ή τυφλού το δρόμο του να κάνει,\"\n- Phonetic transcription of the rhyme domain: [kání]\n\n### Analysis:\n1. **Position-based Classification:**\n   - Both rhyme domains end with a stressed final vowel. Therefore, the rhyme is **Masculine (M)**.\n\n2. **Phonetic Comparison:**\n   - [paláti] vs. [kání]: The stressed vowels and consonants do not match, indicating an imperfect rhyme. The initial consonant clusters (\"p\" vs. \"k\") differ, both in onset and in the vowel structure.\n\n3. **Complexity Features:**\n   - The rhyme is imperfect due to the differing stressed vowels and consonants between the pairs.\n   - Specifically, the final \"-ti\" and \"-ni\" differ in both vowel and consonant components.\n\n### Conclusion:\n\n- **Line numbers:** 1, 2\n- **Rhyme domain in phonetic transcription:** [paláti] / [kání]\n- **Classification:** M-IMP-V-IMP-C\n- **Explanation:** The rhyme is masculine based on the ending stress position but imperfect due to both vowel and consonant differences between the rhyme domains."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_1",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Για μένα, λέω που σε πολλά βλέπουν πολλές αλήθειες*Θυμούμαι που εδιάβασα σε ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Αλλά η ζωή . . . . . . .  κι είναι άλλοπαρά όνειρο —και δυστυχής όποιος το ιδεί μεγάλο.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.552083015441895,
+      "raw_output": "To analyze the rhyme patterns of the given poem, I'll first extract the relevant phonetic rhyme domains and then classify them according to the provided taxonomy.\n\n### Poem Excerpt Analysis:\n\n1. **Line 1-2:**\n   - *ιταλική φυλλάδανα* ('italikí fyládana') / *κουταμάδα* ('koutamáda')\n   - Phonetic Transcription:\n     - Line 1: [fy'la.ða.na]\n     - Line 2: [ku.ta.ma.ða]\n   - Classification:\n     - Rhyme Domain: [a.ða] (F2 rhyme)\n     - Explanation: Both lines rhyme with a feminine ending - their penultimate syllables are stressed, and the rhyming pattern extends from this stress.\n     - Complexity: The onset consonants 'ð' are the same in both words, leading to a classification of PR-C1 (Partial rich, first consonant matches).\n\n2. **Line 4-5:**\n   - *φυλλάδανα* ('fyládana') / *κουταμάδα* ('koutamáda')\n   - Phonetic Transcription:\n     - Line 4: [fy'la.ða.na]\n     - Line 5: [ku.ta.ma.ða]\n   - Classification:\n     - Rhyme Domain: [a.ða] (F2 rhyme)\n     - Explanation: These two lines share a feminine rhyme as well, based on the penultimate stressed syllables aligning with the final stress coinciding.\n     - Complexity: Same as for lines 1 and 2, categorized as PR-C1 due to the matching onset consonant in the final syllables.\n\n### Summary:\n- **Rhyme Pattern:** Lines 1-2 and lines 4-5 exhibit an F2 rhyme based on the penultimate stressed syllables.\n- **Complexity Feature:** Both pairs feature a PR-C1 classification for partial richness where the onset consonants match.\n\nThere are no additional complexity features like mosaic or identity vowels to consider. Phonetic similarity remains at the rhyme domain level with consonant matching contributing to the richness classification."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_2",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Εργάζομ’ εις το έργον μου εγώ. / [........................................]",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.648210048675537,
+      "raw_output": "To analyze the rhyme patterns in the provided Greek verse \"Εργάζομ’ εις το έργον μου εγώ,\" we first need to identify any other lines or surrounding context if available, as the analysis requires comparison across a four-line window. However, given only this single line, I'll demonstrate the initial analysis steps and assumptions for potential rhyme pairings if additional lines were provided.\n\n### Initial Analysis Steps for Provided Line:\n\n1. **Identify Line-Final Stress Position:**\n   - The line \"Εργάζομ’ εις το έργον μου εγώ\" has stresses as follows:\n     - \"Εργάζομ’\" (stress on 'ά')\n     - \"έργον\" (stress on 'έ')\n     - \"μου\" (unstressed)\n     - \"εγώ\" (stress on 'ώ')\n\n2. **Extract Rhyme Domain:**\n   - Line-final word is \"εγώ,\" with the stressed vowel 'ώ' starting the rhyme domain.\n   - Rhyme domain: /o/\n\n### Hypothetical Rhyme Pairing Analysis:\n\nSince additional lines weren't provided, I'll suggest what the analysis might look like with a hypothetical second line for simplicity.\n\n**Hypothetical Line 2:** \"[......] δρόμο.\"\n\nGiven this hypothetical second line, here's how the analysis might proceed:\n\n1. **Identify Line-Final Stress Position:**\n   - \"δρόμο\" (stress on 'ό')\n\n2. **Extract Rhyme Domain:**\n   - Rhyme domain is /o/\n\n3. **Compare and Classify:**\n   - Line 1: \"εγώ\" with rhyme domain /o/\n   - Line 2: \"δρόμο\" with rhyme domain /o/\n\n4. **Classification:**\n   - Position-Based: Both are Masculine (M)\n   - Complexity Features:\n     - Since the onsets do not match beyond final stressed vowel domain, this might be classified under IMP.\n     - IMP-0F: Possibly imperfect due to difference in final consonant-zero pattern (if full rhymes don't match in phonetic context available).\n\n**Rhyme Pair Example Analysis:**\n- **Line Numbers:** [hypothetical example lines 1 and 2]\n- **Rhyme Domain:** /o/ - /o/\n- **Classification:** M-IMP-0F\n- **Explanation:** Both lines end with a stressed 'o' sound, but the preceding consonants do not match in onset. The rhymes feature final stressed vowels with differing consonant sounds, indicative of an imperfect, masculine rhyme.\n\nFor a complete and accurate analysis, we would need more context, with at least four lines to examine the poetic structure and rhyme patterns holistically."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_3",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "[1819] / .........................................",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.492641925811768,
+      "raw_output": "To analyze the rhyme patterns of the poem you provided, it would be necessary to have the actual text from which to discern the rhyme schemes based on pronunciation and stress. Since the poem text is not available, I would typically follow these steps for analyzing a piece of Modern Greek poetry:\n\n1. **Identify Line-Final Stress Position**: Determine the position of the stress in the last word of each line, which helps classify the rhyme as Masculine (M), Feminine-2 (F2), or Feminine-3 (F3).\n\n2. **Extract Rhyme Domain**: From the stressed vowel to the end of the line, this includes the entire segment of the rhyme or as dictated by rhyme type.\n\n3. **Compare with Other Lines**: Using a four-line window, I'd consider each line's rhyme domain, comparing for similarity in sound.\n\n4. **Classify Position**: Initially classifying rhymes by their position-based classification (M, F2, F3). \n\n5. **Identify Complexity Features**: Next, each rhyming pair would be evaluated for additional features:\n   - **RICH** (various types of consonant matching),\n   - **IDV** (vowel identity),\n   - **MOS** (mosaic, rhymes across word boundaries),\n   - **IMP** (imperfect with vowel or consonant alternation),\n   - **COPY** (repetition).\n\n6. **Use Phonetic Similarity**: Rather than relying solely on how words look, analyzing the sounds is vital.\n\nIf you have the text of the poem or sample lines on which you want me to perform this analysis, please provide them. Given that details are crucial, especially noting specific phonetic and rhythmic patterns, this would help determine the nuanced rhyme categories and explanations."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_4",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη με ομιλείς αν θέλεις, μη με πεις γοητευτικά",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 12.668601751327515,
+      "raw_output": "To analyze the rhyme patterns in the given lines of Greek poetry, we will perform the analysis according to the described methodology.\n\n### Poem Analysis:\n\nLines:\n1. απ’ εκείνα που πιέζουν την ερώσαν μου **καρδιά**\n2. Μη με ομιλείς αν θέλεις, μη με πεις **γοητευτικά**\n\nFirst, identify the stress position in the line-final words:\n- \"καρδιά\" [karˈðʝa]: Stress is on the penultimate syllable (F2).\n- \"γοητευτικά\" [ɣoi.tef.tiˈka]: Stress is on the final syllable (M).\n\nNow, compare the rhyme domains phonetically:\n1. Lines 1 and 2: \"καρδιά\" [arˈðʝa] vs. \"γοητευτικά\" [tiˈka]\n\n### Rhyme Classification:\n\n- **Rhyme Pair:** Lines 1 and 2\n- **Phonetic Transcription of Rhyme Domains:** \"καρδιά\" [arˈðʝa] vs. \"γοητευτικά\" [tiˈka]\n- **Classification:**\n  - **Position:** The rhyme domains are \"F2\" for line 1 (from stressed penultimate vowel rightward) and \"M\" for line 2 (from stressed final vowel rightward).\n  - **Features:** \n    - **IMP-C**: The consonants after the stressed vowel differ, as seen between /ðʝ/ in \"καρδιά\" and /t/ in \"γοητευτικά.\"\n    - **IMP-V**: There is a vowel difference in the pre-stressed vowel position between /ar/ in \"καρδιά\" and /ti/ in \"γοητευτικά.\"\n\n### Explanation:\nThe rhyme is imperfect due to both consonant and vowel differences despite the line-end phonetic similarity. The stressed vowels differ in both quality and position, and there is a consonant mismatch immediately following these vowels, leading to a classification of F2-IMP-C-IMP-V for the rhyme connection.\n\nSince the classification relies on both position and phonetic features regardless of orthographic similarities, the given Greek lines show a sophisticated use of imperfect rhyme that relies on subtle phonetic resemblance rather than identical sounds."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_5",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτσι, μια σταλιά–",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "RICH"
+      ],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 8.771522045135498,
+      "raw_output": "Let's analyze the provided Modern Greek poem lines for rhyme patterns, following the described procedure:\n\n### Poem:\n1. τυφλή βροχή σπάει, στα γυαλιά.\n2. Αχ, να 'νοιγα –έτσι, μια σταλιά–\n\n### Analysis:\n\n#### Line 1: \n- \"σπάει, στα γυαλιά.\"\n  - Stressed syllable: \"λιά\" (from \"γυαλιά\")\n  - Stress position: Antepenultimate (F3)\n  - Phonetic transcription: /ʝaˈʎa/\n\n#### Line 2:\n- \"μια σταλιά–\"\n  - Stressed syllable: \"λιά\" (from \"σταλιά\")\n  - Stress position: Antepenultimate (F3)\n  - Phonetic transcription: /staˈʎa/\n\n### Rhyme Pair:\n- **Lines**: 1-2\n- **Rhyme Domain**: /ʝaˈʎa/ - /staˈʎa/\n- **Classification**: F3-TR-S\n  - **Explanation**: \n    - Both lines exhibit an antepenultimate stress position, aligning them under the F3 classification.\n    - The rhyme is total rich with singleton onset (TR-S) as both rhyme domains have identical final stressed syllables \"λιά\" (/ʎa/), and the onset consonant pairs are \"γυ-\" (/ʝ/) and \"στα-\" (/sta/), sharing the final stressed vowel.\n   \nIn conclusion, the analyzed lines end with an F3-TR-S rhyme pattern, indicating the same ending sound with matching antepenultimate stress and shared stressed vowels with identical consonant closings."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_6",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Ταχήρ / Αλής",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.46239423751831,
+      "raw_output": "To analyze the rhyme patterns in the poem \"Ταχήρ / Αλής,\" we will apply the systematic approach outlined. We will focus on stresses, extract rhyme domains, and classify them based on position and complexity features.\n\nFor our analysis, we'll use a simplified phonetic transcription and focus primarily on position-based classification as well as rich and imperfect rhyme features.\n\n### Poem Analysis\n\n**Selected Excerpt for Analysis:**\n\nThis excerpt will represent an imaginative example (without the actual text, as it’s not provided) formatted without line breaks for convenience. Assume each segment is roughly a line:\n1. Ταχήρ μιλάει δυνατά...\n2. Και ξάφνου φωνάζει, \"ματά...\"\n3. Στη σιωπή που κυριαρχεί...\n4. Η φοβερή αυτή ανατροπή...\n\n### Rhyme Analysis\n\n#### Lines 1 and 2\n\n- **Phonetic Transcription and Stress Identification:**\n  - Line 1: [μιˈla.i]\n  - Line 2: [ˈmata]\n\n- **Position Classification:**\n  - Line 1: F2 (penultimate stressed vowel)\n  - Line 2: F2 (penultimate stressed vowel)\n\n- **Rhyme Domain:**\n  - Line 1: [ˈla.i]\n  - Line 2: [ˈata]\n\n- **Complexity Features:**\n  - IMP-V: Stressed vowels differ.\n  - IMP-C: Consonants differ (l vs. t).\n\n- **Classification and Explanation:**\n  - Line 1 and 2: F2-IMP-V-IMP-C\n    - Both lines end with a penultimate stress, sharing imperfect rhymes due to vowel and consonant differences in the rhyme domain.\n\n#### Lines 3 and 4\n\n- **Phonetic Transcription and Stress Identification:**\n  - Line 3: [kirjaˈxiː]\n  - Line 4: [anetˈropiː]\n\n- **Position Classification:**\n  - Line 3: M (final stressed vowel)\n  - Line 4: M (final stressed vowel)\n\n- **Rhyme Domain:**\n  - Line 3: [ˈxiː]\n  - Line 4: [ˈpiː]\n\n- **Complexity Features:**\n  - IMP-C: Different terminal consonants (x vs. p).\n\n- **Classification and Explanation:**\n  - Line 3 and 4: M-IMP-C\n    - Both lines share the masculine ending rhyme, with the rhyme being imperfect due to differing consonants.\n\n---\n\nThis analysis identifies the rhyme structures, with a systematic approach considering phonetic attributes and stress patterns. It offers insights into both the surface rhyme patterns and deeper phonetic relationships."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_7",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμολόι του τ' αγαθό",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "M",
+      "predicted_features": [
+        "C2",
+        "RICH"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 18.917986154556274,
+      "raw_output": "To conduct the rhyme analysis on the provided Greek poem, let's first break down the lines and their phonetic content:\n\n1. Line 1: φέρνεις τον καλό το μήνα, τον ξανθό  \n   - Phonetic domain likely from stressed vowels in \"μήνα\" /ˈmi.na/ and \"ξανθό\" /k͡sanˈθo/\n   - Analyze stress: \"μήνα\" (F3 since stress on antepenultimate syllable), \"ξανθό\" (M since stress on the final syllable).\n\n2. Line 2: και το χαμολόι του τ' αγαθό  \n   - Phonetic domain likely from stressed vowels in \"χαμολόι\" /xa.moˈlo.i/ and \"αγαθό\" /a.ɣaˈθo/\n   - Analyze stress: \"χαμολόι\" (F3 as stress is on antepenultimate), \"αγαθό\" (M as stress is on the final syllable).\n\nNext, we compare the rhymes in the two different lines:\n\n1. Rhyme Pair:  \n   - Lines: 1 (\"ξανθό\" /k͡sanˈθo/), 2 (\"αγαθό\" /a.ɣaˈθo/)\n   - Phonetic transcription: \n     - Line 1: /k͡sanˈθo/\n     - Line 2: /a.ɣaˈθo/\n   - Classification: M-PR-C2\n     - Position-based: Both rhymes are masculine (M) since they rhyme from the final stressed vowel to line end.\n     - Complexity:\n       - Partial Rich (PR-C2): The final consonants /θo/ match, indicating partial richness in consonal ending.\n\n2. Rhyme Pair:\n   - Lines: 1 (\"μήνα\" /ˈmi.na/), 2 (\"χαμολόι\" /xa.moˈlo.i/)\n   - Phonetic transcription:\n     - Line 1: /ˈmi.na/\n     - Line 2: /xa.moˈlo.i/\n   - Classification: F3-IMP-V\n     - Position-based: Rhyme from antepenultimate position (F3).\n     - Complexity:\n       - Imperfect Vowel (IMP-V): The stressed vowels differ but share position-based rhyme.\n\nOverall, both rhyme pairs show different types of richness and complexity, illustrating the diverse phonetic elements of Greek poetry."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_8",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί.",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "RICH"
+      ],
+      "predicted_rhyme_type": "BOTH",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 8.07816481590271,
+      "raw_output": "To analyze the rhyme in the given two-line excerpt in Modern Greek, we will follow the analysis procedure to classify the rhyme based on the taxonomy provided.\n\n### Line Analysis\n1. **Line 1**: \"η σούστα ουδ᾽ αντηχεί\" (`i susta uvd anˈtiçi`)\n   - Stressed position: on the final syllable `-tiçi`\n   - Rhyme domain: `-içi`\n\n2. **Line 2**: \"βουλιάζουν οι τροχοί\" (`vuˈljaːzun i troˈçi`)\n   - Stressed position: on the final syllable `-χοι`\n   - Rhyme domain: `-oçi`\n\n### Rhyme Identification\n- **Lines Compared**: Line 1 (\"η σούστα ουδ᾽ αντηχεί\") and Line 2 (\"βουλιάζουν οι τροχοί\")\n\n### Rhyme Domain Phonetic Transcription\n- Line 1 Phonetic: /içi/\n- Line 2 Phonetic: /oçi/\n\n### Classification\n1. **Position-based Classification**: Both lines end in a stressed vowel, hence the rhyme is masculine (M).\n2. **Complexity Features**:\n   - **IMP-V**: The stressed vowels differ (`-içi` vs. `-oçi`).\n   - No other rich, identity, mosaic, or copy features identified.\n\n### Result\n- **Rhyme Pair**: Lines [1, 2]\n- **Rhyme Domain**: /-içi/ and /-oçi/\n- **Classification**: M-IMP-V\n- **Explanation**: The rhymes are masculine with imperfect vowel correspondence, as the stressed vowels differ between the two lines."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_9",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος; / Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 7.513836145401001,
+      "raw_output": "Let's analyze the provided lines of Modern Greek poetry, focusing on identifying rhyme patterns.\n\n### Poem Excerpt:\n1. Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος;\n2. Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,\n\n#### Analysis:\n\n**Line 1**: \"Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος;\"  \n- **Final Stressed Vowel:** \"ό\" in \"σκότος\"\n- **Rhyme Domain:** /o.tos/\n\n**Line 2**: \"Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,\"  \n- **Final Stressed Vowel:** \"ό\" in \"πρώτος\"\n- **Rhyme Domain:** /o.tos/\n\n### Rhyme Classification:\n\n**Rhyme Pair:**\n- **Line Numbers:** 1 and 2\n- **Phonetic Transcription of Rhyme Domains:** /o.tos/ (σκότος - πρώτος)\n- **Classification:** M-TR-S\n  - **M (Masculine):** The rhyme domain extends from the final stressed vowel to the end of the line.\n  - **TR-S (Total Rich with Singleton Onset):** The onset consonants /t/ in both \"σκότος\" and \"πρώτος\" match.\n  - The rhyme domain from the final stressed vowel to line end matches fully in both cases.\n\n**Explanation:**\n\nBoth lines end with the masculine rhyme from the stressed \"ό\" to the end of the words \"σκότος\" and \"πρώτος.\" The total rich rhyme is due to the matching onset consonant /t/ right after the stressed vowel and the identical vowel ending. Hence, the rhyme is classified as masculine with total richness involving singleton onset consonants. The rhyme reflects phonetic similarity crucial for modern Greek poetry analysis."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_10",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολάδειο. Τόπο! Τόπο!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 14.050873279571533,
+      "raw_output": "Let's analyze the rhyme pattern in the given lines of Modern Greek poetry:\n\nLines for analysis:\n1. Αφήστε μας ελεύτερο το **δρόμο,**\n2. φαρδύ, γυμνόν, ολάδειο. **Τόπο!** **Τόπο!**\n\n### Rhyming Analysis:\n1. **Position-based Classification:**\n   The stress pattern:\n   - Line 1: The stressed syllable in \"δρόμο\" is on '-ρό-', a two-syllable word with stress on the penultimate syllable.\n   - Line 2: The stressed syllable in \"τόπο\" is on '-τό-', a two-syllable word with stress also on the penultimate syllable.\n\n   Given that both are stressed on the penultimate syllable, this is classified as **F2** (Feminine-2) rhyme.\n\n2. **Complexity Features:**\n\n   - **Phonetic similarity and IMP:** There's phonetic similarity with an imperfect feature due to the vowel differences while maintaining some semblance with the consonant sounds, especially the '-o' vowel sound and '-p-' vs. '-r-' consonants.\n\n   - Let's represent these in phonetic transcription:\n     - **δρόμο**: [ˈðromo]\n     - **τόπο**: [ˈtopo]\n\n   Comparing these:\n   - They both share the same \"-ο\" ending (final vowel identity match).\n   - The medial consonants differ (IMP-C: 'r' in \"δρόμο\" and 'p' in \"τόπο\").\n\n3. Summary for Rhyme Pair (Line 1 and Line 2):\n\n   - **Line numbers:** 1 & 2\n   - **Rhyme domain in phonetic transcription:** [ˈo.mo] and [ˈo.po]\n   - **Classification:** F2-IMP-C\n   - **Explanation:** Both lines end with a two-syllable word stressed on the penultimate syllable, showing an imperfect rhyme due to the consonant variation ('r' vs. 'p') but sharing identical vowel endings ('-ο') which highlights the rhyme connection between the lines.\n\nThis analysis shows how these lines are connected through an F2 imperfect consonant rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_11",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια καλά παιδιά, τα παινεμένα!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "V",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": null,
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 10.466521978378296,
+      "raw_output": "To analyze the provided excerpt from the Modern Greek poetry, we will apply the rhyme taxonomy and follow the analysis procedure mentioned earlier. Here's how we will break it down:\n\n### Poem Lines:\n1. Για ν’ ανοιχτεί ένας **λάκκος**, πόσα κρίνα  \n2. Τ’ άξια καλά **παιδιά**, τα παινεμένα!\n\n### Analysis:\n1. **Line 1:** Final stress position is on the first syllable of the word \"λάκκος\" (IPA: /'lak.os/), with the rhyming domain starting from '/a/' to the end.\n2. **Line 2:** Final stress is on the second syllable of the word \"παιδιά\" (IPA: /pe'ðʝa/), with the rhyming domain starting from '/a/' to the end.\n\n### Rhyme Pair Analysis:\n\n- **Line Numbers:** 1 and 2\n- **Rhyme Domain Phonetic Transcription:**  \n  - Line 1: /a.kos/\n  - Line 2: /a/\n- **Classification:** IMP-0F (Imperfect rhyme with final consonant-zero alternation)\n- **Explanation:** \n  - The rhyme in this pair involves an imperfect rhyme where the domain from the stressed vowel onward in the first line (/a.kos/) has an alternation at the end with the final vowel of the second line (/a/) not having any consonant. Therefore, it constitutes an imperfect rhyme with a final consonant-zero alternation.\n\nThis analysis highlights the presence of a rhyme based on phonetic similarity and imperfect features, capturing the nuances of the poem's sound pattern."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_12",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "τι τα αρώματά τους / μες στα σωθικά τους,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.00081992149353,
+      "raw_output": "Let's analyze the given lines of Modern Greek poetry to identify the rhyme pattern.\n\n### Provided Lines:\n1. τι τα αρώματά τους\n2. μες στα σωθικά τους,\n\n### Analysis:\n\n1. **Identify Line-final Stress Position:**\n   - Line 1: \"αρώματά\" has the final stress on the antepenultimate syllable /ro/, thus F3 classification.\n   - Line 2: \"σωθικά\" has the stress on the antepenultimate syllable /θi/, thus F3 classification.\n\n2. **Extract Rhyme Domain:**\n   - Line 1 (\"αρώματά τους\"): /ro ma ta tus/\n   - Line 2 (\"σωθικά τους\"): /θi ka tus/\n\n3. **Comparison Across Lines:**\n   - Both lines end in \"τους\" which forms a consistent rhyme domain anchored by a stressed antepenultimate syllable.\n\n4. **Position-based Classification:**\n   - Both lines exhibit F3 rhyming pattern, as the stress is on the antepenultimate syllable.\n\n5. **Complexity Features:**\n   - **MOS (Mosaic):** The rhyme crosses word boundaries, as \"τους\" is a separate word that contributes to the rhyme scheme.\n   - **IDV-2W:** The vowel identity matches across the word boundaries, supporting the consistent rhyme at the boundary \"τους.\"\n\n### Rhyme Pair Classification:\n\n- **Lines:** 1-2\n- **Rhyme Domain in Phonetic Transcription:**\n  - Line 1: /ro ma ta tus/\n  - Line 2: /θi ka tus/\n- **Classification:** F3-MOS-IDV-2W\n- **Explanation:** Both lines have a stressed antepenultimate syllable, aligning them as F3 rhymes. The rhyme is mosaic (MOS) because it crosses the word boundary at \"τους,\" and the vowel identity also persists across these boundaries (IDV-2W). This creates a cohesive phonetic and poetic linkage between the lines through consistent ending sounds."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_13",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας, / δράκοντας αίμα ρηγικό μυρίζεται το τέρας.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.655364036560059,
+      "raw_output": "To analyze the rhyme pattern in this Modern Greek poetry excerpt, let's follow the analysis procedure:\n\n### 1. Determine Line-Final Stress Position:\n\n- **Line 1:** \"Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας\"\n  - The last stressed vowel is \"έ\" in \"ημέρας\" (penultimate).\n  \n- **Line 2:** \"δράκοντας αίμα ρηγικό μυρίζεται το τέρας\"\n  - The last stressed vowel is \"έ\" in \"τέρας\" (penultimate).\n\n### 2. Extract Rhyme Domain:\n\n- Both lines have a penultimate stress, so the rhyme domain starts at the stressed vowel and includes the subsequent sounds.\n  - Line 1 Rhyme Domain: /éras/\n  - Line 2 Rhyme Domain: /éras/\n\n### 3. Compare and Classify by Position:\n\n- Both rhymes are from the penultimate stressed vowel to the end, so they are **F2** (Feminine-2) rhymes.\n\n### 4. Identify Features:\n\n1. **RICH:** No shared consonants in the onset of the rhyme domains, so no rich feature applicable.\n   \n2. **IDV:** The vowel \"ε\" in \"ημέρας\" and \"τέρα\" matches (implicitly captured in F2 classification).\n\n3. **MOS:** The rhyme does not cross word boundaries, so non-applicable.\n\n4. **IMP:** No imperfect rhyme features as the rhymes are identical.\n\n5. **COPY:** This is a simple rhyme without repetition of entire words or phrases.\n\n### Conclusion:\n\n- **Line Numbers:** Lines 1-2\n- **Rhyme Domain (Phonetic Transcription):** /éras/ - /éras/\n- **Classification:** F2\n- **Explanation:** The rhyme is an F2 rhyme, indicating that it spans from the penultimate stressed vowel to the line end, with no additional rhyme complexity features. The rhyme is phonetic and matches exactly in both lines."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_14",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.946619987487793,
+      "raw_output": "To analyze the rhyme pattern in the provided lines from the Modern Greek poem, we will follow the procedure outlined for rhyme recognition. Here's a step-by-step analysis:\n\n### Lines to Analyze:\n1. \"της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα,\"\n2. \"ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα,\"\n\n### Phonetic Transcription:\n1. \"της ikoumenis t’ agatha sti δespina ti xora\"\n2. \"kseχoniasmeni i δromi su, sineparmени tora\"\n\n### 1. Identify Line-Final Stress Position:\n- Both lines end with the word \"τώρα\" (/tσora/), which has the stress on the antepenultimate syllable.\n\n### 2. Extract Rhyme Domain:\n- **Line 1:** /xɔ-ra/\n- **Line 2:** /tɔ-ra/\n\n### 3. Compare with Other Lines:\nSince we are analyzing a two-line excerpt, we will compare these two lines directly.\n\n### 4. Classify by Position:\n- Both rhyme domains are from the word \"τώρα\". The stress falls on the antepenultimate syllable.\n- Therefore, both rhymes are **F3** (Feminine-3).\n\n### 5. Identify Features:\n- **RICH**: No onset consonant matching (consonants /x/ and /t/ differ).\n- **IDV (Pre-rhyme vowel identity)**: The pre-rhyme vowels (/xɔ/ and /tɔ/) are different.\n- **MOS (Mosaic)**: Each line has its rhyme domain within a single word.\n- **IMP (Imperfect)**: The initial consonants of the rhyme domain differ.\n  - Specifically, this is **IMP-C** as the consonants differ at the onset of the rhyme domain.\n- **COPY**: Not applicable, as this is not a repetition.\n\n### 6. Provide Analysis:\n- **Line Numbers**: 1 & 2\n- **Rhyme Domain**: /xɔ-ra/ - /tɔ-ra/\n- **Classification**: F3-IMP-C\n- **Explanation**: The rhymes occur at the antepenultimate syllable (F3). The rhyme consonants differ in the onset of the rhyme domain, indicating an imperfect rhyme with a consonantal difference (IMP-C).\n\nThis analysis captures the poetic and phonetic features of the rhyme pattern present in the provided lines."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_15",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσια κι απ' τα χνούδια.",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.115826845169067,
+      "raw_output": "To analyze the rhyme scheme and classify the types of rhymes in the provided poem, we'll proceed step by step as described in the analysis procedure.\n\nLet's transcribe the relevant text phonetically:\n1. **Line 1**: στης παραστιάς τα πελεκούδια (stis parastiás ta pelekúdia)\n2. **Line 2**: γλυκά, απ' τα κρόσσια κι απ' τα χνούδια (gliká, ap' ta króssia ki ap' ta xnúdia)\n\n**Step 1: Identify Line-Final Stress Position**\n- Line 1 ends with \"πελεκούδια\" (pelekúdia), stressed on the antepenultimate syllable (F3).\n- Line 2 ends with \"χνούδια\" (xnúdia), stressed on the antepenultimate syllable (F3).\n\n**Step 2: Extract Rhyme Domain**\n- The rhyme domain for both lines is from the stressed vowel rightward, giving us:\n  - Line 1: -κούδια (/kuði.a/)\n  - Line 2: -νούδια (/nuði.a/)\n\n**Step 3: Compare with Other Lines**\n- We'll compare these two lines since they have similar domains.\n\n**Step 4: Classify by Position**\n- Both lines have a stress pattern of F3 (antepenultimate stress).\n\n**Step 5: Identify Features**\n- **RICH**: The onset consonants of the rhyme domains (/k/ vs. /n/) do not match, so there is no RICH feature.\n- **IDV**: The vowel preceding the stressed vowel differs (/e/ in pelekúdia vs. /u/ in xnúdia), thus no IDV feature.\n- **MOS**: The rhyme domain stays within the word boundaries; hence, it's not a MOS rhyme.\n- **IMP**: \n  - The stressed vowels (/u/ in both) are the same, hence no IMP-V.\n  - There is a difference in onset consonants of the stressed syllable (/k/ vs. /n/), indicating IMP-C.\n\n**Finished Analysis:**\nRhyme Pair:\n- **Line Numbers**: 1 and 2\n- **Rhyme Domain in Phonetic Transcription**: /kuði.a/ (Line 1), /nuði.a/ (Line 2)\n- **Classification**: F3-IMP-C\n- **Explanation**: The lines employ an F3 rhyme, with an imperfect consonant match where the onset consonant preceding the vowel differs between the rhyme domains."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_16",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και σκυλιά την κομματιάζουν",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 9.225697040557861,
+      "raw_output": "Let's analyze the given poem for rhyme patterns. We will follow the specified procedure:\n\n### Poem Analysis:\n\n1. **Line 1:** \"Κι εμέ κουρέλια με κακοσκεπάζουν,\"\n   - **Stressed vowel position:** Antepenultimate 'α' in \"κακοσκεπάζουν\"\n   - **Phonetic transcription of rhyme domain:** /ˈəzoŋ/\n   - **Classification:** F3, as the stress is on the antepenultimate vowel.\n\n2. **Line 2:** \"παλιούρια και σκυλιά την κομματιάζουν\"\n   - **Stressed vowel position:** Antepenultimate 'α' in \"κομματιάζουν\"\n   - **Phonetic transcription of rhyme domain:** /ˈəzoŋ/\n   - **Classification:** F3, as the stress is on the antepenultimate vowel.\n\n### Rhyme Pair Analysis:\n\n- **Line Numbers:** Line 1 and Line 2\n- **Phonetic transcription of rhyme domain:** /ˈəzoŋ/\n- **Position-based Classification:** F3 (Feminine-3)\n\n### Features:\n\n1. **RICH:** No onset consonant matching nor complex onset match.\n2. **IDV:** The vowel before the stressed syllable (/a/) matches between the two lines, which is an identity.\n3. **MOS:** Not applicable as there are no word boundaries crossed.\n4. **IMP:** None, as this is a perfect rhyme.\n5. **COPY:** No complete repetition.\n\n### Final Classification:\n\n- **Classification:** F3-IDV\n\n### Explanation:\n\nThe rhyme occurs from the antepenultimate stressed vowel \"α\" to the end of each line (F3). The phonetic transcription /ˈəzoŋ/ matches exactly in both lines. The pre-rhyme vowel \"α\" matches, fitting the IDV category for identity in the vowel preceding the stressed syllable. Thus, our classification is F3-IDV."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_17",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χειρότερα.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.810639142990112,
+      "raw_output": "To analyze the Modern Greek poem provided, let's first break down each line for stress and rhyming analysis.\n\n1. **Stress Identification and Rhyme Extraction:**\n   - **Line 1:** \"Δεν τα λέω τα περισσότερα\"\n     - Stress falls on the antepenultimate syllable: **λέω** (lemma), **περισσότερα** (more)\n     - Rhyme domain starts from \"περισσό-\" to end of line: [pe̞.riˈso̞.te̞.ra]\n   - **Line 2:** \"γιατί in fondo είναι χειρότερα\"\n     - Stress falls on the antepenultimate syllable: **είναι**, **χειρότερα** (worse)\n     - Rhyme domain starts from \"χειρό-\" to end of line: [çiˈro̞.te̞.ra]\n\n2. **Comparison of Lines 1 and 2:**  \n   - Both lines end with the word \"περισσότερα\" in a rhyming position.\n   - Domain: [pe̞.riˈso̞.te̞.ra] vs. [çiˈro̞.te̞.ra]\n   - Stress position: antepenultimate\n   - Rhyme Type: F3 (Feminine-3), as the stress is antepenultimate in both rhyme domains\n\n3. **Classification and Features:**\n   - **Imperfect Rhyme (IMP):**\n     - IMP-V: The stressed vowels differ ([e̞] in \"περισσότερα\" and [i] in \"χειρότερα\")\n     - IMP-C: The initial consonants differ (\"περ\" - \"χειρ\")\n\n- **Rhyme Analysis Result:**\n  - **Line Numbers:** 1 and 2\n  - **Rhyme Domain in Phonetic Transcription:** \n    - Line 1: [pe̞.riˈso̞.te̞.ra]\n    - Line 2: [çiˈro̞.te̞.ra]\n  - **Classification:** F3-IMP-V-IMP-C\n  - **Explanation:** The rhyme occurs at the antepenultimate stress position (F3) with both a difference in the stressed vowel (IMP-V) and a difference in initial consonants after the stressed vowel (IMP-C).\n\nThis analysis highlights the nuanced nature of rhyming in Modern Greek poetry, taking into account phonetic differences beyond orthography."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_18",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "λαμβάνει, αι χορδαί αυτής την ποίησιν / εκπέμπουν της θερμής Ασίας — μύησιν",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 6.371312141418457,
+      "raw_output": "Let's analyze the provided lines of Modern Greek poetry for rhyme patterns according to the established taxonomy.\n\n**Lines:**\n\n1. ...λαμβάνει, αι χορδαί αυτής την ποίησιν\n2. εκπέμπουν της θερμής Ασίας — μύησιν\n\n**Phonetic Transcription and Rhyme Analysis:**\n\n1. **Line 1 ending:** /poí.isin/\n2. **Line 2 ending:** /mí.isin/\n\n**Step-by-Step Analysis:**\n\n1. **Identify line-final stress position:**\n   - For both lines, the stress is on the penultimate syllable.\n   \n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Line 1: /-ísin/\n   - Line 2: /-ísin/\n\n3. **Compare with other lines (in a 4-line window):**\n   - We compare these two consecutive lines.\n\n4. **Classify by position (M/F2/F3):**\n   - Both lines have a penultimate stressed vowel, so they fall under **F2** (Feminine-2).\n\n5. **Identify features (RICH, IDV, MOS, IMP, COPY):**\n   - The rhyme domains /-ísin/ in both lines are phonetically identical with no variation, therefore a simple rhyme without complex features.\n\n**Classification:**\n\n- **Line Numbers:** 1 and 2\n- **Rhyme Domain:** /-ísin/\n- **Classification:** F2-COPY\n- **Explanation:** Both lines end with the rhyme domain /-ísin/, sharing an identical rhyme from the penultimate stressed vowel to the end with exact consonants and stress pattern, hence classified as a Feminine-2 rhyme with direct repetition (COPY)."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_19",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Σπούδαξε, να σε στιμάρουνε! * / Βλέπω γω πώς με τρατάρουνε! *",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 7.66275691986084,
+      "raw_output": "To analyze the provided lines for rhyme patterns, we can follow the outlined procedure:\n\n1. **Identify line-final stress position:**\n\n   - **Line 1:** \"Σπούδαξε, να σε στιμάρουνε!\"  \n     The stress falls on \"μά\" in \"στιμάρουνε\" which is the penultimate syllable.\n\n   - **Line 2:** \"Βλέπω γω πώς με τρατάρουνε!\"\n     The stress falls on \"τά\" in \"τρατάρουνε\" which is also the penultimate syllable.\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n\n   - **Line 1 (στιμάρουνε):** The rhyme domain begins at \"μάρ\" (/mar/).\n\n   - **Line 2 (τρατάρουνε):** The rhyme domain begins at \"τάρ\" (/tar/).\n\n3. **Compare within the 4-line window:**\n\n   Both lines rhyme due to phonetic similarity after the stressed syllable.\n\n4. **Classify by position:**\n\n   - Both \"στιμάρουνε\" and \"τρατάρουνε\" have rhymes stemming from the penultimate stressed syllable hence they are classified as F2 (Feminine-2).\n\n5. **Identify features:**\n\n   - The consonants after the stressed vowel are different (/m/ vs. /t/), indicating an imperfect consonant match (IMP-C).\n\n6. **Phonetic similarity analysis:**\n\n   Both lines share the same vowel after the stressed syllable (/a/) but have different initial consonants in this position.\n\n**Result for the rhyme pair:**\n\n- **Line numbers:** 1 and 2\n- **Rhyme domain in phonetic transcription:** /marune/ and /tarune/\n- **Classification:** F2-IMP-C\n- **Explanation:** The rhyme is classified as F2 because it emerges from the penultimate stressed syllable. It features an imperfect consonant match because the consonants after the stressed vowel in the rhyme domain differ (/m/ vs. /t/)."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_20",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Επέστρεφε συχνά και παίρνε με, / αγαπημένη αίσθησις επέστρεφε και παίρνε με —",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "RICH"
+      ],
+      "predicted_rhyme_type": "F2",
+      "predicted_features": [
+        "COPY"
+      ],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 14.266820192337036,
+      "raw_output": "To analyze the provided Modern Greek poetry using the given rhyme taxonomy, let's break down the lines step-by-step, identify the stress positions, extract the rhyme domains, and then classify the rhymes phonetically.\n\n### Poem:\n1. Επέστρεφε συχνά και παίρνε με,\n2. αγαπημένη αίσθησις επέστρεφε και παίρνε με —\n\n### Step 1: Identify Line-Final Stress Positions\nLet's look at the stress in these lines. In Modern Greek, the stress can often be identified by accents or conventional placement in words:\n\n1. Line 1: **παίρνε με** - \"παίρνε\" has the stress on the penultimate syllable (*παί*ρ-νε).\n2. Line 2: **παίρνε με** - This phrase repeats exactly, carrying the same stress as line 1.\n\n### Step 2: Extract Rhyme Domains\nSince \"παίρνε με\" is identical in both lines and is repeating, this provides an example of a direct repetition forming the rhyme:\n\n- **Rhyme Domain**: [ˈper.ne me]\n  - Line 1: final phrase \"παίρνε με\" after the stressed syllable \"παί\" (since both lines share this exact phrase)\n  - Line 2: same as Line 1 due to repetition\n\n### Step 3: Compare with Other Lines\nThese lines repeat exactly, so analysis over a 4-line window here overlaps the same pattern without extending the sequence.\n\n### Step 4: Classify by Position\n- The word \"παίρνε με\" stresses on the penultimate vowel, making it a feminine-2 (F2) rhyme.\n\n### Step 5: Identify Features\n1. **COPY**: Exact repetition of the phrase.\n2. **IDV**: The vowel before the stressed syllable is noted for identity comparison if needed, but here it's systematically focused on repetition more than individual vowel identities due to identical phrasing.\n\n### Conclusion and Final Classification\n- **Lines**: 1 and 2\n- **Rhyme Domain (Phonetic Transcription)**: [ˈper.ne me]\n- **Classification**: F2-COPY\n- **Explanation**: The rhyme involves an exact repetition of the phrase \"παίρνε με,\" forming a feminine-2 rhyme due to the stress on the penultimate syllable and characterized by full repetition, thus classified as F2-COPY.\n\nThis thorough analysis efficiently distinguishes the rhyme patterns and features present in the provided lines of Modern Greek verse."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_21",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "για ν’ ακούστε… τί τηράζετε; / Tromba acustica χρειάζεται.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.11248517036438,
+      "raw_output": "To analyze the rhyme pattern in the provided two-line segment of Modern Greek poetry, we will follow the structured analysis procedure.\n\n### Step 1: Identify line-final stress position\n1. **Line 1:** \"για ν’ ακούστε… τί τηράζετε;\"  \n   - \"τηράζετε\" is stressed on the antepenultimate syllable (-ά-), making it a F3 position.\n\n2. **Line 2:** \"Tromba acustica χρειάζεται.\"  \n   - \"χρειάζεται\" is stressed on the antepenultimate syllable (-α-), making it a F3 position.\n\n### Step 2: Extract rhyme domains\n- For \"τί τηράζετε\": [ti-ra-ze-te]\n- For \"χρειάζεται\": [χre-a-ze-te]\n\n### Step 3: Compare rhyme domains (scan 4-line window by default)\nSince there are only two lines, both lines need to be compared.\n\n### Step 4 and Step 5: Classify by position and identify features\n\n- **Rhyme Domain:**  \n  - Both lines feature F3 rhyme position.\n\n- **Analysis of Phonetic Similarity:**\n  - **Position:** **F3** (antepenultimate stress)\n  - **Phonetic transcription of the rhyme domain:**:\n    - Line 1: [-azete]\n    - Line 2: [-azete]\n  - **Features:**\n    - The rhyme is a **COPY** type since there is complete duplication of \"χρε-άζετε\".\n    \n### Step 6: Provide analysis\n\n- **Rhyme Pair:** Lines 1 and 2\n- **Rhyme Domain:** /-azete/\n- **Classification:** F3-COPY\n- **Explanation:** Both lines end with the identical word segment \"χρειάζεται\" and \"τηράζετε,\" providing a complete phonetic repetition indicative of the COPY feature in rhyme classification. The rhyme occurs in the antepenultimate stress position, classified as F3."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_22",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Και τώρα, νά, κηρύσσεται / στα σπίτια θα γυρίσετε,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "IMP",
+        "0",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "COPY"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.155848026275635,
+      "raw_output": "To analyze the rhymes in the given Modern Greek poem lines, let's follow the analytical procedure:\n\n### Text:\n1. Και τώρα, νά, κηρύσσεται\n2. στα σπίτια θα γυρίσετε,\n\n### Step-by-Step Analysis:\n\n1. **Identify line-final stress position:**\n   - Line 1: κηρύσσεται [ciˈrisete] - the stress is on the second syllable (antepenultimate).\n   - Line 2: γυρίσετε [ʝiˈrisete] - the stress is also on the second syllable (antepenultimate).\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Line 1 rhyme domain: [iˈrisete]\n   - Line 2 rhyme domain: [iˈrisete]\n\n3. **Compare with other lines (4-line window):**\n   - Both lines are within the 4-line window and have the same rhyme domain.\n\n4. **Classify by position (M/F2/F3):**\n   - Both lines have a rhyme from the antepenultimate stressed vowel to the end of the line: F3\n\n5. **Identify features (RICH, IDV, etc.):**\n   - The rhyme is a complete match without variations, meaning it is a simple feminine rhyme. Additionally, both lines use the exact same sequence of sounds beyond the stressed vowels, suggesting a repetition.\n   - No RICH features apply as the onsets of the stressed syllables are identical, thus not matching any specific feature keys like TR-S, TR-CC.\n   - No specific IMP features are applicable here as both lines carry identical sounds.\n   - The rhyme crosses word boundaries only in the sense that the rhyme area includes multiple words phonetically, but it's not mosaic in this context.\n\n### Rhyme Pair Classification:\n\n#### Pair:\n- Line numbers: 1, 2\n- Rhyme domain: [iˈrisete]\n- Classification: F3-COPY\n- Explanation: The rhyme is based on the repetition of identical sounds from the antepenultimate stressed vowel to line end, typical of a 'complete word/phrase repetition' feature.\n\nThese two lines are an example of a simple and complete rhyme in Modern Greek poetry, with a perfect match in both phonetics and structure."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_23",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "Αυτά οπού ευφραίνουν, αυτά πικραίνουνε· / κι επάνω εις τους τάφους, που κλαίμε, βγαίνουνε,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "IDV",
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 19.73772692680359,
+      "raw_output": "To analyze the rhyme patterns in the provided lines of Modern Greek poetry, let's follow the analysis procedure step by step:\n\n1. **Identify line-final stress position**:\n   - Line 1: \"Αυτά οπού ευφραίνουν, αυτά πικραίνουνε·\"\n     - The final stressed syllable is \"-ραίνουν.\"\n   - Line 2: \"κι επάνω εις τους τάφους, που κλαίμε, βγαίνουνε,\"\n     - The final stressed syllable is \"-γαίνουν.\"\n\n2. **Extract rhyme domain (from stressed vowel rightward)**:\n   - Line 1: \"-ραίνουνε\" (transcribed as /-rén.ɪ.ne/)\n   - Line 2: \"-γαίνουνε\" (transcribed as /-ɣén.ɪ.ne/)\n\n3. **Compare with other lines**:\n   - We compare the two lines directly as provided.\n\n4. **Classify by position (M/F2/F3)**:\n   - Both lines exhibit a \"F3\" rhyme pattern as the rhyme starts from the antepenultimate stressed vowel /ε/.\n\n5. **Identify features (RICH, IDV, MOS, IMP, COPY)**:\n   - **RICH**: \n     - PR-C1: \"ευφραίνουνε\" (/ef.rén.ɪ.ne/) and \"βγαίνουνε\" (/vɣén.ɪ.ne/) have different initial consonants in the stressed syllable, so they match with the first consonant of the unstressed syllable (/ɪ/) but not at the stressed syllable.\n   - **IDV**: \n     - IDV: The vowel /e/ before the stressed syllable matches.\n   - **IMP**: \n     - IMP-C: The onset consonants of the stressed syllables are different (/r/ vs. /ɣ/).\n\n6. **Provide analysis**:\n   - Line 1 and Line 2:\n     - Rhyme domain: \n       - Line 1: /-rén.ɪ.ne/\n       - Line 2: /-ɣén.ɪ.ne/\n     - Classification: F3-IMP-C-IDV\n     - Explanation: The rhyme starts at the antepenultimate stress position (F3), with imperfect consonant matching (IMP-C) at the stressed syllable, and the pre-rhyme vowel (IDV) matches.\n\nThis analysis reveals the sophisticated use of subtle sound variations in Greek poetry, demonstrating how differences in consonant sounds and shared vowel sounds can create a rich auditory tapestry."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_24",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "παρά καθάριους ουρανούς, αστροφεγγιές και κύματα / χωρίς αφρούς να ξεψυχούν σε περιγιάλια μνήματα!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [
+        "IDV"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.607043266296387,
+      "raw_output": "Let's analyze the rhyme pattern of the provided Modern Greek poetry.\n\n### Step 1: Identify Line-final Stress Position\n1. **Line 1:** \"παρά καθάριους ουρανούς, αστροφεγγιές και κύματα\"\n   - The final word \"κύματα\" (kýmata) has antepenultimate stress, making it F3.\n\n2. **Line 2:** \"χωρίς αφρούς να ξεψυχούν σε περιγιάλια μνήματα!\"\n   - The final word \"μνήματα\" (mnímata) also has antepenultimate stress, making it F3.\n\n\n### Step 2: Extract the Rhyme Domain\n- For both lines, since they end with \"κύματα\" and \"μνήματα,\" the rhyme domain starts from the stressed syllable \"κυ-\" and \"μνή-\" respectively, moving rightward to the end (i.e., \"-ματα\").\n\n\n### Step 3: Compare with Other Lines (4-line window)\nSince we only have two lines, we will compare the rhyme domain \"-ματα\" in both lines.\n\n\n### Step 4: Classify by Position (M/F2/F3) First\n- Both rhyme domains \"-ματα\" (from \"κύματα\" and \"μνήματα\") are F3 (antepenultimate stress).\n\n\n### Step 5: Identify Features\n- **RICH:** There is a matching onset for the rhyming syllable, \"μ\" in \"μνήματα\" matches the \"κ\" (note: matching is partial), thus no rich consonant match.\n- **IDV:** The vowel before the stressed \"ά\" in both cases is \"ί,\" providing an identical pre-rhyme vowel, compatible with IDV classification.\n- **MOS:** No crossing of word boundaries in the rhyme domain.\n- **IMP:** No vowel or consonant replacement to consider as imperfect.\n- **COPY:** Not applicable as it’s not a repetition.\n\n### Step 6: Provide Rhyme Pair Analysis\n\n**Line Numbers**: 1-2  \n**Rhyme Domain (Phonetic)**: /ˈmata/  \n**Classification**: F3-IDV  \n**Explanation**: Both lines feature an antepenultimate stress with identical pre-rhyme vowels \"ί,\" giving them an F3-IDV classification. The rhyme occurs on \"-ματα,\" showcasing a vowel identity match before the stressed sequence, which is the primary feature of the rhyme."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_25",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "που μου κάνουν των κόσμων οι ομορφάδες· / της καρδιάς, κι οι ορμές, Λάμιες και Μαινάδες,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "1",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.633157730102539,
+      "raw_output": "To analyze the given excerpt from Modern Greek poetry, we'll break down the lines into their phonetic components, identify the stress, determine the rhyme domain, and then classify the rhyme based on the provided taxonomy.\n\n### Lines and Analysis:\n\n1. **Line 1:** \"που μου κάνουν των κόσμων οι ομορφάδες·\"  \n   - **Phonetic Transcription:** /po mu ˈkanun ton ˈkosmon i omorˈfaðes/\n   - **Stress Position:** On the antepenultimate vowel of \"ομορφάδες\" (o-mo-r-**fa**-ðes).\n\n2. **Line 2:** \"της καρδιάς, κι οι ορμές, Λάμιες και Μαινάδες,\"  \n   - **Phonetic Transcription:** /tis karˈðʝas ci i orˈmes, ˈlamies ce meˈnaðes/\n   - **Stress Position:** On the antepenultimate vowel of \"Μαινάδες\" (me-**na**-ðes).\n\n### Rhyme Analysis:\n\n- **Rhyme Pair:** \"ομορφάδες\" (line 1) and \"Μαινάδες\" (line 2)\n\n#### Step-by-step Classification:\n\n1. **Position-based Classification:**\n   - Both words have stress on the antepenultimate syllable, so this is an **F3** rhyme.\n\n2. **Rhyme Domain Extraction:**\n   - From \"ομορφάδες\": The domain is /faðes/.\n   - From \"Μαινάδες\": The domain is /naðes/.\n\n3. **Complexity Features:**\n\n   - **RICH Classification:**\n     - There is no total consonant match in the onset of the final syllables (\"ομορφάδες\" /fa-/ vs. \"Μαινάδες\" /na-/). Thus, this doesn't qualify for RICH.\n\n   - **IMP (Imperfect) Classification:**\n     - IMP-C: The consonant preceding the stressed vowels differs /f/ vs. /n/. The vowel matches, but there's a difference in consonant sound.\n\n4. **Final Classification:**\n   - **F3-IMP-C**: This pattern signals an imperfect consonance due to the consonant mismatch in the onset of the final syllables of each word while retaining the same vowel and ending consonant sequence.\n\n#### Explanation:\nThe rhyme between \"ομορφάδες\" and \"Μαινάδες\" occurs due to the matching pattern of vowels and final consonants, yet imperfections arise from differing onset consonants in the antepenultimate syllable, thus an F3 rhyme with an imperfect consonantal match."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_structured_WITHOUT-RAG_26",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_structured",
+      "use_rag": false,
+      "poem_text": "το αστροσυγνεφοσκέπαστο της Φαντασίας παλάτι, / χέρι ασυλλόγιστου ή τυφλού το δρόμο του να κάνει,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.394809007644653,
+      "raw_output": "To analyze the rhyme pattern in the given lines of the Modern Greek poem, let's follow the analysis procedure.\n\n### Step-by-Step Analysis:\n\n1. **Identify line-final stress position:**\n   - Line 1: παλάτι (paˈlati) - stress on the penultimate syllable\n   - Line 2: κάνει (ˈkani) - stress on the penultimate syllable\n\n2. **Extract rhyme domain (from stressed vowel rightward):**\n   - Line 1: ˈlati\n   - Line 2: ˈkani\n\n3. **Compare with other lines (scan 4-line window by default):**\n   - Compare these two lines with each other, as there are no more lines provided.\n\n4. **Classify by position (M/F2/F3) first:**\n   - Both lines end with the penultimate stressed vowel rhyme pattern, so they both are classified as **F2**.\n\n5. **Identify features (RICH, IDV, MOS, IMP, COPY):**\n\n   - **RICH:**\n     - **PR-C1**: The first consonants (l- and k-) in the rhyme domains do not match.\n   \n   - **IDV:**\n     - No pre-rhyme vowel identity matches across word boundaries.\n   \n   - **MOS:**\n     - No mosaic rhyme as rhyme domain does not cross word boundaries.\n\n   - **IMP:**\n     - No imperfect rhyme features identified as the rhyming domains have no noticeable vowel differences or consonant-zero alternations.\n\n   - **COPY:**\n     - No complete word or phrase repetition in lines 1 and 2.\n\n### Summary of Analysis for the Rhyme Pair:\n\n- **Line Numbers:** 1 and 2\n- **Rhyme Domain (Phonetic Transcription):** ˈlati - ˈkani\n- **Classification:** F2-IMP-C (due to the slight consonant mismatch)\n- **Explanation:** The rhyme is feminine with the penultimate stress position. There is a slight consonant mismatch between the rhyme domains: the 'l' in 'ˈlati' and the 'k' in 'ˈkani', which classifies it under imperfect consonant rhyme (IMP-C).\n\nThis analysis reflects the rhyme characteristics present in the provided lines of the Greek poem based on phonetic similarity rather than orthographic similarity."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_1",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Για μένα, λέω που σε πολλά βλέπουν πολλές αλήθειες*Θυμούμαι που εδιάβασα σε ιταλική φυλλάδανα λέει κανείς τα ονείρατα πως είναι κουταμάδα.Αλλά η ζωή . . . . . . .  κι είναι άλλοπαρά όνειρο —και δυστυχής όποιος το ιδεί μεγάλο.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 19.453424215316772,
+      "raw_output": "Let's analyze the rhyme patterns in the provided Greek poem segment using the systematic analysis framework. We'll focus primarily on identifying potential rhyme pairs and analyzing their features according to the framework steps. \n\n### Poem Segment for Analysis\n1. Είδα σε φιλοσοφική ιταλική φυλλάδα\n2. να λέει κανείς τα ονείρατα πως είναι κουταμάδα.\n3. Για μένα, λέω που σε πολλά βλέπουν πολλές αλήθειες\n4. Θυμούμαι που εδιάβασα σε ιταλική φυλλάδα\n5. να λέει κανείς τα ονείρατα πως είναι κουταμάδα.\n6. Αλλά η ζωή . . . . . . .  κι είναι άλλο\n7. παρά όνειρο —και δυστυχής όποιος το ιδεί μεγάλο.\n\n### Rhyme Analysis\n\n#### Potential Rhyme Pair 1: φυλλάδα / κουταμάδα (Lines 1 and 2)\n\n**STEP 1: Phonetic Analysis**\n- **Line 1:** φυ-λά-δα (primary stress on \"-λά\")\n- **Line 2:** κου-τα-μά-δα (primary stress on \"-μά\")\n\n- Transcription after stress:\n  - **Line 1:** [lá-ða]\n  - **Line 2:** [má-ða]\n\n**STEP 2: Rhyme Domain Identification**\n- Extracted domain: \"-λάδα\" and \"-μάδα\" (from the stressed vowel to the end of the line)\n- The domain does not cross any word boundaries.\n\n**STEP 3: Position Classification**\n- Both lines end with three syllables after the stress, hence F3 (Feminine-3).\n\n**STEP 4: Feature Detection**\n- Onset consonants [l] vs [m]: Different → IMP-C (Imperfect consonant match)\n- Pre-stress vowel [u:i/a]: Different → IMP-V (Imperfect vowel match)\n- Domain: No additional features\n\n**STEP 5: Classification Synthesis**\n- F3-IMP-C-IMP-V\n\n#### Potential Rhyme Pair 2: φυλλάδα / φυλλάδα (Lines 1 and 4)\n\nThis is repetition of the same word across different lines.\n\n**STEP 1: Phonetic Analysis**\n- Same word: φυ-λά-δα [lá-ða]\n\n**STEP 2: Rhyme Domain Identification**\n- Domain is identical and does not cross any word boundaries.\n\n**STEP 3: Position Classification**\n- Three syllables after stress, so F3\n\n**STEP 4: Feature Detection**\n- Copy of the word: COPY feature\n\n**STEP 5: Classification Synthesis**\n- F3-COPY\n\n#### Potential Rhyme Pair 3: κουταμάδα / κουταμάδα (Lines 2 and 5)\n\nSame repetition case as with \"φυλλάδα.\"\n\n**STEP 1: Phonetic Analysis**\n- Same word: κου-τα-μά-δα [má-ða]\n\n**STEP 2: Rhyme Domain Identification**\n- Domain is identical and does not cross any word boundaries.\n\n**STEP 3: Position Classification**\n- Three syllables after stress, so F3\n\n**STEP 4: Feature Detection**\n- Copy of the word: COPY feature\n\n**STEP 5: Classification Synthesis**\n- F3-COPY\n\n### Summary\n1. φυλλάδα / κουταμάδα: F3-IMP-C-IMP-V\n2. φυλλάδα / φυλλάδα: F3-COPY\n3. κουταμάδα / κουταμάδα: F3-COPY\n\nThis analysis elucidates the use of repetition and imperfect rhymes in the selected Greek poem segment."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_2",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Εργάζομ’ εις το έργον μου εγώ. / [........................................]",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 18.51767897605896,
+      "raw_output": "To analyze the given Greek poem line using the systematic analysis framework, let's proceed through the steps for a potential rhyme pair involving the specified line.\n\n### Analyzing First Line:\nGreek: Εργάζομ’ εις το έργον μου εγώ.\n\n#### **Step 1: Phonetic Analysis**\n1. **Break into Syllables:** \n   - ερ-γά-ζομ’ εις το έρ-γον μου ε-γώ\n2. **Locate Primary Stress:**\n   - The stress in \"εργάζομ’\" falls on the first syllable ('-γά-').\n   - For \"εγώ,\" the stress falls on the last syllable ('-γώ').\n3. **Transcription Post-Stress:**\n   - After stress in \"εργάζομ’,\" the key sounds are \"ζομ.\"\n   - After stress in \"εγώ,\" the key sound is \"γώ.\"\n\n#### **Step 2: Rhyme Domain Identification**\n- **Rhyme Domain:** From the stressed vowel to the end of each segment: \n  - εργάζομ’: \"ζομ\"\n  - εγώ: \"γώ\"\n- It does not necessarily cross word boundaries currently in this isolation.\n- For analysis, let's assume the hypothetical last line would rhyme with \"ζομ\" or \"γώ,\" given that the line is standalone for now.\n\n#### **Step 3: Position Classification**\n- **\"εργάζομ’\" Classification:**\n  - 'ζομ' has 2 syllables from the primary stress (M / Masculine)\n- **\"εγώ\" Classification:**\n  - 'γώ' has 1 syllable from the primary stress (M / Masculine)\n\n#### **Step 4: Feature Detection**\n- Onset consonants for potential rhyme sounds can be further analyzed with a second line.\n- No vowel before the stress needs to match since the second line is unspecified.\n- **Key Detection for \"εργάζομ'\" potential:**\n  - Vowel/consonant difference and imitation, depending on second line phonetics.\n- **Key Detection for \"εγώ\" potential:**\n  - Similar considerations for a rhyme with vowel/consonant interaction.\n  \n#### **Step 5: Classification Synthesis**\nTo synthesize these observations into a coherent classification:\n- Positionally classify as \"M\", with anticipation on second line features for potential refinement.\n- Without a second line, specific features such as IMP-V (Imperfect Vowel), RICH, or COPY cannot be applied accurately without further context.\n\n### Conclusion:\nFor the line \"εργάζομ’ εις το έργον μου εγώ,\" the primary observations would indicate a set of potential M(a)sculine participations in future rhymes depending on context. Once the hypothetical matching line emerges, additional features can be identified and classified comprehensively within the rhyme pattern system. \n\nIf more lines were furnished, finalize classification and rich phonetic comparison for full rhyme analysis across extended text."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_3",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "[1819] / .........................................",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "UNKNOWN"
+      ],
+      "predicted_rhyme_type": "S",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 13.326598882675171,
+      "raw_output": "To analyze the rhyme patterns in the given poem, we'll follow the systematic analysis framework. Unfortunately, as you haven't provided a poem or its lines, I'm unable to directly analyze specific lines. However, I can illustrate the process using an example. Please provide the text you would like to analyze, or use the following generic framework to analyze each rhyme within a provided poem:\n\n### Example Poem Analysis (Hypothetical)\n\n**Line 1:** … τριαντάφυλλα …  \n**Line 2:** … αναντα …\n\nHere’s how to analyze this hypothetical example:\n\n### STEP 1: Phonetic Analysis\n- **Line 1:** Break into syllables: τρι-αν-τά-φυλ-λα.  \n  - Locate primary stress: paroxytone (second to last syllable).\n  - Transcribe the sounds after stress: /áfila/.\n\n- **Line 2:** Break into syllables: α-να-ντα.\n  - Locate primary stress: oxytone (last syllable).\n  - Transcribe sounds after stress: /ánta/.\n\n### STEP 2: Rhyme Domain Identification\n- Extract the domain from stressed vowel to line end for both lines.\n  - **Line 1**: Domain: /áfila/.\n  - **Line 2**: Domain: /ánta/.\n\n- Note if the domain crosses word boundaries: No cross-boundary.\n\n### STEP 3: Position Classification\n- Count syllables from stress to end:\n  - **Line 1:** 2 syllables after stress → F2.\n  - **Line 2:** 1 syllable after stress → M.\n\n### STEP 4: Feature Detection\n- Onset consonants match? No → IMP-C (imperfect due to consonant difference).\n- Pre-stress vowel matches? Yes → IDV.\n- Domain spans words? No → No MOS.\n- Vowels/consonants differ? Yes → Consonant difference (already noted).\n\n### STEP 5: Classification Synthesis\n- **Line 1 and Line 2:** Since there's an imperfect match (consonants differ) with a matching vowel before the stress, the synthesis results in F2-IMP-C-IDV for how this rhyme relationship is observed, as one is masculine, and the other is feminine.\n\nThis example illustrates how to apply the method despite differences. Using these steps, you can analyze each rhyme pair within your provided poem. If you share a specific poem, I can provide a more detailed analysis for those lines."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_4",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη με ομιλείς αν θέλεις, μη με πεις γοητευτικά",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 21.068276166915894,
+      "raw_output": "To analyze the rhyme pattern in the given lines, \"απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη με ομιλείς αν θέλεις, μη με πεις γοητευτικά\", we'll apply the systematic analysis process.\n\n### Line 1: \"απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά\"\n\n**STEP 1: Phonetic Analysis**\n- Break into syllables: απ' | ε | κεί | να | που | πι | έ | ζουν | την | ε | ρώ | σαν | μου | καρ | διά\n- Locate primary stress: The primary stress is on the oxytone word \"καρδιά\".\n- Transcribe sounds after stress: [diá]\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel [iá] to line end: \"διά\"\n- Note if domain crosses word boundaries: It does not, as it is only \"καρδιά\"\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end: 1 syllable, indicating a Masuline (M) rhyme position.\n\n**STEP 4: Feature Detection**\n- Onset consonants match? N/A, only one word\n- Pre-stress vowel matches? N/A since it's a monovocalic structure\n- Domain spans words? No\n- Vowels/consonants differ? N/A since single word considered\n- Complete repetition? No, not applicable\n\n### Line 2: \"Μη με ομιλείς αν θέλεις, μη με πεις γοητευτικά\"\n\n**STEP 1: Phonetic Analysis**\n- Break into syllables: Μη | με | ο | μι λείς | αν | θέ | λεις, | μη | με | πεις | γο | η | τευ | τι | κά\n- Locate primary stress: The primary stress is on the oxytone word \"γοητευτικά\".\n- Transcribe sounds after stress: [ká]\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel [iá] to line end: \"τικά\"\n- Note if domain crosses word boundaries: It does not, as it is only \"γοητευτικά\"\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end: 1 syllable, indicating a Masculine (M) rhyme position.\n\n**STEP 4: Feature Detection**\n- Onset consonants match? Yes, phonetic settings are matched: \"δια\" / \"τικα\"\n- Pre-stress vowel matches? Yes, since [ia] is common\n- Domain spans words? No\n- Vowels/consonants differ? No, identical phonetic\n- Complete repetition? No, distinct words but parts akin\n\n### Synthesis and Classification\nCombine the findings into a final classification:\n- Both rhyming segments share the same post-stress domain [iá].\n- Therefore, the rhyme pattern between \"καρδιά\" and \"γοητευτικά\" is **M-IDV** (Masculine-Identical Vowels). \n\nThis is a typical example of paired riming focusing on both similar structure and ending."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_5",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτσι, μια σταλιά–",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 10.213789939880371,
+      "raw_output": "Let's analyze the rhymes in the given lines using the systematic framework you've provided:\n\nLines provided:\n1. τυφλή βροχή σπάει, στα γυαλιά.\n2. Αχ, να 'νοιγα –έτσι, μια σταλιά–\n\n### Analyzing the Rhyme Pair \"στα γυαλιά\" / \"σταλιά\"\n\n**STEP 1: Phonetic Analysis**\n- **Line 1**: \"στα γυαλιά\"\n  - Break into syllables: στα γυα-λιά\n  - Primary stress: paroxytone (second-to-last syllable \"λιά\")\n  - Transcription after stress: [lia]\n\n- **Line 2**: \"σταλιά\"\n  - Break into syllables: στα-λιά\n  - Primary stress: oxytone (last syllable \"λιά\")\n  - Transcription after stress: [lia]\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to end:\n  - Line 1: \"λιά\"\n  - Line 2: \"λιά\"\n- Rhyme domain does not cross word boundaries.\n- Compare within a 4-line window: both lines 1 and 2.\n\n**STEP 3: Position Classification**\n- Line 1:\n  - Syllables from stress to end: \"λιά\" (1 syllable)\n  - Position: Masculine (M)\n- Line 2:\n  - Syllables from stress to end: \"λιά\" (1 syllable)\n  - Position: Masculine (M)\n\n**STEP 4: Feature Detection**\n- Onset consonants match: Yes (no onset in the stressed syllable).\n- Pre-stress vowel matches: N/A (no pre-stress vowel).\n- Domain spans words: No.\n- Vowels/consonants differ: No differences.\n- Complete repetition: Yes (\"λιά\" / \"λιά\").\n\n**STEP 5: Classification Synthesis**\n- The position is Masculine (M).\n- The only applicable feature, since both words are identical after the stress, is COPY.\n\nFinal classification:\n- **M-COPY**\n\nThus, the rhyme in the given lines \"στα γυαλιά\" / \"σταλιά\" is classified as a masculine rhyme with complete repetition: **M-COPY**."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_6",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Ταχήρ / Αλής",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "M",
+      "predicted_features": [],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 14.165174961090088,
+      "raw_output": "To analyze the rhyme pattern of \"Ταχήρ / Αλής,\" we will apply the systematic analysis framework you provided:\n\n### Analyzing the Rhyme Pair: Ταχήρ / Αλής\n\n**STEP 1: Phonetic Analysis**\n- Break the lines into syllables:\n  - Ταχήρ: Τα-χίρ\n  - Αλής: Α-λής\n- Locate primary stress:\n  - Ταχήρ: Oxytone (stress on the last syllable)\n  - Αλής: Oxytone (stress on the last syllable)\n- Transcribe the sounds after stress:\n  - Ταχήρ: [χίρ] in terms of the vowel-consonant sequence after the stressed vowel /i/\n  - Αλής: [λής] in terms of the vowel-consonant sequence after the stressed vowel /i/\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end:\n  - Both lines end immediately after the stressed syllable, since the words are both oxytones.\n  - Rhyme domain for both: from /i/ to the end (/χίρ/ and /λής/)\n- Note: No cross word boundaries as these are single words.\n- Compare with other lines: As single-word names, these are sufficient for comparison within the specified rhyme pair.\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end:\n  - Both Ταχήρ and Αλής have 1 syllable after the stress.\n- Position type: M (Masculine) for both, as the stressed vowel is the last one in each word.\n\n**STEP 4: Feature Detection**\n- Check each feature systematically:\n  - Onset consonants match? No, \"χ\" in Ταχήρ and \"λ\" in Αλής do not match – therefore not a RICH rhyme.\n  - Pre-stress vowel matches? Yes, both have the same pre-stress vowel /i/, so IDV applies.\n  - Domain spans words? No, both are single words – not MOS.\n  - Vowels/consonants differ? No differences in vowels or consonants after the stressed syllable, so not an imperfect rhyme (no IMP).\n  - Complete repetition? No, not a COPY since the consonants differ.\n\n**STEP 5: Classification Synthesis**\n- Combine position + all applicable features:\n  - In this case, the applicable features from the analysis are masculine rhyme (M) with identical vowel (IDV).\n  \nFinal Classification: **M-IDV**\n\nThis classification identifies the rhyme between \"Ταχήρ\" and \"Αλής\" as a masculine rhyme with identical vowels after the stress, but differing consonants before the final vowel."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_7",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμολόι του τ' αγαθό",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "IN",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 12.272804260253906,
+      "raw_output": "To analyze the rhyme pattern in the provided lines \"φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμολόι του τ' αγαθό,\" we will follow the systematic analysis framework outlined above.\n\n**Line 1:** φέρνεις τον καλό το μήνα, τον ξανθό\n\n**Line 2:** και το χαμολόι του τ' αγαθό\n\n**STEP 1: Phonetic Analysis**\n\n1. **Line 1: \"τον ξανθό\"**\n   - Break into syllables: τον ξαν-θό\n   - Locate primary stress: Oxytone, with stress on the last syllable \"ξανθό.\"\n   - Transcribe sounds after stress: /o/\n\n2. **Line 2: \"τ' αγαθό\"**\n   - Break into syllables: τ' α-γα-θό\n   - Locate primary stress: Oxytone, with stress on the last syllable \"αγαθό.\"\n   - Transcribe sounds after stress: /o/\n\n**STEP 2: Rhyme Domain Identification**\n\n- Extract from stressed vowel to line end:\n   - Line 1: \"ξανθό\" → /xan'θo/\n   - Line 2: \"αγαθό\" → /aɣa'θo/\n- Domain does not cross word boundaries in either line.\n\n**STEP 3: Position Classification**\n\n- Count syllables from stress to end:\n  - For both \"ξανθό\" and \"αγαθό,\" there is 1 syllable from stress to end.\n  - Classified as M (Masculine).\n\n**STEP 4: Feature Detection**\n\n- Onset consonants match? Both lines have a different onset: \"ξ\" (/ks/) vs. \"αγ\" (/aɣ/). So, no match for rich rhyme.\n- Pre-stress vowel matches? Yes, both lines have the same pre-stress vowel /o/.\n- Domain spans words? No, neither line's rhyme domain crosses word boundaries.\n- Vowels/consonants differ in rhyme domain? Yes, onset consonants differ:\n  - \"ξ\" (/ks/) in \"ξανθό\" vs. \"αγ\" (/aɣ/) in \"αγαθό.\" Therefore, IMP-C (imperfect rhyme based on consonants).\n- No complete repetition occurs.\n\n**STEP 5: Classification Synthesis**\n\n- Combine position + all applicable features:\n  - M-IMP-C\n\nThus, the rhyme between \"τον ξανθό\" and \"τ' αγαθό\" can be classified as M-IMP-C, indicating a masculine imperfect rhyme due to differing consonant sounds in the onset of the rhyme domain."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_8",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί.",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "M",
+      "true_features": [
+        "RICH"
+      ],
+      "predicted_rhyme_type": "M",
+      "predicted_features": [],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 15.112247705459595,
+      "raw_output": "To analyze the rhyme pattern of the lines \"η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί.\", I'll follow the systematic analysis framework:\n\n### LINE 1: \"η σούστα ουδ᾽ αντηχεί:\"\n#### STEP 1: Phonetic Analysis\n- Break into syllables: η | σού | στα | ουδ᾽ | αν | τη | χεί\n- Locate primary stress: The stress is on \"χεί\", making it oxytone.\n- Transcribe sounds after stress: [xi]\n\n#### STEP 2: Rhyme Domain Identification\n- Extract from stressed vowel to line end: \"χεί:\"\n- Note if domain crosses word boundaries: No\n- Compare with line 2: to be done\n\n### LINE 2: \"βουλιάζουν οι τροχοί.\"\n#### STEP 1: Phonetic Analysis\n- Break into syllables: βου | λιά | ζουν | οι | τρο | χοί\n- Locate primary stress: The stress is on \"χοί\", making it oxytone.\n- Transcribe sounds after stress: [xi]\n\n#### STEP 2: Rhyme Domain Identification\n- Extract from stressed vowel to line end: \"χοί.\"\n- Note if domain crosses word boundaries: No\n- Compare with line 1: \"χεί:\" and \"χοί.\" match\n\n### RHYME PAIR ANALYSIS\nNow let's analyze the rhyme pair \"χεί:\" / \"χοί.\":\n\n#### STEP 3: Position Classification\n- Count syllables from stress to end for both lines:\n  - \"χεί:\" has 1 syllable from stress.\n  - \"χοί.\" has 1 syllable from stress.\n- Classification: M (Masculine Rhyme)\n\n#### STEP 4: Feature Detection\n- Onset consonants match? No onset difference (\"χ\" vs \"χ\") → No rich rhyme notation needed.\n- Pre-stress vowel matches? It does not apply as there is no pre-stress syllable.\n- Domain spans words? No → No MOS\n- Vowels/consonants differ? Vowels \"ει\" vs \"οι\" differ. → IMP-V\n- Complete repetition? No → No COPY\n\n#### STEP 5: Classification Synthesis\n- Combine position + applicable features:\n  - M-IMP-V\n\nThus, for the rhyme pair \"η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί.\", the rhyme classification is **M-IMP-V**."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_9",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος; / Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "TR",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 15.209113836288452,
+      "raw_output": "To analyze the rhyme patterns of the given Greek poem, we'll proceed with systematic analysis following the framework provided:\n\n**Line 1:** Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το σκότος;\n\n**Line 2:** Ελλάδα, Ιέρεια Ταυρική, λύγκειος, ολύμπιος, πρώτος,\n\nI will analyze the ending of each line to establish whether these lines form a rhyme:\n\n### **STEP 1: Phonetic Analysis**\n\n#### Line 1: σκότος\n\n- Break into syllables: σκό-τος\n- Primary stress: Paroxytone (stress on σκό)\n- Transcribe sounds after stress: [ko-tos]\n\n#### Line 2: πρώτος\n\n- Break into syllables: πρώ-τος\n- Primary stress: Paroxytone (stress on πρώ)\n- Transcribe sounds after stress: [pro-tos]\n\n### **STEP 2: Rhyme Domain Identification**\n\n- Extract the section from stressed vowel to line end.\n- Line 1: stressed \"o\" in σκότος to end → \"κος\"\n- Line 2: stressed \"o\" in πρώτος to end → \"τος\"\n- Check cross-word boundaries: No such boundaries crossed.\n\n### **STEP 3: Position Classification**\n\n- Line 1: σκότος has 2 syllables from stress to end → F2 (Feminine-2)\n- Line 2: πρώτος has 2 syllables from stress to end → F2 (Feminine-2)\n\n### **STEP 4: Feature Detection**\n\n- Onset consonants match: Both have \"tos\" sounds; they match perfectly in this domain.\n- Richness type: TR-S (Terminal Rhyme - Simple) since no initial consonants post-stress are checked here.\n- Pre-stress vowel matches: Yes, both have \"o\"\n- IDV detected.\n\n### **STEP 5: Classification Synthesis**\n\n- Line 1 and Line 2 form a rhyme described by the position classification and features: F2-TR-S-IDV\n\n### Conclusion for Rhyme\n\nThe rhyme between the two lines: \"σκότος\" and \"πρώτος\" is classified as F2-TR-S-IDV. This means it is a Feminine-2 rhyme with a terminal rhyme that has the same post-stress vowel sound. The rhyme is also identical in the domain, qualifying as a pure rhyme in this context.\n\nThe phonetic similarity between the stressed vowels and the matching post-stress syllables (\"tos\") portray a clear rhyme, further emphasized by their feminine classification due to the two-syllable structure from stress to the end."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_10",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολάδειο. Τόπο! Τόπο!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "C",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "F2",
+      "predicted_features": [
+        "IMPERFECT"
+      ],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 1.0,
+      "features_recall": 0.3333333333333333,
+      "features_f1": 0.5,
+      "time_taken": 17.200396060943604,
+      "raw_output": "To analyze the rhyme patterns in the given Greek lines, we'll break down the process using the systematic analysis framework:\n\n**Verse 1:**\n- Αφήστε μας ελεύτερο το δρόμο,\n- Phonetic Analysis:\n  - Break into syllables: A-φί-στε | μας | ε-λεύ-τε-ρο | το | δρ-ό-μο\n  - Locate primary stress: δρόμο is paroxytone with stress on the first 'ο'.\n  - Transcribe sounds after stress: δρόμο → -όμο\n\n**Verse 2:**\n- φαρδύ, γυμνόν, ολάδειο. Τόπο! Τόπο!\n- Phonetic Analysis:\n  - Break into syllables: Φαρ-δύ | γυμ-νόν | ο-λά-δει-ο. Tό-πο! Tό-πο!\n  - Locate primary stress: The phrase has multiple stressed words. For potential rhyming, consider the last word of the main clause: ολάδειο. It is a proparoxytone with stress on the first 'ά'.\n  - Transcribe sounds after stress: ολάδειο → -άδειο\n\n**Potential Rhyme Pair:**\n- δρόμο / ολάδειο\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end:\n  - δρόμο → ωμο\n  - ολάδειο → άδειο\n- Note if domain crosses word boundaries:\n  - There's no crossing of word boundaries here.\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end:\n  - δρόμο: 1 syllable from stress to end → M (Masculine)\n  - ολάδειο: 2 syllables from stress to end → F2 (Feminine-2)\n\n**STEP 4: Feature Detection**\nAnalyze the features of the rhyme:\n- Onset consonants match? → For this rhyme, the vowel sounds differ, and onset consonants do not match.\n- Pre-stress vowel matches? → The vowels differ before the stress; they do not match.\n- Domain spans words? → No, domain does not span words.\n- Vowels/consonants differ? → There are differences in both vowels and consonants after the stress point.\n- Complete repetition? → There's no complete repetition.\n\n**STEP 5: Classification Synthesis**\nCombine position and applicable features:\n- Here, the prominent feature is the difference in vowels after the stress (IMP-V), but given the quantity of differences and imperfect rhyme, the rhyme primarily classifies as imperfect.\n- Classification: F2-IMP-V-IMPERFECT\n\nIn conclusion, the analysis of the rhyme between the two lines \"δρόμο\" and \"ολάδειο\" indicates an imperfect rhyme with distinguishing syllable positions and notable vowel differences post-stress."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_11",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια καλά παιδιά, τα παινεμένα!",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "IMP",
+        "V",
+        "IMPERFECT"
+      ],
+      "predicted_rhyme_type": "MASCULINE",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 21.290240049362183,
+      "raw_output": "To analyze the rhyme pattern of the lines \"Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια καλά παιδιά, τα παινεμένα!\", let's apply the systematic analysis framework:\n\n### Line Analysis\n\n#### Line 1: \"Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα\"\n\n**STEP 1: Phonetic Analysis**\n- Break line into syllables: για | ν’ | α-νοιχ-τεί | έ-νας | λάκ-κος | πό-σα | κρί-να\n- Locate primary stress: The primary stress is on \"κρίνα\" (κρί-να), making it a paroxytone.\n- Transcribe sounds after stress: [krína]\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end: [krína].\n- Note if domain crosses word boundaries: No, it is contained within the word \"κρίνα\".\n- Compare with other lines: We will compare it with the rhyme domain of the next line.\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end: [krína] has 1 syllable from stress to end (κρί-να).\n- Classification: Masculine (M).\n\n**STEP 4: Feature Detection**\n- Onset consonants match? → Not applicable, since it's a single word.\n- Pre-stress vowel matches? → Not applicable, since it's not across a word boundary.\n- Domain spans words? → No, it does not span words.\n- Vowels/consonants differ? → No, as there's no comparative line yet.\n- Complete repetition? → No.\n\n**Result for Line 1**: M-IMPERFECT\n\n#### Line 2: \"Τ’ άξια καλά παιδιά, τα παινεμένα!\"\n\n**STEP 1: Phonetic Analysis**\n- Break line into syllables: τ’ | ά-ξι-α | κα-λά | παι-διά | τα | παι-νε-μέ-να\n- Locate primary stress: The primary stress is on \"παινεμένα\" (παι-νε-μέ-να), making it a paroxytone.\n- Transcribe sounds after stress: [peneména]\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end: [mená].\n- Note if domain crosses word boundaries: No, it is contained within the word \"παινεμένα\".\n- Compare with other lines: Compare [mená] with [krína] from Line 1.\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end: [mená] has 2 syllables from stress to end (µέ-να).\n- Classification: Feminine-2 (F2).\n\n**STEP 4: Feature Detection**\n- Onset consonants match? → No, [krína] has /kr-/ onset, while [mená] has /m-/ onset.\n- Pre-stress vowel matches? → Not applicable (no multi-word span to consider IDV-2W).\n- Domain spans words? → No.\n- Vowels/consonants differ? → Yes, vowel-consonant mismatch.\n    - Specify type: IMP-C\n- Complete repetition? → No.\n\n**Result for Line 2**: F2-IMP-C\n\n### Combined Classification Synthesis\nNow, considering the rhyme between the two lines:\n- Line 1: M-IMPERFECT\n- Line 2: F2-IMP-C\n\nThe rhyme demonstrates imperfect similarities primarily between the final sounds. Given the inconsistency in the onset consonants and the general imperfect rhyme quality judged on phonetic dissimilarities, and the mismatching syllabic stress positions (masculine and feminine-2), the synthesis could be concluded as imperfect.\n\n### Final Rhyme Classification\nOverall, this yields a classification more akin to an imperfect rhyme with differences in consonants, seen as \"IMPERFECT-C\" for both. \n\nKeep in mind that Greek poetry occasionally allows imperfections in rhyme for artistic expression, reflecting not just phonetic qualities but also semantic and emotional undertones within context."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_12",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "τι τα αρώματά τους / μες στα σωθικά τους,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "M",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 18.531208038330078,
+      "raw_output": "Let's analyze the rhyme pattern of the provided lines using the systematic analysis framework:\n\nLines:\n1. τι τα αρώματά τους\n2. μες στα σωθικά τους\n\n**STEP 1: Phonetic Analysis**\n- Break each line into syllables and locate the primary stress.\n\n1. Phonetic breakdown of \"τι τα αρώματά τους\":\n   - Syllables: τι / τα / α-ρώ-μα-τά / τους\n   - Primary stress: oxytone (last syllable stressed - \"τα\")\n\n   Sounds after the stress: [τά] [τους]\n\n2. Phonetic breakdown of \"μες στα σωθικά τους\":\n   - Syllables: μες / στα / σω-θι-κά / τους\n   - Primary stress: oxytone (last syllable stressed - \"κά\")\n\n   Sounds after the stress: [κά] [τους]\n\n**STEP 2: Rhyme Domain Identification**\n- The rhyme domain extends from the stressed vowel to the end of the line.\n- Extracted rhyme domain:\n  - Line 1: [τά τους]\n  - Line 2: [κά τους]\n\n- The rhyme domains do not cross word boundaries.\n\n**STEP 3: Position Classification**\n- Count syllables from the stressed syllable to the end.\n\n1. \"αρώματά τους\": 1 syllable post-stress\n   - Classification: M (Masculine)\n\n2. \"σωθικά τους\": 1 syllable post-stress\n   - Classification: M (Masculine)\n\n**STEP 4: Feature Detection**\n- Examine features systematically.\n\n1. Onset consonant match: The consonants preceding the post-stress vowels (\"τ\" and \"κ\") do not match.\n2. Pre-stress vowel match: No pre-stress vowel is present.\n3. Domain spans words: No, it does not cross word boundaries.\n4. Vowels/consonants differ: Yes, onset consonants differ.\n5. Complete repetition: No.\n\nApplicable features:\n- IMP-C (imperfect rhyme due to differing onset consonants)\n\n**STEP 5: Classification Synthesis**\n- Combine position classification and features.\n\nRhyme classification: M-IMP-C\n\n**Conclusion:**\nThe rhyme between \"τι τα αρώματά τους\" and \"μες στα σωθικά τους\" is classified as M-IMP-C, indicating masculine position with an imperfect rhyme due to differing onset consonants."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_13",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας, / δράκοντας αίμα ρηγικό μυρίζεται το τέρας.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "M",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.280195951461792,
+      "raw_output": "To analyze the rhyme patterns in the provided Greek poem lines, we will follow the systematic analysis framework. The lines in question are:\n\n1. Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέρας,\n2. δράκοντας αίμα ρηγικό μυρίζεται το τέρας.\n\n**Step-by-step Analysis:**\n\n**Line 1:**\n- Break into syllables: Του νό-μου αυ-τού μαυ-ρί-ζει ο ί-σκιος τ’ ά-στρο της η-μέ-ρας\n- Locate primary stress: The primary stress is on the syllable \"μέ\" in \"ημέρας\" (paroxytone)\n- Transcribe sounds after stress: [meras]\n\n**Line 2:**\n- Break into syllables: δρά-κον-τας αί-μα ρη-γι-κό μυ-ρί-ζε-ται το τέ-ρας\n- Locate primary stress: The primary stress is on the syllable \"τέ\" in \"τέρας\" (paroxytone)\n- Transcribe sounds after stress: [teras]\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end:\n  - Line 1: [meras]\n  - Line 2: [teras]\n- Note any domain crossings: There are no cross-word boundaries in the rhyme domain.\n\n**STEP 3: Position Classification**\n- Both lines end after one syllable (the stressed vowel): this makes it a 1-syllable domain from stress to end.\n- Classification: M (Masculine)\n\n**STEP 4: Feature Detection**\n- Onset consonants match: Yes, for [m] and [t], but they are different so not a matching onset for RICH.\n- Pre-stress vowel matches: Not applicable, since there is no pre-stress vowel due to masculine rhyme.\n- Domain spans words: No, so MOS does not apply.\n- Vowels/consonants differ: No differences after stress, so it is PURE.\n- Complete repetition: No, they are not identical.\n\n**STEP 5: Classification Synthesis**\n- Combine position + all applicable features:\n  - Position: M\n  - Features: PURE (since the sounds after stress are identical)\n- Result: M-PURE\n\nTherefore, the rhyme pattern for these two lines is classified as M-PURE."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_14",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα,",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "OF",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 11.805009126663208,
+      "raw_output": "To analyze the rhyme pattern of the provided Greek poetry lines, we'll apply the systematic analysis framework:\n\n**Lines:**\n1. της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα\n2. ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα\n\n**STEP 1: Phonetic Analysis**\n\n1. **Line 1:** στη δέσποινα τη χώρα\n   - Syllables: /sti /ðes.pi.na/ /ti /xo.ra/\n   - Primary stress: on \"χώρα\" (oxytone)\n   - Transcription of sounds after stress: /ra/\n\n2. **Line 2:** συνεπαρμένοι τώρα\n   - Syllables: /si.ne.par.me.ni/ /to.ra/\n   - Primary stress: on \"τώρα\" (oxytone)\n   - Transcription of sounds after stress: /ra/\n\n**STEP 2: Rhyme Domain Identification**\n\n- Domain from stressed vowel to line end in both lines: /ώρα/ and /ώρα/\n- Domain does not cross word boundaries\n\n**STEP 3: Position Classification**\n\n- Both lines have 1 syllable from stress to end\n- Classified as: M (Masculine)\n\n**STEP 4: Feature Detection**\n\n- Onset consonants match: yes, transcription /ra/ follows the stressed vowels in both lines → PURE rhyme\n- Pre-stress vowel matches: yes, both lines have /o/ before the stress.\n- Domain does not span across words: no MOS\n- There are no vowel or consonant mismatches after the stress.\n\n**STEP 5: Classification Synthesis**\n\n- Combine position + features: M-PURE\n\n**Conclusion:**\n\nThe rhyme pattern between the provided lines \"της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα\" and \"ξεχωνιασμένοι οι δρόμοι σου, συνεπαρμένοι τώρα\" is classified as M-PURE based on the rhyme appearing as /ra/ at the end of both lines without any additional features like mismatches or rich rhymes."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_15",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσια κι απ' τα χνούδια.",
+      "poet": "TellosAgras",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F3",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 18.65036416053772,
+      "raw_output": "To analyze the rhyme pattern in the lines \"στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσια κι απ' τα χνούδια,\" we will follow the systematic analysis framework step-by-step:\n\n### Line 1: \"στης παραστιάς τα πελεκούδια\"\n\n**STEP 1: Phonetic Analysis**\n- Break line into syllables: στης | πα|ρα|στιάς | τα | πε|λε|κού|δι|α\n- Locate primary stress: The stress is on \"κού\" (oxytone)\n- Transcribe sounds after stress: /kuðia/\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end: /kuðia/\n- Note if domain crosses word boundaries: No, it does not cross word boundaries.\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end: 3 syllables (κού-δι-α)\n- Classification: F3 (Feminine-3)\n\n### Line 2: \"γλυκά, απ' τα κρόσσια κι απ' τα χνούδια\"\n\n**STEP 1: Phonetic Analysis**\n- Break line into syllables: γλυ|κά | απ' | τα | κρόσ|σσι|α | κι | απ' | τα | χνού|δι|α\n- Locate primary stress: The stress is on \"χνού\" (oxytone)\n- Transcribe sounds after stress: /ɣnudia/\n\n**STEP 2: Rhyme Domain Identification**\n- Extract from stressed vowel to line end: /ɣnudia/\n- Note if domain crosses word boundaries: No, it does not cross word boundaries.\n\n**STEP 3: Position Classification**\n- Count syllables from stress to end: 3 syllables (χνού-δι-α)\n- Classification: F3 (Feminine-3)\n\n### Rhyme Analysis\n\n**Comparison of Phonetic Transcriptions:**\n- Line 1 rhyme domain: /kuðia/\n- Line 2 rhyme domain: /ɣnudia/\n\n**Rhyme Features Detection:**\n- Onset consonants differ (/k/ vs /ɣ/): IMP-C (Imperfect Consonants)\n- Vowels and consonants (after the onset) match: Both have (υ-δι-α)\n\n**STEP 4: Feature Detection**\n- Since onset consonants differ, we mark this as IMP-C.\n- There is no match for 'RICH', 'MOS', or 'IDV', as this is primarily vowel matching with imperfect consonantal onset.\n\n### STEP 5: Classification Synthesis\n- Combine position + all applicable features: F3-IMP-C\n\nThe rhyme pattern for these lines is: **F3-IMP-C**\n\nThis indicates that the rhyme is primarily identified as a feminine rhyme with an imperfect consonant match at the beginning of the rhyme domain."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_16",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και σκυλιά την κομματιάζουν",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F2",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "F2",
+      "predicted_features": [],
+      "rhyme_type_correct": true,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 15.078082084655762,
+      "raw_output": "To analyze the rhyme pattern for the given lines \"Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και σκυλιά την κομματιάζουν,\" we'll apply the systematic analysis framework:\n\n### LINE 1: Κι εμέ κουρέλια με κακοσκεπάζουν\n\n**STEP 1: Phonetic Analysis**\n- Syllables: κου-ρέ-λια με κα-κο-σκε-πά-ζουν\n- Primary stress: The primary stress is on the syllable \"πά\" (paroxytone)\n- Post-stress sounds: [a-zun]\n\n**STEP 2: Rhyme Domain Identification**\n- Domain: \"αζουν\" (from the stressed vowel \"ά\" to the end)\n- The domain does not cross word boundaries here\n\n### LINE 2: παλιούρια και σκυλιά την κομματιάζουν\n\n**STEP 1: Phonetic Analysis**\n- Syllables: πα-λιού-ρια και σκυ-λιά την κομ-μα-τι-ά-ζουν\n- Primary stress: The primary stress is on \"ά\" in \"κομματιάζουν\" (paroxytone)\n- Post-stress sounds: [a-zun]\n\n**STEP 2: Rhyme Domain Identification**\n- Domain: \"αζουν\" (from the stressed vowel \"ά\" to the end)\n- The domain does not cross word boundaries here\n\n### RHYME COMPARISON\n\n**STEP 3: Position Classification**\n- Both lines are paroxytones with the same number of syllables from stress to the end, so each has 2 syllables post-stress:\n  - Classification: F2 (Feminine-2)\n\n**STEP 4: Feature Detection**\n- Onset Consonants Match? Yes, both have \"ζ\" after the stressed vowel, not introducing additional features.\n- Pre-stress Vowel Matches? N/A as they share the same rhyme domain\n- Domain Spans Words? No, both domains are contained within one word\n- Vowels/Consonants Differ? No differences, identical sounds post-stress\n- Complete Repetition: Yes, the sounds [a-zun] completely repeat\n\n**STEP 5: Classification Synthesis**\n- Combine the position and features: F2-PURE since the rhyme is perfect with no differing features.\n\n### FINAL ANALYSIS\n\n- **Rhyme Pattern**: F2-PURE\n- **Explanation**: Both lines feature paroxytone stress with two syllables in the rhyme domain starting from the stressed vowel. They rhyme perfectly with the entire domain [\"αζουν\"] being identical in phonetic transcription post-stress, fitting the \"F2-PURE\" classification."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_17",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χειρότερα.",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE",
+        "IDV"
+      ],
+      "predicted_rhyme_type": "IMP",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 15.022437810897827,
+      "raw_output": "To analyze the rhyme patterns in the provided Greek lines \"Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χειρότερα,\" we can apply the systematic analysis framework step-by-step.\n\n### Line Analysis\n\n#### Line 1: δεν τα λέω τα περισσότερα\n- **Syllabification**: δεν | τα | λέ | ω | τα | πε | ρι | σσό | τε | ρα\n- **Primary Stress**: Paroxytone (stress on -σό- in περισσότερα)\n- **Transcription**: /perisótera/\n\n#### Line 2: γιατί in fondo είναι χειρότερα\n- **Syllabification**: για | τί | in | fon | do | εί | ναι | χει | ρό | τε | ρα\n- **Primary Stress**: Paroxytone (stress on -ρό- in χειρότερα)\n- **Transcription**: /xerótera/\n\n### STEP 2: Rhyme Domain Identification\n- **Rhyme Domain**: From the stressed vowel to the end of each line. \n  - Line 1 Domain: -σό | τε | ρα\n  - Line 2 Domain: -ρό | τε | ρα\n- **Crosses Word Boundaries?**: No, the relevant words (περισσότερα and χειρότερα) are single words.\n\n### STEP 3: Position Classification\n- Both lines have 3 syllables after stress (σóτερα and ρότερα).\n- **Position**: F3 (Feminine-3)\n\n### STEP 4: Feature Detection\n1. **Onset Consonants Match?**: No, the onsets of the stressed syllables are different: /p/ vs /x/.\n2. **Pre-Stress Vowel Matches?**: No, the pre-stress vowels are different (ε vs. ε).\n3. **Domain Spans Words?**: No.\n4. **Vowels/Consonants Differ?**: Yes, the onset consonants differ.\n   - **Specify Type**: IMP-C (imperfect consonant).\n\n### STEP 5: Classification Synthesis\nCombine the position classification with identified features:\n- **Classification**: F3-IMP-C\n\n### Final Analysis\nThe rhyme pattern for the provided lines is F3-IMP-C, which indicates a feminine rhyme across three syllables with an imperfect consonantal match in the onset.\n\nThis demonstrates how the phonetic structure, stress, and rhyme features play a crucial role in the complex system of Greek poetry, showcasing different rhyme intricacies even in a simple pair."
+    },
+    {
+      "test_id": "gpt-4o_zero_shot_cot_WITH-RAG_18",
+      "model": "gpt-4o",
+      "strategy": "zero_shot_cot",
+      "use_rag": true,
+      "poem_text": "λαμβάνει, αι χορδαί αυτής την ποίησιν / εκπέμπουν της θερμής Ασίας — μύησιν",
+      "poet": "Anemoskala",
+      "true_rhyme_type": "F3",
+      "true_features": [
+        "PURE"
+      ],
+      "predicted_rhyme_type": "",
+      "predicted_features": [],
+      "rhyme_type_correct": false,
+      "features_correct": false,
+      "features_precision": 0.0,
+      "features_recall": 0.0,
+      "features_f1": 0.0,
+      "time_taken": 15.779113054275513,
+      "raw_output": "To analyze the rhyme between the lines \"λαμβάνει, αι χορδαί αυτής την ποίησιν\" and \"εκπέμπουν της θερμής Ασίας — μύησιν,\" we follow the systematic analysis framework:\n\n### Line 1: \"λαμβάνει, αι χορδαί αυτής την ποίησιν\"\n- **Phonetic Analysis**:\n  - Break into syllables: λαμ-βά-νει, αι χορ-δαί αυ-τής την ποί-η-σιν\n  - Locate primary stress: ποίηση is paroxytone with stress on \"ποί.\"\n  - Transcribe sounds after stress: /-isin/\n\n- **Rhyme Domain Identification**:\n  - Extract from stressed vowel \"οί\" to line end: \"οίησιν\"\n  - Does not cross word boundaries\n\n- **Position Classification**:\n  - Count syllables from stress to end: 3 syllables (οίησιν)\n  - Position classification: F3 (Feminine-3)\n\n### Line 2: \"εκπέμπουν της θερμής Ασίας — μύησιν\"\n- **Phonetic Analysis**:\n  - Break into syllables: εκ-πέμ-πουν της θερ-μής Α-σί-ας — μύη-σιν\n  - Locate primary stress: μύηση is paroxytone with stress on \"μύη.\"\n  - Transcribe sounds after stress: /-isin/\n\n- **Rhyme Domain Identification**:\n  - Extract from stressed vowel \"ύη\" to line end: \"ύησιν\"\n  - Does not cross word boundaries\n\n- **Position Classification**:\n  - Count syllables from stress to end: 3 syllables (ύησιν)\n  - Position classification: F3 (Feminine-3)\n\n### Comparison and Feature Detection\n- **Feature Detection**:\n  - Onset consonants match? No onset at the start of rhyme domain (both start with a vowel)\n  - Pre-stress vowel matches? No pre-stress vowel in this position because the rhyme starts at the stressed vowel\n  - Domain spans words? No (both are within a single word)\n  - Vowels/consonants differ? No differences in the stressed vowels or following syllables\n  - Complete repetition? Yes, the ending \"-σιν\" after the stressed vowel is repeated\n\n### Classification Synthesis\n- **Combine Position + All Applicable Features**:\n  - Both lines rhyme with a F3 position (from stressed syllable to end) and have a complete rhyme matching after the stress.\n  - Classification: F3-PURE\n\nThus, the rhyme pattern between \"λαμβάνει, αι χορδαί αυτής την ποίησιν\" and \"εκπέμπουν της θερμής Ασίας — μύησιν\" can be classified as **F3-PURE**."
+    }
+  ]
+}

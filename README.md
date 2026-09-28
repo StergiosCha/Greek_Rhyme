@@ -53,6 +53,10 @@ Tests the model's ability to classify rhyme types (M, F2, F3, etc.).
 python src/evaluate_identification.py --model claude-3-sonnet
 ```
 
+## 3. Reproduction materials
+
+The exact test sets, raw model outputs, scored results and table scripts behind the paper's Tables 2, 3 and 5 are in [`reproduction/`](reproduction/README.md). The published tables can be regenerated from those files without any API calls; the folder's README also documents the model identifiers, run settings and known discrepancies.
+
 ## Citation
 If you use this code or data, please cite our paper:
 [BibTeX entry]

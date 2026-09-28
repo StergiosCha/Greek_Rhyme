@@ -1,0 +1,743 @@
+🌟 Loading Complementary Test Set from complementary_test_set.json...
+✓ Loaded 14 complementary poems.
+
+================================================================================
+IDENTIFICATION EVALUATION: llama-3.1-8b
+================================================================================
+Strategies: zero_shot_structured, zero_shot_cot
+Total tests: 56
+================================================================================
+
+
+[1/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_1
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 3.13s
+💾 Checkpoint saved: 1/56
+
+[2/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_2
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.57s
+💾 Checkpoint saved: 2/56
+
+[3/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_3
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 30.61s
+💾 Checkpoint saved: 3/56
+
+[4/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_4
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: PHONETIC-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 59.15s
+💾 Checkpoint saved: 4/56
+
+[5/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_5
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 3.03s
+💾 Checkpoint saved: 5/56
+
+[6/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_6
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: OR-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 1.98s
+💾 Checkpoint saved: 6/56
+
+[7/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_7
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: C-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 47.92s
+💾 Checkpoint saved: 7/56
+
+[8/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_8
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: M-IDV+RICH
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 34.25s
+💾 Checkpoint saved: 8/56
+
+[9/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_9
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: F2-PURE
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 3.39s
+💾 Checkpoint saved: 9/56
+
+[10/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_10
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 4.24s
+💾 Checkpoint saved: 10/56
+
+[11/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_11
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: ING-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 55.04s
+💾 Checkpoint saved: 11/56
+
+[12/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_12
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: HERE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 55.62s
+💾 Checkpoint saved: 12/56
+
+[13/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_13
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: F2-IDV
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 1.23s
+💾 Checkpoint saved: 13/56
+
+[14/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITH-RAG_14
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: True
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 47.04s
+💾 Checkpoint saved: 14/56
+
+[15/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_1
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: M-CC+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 10.19s
+💾 Checkpoint saved: 15/56
+
+[16/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_2
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.06s
+💾 Checkpoint saved: 16/56
+
+[17/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_3
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 55.28s
+💾 Checkpoint saved: 17/56
+
+[18/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_4
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 58.81s
+💾 Checkpoint saved: 18/56
+
+[19/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_5
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 11.92s
+💾 Checkpoint saved: 19/56
+
+[20/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_6
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.51s
+💾 Checkpoint saved: 20/56
+
+[21/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_7
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: AND-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 5.31s
+💾 Checkpoint saved: 21/56
+
+[22/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_8
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: OFTEN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 2.62s
+💾 Checkpoint saved: 22/56
+
+[23/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_9
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.20s
+💾 Checkpoint saved: 23/56
+
+[24/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_10
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 32.15s
+💾 Checkpoint saved: 24/56
+
+[25/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_11
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-IDV+MOSAIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 3.45s
+💾 Checkpoint saved: 25/56
+
+[26/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_12
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 56.73s
+💾 Checkpoint saved: 26/56
+
+[27/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_13
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: ED-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 57.45s
+💾 Checkpoint saved: 27/56
+
+[28/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_structured_WITHOUT-RAG_14
+Model: llama-3.1-8b, Strategy: zero_shot_structured, RAG: False
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: SUMMARIZE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.26s
+💾 Checkpoint saved: 28/56
+
+[29/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_1
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: F3-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.19s
+💾 Checkpoint saved: 29/56
+
+[30/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_2
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: OXYTONE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 58.72s
+💾 Checkpoint saved: 30/56
+
+[31/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_3
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: CLASSIFIED-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 1.67s
+💾 Checkpoint saved: 31/56
+
+[32/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_4
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: WHICH-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 4.09s
+💾 Checkpoint saved: 32/56
+
+[33/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_5
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 48.00s
+💾 Checkpoint saved: 33/56
+
+[34/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_6
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: STEP-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 48.32s
+💾 Checkpoint saved: 34/56
+
+[35/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_7
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: ADDITIONAL-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 22.87s
+💾 Checkpoint saved: 35/56
+
+[36/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_8
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: GRANTING-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 49.47s
+💾 Checkpoint saved: 36/56
+
+[37/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_9
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: M-F2
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 40.48s
+💾 Checkpoint saved: 37/56
+
+[38/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_10
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: ING-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 50.72s
+💾 Checkpoint saved: 38/56
+
+[39/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_11
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: FUN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 23.14s
+💾 Checkpoint saved: 39/56
+
+[40/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_12
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 1.59s
+💾 Checkpoint saved: 40/56
+
+[41/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_13
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: INCREASING-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 53.47s
+💾 Checkpoint saved: 41/56
+
+[42/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITH-RAG_14
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: True
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 2.46s
+💾 Checkpoint saved: 42/56
+
+[43/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_1
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: EXPENSIVE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 57.71s
+💾 Checkpoint saved: 43/56
+
+[44/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_2
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: F3-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 3.75s
+💾 Checkpoint saved: 44/56
+
+[45/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_3
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 33.61s
+💾 Checkpoint saved: 45/56
+
+[46/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_4
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 2.76s
+💾 Checkpoint saved: 46/56
+
+[47/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_5
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: SATURDAY-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 48.59s
+💾 Checkpoint saved: 47/56
+
+[48/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_6
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 29.25s
+💾 Checkpoint saved: 48/56
+
+[49/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_7
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 57.71s
+💾 Checkpoint saved: 49/56
+
+[50/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_8
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 47.67s
+💾 Checkpoint saved: 50/56
+
+[51/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_9
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: HEADINGS-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 57.66s
+💾 Checkpoint saved: 51/56
+
+[52/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_10
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: LINE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 55.11s
+💾 Checkpoint saved: 52/56
+
+[53/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_11
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: ING-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 57.65s
+💾 Checkpoint saved: 53/56
+
+[54/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_12
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: NOT-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 54.69s
+💾 Checkpoint saved: 54/56
+
+[55/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_13
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 70.73s
+💾 Checkpoint saved: 55/56
+
+[56/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: llama-3.1-8b_zero_shot_cot_WITHOUT-RAG_14
+Model: llama-3.1-8b, Strategy: zero_shot_cot, RAG: False
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 54.09s
+💾 Checkpoint saved: 56/56
+
+================================================================================
+✅ llama-3.1-8b COMPLETE!
+================================================================================
+📁 Results saved to: complementary_results_llama_3.1_8b.json

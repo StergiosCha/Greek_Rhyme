@@ -1,0 +1,28 @@
+{
+  "model": "gemini-2.5-flash",
+  "completed_tests": 1,
+  "results": [
+    {
+      "test_id": "gemini-2.5-flash_WITH-RAG_1",
+      "model": "gemini-2.5-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Η αγάπη σου με κάνει να πετώ, [pe-TÓ]\nκι όλα γύρω μου γλυκά τα αγαπώ. [a-ga-PÓ]\nΕίσαι η μόνη μου ζεστή πνοή, [pno-Í]\nη ψυχή μου δίχως εσένα σιωπή. [sio-PÍ]\nΣε κρατώ σφιχτά, για πάντα, πλάι μου εσύ, [e-SÝ]\nκάθε μας στιγμή μοιάζει με φιλί. [fi-LÍ]\nΚι ο ουρανός μας δείχνει το σκοπό, [sko-PÓ]\nέναν κόσμο ονειρεμένο, αληθινό. [a-li-thi-NÓ]",
+      "no_verify_time": 11.912168979644775,
+      "no_verify_valid": true,
+      "no_verify_errors": [],
+      "no_verify_correct_pairs": 4,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η αγάπη ζει βαθιά στην καρδιά, [i a-GÁ-pi zi va-THIÁ stin kar-DIÁ]\nΓεμάτη τρυφερότητα, γλυκά φιλιά. [ye-MÁ-ti try-fe-RÓ-ti-ta, gly-KÁ fi-LIÁ]\nΕίναι αυτή που δίνει νόημα στη ζωή, [Í-ne a-TÍ pu DÍ-ni NÓ-i-ma sti zo-Í]\nΠου γεμίζει φως την κάθε μας ψυχή. [pu ye-MÍ-zi fos tin KÁ-the mas psy-XÍ]\nΈνα όνειρο γλυκό, ένα μυστικό, [É-na Ó-ni-ro gly-KÓ, É-na my-sti-KÓ]\nΠου φωτίζει κάθε μας ουρανό. [pu fo-TÍ-zi KÁ-the mas u-ra-NÓ]\nΜαζί περνούμε κάθε δύσκολη στιγμή, [ma-ZÍ per-NÚ-me KÁ-the DÍ-sko-li stig-MÍ]\nΚαι η αγάπη μας μένει πάντα ζωντανή. [ke i a-GÁ-pi mas MÉ-ni PÁN-ta zon-ta-NÍ]",
+      "with_verify_time": 11.51449704170227,
+      "with_verify_attempts": 1,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    }
+  ]
+}

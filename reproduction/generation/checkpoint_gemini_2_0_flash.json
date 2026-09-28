@@ -1,0 +1,1026 @@
+{
+  "model": "gemini-2.0-flash",
+  "completed_tests": 35,
+  "results": [
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_1",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Στην ψυχή μου φλόγα καίει [stin psi-HÍ mu FLO-ga KÉ-i]\nπου για σένα μόνο λέει [pu ya SÉ-na MO-no LÉ-i]\nΈρωτας γλυκός μπαίνει [É-ro-tas gli-KÓS bé-NI]\nστη ζωή που τώρα βγαίνει [sti zo-Í pu TO-ra Vgé-ni]\nΣαν αύρα, αγάπη φέρνει [san Áv-ra, a-GÁ-pi FÉR-ni]\nτους πόνους μας τώρα παίρνει [tus PO-nus mas TO-ra PÉR-ni]\nΜέσα μου για πάντα μένει [Mé-sa mu ya PÁN-da Mé-ni]\nη αγάπη αυτή, κι εσύ μένει[i a-GÁ-pi af-TÍ, ki e-Sí Mmé-ni]\n",
+      "no_verify_time": 3.3492517471313477,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'καίει' / 'λέει'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'μπαίνει' / 'βγαίνει'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'φέρνει' / 'παίρνει'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'μένει' / 'μένει'",
+        "Identical words 'μένει' / 'μένει' (COPY) not allowed"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Νιώθω την αγάπη να καλεί,\nσαν φλόγα που πάντα θα βρει,\nκαι η καρδιά μου δυνατά,\nτην αγάπη πάντα ζητά.\nγιατί η αγάπη αληθινή,\nδίνει φως στην ψυχή μου, αυτή,\nκι ας κρύβει πόνο φοβερό,\nτη βρίσκω πάντα στο πλευρό.\n",
+      "with_verify_time": 6.585705995559692,
+      "with_verify_attempts": 4,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_2",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στ’ ανοιχτά της θάλασσας την πλάνη,\n[sta-ni-xta tis THÁ-la-sas tin PLÁ-ni]\nτο καράβι αφήνει μια γραμμή στην άμμο.\n[to-ka-RA-vi a-FÍ-ni mia gra-mí stin Á-mo]\nΚύματα σπάνε με οργή και μάνη,\n[KÍ-ma-ta SPÁ-ne me or-gí ke MÁ-ni]\nχάνονται όνειρα στου βυθού τον τάφο.\n[XÁ-non-te Ó-ni-ra stu vi-THÚ ton TÁ-fo]\nΓλάροι πετούν στον γαλάζιο θόλο,\n[GLÁ-ri pe-TÚN ston ga-LÁ-zio THÓ-lo]\nμυστικά ψιθυρίζει κάθε κύμα.\n[mi-sti-KÁ psi-thi-RÍ-zi KÁ-the KÍ-ma]\nΝιώθω να γέρνει η ψυχή μου όλο,\n[NJÓ-tho na JÉR-ni i psi-xí mu Ó-lo]\nστης θάλασσας το άπειρο και ρίμα.\n[stis THÁ-la-sas to Á-pi-ro ke RÍ-ma]\n",
+      "no_verify_time": 5.163582801818848,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πλάνη' / 'άμμο'",
+        "No rhyme: 'μάνη' / 'τάφο'",
+        "No rhyme: 'θόλο' / 'κύμα'",
+        "No rhyme: 'όλο' / 'ρίμα'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στων κυμάτων την αγκάλη\nμου φαίνεται πως βρήκα πάλι\nη θάλασσα γαλήνη δίνει\nπου η ψυχή μου ποθεί και πίνει\nΚαι βλέπω μια βαρκούλα σβήνει\nΣτο πέλαγος που μας μαγεύει πλάνη\nΚαι καθώς η αρμύρα φυσάει\nη θλίψη φεύγει και πάει\n",
+      "with_verify_time": 5.371659994125366,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_3",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Τ’ αστέρια λάμπουν, πέφτουν και κυλίζουνε, [a-sté-rja lám-bun pé-ftun ke ki-lí-zun-e]\nμε φως γλυκό, που πάντα μας γεμίζουνε, [me fos gli-kó pu pán-da mas je-mí-zun-e]\nΟ ουρανός, βαθύς, ατέλειωτος κι ωραίος, [o u-ra-nós va-thís a-té-lji-o-tos ki o-ré-os]\nμυστήρια κρύβει, δρόμος μακρινός σου, [mi-stí-rja krí-vi dró-mos ma-kri-nós su]\nσαν θάλασσα πλατιά και απέραντη μούσα, [san thá-la-sa pla-tjá ke a-pé-ran-ti mú-sa]\nπου ζωγραφίζει όνειρα εμπρός σου, [pu zo-gra-fí-zi ó-ni-ra em-brós su]\nκι η νύχτα σιωπηλή, γλυκιά αύρα δίνει, [ki i ních-ta si-o-pi-lí gli-kjá áv-ra dí-ni]\nκαι μυστικά ψιθυρίζει η Σελήνη μου. [ke mi-sti-ká psi-thi-rí-zi i Se-lí-ni mu]\n\n[ζί-ζουν-ε] - [μί-ζουν-ε] F3-PURE\n[νόσ σου] - [μπρός σου] F2-IMP-V-MOS\n[δί-νι] - [λή-νι μου] F2-PURE-MOS\n",
+      "no_verify_time": 4.297457933425903,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ωραίος' / 'μακρινός σου'",
+        "No rhyme: 'μούσα' / 'εμπρός σου'",
+        "No rhyme: 'δίνει' / 'Σελήνη μου'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στον ουρανό βλέπω φαντάσματα,\nΠαλιές μορφές, θλιμμένα πράγματα,\nΤα σύννεφα σιγά χορεύουνε,\nΚαι μυστικά μηνύματα κρύβουνε.\nΚρυφά θυμάμαι όνειρα που ζήσαμε,\nΣτου χρόνου τη λήθη όλα πια αφήσαμε,\nΗ νύχτα σιγά σιγά πλησιάζει με,\nΤου κόσμου η μορφή τώρα αλλάζει με.\n",
+      "with_verify_time": 12.298273801803589,
+      "with_verify_attempts": 6,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_4",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Στο σκοτάδι ψάχνω φως,\n[sto sko-TÁ-ði psáh-no fos]\nΈνα αστέρι, δώσ' μου φως.\n[É-na a-sté-ri, ðÓs mu fos]\nΜες στη νύχτα, πού να βρω\n[mes sti NÍx-ta, pu na vro]\nΛάμψη λίγη, φίλε μου.\n[LÁm-psi lí-ji, Fí-le mu]\nΑπό πέρα, φέγγει κάπου,\n[a-po PÉ-ra, féngi KÁ-pu]\nΜια ελπίδα, γέλιο γλυκού\n[mia el-PÍ-ða, jé-ljo gli-KÚ]\nΚι αν δεν βρω αυτό που ζητώ,\n[ki an ðen vro af-to pu zi-TO]\nΘα φανταστώ πώς λάμπει αυτό.\n[θa fan-da-sto pos LÁm-bi af-TO]\n",
+      "no_verify_time": 2.9482221603393555,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ψάχνω φως' / 'μου φως'",
+        "No rhyme: 'να βρω' / 'φίλε μου'",
+        "No rhyme: 'κάπου' / 'γλυκού'",
+        "PURE requested but 'ζητώ' / 'αυτό' is RICH"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στο σκοτάδι η ψυχή μου πονά,\n[sto sko-TA-ði i psi-XI mu po-NA]\nζητά φως, ελπίδα πουθενά.\n[zi-TA fos, el-pi-ða pu-θe-NA]\nΈνα άστρο αχνό, μακριά,\n[É-na Á-stro a-xno ma-kri-Á]\nφώτισε την άδεια καρδιά.\n[fó-ti-se tin A-ði-a kar-ði-Á]\nΤώρα λάμπει σαν ήλιος λαμπρός,\n[Tó-ra LÁ-mbi san Í-li-os lam-brós]\nδιώχνοντας το πένθος, θλιβερός.\n[ði-ó-xno-tas to PÉ-nθos, θli-ve-rós]\nΈγινε φως και χαρά στη ζωή,\n[É-gi-ne fos ke xa-rá sti zo-Í]\nγλυκαίνοντας κάθε στιγμή.\n[gli-ké-no-das KÁ-θe stiγ-mi]\n",
+      "with_verify_time": 3.24550199508667,
+      "with_verify_attempts": 1,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "PURE requested but 'πονά' / 'πουθενά' is RICH"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_5",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Σκοτείνιασε η νύχτα, φέρνει κρύο, μοναξιά,\nστο σπίτι της η σιωπή έχει μανία.\n[F2-RICH-MOS] [mo-nak-siÁ] [i ma-niÁ]\n\nΣτου ύπνου τη χώρα, η ψυχή ταξιδεύει,\nσε αχτίδα χρυσή, όνειρα γυρεύει.\n[F2-RICH-MOS] [tak-si-dé-vi] [gi-ré-vi]\n\nΚάθε άστρο λάμπει και φέγγει, νυχτιάς,\nσαν θλιμμένη φωνή, μέσα σε πλαγιές.\n[F2-RICH-MOS] [Nix-ti-ÁS] [pla-gi-ÉS]\n\nΧάθηκε ο ήλιος, σβήνει μέρα, θνητή,\nστη σκοτεινή αύρα, χάνεται η ζωή.\n[F2-RICH-MOS] [me-ra thni-TI] [i zo-I]\n",
+      "no_verify_time": 3.160475969314575,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'μοναξιά' / 'μανία'",
+        "RICH requested but 'ταξιδεύει' / 'γυρεύει' is PURE",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'νυχτιάς' / 'πλαγιές'",
+        "RICH requested but 'νυχτιάς' / 'πλαγιές' is IMPERFECT",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'θνητή' / 'ζωή'",
+        "RICH requested but 'θνητή' / 'ζωή' is PURE"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η νύχτα την ψυχή φωτίζει,\nΚαι την καρδιά μου κατακλύζει.\nΣαν φάντασμα η σκιά γελάει,\nΜες τη νύχτα, όνειρα κυλάει.\nΗ σιωπή γλυκά θωπεύει,\nΤην σκοτεινιά που μας γοητεύει.\nΗ νύχτα μυστικά μοιράζει,\nΣτους λυπημένους φως χαράζει.\n",
+      "with_verify_time": 28.669461011886597,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "RICH requested but 'φωτίζει' / 'κατακλύζει' is PURE",
+        "RICH requested but 'θωπεύει' / 'γοητεύει' is PURE"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_6",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "Σαν ψίθυρος ελπίδα θα φυλάσσετε,\nστους δρόμους της καρδιάς να μην φοβάστε,\n[fi-LÁ-se-te]\n[fo-VÁ-ste]\n\nΣτον ήλιο, φως θα δώσει η ευλογίας μας,\nκι ας είναι σκοτεινιά η αγωνίας μας,\n[e-vlo-YÍ-as mas]\n[a-go-NÍ-as mas]\n\nΣτην άμμο γράφει κύματα τα πάθη σας,\nελπίδα σ' αναπνοή και μονοπάτια σας,\n[ta PÁ-thi sas]\n[pa-TYÁ-ti sas]\n\nΚαι στη ψυχή μας χύνεται σαν θάματα,\nελπίδα ένα φιλί κι όνειρα γεμάτα,\n[SA-ma-ta]\n[ge-MA-ta]\n",
+      "no_verify_time": 3.5194969177246094,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φυλάσσετε' / 'φοβάστε'",
+        "IMPERFECT requested but 'ευλογίας μας' / 'αγωνίας μας' is PURE",
+        "No rhyme: 'πάθη σας' / 'μονοπάτια σας'",
+        "No rhyme: 'θάματα' / 'γεμάτα'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ελπίδα είναι φλόγα δικιά μας,\nμια λάμψη φέγγει στην καρδιά μας.\nΌταν οι πόνοι την ψυχή πληγώνουνε,\nτης λύπης τα νέφη πάντοτε διώχνουνε.\nτης νιότης ορμητικά σκιρτήματα,\nτης άνοιξης γλυκά φτερουγίσματα.\nΤα μυστικά είναι κρυμμένα,\nστης μνήμης τα βάθη γραμμένα.\n",
+      "with_verify_time": 42.35364603996277,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'δικιά μας' / 'καρδιά μας'",
+        "IMPERFECT requested but 'δικιά μας' / 'καρδιά μας' is PURE",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'κρυμμένα' / 'γραμμένα'",
+        "IMPERFECT requested but 'κρυμμένα' / 'γραμμένα' is RICH"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_7",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Σαν άστρο φέγγει η καρδιά, φως μου,\n[san Á-stro FÉ-gi i kar-diÁ, fos mu]\nΚαι σιγοκαίει μέσα στα στήθη σου.\n[ke si-go-KÉ-i mé-sa sta STÍ-thi su]\nΜατώνει πάντα, στέκει εκεί, αδρανής,\n[ma-TÓ-ni PÁ-da, STÉ-ki e-kÍ, a-dra-NÍs]\nΣαν ένα φως που μένει σιωπηλής.\n[san É-na fos pu ME-ni si-o-pi-LÍs]\nΚαρδιά, πληγή μου αιώνια και χρυσή,\n[kar-diÁ, pli-gi MÚ e-ó-ni-a ke hri-SÍ]\nΠου ζεις μέσα σε άδυτα μυστική.\n[pu ZÍs mé-sa se Á-di-ta mi-sti-KÍ]\nΚι αν κλαίει πάντα στης ζωής το γκρεμό,\n[ki an KLÉ-i PÁ-da stis zo-Ís to gre-MÓ]\nΔεν παύει όμως να λαχταρά το φιλί αυτό.\n[den PÁ-vi Ó-mos na la-hta-RÁ to fi-LÍ a-FTÓ]\n",
+      "no_verify_time": 3.7242069244384766,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φως μου' / 'στήθη σου'",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'αδρανής' / 'σιωπηλής'",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'a' in 'γκρεμό' / 'αυτό'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Καρδιά πονάς, με πόνο σιωπηλή,\nΜε δάκρυα κλαίει θλιμμένη η ψυχή.\nΣτον έρωτά σου στάθηκε πιστή,\nΠου άλλαξε χρώμα σαν βροχή χρυσή.\nΣτον κόσμο αυτόν, ψάχνει μια στιγμή,\nΝα βρει την άλλη της μορφή χρυσή.\nΠου έμεινε μόνη, η καρδιά αγκαθή,\nΈναν έρωτα, πίκρα και θλίψη μαζί.\n",
+      "with_verify_time": 18.03080105781555,
+      "with_verify_attempts": 9,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_8",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "όνειρο",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH",
+        "IDV"
+      ],
+      "no_verify_poem": "Στον κόσμο του ονείρου, η ψυχή μου πλανάται,\nσε τόπους μαγικούς, η μορφή μου κινείται.\n[pli-ná-te]\n[ki-ní-te] F2-RICH-IDV\n\nΣαν άγγελος που φέρει φως απ' τα αστέρια,\n[a-sté-ria]\nσε κήπους γεμάτους γλυκά λουλούδια που ξεράζει.\n[kse-rá-zi] F2-RICH-IDV\n\nΚι όμως σαν βγω απ' της νύχτας την αγκαλιά της,\n[a-ga-liÁ tis]\nβρίσκω μονάχα τη σκληρή πραγματικότητα όλη αυτή.\n[o-li a-ftí] F2-MOS-RICH-IDV\n\nΚαι χάνομαι πάλι μες στης ζωής μου τη μέθη,\n[ti mé-thi]\nμε άδειες ελπίδες, να κυνηγώ μια ψευτιά αυτή.\n[pse-ftiÁ a-ftí] F2-MOS-RICH-IDV\n",
+      "no_verify_time": 3.9026601314544678,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "RICH requested but 'πλανάται' / 'κινείται' is IMPERFECT",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'πλανάται' / 'κινείται'",
+        "No rhyme: 'αστέρια' / 'ξεράζει'",
+        "No rhyme: 'αγκαλιά της' / 'αυτή'",
+        "No rhyme: 'μέθη' / 'αυτή'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στου ονείρου τα νερά πετάνε,\nόσα η ψυχή ποθεί και αγαπάνε.\n\nΗ σιωπή του ονείρου αποκαλύπτει,\nμυστικά που η λογική κρατεί.\n\nΣτου ονείρου τις κρυφές διαβάσεις,\nψυχές μπορούν να ξεδιψάσεις.\n\nΤο άγγιγμα του ονείρου απαλά αγγίζει,\nκαι την κρυφή αλήθεια μου φωτίζει.\n",
+      "with_verify_time": 41.88517904281616,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "RICH requested but 'πετάνε' / 'αγαπάνε' is PURE",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'a' in 'πετάνε' / 'αγαπάνε'",
+        "No rhyme: 'αποκαλύπτει' / 'κρατεί'",
+        "RICH requested but 'διαβάσεις' / 'ξεδιψάσεις' is PURE",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'διαβάσεις' / 'ξεδιψάσεις'",
+        "RICH requested but 'αγγίζει' / 'φωτίζει' is PURE",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'o' in 'αγγίζει' / 'φωτίζει'"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_9",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "μνήμη",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT",
+        "IDV"
+      ],
+      "no_verify_poem": "Σαν φάντασμα, θυμήσου, [san FÁN-ta-sma θi-mí-su]\nηχώ μέσα στ’ αυτί σου. [i-χó mé-sa st’ af-tí su]\nΚι ας σβήνει της μορφής ο χάρτης, [ki as Sví-ni tis mor-Fís o Xár-tis]\nκρατάει ακόμη ονομαστικός μάρτης. [kra-tá-i a-kó-mi o-no-ma-sti-Kós már-tis]\nΑνθίζει μνήμη, φέγγει μέρα, [an-θí-zi mní-mi, FÉn-gi mé-ra]\nστο στήθος πάλι να χορεύει σφαίρα. [sto STí-θos pá-li na χo-ré-vi sfé-ra]\nΚαι τώρα θες της λήθης λίμνη, [ke TÓ-ra θes tis Lí-θis Lí-mni]\nπου κρύβει η ψυχή να γίνει. [pu KRÍ-vi i psi-χí na Gí-ni]\n",
+      "no_verify_time": 3.5786380767822266,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'θυμήσου' / 'αυτί σου'",
+        "IMPERFECT requested but 'θυμήσου' / 'αυτί σου' is PURE",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'a' in 'θυμήσου' / 'αυτί σου'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'χάρτης' / 'μάρτης'",
+        "IMPERFECT requested but 'χάρτης' / 'μάρτης' is PURE",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'μέρα' / 'σφαίρα'",
+        "IMPERFECT requested but 'μέρα' / 'σφαίρα' is PURE",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'λίμνη' / 'γίνει'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Σαν άμμος η μορφή πλάθεται,\nστο κύμα η ψυχή χάνεται.\nΣτου ονείρου την άκρη λέγεται,\nμια ιστορία πικρή πλέκεται.\nΚι η μνήμη θα γίνει θρύλος μας,\nψιθύρων αέρας κύκλος μας.\nΣτο χρόνο η μορφή χαράζεται,\nκι η αλήθεια σιγά θρυμματίζεται.\n",
+      "with_verify_time": 26.381544828414917,
+      "with_verify_attempts": 13,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_10",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "φεγγάρι",
+      "rhyme_type": "M",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Στο σκοτάδι, φέγγει, φως μου, [sto sko-TÁ-ði, FÉ-gi, fos MU]\nΜες στην νύχτα, λάμπει, φως μου, [mes tin NÍ-xta, LÁ-bi, fos MU]\nΤο φεγγάρι, αγέρωχο, πετά, [to fe-gÁ-ri, a-gé-ro-xo, pe-TÁ]\nΣτον ουρανό, χορεύει, θαρτεά. [ston u-ra-NÓ, xo-ré-vi, thar-teÁ]\nΚάθε νύχτα, στέλνει φιλί, [KÁ-the NÍ-xta, STÉ-lni fi-LÍ]\nΣτους ερωτευμένους, δίνει ζωή. [stus e-ro-tev-ménus, ði-ni zoÍ]\nΈλα, φέγγος, φέγγε, φέγγος, φως, [É-la, FÉ-gos, FÉ-ge, FÉ-gos, FOS]\nΣτην καρδιά, να μείνει, φως μας. [stin kar-ðiÁ, na MÍ-ni, fos MAS]\n",
+      "no_verify_time": 3.3003110885620117,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Identical words 'φως μου' / 'φως μου' (COPY) not allowed",
+        "MOSAIC requested but 'πετά' / 'θαρτεά' is not mosaic",
+        "MOSAIC requested but 'φιλί' / 'ζωή' is not mosaic",
+        "No rhyme: 'φέγγος, φως' / 'φως μας'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Φεγγάρι μου, στον ουρανό βαθύς,\nαγάπη σαν ποτάμι να βρεις.\nΈλα να λάμψεις κι εσύ φως μου,\nστου κόσμου την άδεια γη φως μου.\nΜα μην φοβάσαι να πεις,\nότι αγαπάς και συ, φως της.\nΜια ελπίδα να κρατάς,\nότι θα βρεις και συ, φως μας.\n",
+      "with_verify_time": 26.24812889099121,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Identical words 'φως μου' / 'φως μου' (COPY) not allowed"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_1",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Με φλόγα σιγανή, [me ˈflo.ɣa si.ɣaˈni]\nπου καίει την ψυχή. [pu ˈce.i tin psiˈxi]\nΣτον έρωτα βουτώ, [ston ˈe.ɾo.ta vuˈto]\nκι όνειρα θα κρατώ. [ˈci ˈo.ni.ɾa θa kraˈto]\nΜαζί σου θα πετώ, [maˈzi su θa peˈto]\nστου έρωτα το νησί. [stu ˈe.ɾo.ta to niˈsi]\nΕλπίδα θα γεννώ, [elˈpi.ða θa ɣeˈno]\nγια σένανε μονή. [ʝa ˈse.na.ne moˈni]\n",
+      "no_verify_time": 3.4756901264190674,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πετώ' / 'νησί'",
+        "No rhyme: 'γεννώ' / 'μονή'"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Καρδιά πονεί,\nΓια σένα μοναχή.\nΗ αγάπη μας καλεί,\nΣτην άνοιξη μαζί.\nΣτον έρωτα αυτόν καρτερώ,\nΝα σμίξουμε κι εσύ κι εγώ.\nΜες στη νύχτα σε ζητώ,\nΝα 'ρθεις πάλι εδώ.\n",
+      "with_verify_time": 9.507014751434326,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_2",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στων κυμάτων την αλμύρα,\n[ston ki-má-ton tin al-mí-ra]\nψάχνω φως κι ελπίδα τώρα.\n[psáx-no fos ki el-pí-da tó-ra]\nΗ θάλασσα βαθιά, απλώνεται,\n[i θá-la-sa va-thi-á, a-pló-ne-te]\nμυστικά πάντα μου κρύβεται.\n[mi-sti-ká pán-da mu krí-ve-te]\nΚάθε κύμα μια ιστορία,\n[ká-θε kí-ma mi-a i-sto-rí-a]\nστα νερά της, αιώνια μνήμες.\n[sta ne-rá tis, a-ió-ni-a mní-mes]\nΣτης αγάπης μου την πλάνη,\n[stis a-gá-pis mu tin plá-ni]\nβρίσκω γαλήνη και λιμάνι.\n[vrís-ko ga-lí-ni ke li-má-ni]\n",
+      "no_verify_time": 3.704245090484619,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'απλώνεται' / 'κρύβεται'",
+        "No rhyme: 'ιστορία' / 'μνήμες'"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Θάλασσα, βαθιά μου θλίψη,\nΓαλήνεψε κάθε μου σκέψη.\nΣτης θάλασσας την δίνη,\nΒρίσκω μια καινούρια φυγή μες στη γαλήνη.\nΈνα φως δίνει ελπίδα,\nσε μια απελπισμένη σελίδα.\nΘάλασσα, γαλάζια πανδαισία,\nΚράτα με πάντα στην αγκαλιά, σία.\n",
+      "with_verify_time": 43.7282030582428,
+      "with_verify_attempts": 9,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_3",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Στὸν οὐρανὸ οἱ ἀνέμοι τραγουδᾶνε,\n[sto-no-ra-NO i a-NE-mi tra-gu-DÁ-ne]\nΚι ἀστέρια λάμπουν, φῶς σκορπᾶνε,\n[ki a-STE-ria LAM-bun fos spor-PA-ne]\nΣτὴν ἄβυσσο, τὸ χάος θὰ κρύβουνε,\n[stin A-vi-so to HA-os tha KRI-vu-ne]\nτὴν σκοτεινιὰ γιὰ πάντα θὰ διώχνουνε.\n[tin sko-ti-niA gia PAN-da tha DÍ-xnu-ne]\nΚι ἄγγελοι στὰ νέφη θα πετᾶνε,\n[ki A-ge-li sta NE-fi tha pe-TA-ne]\nμελωδίες στὸν αἰθέρα θὰ σκορπᾶνε,\n[me-lo-di-Es ston e-THE-ra tha spor-PA-ne]\nθεοὶ τὴ γῆ μας πάντα θὰ κοιτᾶνε,\n[the-I ti GI mas PAN-da tha ki-TA-ne]\nκαὶ τὴ φροντίδα τους δὲ θὰ πᾶνε.\n[ke ti fron-TI-da tus the tha PA-ne]\n",
+      "no_verify_time": 3.879096031188965,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ἀνέμοι τραγουδᾶνε' / 'φῶς σκορπᾶνε'",
+        "No rhyme: 'κρύβουνε' / 'διώχνουνε'",
+        "Stress mismatch: Expected F3, found [(1, 'M')]/[(1, 'M')] for 'θα πετᾶνε' / 'θὰ σκορπᾶνε'",
+        "Stress mismatch: Expected F3, found [(1, 'M')]/[(1, 'M')] for 'θὰ κοιτᾶνε' / 'θὰ πᾶνε'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Του ουρανού τα βλέμματα,\nφέρνουν φως και δέματα.\nΣτης νύχτας τα σκόρπισματα,\nβρίσκουμε πια στέρματα.\nΗ άβυσσος η άπειρη,\nφυλάει μυστικά κρυμμένα, ξέσκεπη.\nΠαντού θεϊκά σήματα,\nγλυκά μου μηνύματα.\n",
+      "with_verify_time": 34.65025210380554,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'σκόρπισματα' / 'στέρματα'",
+        "No rhyme: 'άπειρη' / 'ξέσκεπη'"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_4",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Σκοτάδι παντού, ψυχή θολή,\n[skoˈta.ði panˈtu, psiˈxi θoˈli]\nμονάχη τρέμει μια στιγμή.\n[moˈna.çi ˈtre.mi mja stiɣˈmi]\nΜα τότε λάμπει φως λαμπρό,\n[ma ˈto.te ˈlam.bi fos lamˈbro]\nσαν ήλιος φίλος πιο γλυκό.\n[san ˈi.ljos ˈfi.los pjo ɣliˈko]\nΚαι φεύγει η λύπη, φεύγει η σκιά,\n[ke ˈfev.ɣi i ˈli.pi, ˈfev.ɣi i skja]\nγιατί υπάρχει φως αχνά.\n[jaˈti iˈpar.çi fos axˈna]\nΔίνει ελπίδα, δίνει φως μου,\n[ˈði.ni elˈpi.ða, ˈði.ni fos mu]\nκι είναι δικό σου, ο θησαυρός μου.\n[ki ˈi.ne ðiˈko su, o θi.savˈros mu]\n",
+      "no_verify_time": 2.9109389781951904,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φως μου' / 'θησαυρός μου'"
+      ],
+      "no_verify_correct_pairs": 3,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Σαν ήλιος λάμπει, φως δυνατό,\nΚι ο κόσμος βρίσκει το σκοπό,\nΖωή γεμίζει και χαρά,\nΚι ανθίζει κάθε γειτονιά.\nΦωτίζει ψυχές και το κορμί,\nΔίνει ελπίδα, μια στιγμή,\nΣτο σκοτάδι λάμπει το φως αυτό,\nΚαι διώχνει κάθε τι κακό.\n",
+      "with_verify_time": 4.442091941833496,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_5",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Στη νύχτα η σιωπή βασιλεύει [si-ó-pi va-si-LÉ-vi]\nκι ο ύπνος τους ανθρώπους κυριεύει [ki o Í-pnos tus an-θρώ-pus ki-ri-É-vi]\nμε φώτα λίγα, η πόλη σβήνει [me FÓ-ta Lí-ga, i PÓ-li sβí-ni]\nκι η μοναξιά βαθιά πια δίνει [ki i mo-na-xiÁ va-θiÁ pia Dí-ni]\nΣαν φάντασμα η σκιά μου πλανάται [san FÁN-taz-ma i skiÁ mu pla-ná-te]\nστης νύχτας το πέπλο κρυφά με πάει [stis NÍX-tas to PÉ-plo kri-fÁ me PÁ-i]\nΚι η ελπίδα μια φλόγα μικρή μου μένει [ki i el-pi-ΔÁ mi-a FLÓ-ga mi-krí mu MÉ-ni]\nμέσα στη νύχτα, κάποιος να 'ρθει προσμένει [mé-sa sti NÍX-ta, KÁ-pios na 'r-θi pros-Mé-ni]\n",
+      "no_verify_time": 3.3674821853637695,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "RICH requested but 'βασιλεύει' / 'κυριεύει' is PURE",
+        "RICH requested but 'σβήνει' / 'δίνει' is PURE",
+        "No rhyme: 'πλανάται' / 'πάει'",
+        "RICH requested but 'μένει' / 'προσμένει' is PURE"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Τὴν νύχτα ἡ σιωπὴ πλησιάζει,\nΚάθε τι σιγὰ θὰ ταράζει.\nΣτὰ σκοτάδια της ἡ ψυχή γυρεύει,\nΚι ὅ,τι ποθεῖ πιὸ πολύ λαχταρεύει.\nΈνα φεγγάρι νὰ λάμπει ἀναμμένο,\nΣτην σκοτεινιά είναι φῶς κρυμμένο.\nἩ νύχτα μὲ μυστήρια σκεπασμένη,\nΣτὴν ἀγκαλιά της εἶναι ἀσφαλισμένη.\n",
+      "with_verify_time": 37.217411041259766,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "RICH requested but 'πλησιάζει' / 'ταράζει' is PURE"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_6",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "Σαν άστρο φέγγει η σκέψη του, να λάμπει να,\n[San Á-stro FÉngi i SKÉ-psi tu, na LÁ-bi na]\nελπίδα πάντα, φάρος στη ζωή, σαν δώρα να,\n[el-pí-ða PÁ-nda, FÁ-ros sti zo-Í, san DÓ-ra na]\nΜε δύναμη κρυμμένη να προβάλλουνε,\n[Me DÍ-na-mi kri-mé-ni na pro-VÁ-lu-ne]\nμυστήρια που τον κόσμο μας αλλάζουνε.\n[mi-stí-ri-a pu ton KÓ-zmo mas a-lá-zu-ne]\nΚι αν πέσουνε του φόβου τα σημάδια να,\n[Ki an PÉ-su-ne tu FÓ-vu ta si-Má-di-a na]\nξανά θα βγει η ελπίδα τριγύρω να.\n[ksa-ná tha vgi i el-pí-ða tri-gí-ro na]\nΣτο δρόμο της ζωής, σαν οδηγούσανε,\n[Sto DRÓ-mo tis zo-Í, san o-di-gú-sa-ne]\nμας φέρνουνε σε μέρη που αγαπούσανε.\n[mas FÉr-nu-ne se MÉ-ri pu a-ga-pú-sa-ne]\n",
+      "no_verify_time": 4.485234975814819,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'λάμπει να' / 'δώρα να'",
+        "No rhyme: 'προβάλλουνε' / 'αλλάζουνε'",
+        "No rhyme: 'σημάδια να' / 'τριγύρω να'",
+        "IMPERFECT requested but 'οδηγούσανε' / 'αγαπούσανε' is PURE"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Την προσευχή μας άγια,\n[tin pro-se-fH mas A-gia]\nΣε θάλασσα μακρινή και πλάγια,\n[se THA-la-sa ma-kri-NI ke PLA-gia]\nΣτέλνει η ψυχή μας φως μας,\n[stel-ni i psi-HI mas FOS mas]\nΣε μονοπάτια κι οδηγούς μας.\n[se mo-no-PA-tia ki o-di-GÚS mas]\nΣτους κήπους σπέρνουμε ρόδα θα,\n[stus KÍ-pus SPER-nu-me RÓ-da tha]\nΚι ο άνεμος σπέρνει ελπίδα θα.\n[ki o A-ne-mos SPER-ni el-PÍ-da tha]\nΚαινούργια οπτασία,\n[ke-NÚR-gia o-pta-SÍA]\nΕλπίδα τώρα πια αιώνια.\n[el-PÍ-da TO-ra pia e-Ó-nia]\n",
+      "with_verify_time": 58.84272384643555,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "IMPERFECT requested but 'άγια' / 'πλάγια' is PURE",
+        "No rhyme: 'φως μας' / 'οδηγούς μας'",
+        "No rhyme: 'οπτασία' / 'αιώνια'"
+      ],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_7",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Στην άβυσσο βουτά καρδιά βαθιά,\nΣκιρτά, χτυπά σαν άγριο πουλί γοργά,\nΜατώνει πια, δεν βρίσκει ανακουφιστή,\nΑγάπη ζητά, σώζει με τη στιγμή,\nΠονά κρυφά, πληγή που δεν κλείνει να,\nΣε σκοτεινιά, ελπίδα θυμίζει θα,\nΣε θάλασσα οργή, άσπιλη σαν αυγή,\nΖητά αγάπη απ' την ψυχή μου.\n",
+      "no_verify_time": 1.9379298686981201,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'a' vs 'o' in 'βαθιά' / 'γοργά'",
+        "Stress mismatch: Expected M, found [(3, 'F3')]/[(3, 'F3')] for 'κλείνει να' / 'θυμίζει θα'",
+        "PURE requested but 'κλείνει να' / 'θυμίζει θα' is IMPERFECT",
+        "No rhyme: 'αυγή' / 'ψυχή μου'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Με πίκρα η καρδιά μου πονεί,\nγια σένα μόνο αυτή λαχταρεί.\nΘυμάμαι στιγμές, φως χρυσό, πρωί,\nπου ήσουν εδώ, αληθινή ζωή.\nΣτη μοναξιά ψάχνω φως, αχνό φιλί,\nμα η τύχη γελά, είναι σκληρή.\nΧάθηκε η φλόγα του έρωτά σου, να μην ξαναβρεθεί,\nΜου λείπεις, καρδιά μου, κι είσαι μακριά εσύ.\n",
+      "with_verify_time": 20.208863973617554,
+      "with_verify_attempts": 12,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'o' vs 'a' in 'πονεί' / 'λαχταρεί'"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_1",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Στην ψυχή μου φλόγα, φως [sti psihí mu fló-ga fos]\nΈρωτας, γλυκιά πνοή σου. [É-ro-tas, gli-kiÁ pno-i su]\nΚάθε σκέψη μου, ζεστή, [Ká-the ské-psi mu, ze-stí]\nσε οδηγεί, αγάπη μου. [se o-di-gí, a-gá-pi mu]\nΜες στα μάτια σου βυθός [mes sta má-tia su vi-thós]\nπου με σέρνει ως το φιλί σου. [pu me sér-ni os to fi-lí su]\nΚάθε όνειρο δικό μου [ká-the ó-ni-ro di-kó mu]\nΣτην αιώνια αγκαλιά σου. [stin e-ó-ni-a an-ga-liá su]\n",
+      "no_verify_time": 3.338266134262085,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φλόγα, φως' / 'πνοή σου'",
+        "No rhyme: 'ζεστή' / 'αγάπη μου'",
+        "No rhyme: 'βυθός' / 'φιλί σου'",
+        "No rhyme: 'δικό μου' / 'αγκαλιά σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η αγάπη σαν θάλασσα βαθιά,\nΚαι δίνη γλυκιά, γλυκιά [va-THJÁ / glik-JÁ]\n\nΚι' αν δώσεις χίλια φιλιά,\nΠοτέ δε φτάνουν, αχ καρδιά! [fi-LJÁ / kar-DJÁ]\n\nΣαν άνοιξη φέρνει λυτρό,\nΚαι φως και χαρά, σ' αυτό [li-TRÓ / af-TO]\n\nΚάθε λεπτό αν είσαι εδώ,\nΕίναι σαν όνειρο τρελό. [e-DÓ / tre-LÓ]\n",
+      "with_verify_time": 8.218328714370728,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_1",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Στην ψυχή μου φλόγα σιγοκαίει, [sti(n) psi-HÍ mu]\nγια σένα, αγάπη, φως και δροσιά μου. [ja sé-na, a-gá-pi, fos ke ðro-SIÁ mu]\nΜες στα μάτια σου βρίσκω ζωή νέα, [mes sta má-tja su vrí-sko zo-Í né-a]\nσαν ήλιος που λάμπει, μακριά μου. [san í-ljos pu lám-bi, ma-kri-Á mu]\nΗ αγάπη μας γλυκιά μελωδία, [i a-gá-pi mas gli-kjá me-lo-ði-A]\nπου σιγοψιθυρίζει η καρδιά μου. [pu si-ɣo-psi-θi-rí-zi i kar-ðjá mu]\nΓια πάντα θα σ' αγαπώ, θεά μου, [ja pán-da θa s' a-ɣa-pó, θe-Á mu]\nεσύ είσαι η αιώνια συντροφιά μου. [e-sí í-se i e-ó-nja sin-dro-fjÁ mu]\n",
+      "no_verify_time": 3.615891218185425,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'σιγοκαίει' / 'δροσιά μου'",
+        "No rhyme: 'νέα' / 'μακριά μου'",
+        "No rhyme: 'μελωδία' / 'καρδιά μου'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'θεά μου' / 'συντροφιά μου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στην καρδιά μου βαθιά,\nΜια φλόγα καίει ξανά.\n[stin kar-δjά mu va-θjά]\n[mja fló-γa ké-i ksa-νά]\n\nΈρωτας γλυκός πολύ,\nΦωτίζει πάλι η ζωή.\n[É-ro-tas gli-kós po-lí]\n[fo-tí-zi pá-li i zo-í]\n\nΘέλω πάντα εσένα να βρω,\nΣτην αγκαλιά μου να σε χω.\n[θé-lo pán-da e-sé-na na vro]\n[stin a-γka-ljá mu na se xo]\n\nΚάθε σκέψη είναι για σε,\nΚι όνειρό μου είσαι εσέ.\n[ká-θe skép-si í-ne ja se]\n[ki ó-ni-ró mu í-se e-sé]\n",
+      "with_verify_time": 5.96316385269165,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_2",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στης θάλασσας την άκρη, στέκει μοναχή, [Á-kri, sté-ki mo-na-XÍ]\nμε κύματα να σπάνε, πλάι της, απαλά. [spá-ne, plái tis, a-pa-LÁ]\nΚοιτάζει τον ορίζοντα, μελαγχολεί, [o-rí-zon-ta, me-lan-xo-LÍ]\nγια όνειρα που χάθηκαν, νωρίς στην οχθιά. [xá-thi-kan, no-rís stin ox-THIÁ]\nΚι η αλμύρα της θάλασσας θυμίζει, πικρή, [thá-las-sas θυ-mí-zi, pi-KRÍ]\nτης αγάπης που έφυγε, μακριά σαν πουλί. [a-γά-pis pou é-fy-ge, ma-kriÁ san pu-LÍ]\nΣαν δάκρυ κυλάει, στην άμμο η στιγμή, [dák-ri ki-lá-i, stin á-mo i stiγ-MÍ]\nΚι ο ήλιος δύει, στην ψυχή της, αργά και βαθιά. [λί-os δί-i, stin psi-XÍ tis, ar-γá ke va-ΘIÁ]\n",
+      "no_verify_time": 5.529317855834961,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'μοναχή' / 'απαλά'",
+        "No rhyme: 'μελαγχολεί' / 'οχθιά'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'πικρή' / 'πουλί'",
+        "No rhyme: 'στιγμή' / 'βαθιά'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στ’ ακρογιάλι δροσερή πλάνη,\nφύσηξε αγέρι, κι είπε να φτάνει.\n[pliÁ-ni / ftÁ-ni]\n\nΉλιος λάμπει στην άμμο, να μείνει,\nκι η θάλασσα θέλει εμάς να μας κρίνει.\n[mí-ni / krí-ni]\n\nΑφρός θα γίνει της αγάπης μόνη,\nμέσα στα κύματα η ζωή να λιώνει.\n[mó-ni / lió-ni]\n\nΚύματα σκάζουν απαλό χάδι,\nη θάλασσα είναι βαθιά, το βράδυ.\n[xá-di / vrá-di]\n",
+      "with_verify_time": 9.66863203048706,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_3",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Στ’ ἀστέρια λάμπουν φῶτα, οἱ ἄγγελοι πετᾶνε,\nΤῆς νύχτας βλέπουν θάματα, γύρω τους σᾶς κοιτᾶνε,\nΣτο γαλάζιο οὐρανό πέφτουνε,\nΜαζί τους αἰσθήματα κλαίγουνε,\nἩ σελήνη λάμπει ἤρεμα, φαίνεται σαν φάρσα\nΜαζί της σκέψεις ατέρμονες πλάθει ἡ καρδιά μᾶς\nΚι ὁ ἥλιος λάμπει πάντα, πέφτει ὀξυγονο,\nΣτο οὐρανό θαλασσοπράσινο ξεκουράζετε.\n",
+      "no_verify_time": 2.59507417678833,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πετᾶνε' / 'σᾶς κοιτᾶνε'",
+        "No rhyme: 'πέφτουνε' / 'κλαίγουνε'",
+        "No rhyme: 'φάρσα' / 'καρδιά μᾶς'",
+        "No rhyme: 'πέφτει ὀξυγονο' / 'ξεκουράζετε'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Νωρίς τὸ φῶς ἐσκόρπιζε,\nΚαὶ κάθε σκιὰ ἐξόριζε.\nΤου οὐρανοῦ τὰ χρώματα γλυκίζουνε,\nΤὰ νέφη σιγὰ σιγὰ κυλίζουνε.\nἩ νύχτα φεύγει, χάνεται,\nΚαὶ ἡ ἐλπίδα τώρα φαίνεται.\nΤὰ ἄστρα στὸν οὐρανὸ ἀναβλύζουνε,\nΚαὶ τὴν ψυχή μας τώρα φωτίζουνε.\n",
+      "with_verify_time": 28.884724140167236,
+      "with_verify_attempts": 14,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_4",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Του ήλιου φως, πηγή ζωής [pi-YÍ zo-Ís]\nΣκορπά χαρά, χωρίς θλίψης [xo-rÍs θlí-psis]\nΦωτίζει γη και ουρανούς [fe-TÍ-zi gi ke u-ra-NÚs]\nΣβήνει κάθε σκοτεινούς [SVÍ-ni ká-θe sko-ti-NÚs]\nΣαν άγγελος που κατεβαίνει [san Á-ge-los pu ka-te-Vé-ni]\nΤο φως του πάντα μας πηγαίνει [to fos tu PÁ-nda mas pi-gé-ni]\nΕίναι η ελπίδα η αιώνια [í-ne i el-pí-δa i e-Ó-ni-a]\nΦως πάνω στη γη, αιώνια [fos PÁ-no sti gi, e-Ó-ni-a]\n",
+      "no_verify_time": 2.747030019760132,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ζωής' / 'θλίψης'",
+        "PURE requested but 'ουρανούς' / 'σκοτεινούς' is RICH",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'κατεβαίνει' / 'πηγαίνει'",
+        "Stress mismatch: Expected M, found [(2, 'F2'), (3, 'F3')]/[(2, 'F2'), (3, 'F3')] for 'αιώνια' / 'αιώνια'",
+        "Identical words 'αιώνια' / 'αιώνια' (COPY) not allowed"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Της νύχτας σβήνει το βαθύ μυστικό,\n[tis NÍ-xtas Sví-ni to va-THÍ mi-sti-KÓ]\nκι αφήνει φέγγος τώρα πια παντού και φωτεινό.\n[ke a-FÍ-ni FÉ-gos tó-ra pya pan-tú ke fo-ti-NÓ]\n\nΈνα φως λάμπει, χρυσό φιλί,\n[É-na fos LÁ-mbi, hri-só fi-LÍ]\nόμορφο σαν να 'ταν όνειρο τρελό παιδί.\n[Ó-mor-fo san na TAN ó-ni-ro tre-ló pe-DHÍ]\n\nΚάθε αχτίδα φτάνει ως τη γη,\n[KÁ-the a-XTÍ-da FTÁ-ni os ti YÍ]\nδώρα φέρνει θεία, αγνή στιγμή.\n[DÓ-ra FÉR-ni THÍ-a, a-GNÍ sti-GMÍ]\n\nΦως της ψυχής, ελπίδα στη ζωή,\n[Fos tis psi-XÍs, el-PÍ-da sti zo-Í]\nόμορφο φως, αιώνιο και λαμπρό παντού εκεί.\n[Ó-mor-fo fos, e-Ó-ni-o ke lam-bró pan-tú e-KÍ]\n",
+      "with_verify_time": 7.5483081340789795,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_5",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Στὴς νύχτας τὴν σιγὴ βαθιὰ, ἡ σκέψη λύνεται [si-γì ba-THI-ὰ i SKÉ-psi Lí-ne-te]\nκαὶ φέρνει στὸ μυαλὸ θολὲς μορφὲς γιὰ σένα [ke FÉ-rni sto mja-lò tho-lés mor-fés ja SÉ-na]\nΤὸ φεγγάρι ἀχνὸ φῶς σκορπᾶ μεσ’ στὴν ἀπέραντη σιγὴ [to fen-gá-ri a-xnó fos skor-pà mes' stin a-pé-ran-ti si-γì]\nὅπου ἡ ψυχὴ μου σβήνει καὶ ἀνασαίνει με δειλία [ó-pu i psi-xí mu sví-ni ke a-na-sé-ni me di-LI-a]\nΜὰ ὁ πόνος μέσα μου βαθιὰ ποτὲ δὲ σβήνει πια [ma o pó-nos mé-sa mu ba-thi-à po-té de SVÍ-ni pja]\nκαὶ ἡ νύχτα φέρνει δάκρυα θολὰ ποὺ πέφτουνε χάμω [ke i NÍ-xta fér-ni DÁ-kri-a tho-là pu PÉ-ftu-ne XÁ-mo]\nΜὲς στὸ σκοτάδι ψάχνω φῶς, μα φῶς δὲν βρίσκω εγώ [mes sto sko-tá-di psá-xno fos ma fos den VRÍ-sko e-γó]\nκι ἡ μοναξιά μου μὲ πνίγει μὲς στου χρόνου τὸ βυθό [ki i mo-na-xi-á mu me PNI-gi mes stu xró-nu to vi-THÓ]\n",
+      "no_verify_time": 5.3314502239227295,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'λύνεται' / 'σένα'",
+        "No rhyme: 'ἀπέραντη σιγὴ' / 'δειλία'",
+        "No rhyme: 'σβήνει πια' / 'χάμω'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'εγώ' / 'βυθό'",
+        "RICH requested but 'εγώ' / 'βυθό' is PURE"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Νύχτα βαθιά, γαληνεία [ɣa-li-NE-a]\nΣκορπάει γλυκιά μελωδία [me-lo-DÍ-a]\n\nΗ σκέψη τριγυρνά μες στην πλάνη [pla-NI]\nΚι η θλίψη κατοικεί στην ψυχή μ [psi-XÍ m]\n\nΣκοτάδι δίνει φιλιά του [fi-ljá tu]\nΣτης μοναξιάς τα παλιά του [pal-já tu]\n\nΣτον ορίζοντα η μέρα πουλάει, [pu-LÁ-i]\nΚαι το σκοτάδι τώρα γελάει. [je-LÁ-i]\n",
+      "with_verify_time": 34.70099115371704,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "RICH requested but 'γαληνεία' / 'μελωδία' is PURE",
+        "No rhyme: 'πλάνη' / 'ψυχή μ'",
+        "RICH requested but 'φιλιά του' / 'παλιά του' is PURE"
+      ],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_6",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "Μες στης ψυχής τα βάθη, ελπίδα γένεται,\n[mes tis psi-XÍS ta VÁ-thi, el-pí-da GÉ-ne-te]\nΠου σβήνει κάθε φόβο, κι όνειρο σπέρνεται.\n[pu Sví-ni ká-the Fó-vo, ki Ó-ni-ro SPÉ-rne-te]\nΣαν φάρος λάμπει πάντα, στο πέλαγος μας,\n[san FÁ-ros LÁ-bi PÁN-da, sto PÉ-la-gos mas]\nΔεν σβήνει ποτέ, είναι φως βαθύ της.\n[den SVÍ-ni po-TÉ, i-ne fos va-THÍ tis]\nΚαινούργια ξεκινήματα, πάντα φέρνεται,\n[ke-NÚ-rja xe-ki-ní-ma-ta, PÁN-da FÉ-rne-te]\nΣαν ήλιος που ανατέλλει, κι αγγίζει γης μας.\n[san Í-li-os pu a-na-TÉ-li, ki an-gí-zi GÍS mas]\nΣαν αύρα δροσερή, ελπίδα ζωντάνεψε,\n[san Á-vra dro-se-RÍ, el-pí-da zo-NTÁ-ne-pse]\nΚαι στέλνει φως, αγάπη μέσα δίνει μας.\n[ke STÉ-lni fos, a-GÁ-pi mé-sa DÍ-ni mas]\n",
+      "no_verify_time": 5.523313283920288,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πέλαγος μας' / 'βαθύ της'",
+        "No rhyme: 'φέρνεται' / 'γης μας'",
+        "No rhyme: 'ζωντάνεψε' / 'δίνει μας'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Την ελπίδα θ' ανάψουμε,\nΚάθε δυσκολία θ' αλλάξουμε.\nΈνα τραγούδι ψιθυρίζουμε,\nΌλοι μαζί θα το χτίσουμε.\nΘα βρούμε άσπρα, καινούργια χρώματα,\nΜέσα στη σιωπή, ακούγονται σήματα.\nΜε πίστη θα ζήσουμε, κι όνειρα σβήσουνε,\nΚάτω απ' τον ουρανό, θα ξαναρχίσουμε.\n",
+      "with_verify_time": 5.962939023971558,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_7",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Με πόνο βαθύ, καρδιά πονεμένη,\n[me po-no va-THÍ, kar-di-á po-ne-MÉ-ni]\nΣαν κύμα που σπάει στην ακτή δυνατή.\n[san KÍ-ma pu spái stin a-ktí di-na-TÍ]\nΚρυμμένος καημός, πληγή που δεν κλείνει,\n[kri-ménos ka-IMÓS, pli-jí pu den KLI-ni]\nΜα πάντα ελπίδα υπάρχει, ακόμη κι αυτή.\n[ma pán-da el-PÍ-da i-pár-xi, a-kó-mi ki a-FTÍ]\nΘέλω να βρω γαλήνη, καρδιά ερωτευμένη,\n[THÉ-lo na vro ga-lí-ni, kar-di-á e-ro-tev-MÉ-ni]\nΚαι φως να γεννιέται, κάθε πρωί.\n[ke fos na ge-nié-te, ká-the pro-Í]\nΑγάπη ζητώ, ψυχή ταλαιπωρημένη,\n[a-gá-pi zi-TÓ, psi-xí ta-le-po-ri-MÉ-ni]\nΝα βρει τη χαρά, σαν άστρο λαμπρό, να φανεί.\n[na vri ti ha-RÁ, san á-stro lam-bró, na fa-NÍ]\n",
+      "no_verify_time": 3.499161958694458,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πονεμένη' / 'δυνατή'",
+        "No rhyme: 'κλείνει' / 'αυτή'",
+        "No rhyme: 'ερωτευμένη' / 'πρωί'",
+        "No rhyme: 'ταλαιπωρημένη' / 'φανεί'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στην σκέψη σ' έχω φυλαχτό,\nΚαι κρύβω πόνο δυνατό,\nΚαρδιά μου, φλόγα και καημό,\nΠου σιγοκαίει μυστικό.\n\nΓια σένα μόνο πονώ πολύ,\nΚι ας μην το δείχνω, αχ, τι ζωή,\nΣ' αγαπώ, δεν είναι κρυφό,\nΜα η μοίρα παίζει σκληρό.\n",
+      "with_verify_time": 8.785554885864258,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_1",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Στην ψυχή μου φλόγα καιει [stin psi-HÍ mu FLo-ga ke-I]\nΓια τα μάτια τ' όμορφα σου, λέει [ja ta MÁ-tja to-mor-FA su LE-i]\nΗ αγάπη χτίζει σιωπηλά [i a-GÁ-pi HTÍ-zi sjo-pi-LÁ]\nΚάστρα μες στο όνειρό μου, πλάθει θα [KÁ-stra mes sto Ó-ni-ro mu PLÁ-thi tha]\nΣαν άστρο λάμπει η μορφή [san Á-stro LÁ-bi i mor-FÍ]\nΜες στην καρδιά μου, φως μου, ανθεί [mes tin kar-DJÁ mu fos mu an-THÍ]\nΘέλω να σ' έχω συντροφιά [THÉ-lo na se É-ho sin-tro-FJÁ]\nΜέσα στην άγρια τη μοναξιά [MÉ-sa stin Á-gri-a ti mo-na-KJÁ]\n",
+      "no_verify_time": 3.680773973464966,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φλόγα καιει' / 'λέει'",
+        "No rhyme: 'σιωπηλά' / 'πλάθει θα'"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Έρωτας γλυκύς, σαν φως λαμπρό,\nΠου φέγγει μέσα μου, αληθινό.\nΚάθε σου λέξη, ένας σκοπός,\nΣτην καρδιά μου, γλυκός καημός.\nΜια φλόγα που καίει βαθιά στη ψυχή,\nΚι όλα τα σβήνει, μόνο εσύ,\nΚοντά σου νιώθω σαν παιδί,\nΑγάπη μου, εσύ είσαι η ζωή.\n",
+      "with_verify_time": 4.55678391456604,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_2",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στη θάλασσα, ψυχή μου, πάντα να πλέω [psi-HI mu]\nκι αστέρια να μετρούνε, απ' το φως μου, [fos mu]\n\nΤ' αλμυρό κύμα, αγάπη, με τρώει, [me TRÓ-i]\nγλυκό τραγούδι μου πάντα να λέει. [na LÉ-i]\n\nΚρυμμένο μυστικό, θάλασσα φέρνει, [FER-ni]\nαπέραντο το πέλαγος γέρνει. [GER-ni]\n\nΣτων κυμάτων το χάδι, καρδιά μου, [kar-diÁ mu]\nη θάλασσα να γίνει συντροφιά μας. [sin-tro-fiÁ mas]\n",
+      "no_verify_time": 3.130117177963257,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πλέω' / 'φως μου'",
+        "No rhyme: 'καρδιά μου' / 'συντροφιά μας'"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Της θάλασσας η αύρα που φυσάει,\nΚαι κάθε κύμα φως πολύ κρατάει,\nΓαλήνια πάντα είναι η ψυχή σου,\nΣαν δροσερό νανούρισμα δικό σου,\nΚρυμμένο μυστικό που σιωπάει,\nΣτης νύχτας το φεγγάρι που γελάει,\nΣαν όνειρο γλυκό να σε φιλήσει,\nΚαι η αγκαλιά της να σε χωρίσει.\n",
+      "with_verify_time": 7.90185284614563,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_3",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Στ’ αστέρια, ατέλειωτη η λάμψη τους δίνεται,\n[sta a-STÉ-ria, a-té-li-o-ti i LÁM-psi tus Dí-ne-te]\nΜες στ’ όνειρο, η ψυχή μου λυτρώνεται.\n[mes st' Ó-ni-ro, i psi-HÍ mu li-tró-ne-te]\n\nΚι ο ουρανός ατέλειωτος, γεμάτος σέβασμα,\n[ki o u-ra-NÓS a-té-li-o-tos, ge-má-tos Sé-va-sma]\nΑπ’ του χρόνου την άπειρη παρέμβασμα.\n[ap' tu HRÓ-nu tin á-pi-ri pa-rém-va-sma]\n\nΣτη νύχτα, σιωπή βαθιά, πνιγμένη ανάσαμε,\n[sti NÍH-ta, si-o-PÍ va-thiÁ, pni-gré-ni a-NÁ-sa-me]\nΤη μοίρα, θεέ μου, ποιος την επάσαμε.\n[ti MÍ-ra, the-É mu, pjos tin e-pá-sa-me]\n\nΣτο φως, μια ελπίδα χρυσή μάς δίνεται,\n[sto FOS, mia el-pí-da hri-SÍ mas Dí-ne-te]\nΚαι η καρδιά μας φτερούγισμα νιώθει, πια δικό της.\n[ke i kar-diÁ mas fte-rú-gi-sma NÍO-thi, pia di-KÓ tis]\n",
+      "no_verify_time": 4.871951103210449,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'δίνεται' / 'δικό της'"
+      ],
+      "no_verify_correct_pairs": 3,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Τ’ αστέρια λάμπουν, φέγγουνε,\nΠάνω από μας διαλέγουνε.\nΝύχτας γλυκιάς, τα άστρα μου στέλνουνε,\nΎπνου βαθύ, όνειρα μου φέρνουνε.\nΤης νύχτας φώτα, μας τα χαρίζουνε,\nΤην ομορφιά τους, μας την σκορπίζουνε.\nΟι άγγελοι γλυκά μας ψιθυρίζουνε,\nΣτου παραδείσου την ομορφιά ας ζήσουνε.\n",
+      "with_verify_time": 24.607533931732178,
+      "with_verify_attempts": 11,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_4",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Σαν ήλιος λάμπει, φως γλυκό, [fos ɣliˈko]\nκι ελπίδα φέρνει στο λαό. [sto laˈo]\nΗ νύχτα φεύγει μακριά πια, [ma-kriˈa pça]\nχρυσή αχτίδα δυναμιά. [ði-na-miˈa]\nΤο φως ξυπνά κάθε ψυχή, [ka-θe psiˈxi]\nκι ανανεώνει κάθε στιγμή. [ka-θe stiɣˈmi]\nΣαν φλόγα καίει, φωτιά μεγάλη, [foˈtça me-ɣaˈli]\nκαι λάμπει μέσα μου, κι άλλη. [ˈme-sa mu tça-li]\n",
+      "no_verify_time": 2.770810127258301,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'μακριά πια' / 'δυναμιά'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'μεγάλη' / 'άλλη'",
+        "PURE requested but 'μεγάλη' / 'άλλη' is IMPERFECT"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Σκοτάδι πλάκωσε βαρύ,\n[sko-tá-ði plá-ko-se va-RÍ]\nμα η ελπίδα λάμπει εκεί.\n[ma i el-pí-ða lám-bi e-KÍ]\nΤο φως γεννιέται δειλά,\n[to fos gen-nié-te ðe-LÁ]\nκι ο κόσμος αλλάζει αγκαλιά.\n[ki o kóz-mos a-lá-zi a-ga-LIÁ]\nΦως της ψυχής, φως της ζωής,\n[fos tis psi-xís fos tis zo-ÍS]\nστον πόνο βρίσκουμε αμοιβής.\n[ston pó-no vrís-ku-me a-mi-VÍS]\nΛάμπει το φως σαν άστρο λαμπερό,\n[lám-bi to fos san ás-tro lam-be-RÓ]\nγια ένα μέλλον πιο καλό.\n[ja é-na mé-lon pjo ka-LÓ]\n",
+      "with_verify_time": 3.139634132385254,
+      "with_verify_attempts": 1,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_5",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Σαν όνειρο γλυκό που φεύγει, άχνα μου,\n[San O-ni-ro gli-KO pu FÉV-gi, Á-xna mu]\nΣτη σιγαλιά της νύχτας μένει στέρνα μου.\n[Sti si-ga-li-Á tis NÍ-xtas MÉ-ni STÉR-na mu]\n\nΚι ο μαύρος πέπλος σκέπασε τα σπίτια μας,\n[Ki o MÁ-vros PÉ-plos SKÉ-pa-se ta SPÍ-ti-a mas]\nκι η λύπη πνίγει τα φτωχά τραγούδια μας.\n[ki i LÍ-pi PNi-gi ta fto-xÁ tra-gÚ-di-a mas]\n\nΣτου ύπνου την γαλήνη ψάχνω χάδι μου,\n[Stu Í-pnu tin ga-lí-ni PSÁ-xno XÁ-di mu]\nμες στου μυαλού τις σκιές να βρω σημάδι μου.\n[mes stu mi-a-lÚ tis ski-és na vro si-MÁ-di mu]\n\nΗ νύχτα βάφει μαύρα τα γραμμένα μας,\n[I NÍ-xta VÁ-fi MÁ-vra ta gra-mé-na mas]\nΣαν φάντασμα θλιμμένο η μοίρα πια μας.\n[San FÁN-taz-ma thli-mé-no i MÍ-ra pi-a mas]\n",
+      "no_verify_time": 3.8241660594940186,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'άχνα μου' / 'στέρνα μου'",
+        "No rhyme: 'σπίτια μας' / 'τραγούδια μας'",
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'χάδι μου' / 'σημάδι μου'",
+        "RICH requested but 'χάδι μου' / 'σημάδι μου' is PURE",
+        "No rhyme: 'γραμμένα μας' / 'πια μας'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η μέρα σβήνει,\nη νύχτα προκρίνει.\nΣτα σκοτεινά της μέρη,\nψυχές πλανιούνται σαν αγέρη.\nΗ μοναξιά πληγώνει της καρδιά,\nο πόνος πάντα θυμώνει της θυμιά.\nΣτη νύχτα βρίσκω μια γαλήνη,\nκι ένα ψεύτικο σελήνη.\n",
+      "with_verify_time": 38.908604860305786,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "RICH requested but 'σβήνει' / 'προκρίνει' is PURE",
+        "RICH requested but 'μέρη' / 'αγέρη' is PURE",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'καρδιά' / 'θυμιά'",
+        "RICH requested but 'καρδιά' / 'θυμιά' is PURE"
+      ],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_1",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Στην αγκαλιά σου, φως μου,\n[stin aŋ-ga-liÁ su foz MU]\nη λύπη σβήνει, δως μου\n[i lí-pi zví-ni, DOS mu]\nμια χάρη, ένα φιλί σου,\n[mja XÁ-ri, é-na fi-lí su]\nνα νιώσω πάλι δίπλα σου.\n[na ńó-so PÁ-li DÍ-pla su]\nΤην αγάπη σου γυρεύω,\n[tin a-GÁ-pi su ji-ré-vo]\nστον έρωτά σου τρέμω,\n[ston é-ro-tá su tré-mo]\nκαι για πάντα θα σε θέλω,\n[ke ja PÁN-da θa se ΘÉ-lo]\nμονάχα εσένα έχω.\n[mo-NÁ-xa e-Sé-na é-xo]\n",
+      "no_verify_time": 3.863554000854492,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φιλί σου' / 'δίπλα σου'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'γυρεύω' / 'τρέμω'",
+        "No rhyme: 'θέλω' / 'έχω'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στην καρδιά μου φλόγα δυνατή,\nΠου καίει μέσα μου παντοτινή.\nΣαν όνειρο γλυκό, δικό σου φως\nΚρυφά μιλάει ο πόθος, φως μου αυτός\nΣτην θάλασσα ζωγραφίζω μια σκηνή,\nΑιώνια αγάπη να 'ναι η γιορτή,\nΔεν λησμονώ στιγμή καμιά,\nΜαζί θα ζούμε, γλυκιά.\n",
+      "with_verify_time": 7.051945209503174,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_2",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στ’ ακρογιάλια η θάλασσα κυλάει [a-kro-GIÁ-lja i THÁ-la-sa ki-LÁ-i]\nΣαν όνειρο γλυκό που ξεδιπλώνει [san Ó-ni-ro gli-KÓ pu xe-di-PLÓ-ni]\nΚι ο ήλιος χρυσαφένιος τριγυρνάει [ki o Í-ljos xri-sa-FÉ-njos tri-gir-NÁ-i]\nΣτα κύματα το φως του να γεμίζει [sta KÍ-ma-ta to fos tu na ge-MÍ-zi]\nΚρυμμένο μυστικό η θάλασσα έχει [kri-mé-no mi-sti-KÓ i THÁ-la-sa É-xi]\nΣτα βάθη της ιστορίες να θυμάται [sta VÁ-thi tis i-sto-RÍ-es na thi-MÁ-te]\nΚαι μυστικά που ο χρόνος τα φυλάει [ke mi-sti-KÁ pu o XRÓ-nos ta fi-LÁ-i]\nΣτην άμμο απαλά, σαν να φοβάται [stin Á-mo a-pa-LÁ san na fo-VÁ-te]\n",
+      "no_verify_time": 4.815812110900879,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'κυλάει' / 'ξεδιπλώνει'",
+        "No rhyme: 'τριγυρνάει' / 'γεμίζει'",
+        "No rhyme: 'έχει' / 'θυμάται'",
+        "No rhyme: 'φυλάει' / 'φοβάται'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Σαν φως του ήλιου η θάλασσα γελάει,\nχρυσές ανταύγειες όπου κι αν κοιτάς σκορπάει.\nΚάθε κύμα χαρούμενα σκιρτάει,\nτη δική της ιστορία πλάι.\nΓλάρος πάνω από τα κύματα κυκλάει,\nιστορίες παλιές ξαναλέει.\nΜυστικά η άβυσσος πάντα κρύβει,\nστους ναύτες ιστορίες θυμίζει.\n",
+      "with_verify_time": 12.206536769866943,
+      "with_verify_attempts": 4,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_3",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Τ' αστέρια λάμπουν πέρα απ' το χάος μου,  [as-TÉ-rja LÁ-bun PÉ-ra ap to HÁ-os mu]\nΣτου ονείρου την πλατεία, φως γένου μου, [stu o-NÍ-ru tin pla-TÍA fos JÉ-nu mu]\nΣτης νύχτας το σκοτάδι, νιώσε βάρος μου, [stis NÍH-tas to sko-TÁ-di, NJÓ-se VÁ-ros mu]\nΟ ουρανός απλώνει τη στοργή στους έρως μου, [o u-ra-NÓS a-pló-ni ti stor-JÍ stus É-ros mu]\nΠου φεύγουν μακριά, κάνουν χάδια πίσω μου, [pu FÉF-gun ma-kriÁ, KÁ-nun HÁ-dja PÍ-so mu]\nΨάχνοντας για ένα φως να δείξει δρόμο μου, [PSÁ-hon-das ja é-na fos na DÍ-ksi DRÓ-mo mu]\nΣτον ουρανό κοιτώ, στέλνοντας ένα γέλιο μου, [ston u-ra-NÓ ki-tó, STÉL-non-das é-na JÉ-ljo mu]\nΜες στ' άστρα βρίσκω ένα κομμάτι εαυτού μου. [mes t' Á-stra VRÍ-sko é-na ko-má-ti e-af-TU mu]\n",
+      "no_verify_time": 3.8307859897613525,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'χάος μου' / 'γένου μου'",
+        "No rhyme: 'πίσω μου' / 'δρόμο μου'",
+        "No rhyme: 'γέλιο μου' / 'εαυτού μου'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Τον ουρανό τον βλέπουμε,\nαστέρια που τον τρέφουνε.\nΟι μύθοι εκεί γυρεύονται,\nκαι νέοι πάντα ψεύδονται.\nΣτους άστρους χαιρετούνε με,\nκι αγάπη μου σκορπούνε με.\nΤης νύχτας τα σκοτάδια του,\nγεμίζουνε τα χάδια του.\n",
+      "with_verify_time": 24.548890829086304,
+      "with_verify_attempts": 10,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_4",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "***\n\nΦως χρυσό, που δίνεις ζωή [fos xri-SÓ pu DÍ-nis zo-Í]\nΣτην ψυχή που ζητά αναπνοή. [stin psi-XÍ pu zi-TÁ a-na-pno-Í]\nΈλα φως, γλυκό σαν κρασί, [É-la fos gli-KÓ san kra-SÍ]\nΣτην καρδιά που πονάει πολύ. [stin kar-diÁ pu po-NÁ-i po-LÍ]\nΦως λαμπρό, σαν ήλιος θεός, [fos lam-BRÓ san Í-lios the-ÓS]\nΠου σκορπάς τη λύπη εμπρός. [pu skor-PÁS ti LÍ-pi em-BRÓS]\nΔώσε φως σε κάθε ψυχή, [DO-se fos se KÁ-the psi-XÍ]\nΝα βρει ελπίδα κι αγάπη μαζί. [na vri el-PÍ-da ki a-GÁ-pi ma-ZÍ]\n",
+      "no_verify_time": 3.378187894821167,
+      "no_verify_valid": true,
+      "no_verify_errors": [],
+      "no_verify_correct_pairs": 4,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Φως, αιώνια πηγή, λάμψη παντού,\nμες στη νύχτα, ελπίδα, φως γλυκού,\nΣαν ήλιος που φέγγει το πρωί,\nφωτίζει κάθε σκιά και σκοτεινή,\nΦως της αγάπης, φως της ζωής,\nστους δρόμους μας δείχνεις το σωστής,\nΦως άγιο, φως που πάντα θα κρατεί,\nστην ψυχή μας φέγγει για να μας βρει.\n",
+      "with_verify_time": 5.23885703086853,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gemini-2.0-flash_WITH-RAG_5",
+      "model": "gemini-2.0-flash",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Στη νύχτα, φέρνει λύπη μου, [sti NÍ-xta, FÉr-ni LÍ-pi mu]\nκι ο πόνος έχει σκιά της, [ki o PÓ-nos É-xi skiÁ tis]\nδεν βρίσκει φως η κρίση μου, [den VRÍ-ski fos i KRÍ-si mu]\nστο σκοτάδι βρήκα εσένα, φως [sto sko-Tá-di VRÍ-ka e-SÉ-na, fos]\nο κόσμος είναι κύκλος της φύσης, [o KÓ-zmos Í-ne KÍ-klos tis FÍ-sis]\nμονάχος θα γενώ, ποια μοίρα είν' αυτή μου, [mo-Ná-xos tha ye-NÓ, pja MÍ-ra Ín' a-FTÍ mu]\nματώνει η σιωπή της θλίψης, [ma-TÓ-ni i si-o-PÍ tis THLÍ-psis]\nστο βλέμμα βρίσκω θλίψη [sto VLÉ-ma VRÍ-sko THLÍ-psi]\n",
+      "no_verify_time": 3.545498847961426,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'λύπη μου' / 'σκιά της'",
+        "No rhyme: 'κρίση μου' / 'εσένα, φως'",
+        "No rhyme: 'φύσης' / 'αυτή μου'",
+        "No rhyme: 'θλίψης' / 'θλίψη'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στη νύχτα, άστρα σιγανά,\nΤης λύπης φέρνουνε γλυκά.\nΤης νύχτας φάντασμα αχνά,\nΠερνά με χέρια τρυφερά.\nΣτην πλατεία λυπημένα\nΌνειρα γυρνούν χαμένα.\nΣτην άδεια κάμαρη κρυφά,\nθυμήσου όσα είναι αγαπημένα.\n",
+      "with_verify_time": 38.76558995246887,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'σιγανά' / 'γλυκά'",
+        "RICH requested but 'σιγανά' / 'γλυκά' is PURE",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'αχνά' / 'τρυφερά'",
+        "RICH requested but 'αχνά' / 'τρυφερά' is PURE",
+        "No rhyme: 'κρυφά' / 'αγαπημένα'"
+      ],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    }
+  ]
+}

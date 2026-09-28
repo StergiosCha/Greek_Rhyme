@@ -1,0 +1,785 @@
+{
+  "model": "claude-sonnet-3.7",
+  "completed_tests": 26,
+  "results": [
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_1",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Αγάπη σαν θησαυρό κρυφό, παντοτινή\nΜέσα στα βάθη της ψυχής κρατώ το φως τρανό\nΘεέ μου πώς με λάτρεψε, με πάθος και ορμή\nΉταν το πιο ελεύθερο, το πιο αληθινό\n\nΚι όταν τα χείλη της άγγιξαν το μέτωπο γλυκά\nΈνιωσα πως ο κόσμος μου γινόταν πιο ζεστός\nΤότε κατάλαβα βαθιά τι σήμαινε η αγκαλιά\nΚαι πως με έκανε ξανά, λαμπρό σαν ουρανός",
+      "no_verify_time": 6.46753716468811,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'παντοτινή' / 'τρανό'",
+        "No rhyme: 'ορμή' / 'αληθινό'",
+        "No rhyme: 'γλυκά' / 'ζεστός'",
+        "No rhyme: 'αγκαλιά' / 'ουρανός'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η αγάπη σαν φωτιά βαθιά στην καρδιά καίει γλυκά,\nσε κάθε σκέψη και στιγμή, χαρίζει χαρά και ζεστασιά.\n\nΚρατώ το χέρι σου σφιχτά, νιώθω μια δύναμη μαγική,\nσε κάθε βλέμμα, κάθε στροφή, το πάθος μας αναπνεί.\n\nΑγάπη είναι η πνοή που ζεσταίνει την ψυχή,\nσε κάθε δύσκολη στιγμή, μας δίνει δύναμη μυστική.\n\nΤου χρόνου αψηφά τη φθορά, γίνεται φως και τροφή,\nμια φλόγα που δε σβήνει ποτέ, μένει αιώνια στη ζωή.",
+      "with_verify_time": 16.316364765167236,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_2",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Η θάλασσα κυματίζει μέσα στη σκέψη μου σαν τρελή γλάρα\nΚαθώς απλώνεται μπροστά μου η ατέλειωτη γαλάζια μπάρα\n\nΣτο φως του ήλιου λάμπει σαν ασημένια λίρα\nΕνώ τα κύματα χορεύουν στου ανέμου τη λύρα\n\nΚρύβει μυστήρια στην αλμυρή αγκαλιά της\nΠαλιά καράβια που χάθηκαν στη σκοτεινή ματιά της\n\nΑιώνια μάνα που γεννά ζωή και πλάση\nΚι όταν θυμώνει, τίποτα δεν μπορεί να τη λυγάσει",
+      "no_verify_time": 5.8782570362091064,
+      "no_verify_valid": true,
+      "no_verify_errors": [],
+      "no_verify_correct_pairs": 4,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η γαλάζια θάλασσα με τα κρυστάλλινα νερά της,\nαπλώνεται πέρα μακριά σαν μάγισσα γητειά της.\n\nΑχτίδες ήλιου καθρεφτίζουν τη μορφή της,\nκι ο άνεμος απαλά φυσά με τη πνοή της.\n\nΤα κύματα στην αμμουδιά γλυκά μοιρολογάνε,\nκι οι γλάροι πάνω απ' το γιαλό πετούν, τραγουδογράνε.\n\nΚαράβια στον ορίζοντα αργά τη διαπεράνε,\nκι αφρισμένα κύματα τις ακτές χαιρετάνε.",
+      "with_verify_time": 15.17357611656189,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_3",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Ο γαλάζιος ουρανός μας ταξιδεύει\nστα πέλαγα των ονείρων που γυρεύει\nκάθε ψυχή που αγνάντια κοιτάζει\nτ' αστέρια του που η νύχτα σταλάζει.\n\nΣύννεφα που αργά διασχίζουνε\nτους ορίζοντες μακριά φωτίζουνε\nόλο το σύμπαν μαζί προσκαλούνε\nκι οι άνθρωποι θαμπά το θαυμάζουνε.",
+      "no_verify_time": 4.681869029998779,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'ταξιδεύει' / 'γυρεύει'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'κοιτάζει' / 'σταλάζει'",
+        "No rhyme: 'προσκαλούνε' / 'θαυμάζουνε'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Τα αστέρια τον ουρανό γέμισαν\nΤα όνειρα τη νύχτα τρέμισαν\n\nΤο φεγγάρι με μάτια κοίταξε\nΤο σύννεφο φτερά τίναξε\n\nΤα σύννεφα τον ουρανό σκεπάσανε\nΤ' αστέρια στο άπειρο περάσανε\n\nΗ αυγή στον κόσμο χάρισε\nΟ ήλιος ψηλά ανάτειλε",
+      "with_verify_time": 32.1522901058197,
+      "with_verify_attempts": 8,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_4",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Το φως μου οδηγητής στη σκοτεινή μισή ζωή,\nαπλώνεται στον ουρανό, μια θεϊκή πνοή.\n\nΚρατά της μέρας τη χαρά σαν άσβεστη φωτιά,\nμας δείχνει δρόμους μυστικούς που κρύβει η ξαστεριά.\n\nΘα λάμπει πάντα φωτεινό στον κόσμο το σκληρό,\nγλυκαίνει κάθε σκοτεινή γωνιά σαν θησαυρό.\n\nΜας δίνει θάρρος και ελπίδα σε κάθε στιγμή σιωπή,\nη λάμψη του σε οδηγεί στην πιο βαθιά ψυχή.",
+      "no_verify_time": 5.898930788040161,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "PURE requested but 'σκληρό' / 'θησαυρό' is RICH"
+      ],
+      "no_verify_correct_pairs": 3,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Το φως σαν κύμα της χαράς ξυπνά\nτα σκοτεινά μου όνειρα φωτίζει καθαρά\n\nΣαν ήλιος που τα μονοπάτια μας τραβά\nτο βλέμμα μου στο μέλλον με ορμή ξανά\n\nΌταν η νύχτα σκοτεινή απλωθεί\nτο φως στον ουρανό γλυκά καθρεφτιστεί\n\nΣαν την ελπίδα που ποτέ δε σβηστεί\nη λάμψη του στην άβυσσο ξαφνικά φανεί",
+      "with_verify_time": 8.593572854995728,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_5",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Μέσα στο μαύρο της νυχτιάς χάνεται κάθε μνήμη,\nαστέρια στα σκοτάδια της φωτίζουν κάθε λύπη.\n\nΤης λησμονιάς το ξάφνιασμα νιώθω στο κάθε βήμα,\nμε την ψυχή μου αδειασμένη σαν της νυχτιάς το κρίμα.\n\nΓαλήνια φεγγαροστιγμή, τυλίγει κάθε σκέψη,\nκι ας έρθει το ξημέρωμα τη σιωπή να κλέψει.\n\nΣτα όνειρα παραδομένη, μια ζωή με νόημα,\nτην αγκαλιά σου αναζητώ μες στης νυχτιάς το ποίημα.",
+      "no_verify_time": 6.627658843994141,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "RICH requested but 'μνήμη' / 'λύπη' is IMPERFECT",
+        "RICH requested but 'βήμα' / 'κρίμα' is PURE",
+        "RICH requested but 'σκέψη' / 'κλέψει' is PURE",
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'νόημα' / 'ποίημα'",
+        "RICH requested but 'νόημα' / 'ποίημα' is IMPERFECT"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στη νύχτα τρέμει η σκοτεινή φεγγοβολή μας,\nστη μαγική μας φέγγει μια ιδανική στολή μας.\n\nΤο πνεύμα κλαίει σιωπηλά στην ταραχή μας,\nτο βλέμμα χάνεται βαθιά στη ραχή μας.\n\nΑστέρια λάμπουν στο βαθύ στερέωμά μας,\nαιθέρια χάνονται μακριά στο φώνημά μας.\n\nΤα όνειρα φτάνουν μες στην ποθητή γαλήνη,\nσαν φώτα λάμπουν μες στην κρυφή σελήνη.",
+      "with_verify_time": 34.36909008026123,
+      "with_verify_attempts": 7,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_6",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "Μες στης ζωής το κύμα που αντάμωσα\nΆγκυρα η καρδιά μου στην ελπίδα σου\nΚι όταν τα πάντα γύρω μου βουλιάζουνε\nΤο πνεύμα τ' ουρανού με συντροφεύεται\n\nΣτον ορίζοντα που σύννεφα σκεπάζουνε\nΤο φως σου ξεπροβάλλει σαν ατίμητο\nΚαι στις σιωπές που οι θύελλες ξεσπάζανε\nΤο δάκρυ στην καρδιά μου λέει ξημέρωσε",
+      "no_verify_time": 5.178822755813599,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'αντάμωσα' / 'ελπίδα σου'",
+        "No rhyme: 'βουλιάζουνε' / 'συντροφεύεται'",
+        "No rhyme: 'σκεπάζουνε' / 'ατίμητο'",
+        "No rhyme: 'ξεσπάζανε' / 'ξημέρωσε'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Όταν η αυγή μάς φέρνει το χάραμα,\nμες στην ψυχή μας θάλλει το θάρραμα.\n\nΣτο σύννεφο της λύπης που χάνεται,\nη φλόγα της ελπίδας σηκώνεται.\n\nΣτην καρδιά μας τρεμοσβήνει η λάμπα μας,\nκαι ξυπνά η ελπίδα σαν το γράμμα μας.\n\nΜια προσδοκία στο βλέμμα μας κλείνεται,\nκι η φωνή της καρδιάς μας βαθαίνεται.",
+      "with_verify_time": 26.82069706916809,
+      "with_verify_attempts": 6,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_7",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Στης νύχτας το σκοτάδι αναζητώ φωτιά\nΠου θα μου φέρει λάμψη μες στην καρδιά\n\nΤα όνειρα ταξίδεψαν σε δρόμο μακρινό\nΚι ο πόνος βρήκε στέγη στο δικό μου μυαλό\n\nΑγάπη που μου έδωσες ένα κρυφό φιλί\nΤώρα δεν σ' έχω πια εδώ να νιώσω τη στοργή\n\nΗ μνήμη σου με τυλίγει σαν απαλός καπνός\nΚαι μένει στην ψυχή μου ένας βαθύς καημός",
+      "no_verify_time": 5.929759979248047,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'o' vs 'a' in 'φωτιά' / 'καρδιά'",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'a' in 'μακρινό' / 'μυαλό'",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'o' in 'φιλί' / 'στοργή'",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'καπνός' / 'καημός'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στης ποίησης το φως η καρδιά αναζητεί\nΜια γλώσσα που τα πάντα μας εξηγεί\n\nΣτης μνήμης το βυθό η καρδιά μου κρατεί\nΠαλιές εικόνες που η ψυχή μου ποθεί\n\nΆστρα φωτίζουν το δρόμο της καρδιάς μου εκεί\nΑκολουθώντας τ' όνειρο που με οδηγεί\n\nΕλπίδα φέρνει σαν πνοή της αυγής φωτεινή\nΜε κάθε χτύπο που μιλά για ζωή αληθινή",
+      "with_verify_time": 21.249088048934937,
+      "with_verify_attempts": 5,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'a' vs 'o' in 'κρατεί' / 'ποθεί'",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'i' in 'εκεί' / 'οδηγεί'",
+        "PURE requested but 'φωτεινή' / 'αληθινή' is RICH"
+      ],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_8",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "όνειρο",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH",
+        "IDV"
+      ],
+      "no_verify_poem": "Στων ονείρων τα νερά που σε νανουρίζουν\nκόσμοι σμίγουν με σκιές και ψίθυρα γυρίζουν\n\nΜαγικές εικόνες μας όταν ξημερώνει\nέχουν σβήσει σαν σκιά που ο ήλιος την απλώνει\n\nΣε μυστήρια του νου που μας τυλίγουν\nμνήμες κρύβουν μυστικά στο χρόνο που ανοίγουν\n\nΚι όταν στέρεψαν πηγές, πόθων καταρράκτες\nμένουν μόνο σκιερές αναμνήσεις σαν φυλάκτες",
+      "no_verify_time": 6.056296348571777,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'u' vs 'i' in 'νανουρίζουν' / 'γυρίζουν'",
+        "RICH requested but 'ξημερώνει' / 'απλώνει' is PURE",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'a' in 'ξημερώνει' / 'απλώνει'",
+        "RICH requested but 'τυλίγουν' / 'ανοίγουν' is PURE",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'a' in 'τυλίγουν' / 'ανοίγουν'",
+        "RICH requested but 'καταρράκτες' / 'φυλάκτες' is PURE",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'καταρράκτες' / 'φυλάκτες'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στο κρυστάλλινο ποτάμι το όνειρο κυλάει,\nμαγικές εικόνες πλάθει, στη σκέψη μου μιλάει.\n\nΤης νυχτιάς το πέπλο ντύνει τα γλυκά όνειρά μου,\nκι η σελήνη χαμογέλα στα κλειστά βλέφαρά μου.\n\nΜες στη νύχτα ταξιδεύω με μαγική γαλήνη,\nκαι το φως των άστρων ήρεμα τη σκέψη μου γαλήνει.\n\nΤου ονείρου το ταξίδι γλυκά με νανουρίζει,\nκαι στης μνήμης τα μονοπάτια απαλά με τριγυρίζει.",
+      "with_verify_time": 35.643685817718506,
+      "with_verify_attempts": 7,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'i' vs 'a' in 'όνειρά μου' / 'βλέφαρά μου'",
+        "IDV requested but pre-stress vowels differ: 'u' vs 'i' in 'νανουρίζει' / 'τριγυρίζει'"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_9",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "μνήμη",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT",
+        "IDV"
+      ],
+      "no_verify_poem": "Στης μνήμης τα συντρίμματα \nβρήκα χαμένες λέξεις μου.\nΤου χρόνου τα κινήματα\nσβήνουν παλιές τις σκέψεις μου.\n\nΗ θύμηση τριγύρισε\nσαν πεταλούδα φως μου.\nΤα όνειρα μου χάρισε\nκι άγγιξε το παρόν μου.",
+      "no_verify_time": 4.176563739776611,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'συντρίμματα' / 'λέξεις μου'",
+        "No rhyme: 'κινήματα' / 'σκέψεις μου'",
+        "No rhyme: 'τριγύρισε' / 'φως μου'",
+        "No rhyme: 'χάρισε' / 'παρόν μου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Άνοιξα της ψυχής όλα τα πέταλα\nΚράτησα της καρδιάς φωτεινά μέταλλα\n\nΣκάλισα στης καρδιάς τα βάθη τα γράμματα\nΈγραψα στην ψυχή μου όλα τα τάματα\n\nΧόρεψα της χαράς μου τα χτυπήματα\nΆκουσα της ζωής μου τα ψιθυρίσματα\n\nΤα χρόνια όλα υφαίνονται στη μνήμη μου\nΤα πάθη που σφραγίσανε τη λύπη μου",
+      "with_verify_time": 65.26457691192627,
+      "with_verify_attempts": 15,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_10",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "φεγγάρι",
+      "rhyme_type": "M",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Το φεγγάρι φωτίζει αντί για τον ουρανό\nκι ο κόσμος κοιμάται μες στ' άσπρο το φανό\n\nΚρέμεται αυγερινός ψηλά, μακριά, πολύ\nκι η νύχτα απλώνεται μυστήρια στο καλό πουλί\n\nΆστρινο παραμύθι μες στο σκοτεινό στρατί\nχαϊδεύει νυσταγμένο το νεράκι στη βουνοπλαγή\n\nΣαν ποτάμι ασημένιο ρίχνει χλωμό φως παντού\nκαι λιώνει η καρδιά μου από το κρύο του νερού",
+      "no_verify_time": 6.2379419803619385,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "MOSAIC requested but 'ουρανό' / 'φανό' is not mosaic",
+        "MOSAIC requested but 'πολύ' / 'πουλί' is not mosaic",
+        "MOSAIC requested but 'στρατί' / 'βουνοπλαγή' is not mosaic",
+        "MOSAIC requested but 'παντού' / 'νερού' is not mosaic"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Το φεγγάρι ψηλά φωτίζει με χαρά\nόταν η νύχτα απλώνεται βαθιά στη γη πια\nτου έρωτα τα μυστικά φτερώνουν με τη γη\nκι αφήνουν στο μονοπάτι σου το φως να βγει\nδίνει στα μάτια των ανθρώπων γλυκό φιλί\nόταν κοιτάζουν την ομορφιά του στη γη\nμέσα στη σιωπή που πέφτει ήσυχα στη γη\nσαν όνειρο ταξιδεύει που θα σε βρει",
+      "with_verify_time": 23.30962300300598,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_11",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "άνεμος",
+      "rhyme_type": "F2",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Ο άνεμος φυσάει ξαφνικά στο κενό,\nχαϊδεύει τα φύλλα της ελιάς με πνοή που πονώ.\n\nΠερνάει ανάμεσα από κλαδιά με ορμή,\nμια αόρατη δύναμη που σέρνει τη γη προς τα εκεί.\n\nΘυμήσου πως είναι αέρινο το φιλί,\nόπως τ' αγκαλιάσματα του αέρα σε κάθε αυλή.\n\nΣτους δρόμους χορεύει, σκορπάει και μιλά,\nταξιδεύει σε κόσμους μακρινούς σαν πουλιά που πετά.",
+      "no_verify_time": 6.353402853012085,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'κενό' / 'πονώ'",
+        "MOSAIC requested but 'κενό' / 'πονώ' is not mosaic",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'ορμή' / 'εκεί'",
+        "MOSAIC requested but 'ορμή' / 'εκεί' is not mosaic",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'φιλί' / 'αυλή'",
+        "MOSAIC requested but 'φιλί' / 'αυλή' is not mosaic",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'μιλά' / 'πετά'",
+        "MOSAIC requested but 'μιλά' / 'πετά' is not mosaic"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ο άνεμος γυρίζει σε κάθε γωνιά του,\nφέρνοντας δροσιά στη γειτονιά του.\nΌταν έρχεται γλυκά την αυγή μας,\nκελαηδούν τα πουλιά στη στιγμή μας.\nΜυρωδιές σκορπίζει κάθε στιγμή σου,\nταξιδεύουν μαζί με την πνοή σου.\nΧαϊδεύει απαλά τον καρπό μας,\nξυπνά μέσα μας τον παλμό μας.",
+      "with_verify_time": 28.366087198257446,
+      "with_verify_attempts": 7,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_12",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "χρόνος",
+      "rhyme_type": "M",
+      "features": [
+        "RICH",
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Στο διάβα του ο χρόνος μάς κρατά [MÁS kra-TÁ]\nΧωρίς φωνή μια ζωή σκληρά [ski-RÁ]\nΗ σκέψη μου βαδίζει στο λεπτά [le-PTÁ]\nΣαν άνεμος που φέρνει τα φτερά [fte-RÁ]\n\nΣτις αναμνήσεις βρίσκω φως μου [FOS mu]\nΚι ας είν' το πέρασμα βαρύ του [va-RÍ tu]\nΤο χθες δεν μοιάζει πια δικό μου [di-KÓ mu]\nΚι ο χρόνος γίνεται εχθρός του [e-THRÓS tu]",
+      "no_verify_time": 6.014109134674072,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "RICH requested but 'κρατά' / 'σκληρά' is PURE",
+        "MOSAIC requested but 'κρατά' / 'σκληρά' is not mosaic",
+        "RICH requested but 'λεπτά' / 'φτερά' is PURE",
+        "MOSAIC requested but 'λεπτά' / 'φτερά' is not mosaic",
+        "No rhyme: 'φως μου' / 'βαρύ του'",
+        "No rhyme: 'δικό μου' / 'εχθρός του'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Οι σκέψεις στο περίγραμμα του ρόλου σου ΚΡΑΤΟΥΝ,\nτα χρόνια στο περίβλημα της σκέψης μου ΣΤΡΑΤΟΥΝ.\n\nΤα λόγια σπέρνουν σιωπές που ΝΑ ΜΟΥ ΜΕΙΝΟΥΝ,\nτα χέρια γράφουν ιστορίες που ΠΙΑ ΜΟΥ ΣΒΗΝΟΥΝ.\n\nΤο βλέμμα σου στο μέλλον μας, χρόνια που ΘΑ ΠΕΘΑΝΟΥΝ,\nστο πέρασμά του κρύβονται, μνήμες που ΘΑ ΜΑΘΑΝΟΥΝ.\n\nΣτιγμές που μέσα στη φθορά, τα λόγια μου ΤΡΕΜΟΥΝ,\nοι μνήμες σε κάθε στροφή, το βλέμμα μου ΣΤΡΕΜΟΥΝ.",
+      "with_verify_time": 38.72678089141846,
+      "with_verify_attempts": 6,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITH-RAG_13",
+      "model": "claude-sonnet-3.7",
+      "use_rag": true,
+      "theme": "ψυχή",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE",
+        "IDV",
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Ψυχή μου, πάντα διψασμένη για χαρά,\nμες στην απλότητά σου είσαι πιο σοφή.\nΤαξίδια αιώνια κάνεις και μακριά,\nσε κάθε πλάσμα ζεις και κάθε μορφή.\n\nΦωνή μυστηριώδης που αγαπά να πει\nγια τον κρυμμένο πόνο, για το μυστικό.\nΤου κόσμου η ομορφιά στα μάτια σου να δει\nπως γίνεται αιώνια, πως γίνεται καιρό.",
+      "no_verify_time": 5.557929992675781,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'χαρά' / 'σοφή'",
+        "No rhyme: 'μακριά' / 'μορφή'",
+        "No rhyme: 'να πει' / 'μυστικό'",
+        "No rhyme: 'να δει' / 'καιρό'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Νοσταλγικά ταξίδια βαθιά στο νού σου,\nάγγιξε απαλά τη φλόγα του καιρού σου.\n\nΣτο βλέμμα βαθυστόχαστο κλειστό μου,\nψιθύρισε μυστικά τ' αληθινό μου.\n\nΤαξιδευτής σε όνειρα του ιερού μας,\nακούγεται η ηχώ του παραμυθιού μας.\n\nΜυστικά που μιλούν σε μια άλλη φωνή σου,\nνύχτα γλυκιά που πλέκει τη ζωή σου.",
+      "with_verify_time": 41.41778206825256,
+      "with_verify_attempts": 8,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'e' vs 'i' in 'ιερού μας' / 'παραμυθιού μας'"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_1",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Η αγάπη σου φτερά μου δίνει [i a-γá-pi su fte-RÁ mu]\nκι αγγίζει την καρδιά μου [ki an-GÍ-zi tin kar-diÁ mu]\nτο βλέμμα σου, φωτιά μου [to VLÉ-ma su, fo-tiÁ mu]\nμε κάθε λέξη που πονά μου [me KÁ-θe LÉ-ksi pu po-NÁ mu]\n\nΣαν άστρο λάμπει στη νυχτιά μου [san Á-stro LÁ-bi sti ni-ktiÁ mu]\nκαι στη γλυκιά αγκαλιά μου [ke sti gli-kiÁ an-ga-liÁ mu]\nαπλώνεται η σιωπή μου [a-PLÓ-ne-te i si-o-PÍ mu]\nκι ανθίζει πάλι η ψυχή μου [ki an-ΘÍ-zi PÁ-li i psi-KÍ mu]",
+      "no_verify_time": 6.730384111404419,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'δίνει' / 'καρδιά μου'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'φωτιά μου' / 'πονά μου'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'νυχτιά μου' / 'αγκαλιά μου'",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'σιωπή μου' / 'ψυχή μου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στην αγάπη βρήκα χαρά, βρήκα το φως [sto fos]\nΠερπατώντας στην Αθηνά, μέσα στο μπρος [sto bros]\n\nΗ καρδιά, ο μαγικός παλμός της ζωής [pal-MOS tis]\nΜε κρατά στα όνειρά της, μα και χωρίς [ho-RIS]\n\nΜια ζωή στα μάτια σου θα βρω την πνοή [tin pno-I]\nΚάθε αυγή στον ουρανό σαν προσμονή [pros-mo-NI]\n\nΣτης αγάπης το άγγιγμα κρύβεται το φως [to fos]\nΆγια στιγμή που μας κρατά μέσα στο εμπρός [sto bros]",
+      "with_verify_time": 6.005840063095093,
+      "with_verify_attempts": 1,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_2",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Η θάλασσα γυαλίζει\n[i θá-la-sa ʝa-LÍ-zi]\n\nκαθώς το κύμα φτάνει\n[ka-θós to KÍ-ma ftá-ni]\n\nο ήλιος χαμηλώνει\n[o í-li-os xa-mi-LÓ-ni]\n\nστον ορίζοντα πάνω\n[ston o-rí-zo-da PÁ-no]\n\nτα βράχια αντηχούνε\n[ta VRÁ-xi-a an-di-XÚ-ne]\n\nμε τις φωνές των γλάρων\n[me tis fo-NÉS ton GLÁ-ron]\n\nστο γαλανό της πέπλο\n[sto ɣa-la-NÓ tis PÉ-plo]\n\nτου ονείρου ήχοι πάνε\n[tu o-NÍ-ru í-xi PÁ-ne]",
+      "no_verify_time": 5.329339027404785,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'γυαλίζει' / 'φτάνει'",
+        "No rhyme: 'χαμηλώνει' / 'πάνω'",
+        "No rhyme: 'αντηχούνε' / 'γλάρων'",
+        "No rhyme: 'πέπλο' / 'πάνε'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Κύματα χορεύουν στην παλίρροιά της\nκαθώς τα πουλιά πετούν στην αγκαλιά της\n\nΌταν το φεγγάρι λούζει την ακτή της\nδακρύζω κοιτώντας την ομορφιά της\n\nΜαγεμένος κοιτώ τα κύματά της\nαφουγκράζομαι την ανάσα δική της\n\nΜες στο γαλάζιο βλέπω τη ζωή μας\nσαν τρέχει το νερό στα ακροδάχτυλά μας",
+      "with_verify_time": 14.939568042755127,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_3",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Ο ουρανός μας φαίνεται\nβελούδινος στο χρώμα του\nκαι τ' άστρα του σηκώνονται\nσαν σύννεφα στο δώμα του\n\nΤα σύμπαντα ξυπνήθηκαν \nκαι λάμπουνε στο βλέμμα του\nτα σύνορα ξεχάστηκαν\nκάτω από τ' αίνιγμά του",
+      "no_verify_time": 3.4625110626220703,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φαίνεται' / 'χρώμα του'",
+        "No rhyme: 'σηκώνονται' / 'δώμα του'",
+        "No rhyme: 'ξυπνήθηκαν' / 'βλέμμα του'",
+        "No rhyme: 'ξεχάστηκαν' / 'αίνιγμά του'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στον ουρανό γαλάζιο, αστέρια τρέμουνε\nΤα σύννεφα ταξίδια αιώνια ξεκινούν βλέπουμε\n\nΜυστικές διαδρομές στο άπειρο άνοιξε\nΚι η ψυχή μου στα ύψη του φεύγει, ανάδειξε\n\nΗ νύχτα απαλά το φως της σώπασε\nΚι ο άνεμος τα φύλλα απλά τα σκέπασε\n\nΟ ουρανός αγκαλιάζει τη γη με χρώματα\nΚαθώς η βροχή πέφτει σαν δάκρυα στα δώματα",
+      "with_verify_time": 14.655481100082397,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_4",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Το φεγγάρι δίνει φως [di-ni FOS]\nΣτο σκοτάδι που είναι βαθύ πως [va-THI POS]\nΚάθε αστέρι είναι λαμπρός [lam-BROS]\nΣαν διαμάντι στον ουρανό γρος [u-ra-NO GROS]\n\nΤης αυγής το πρώτο φως [PRO-to FOS]\nΞυπνά όνειρα στον κόσμο ενός [KO-zmo e-NOS]\nΑκολούθησε το φως του νου [tu NU]\nΠου θα σε οδηγήσει στην ψυχή σου [psi-HI SU]",
+      "no_verify_time": 5.132755994796753,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'δίνει φως' / 'βαθύ πως'",
+        "No rhyme: 'λαμπρός' / 'ουρανό γρος'",
+        "No rhyme: 'πρώτο φως' / 'ενός'",
+        "No rhyme: 'του νου' / 'ψυχή σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Μέσα στο σκοτάδι, φανερώνεται το φως [fa-ne-RÓ-ne-te to FOS]\nΛάμπει σαν αστέρι μέσα στον καιρό που κλείστηκες εντός [en-TÓS]\n\nΦτάνει η αυγή και χαράζει ο καιρός [ke-RÓS]\nΚαι το φως που λάμπει είναι δυνατός [di-na-TÓS]\n\nΤης ψυχής το φως που δίνει τη ζωή [zo-Í]\nΦτάνει ως τα βάθη, το μυστικό καλεί [ka-LÍ]\n\nΤο φως της αλήθειας που απλώνεται στη γη [sti GI]\nΕίναι σαν αγάπη που στο νου μπορεί να βρει [na VRI]",
+      "with_verify_time": 10.944559097290039,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_5",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Σε σκοτεινά τοπία νύχτα με [nÍ-xta me]\nΒρίσκω παράξενη τη λύχτα με [lÍ-xta me]\nΉρεμα τα αστέρια λάμπουνε στα ύψη σου [Í-psi su]\nΚι ένα φεγγάρι φωτεινό με δίψη σου [dÍ-psi su]\nΣτου ουρανού τα μαύρα πλήθη της [plÍ-thi tis]\nΧάνομαι σαν σε όνειρα, η λήθη της [lÍ-thi tis]\nΜέσα στης σιωπής τα μήκη μου [mÍ-ki mu]\nΤα μυστικά σου γίνονται ήχοι μου [Í-xi mu]",
+      "no_verify_time": 5.543087005615234,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'νύχτα με' / 'λύχτα με'",
+        "RICH requested but 'νύχτα με' / 'λύχτα με' is PURE",
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'ύψη σου' / 'δίψη σου'",
+        "RICH requested but 'ύψη σου' / 'δίψη σου' is PURE",
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'πλήθη της' / 'λήθη της'",
+        "RICH requested but 'πλήθη της' / 'λήθη της' is PURE",
+        "No rhyme: 'μήκη μου' / 'ήχοι μου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η νύχτα σκέπασε με χαρά της\nΚι η σιωπή αντηχεί με φορά της\n\nΤα άστρα λάμπουν φωτεινά μένα\nΣαν όνειρα κρυφά κρατημένα\n\nΣ' αγγίζει η σιωπή σαν τη χαρά του\nΟ ήχος της βροχής απ' τα νερά του\n\nΓλιστρούν τα σύννεφα σε ουρανό δικό της\nΚαθώς το φως του φεγγαριού γλυκό της",
+      "with_verify_time": 32.57269096374512,
+      "with_verify_attempts": 6,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_6",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "Η ελπίδα λάμπει σαν το φέγγος μας\n[i el-PÍ-ða lám-bi san to FÉN-gos mas]\n\nΜέσα στη νύχτα βρίσκω στήριγμά μας\n[MÉ-sa sti NÍ-chta vrí-sko STÍ-ri-gma mas]\n\nΤο δάκρυ γίνεται το σύμβολό μας\n[to DÁ-kri yí-ne-te to SÍM-vo-lo mas]\n\nΤου αύριο ξημερώνει το όραμά μας\n[tu Á-vri-o ksi-me-RÓ-ni to Ó-ra-ma mas]\n\nΧτίζουμε γέφυρες για κάθε βήμα σας\n[CHÍ-zu-me YÉ-fi-res ya KÁ-θe VÍ-ma sas]\n\nΜε πίστη πλάθουμε το νέο αίνιγμά μας\n[me PÍ-sti PLÁ-θu-me to NÉ-o É-ni-gma mas]\n\nΑστέρια μέλλοντος φωτίζουν κύματά μας\n[a-STÉ-ri-a MÉ-lon-dos fo-TÍ-zun KÍ-ma-ta mas]\n\nΗ προσμονή χαράζει νέο θαύμα μας\n[i pros-mo-NÍ cha-RÁ-zi NÉ-o ΘÁΥ-ma mas]",
+      "no_verify_time": 9.379812002182007,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φέγγος μας' / 'στήριγμά μας'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'σύμβολό μας' / 'όραμά μας'",
+        "No rhyme: 'βήμα σας' / 'αίνιγμά μας'",
+        "No rhyme: 'κύματά μας' / 'θαύμα μας'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Τα άστρα στον ουρανό μέσα γίνονται ήλιοι\nΚαι κάποιες στιγμές στην ψυχή πέφτουν δύο φίλοι\n\nΤο φως της ελπίδας παντού τριγυρίζει βράχο\nΚι απ' τις πληγές της ζωής δε φοβάσαι τάχα το\n\nΣαν ποταμός η πίστη τρέπεται μου\nΚι ο στοχασμός σαν άστρο στέκεται νου\n\nΣτη ζέστη του ήλιου τα όνειρα φτάνουνε μας\nΚαι δρόμοι ελπίδας για πάντα ενώνουνε μας",
+      "with_verify_time": 75.79061198234558,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'ήλιοι' / 'φίλοι'",
+        "No rhyme: 'βράχο' / 'τάχα το'"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_7",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Η καρδιά στο στήθος καίει σαν φωτιά\nΜέσα στον πόνο αναζητώ χαρά\nΌταν η σκέψη σου γλυκιά ξυπνά\nΣ' ένα κόσμο που μονάχα προχωρά\n\nΓια σένα χτύποι φτάνουν ως τ' αυτιά\nΚάθε στιγμή που βρίσκομαι μακριά\nΤα όνειρά μου φέρνουνε ξανά\nΤην αγάπη που ποτέ δεν τελειωνά",
+      "no_verify_time": 4.120935916900635,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'o' vs 'a' in 'φωτιά' / 'χαρά'",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'o' in 'ξυπνά' / 'προχωρά'",
+        "PURE requested but 'ξανά' / 'τελειωνά' is RICH",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'o' in 'ξανά' / 'τελειωνά'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Με χτύπους κρυφούς που κανείς δεν ακούει παρά\nκι αυτό που ζητά η καρδιά είναι μια αγκαλιά\n\nΑναζητώ στο σκοτάδι να βρω τη χαρά\nκαι στου καιρού τη σιωπή καίγεται η καρδιά\n\nΜια ελπίδα σαν αστέρι να φανεί ξανά\nπου θα φέρει στην καρδιά γλυκιά χαρά\n\nΕίναι ο έρωτας που έρχεται φτερά\nκαι το δρόμο για τη λύτρωση περνά",
+      "with_verify_time": 11.66382384300232,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_8",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "όνειρο",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH",
+        "IDV"
+      ],
+      "no_verify_poem": "Στο μπλε σκοτάδι βλέπω το **όνειρό** μου [skotáDI vlépo]\nΠου φέρνει γλύκα στο **παράθυρό** μου [paráTHIro]\nΣαν αστραπή που σκίζει τον **ουρανό** μας [uranÓ mas]\nΧάνεται όμως στο **πρωινό** μας [proinÓ mas]\nΜε φέρνει πίσω στο **χαμένο** του [xamÉno tu]\nΚαι με γυρνά στο **φωτεινό** του [fotinÓ tu]\nΕίναι το μέλι στο **ποτήρι** μου [potÍri mu]\nΚι έχει τη λάμψη στο **δαχτυλίδι** μου [daxtilÍdi mu]",
+      "no_verify_time": 5.923280239105225,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'ουρανό μας' / 'πρωινό μας'",
+        "No rhyme: 'χαμένο του' / 'φωτεινό του'",
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'ποτήρι μου' / 'δαχτυλίδι μου'",
+        "RICH requested but 'ποτήρι μου' / 'δαχτυλίδι μου' is IMPERFECT",
+        "IDV requested but pre-stress vowels differ: 'o' vs 'i' in 'ποτήρι μου' / 'δαχτυλίδι μου'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στον ύπνο τραγουδούν τα τρελά μου\nΤο όνειρο ξυπνά τα γελά μου\n\nΚάθε στιγμή τυλίγει τα καλά μου\nΚαι η νύχτα φυλάει τα παλά μου\n\nΧύνεται πέρα από τα νερά μου\nΒήματα κάνει σε κάθε μερά μου\n\nΤα μάτια κλείνουν στα μικρά μου\nΣαν πιο αληθινά στα πικρά μου",
+      "with_verify_time": 20.705384969711304,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_9",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "μνήμη",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT",
+        "IDV"
+      ],
+      "no_verify_poem": "Στης θύμησης τα μυστικά σου\nμνήμες σαν λουλούδια ανθίζουν ακόμα\nσε παλιά τετράδια τ' όνομά σου\nκρύβεται πάντα, σαν μάθημα ακόμα.\n\nΤις νύχτες που χάνεται η μνήμη μου\nψάχνω τα χνάρια στο διάβα σου\nσκονισμένες φωτογραφίες στο δωμάτιό μου\nφυλάνε στοργικά τα όνειρά σου.",
+      "no_verify_time": 4.111480712890625,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'μυστικά σου' / 'ακόμα'",
+        "No rhyme: 'όνομά σου' / 'ακόμα'",
+        "No rhyme: 'μνήμη μου' / 'διάβα σου'",
+        "No rhyme: 'δωμάτιό μου' / 'όνειρά σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Θολώνουν οι εικόνες μες τη σκέψη μου,\nΤο παρελθόν ζωντανεύει μες τη λέξη μου.\nΑποτύπωσε κάθε στιγμή στα μάτια μου,\nΧαράχτηκε βαθιά η ζωή στα χνάρια μου.\nΟι σκέψεις μου σκορπούν στον αέρα σαν στάχτη μου,\nΧαράζουν με σημάδια αιώνια στη ράχη μου.\nΦωτίζει την καλή μου σκέψη μέσα στη λύπη μου,\nκαι δυναμώνει κάθε λέξη στης μαύρης μνήμη μου.",
+      "with_verify_time": 53.18377900123596,
+      "with_verify_attempts": 11,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_10",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "φεγγάρι",
+      "rhyme_type": "M",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Όταν σβήνει το φεγγάρι φορά [fo-RÁ]\nσε λουλούδια σκορπισμένη η σπορά [spo-RÁ]\nΤη νυχτιά μέσα στο σκοτάδι ξεχνά [kse-XNÁ]\nκαι τα μάτια μου στο παιχνίδι περνά [per-NÁ]\n\nΜε το αστέρι που λαμπρό φωτεινό [ti-NÓ]\nτο μαγευτικό, άυλο, αιθερινό [e-ri-NÓ]\nΣτους ωκεανούς του ονείρου πετά [pe-TÁ]\nκαι στη σιωπή της νύχτας αγαπά [a-ga-PÁ]",
+      "no_verify_time": 4.460184097290039,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "MOSAIC requested but 'φορά' / 'σπορά' is not mosaic",
+        "MOSAIC requested but 'ξεχνά' / 'περνά' is not mosaic",
+        "MOSAIC requested but 'φωτεινό' / 'αιθερινό' is not mosaic",
+        "MOSAIC requested but 'πετά' / 'αγαπά' is not mosaic"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Το φως που άναψες για μένα εκεί\nΜου λέει πως πονάς κι εσύ\n\nΗ σιγή του αστραπή θα δει\nκι η νυχτιά όταν φανεί\n\nΣτον ουρανό που περπατεί\nΣκιές σπαράζουν στη γη\n\nΤ' άστρα δεν μπορεί να ζη\nΨάχνω το φεγγάρι να βρεθεί",
+      "with_verify_time": 57.39030599594116,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "MOSAIC requested but 'εκεί' / 'εσύ' is not mosaic"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_11",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "άνεμος",
+      "rhyme_type": "F2",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Ο άνεμος που φυσά σαν **θύμα** του\nΔιαλύει τα σύννεφα του **κλίμα** του\n\nΜάζεψε τα μαλλιά που **πέφτανε**\nΣτα μάτια σου όταν σ' **έβλεπά σε**\n\nΦύλλα που στροβιλίζονται στη **γη μου**\nΜε παίρνουν μακριά στην ανα**πνοή μου**\n\nΣκορπά την άμμο σαν **χρυσή σκόνη**\nΣτη θάλασσα που τραγου**δά για σένα**",
+      "no_verify_time": 4.875930309295654,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'θύμα του' / 'κλίμα του'",
+        "No rhyme: 'πέφτανε' / 'έβλεπά σε'",
+        "No rhyme: 'γη μου' / 'αναπνοή μου'",
+        "No rhyme: 'σκόνη' / 'σένα'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ο άνεμος αγκαλιάζει την πλαγιά του\nΜες στου χειμώνα την παγωνιά του\n\nΤραγουδά στ' αυτί μου ήχο παλιό μου\nΜε παρασύρει σε όνειρο καλό μου\n\nΧορεύει ανάμεσα στα πέταλά μας\nΣαν να ψιθυρίζει λόγια τρελά μας\n\nΤου κάμπου η ανάσα φέρνει άρωμά του\nΣτροβιλίζει τα σύννεφα, τη μυρωδιά του",
+      "with_verify_time": 22.662248134613037,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_12",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "χρόνος",
+      "rhyme_type": "M",
+      "features": [
+        "RICH",
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Ο χρόνος τρέχει σαν νερό ποτέ,\nσαν τα σύννεφα που σβήνουν από τη γη,\nτο κάθε λεπτό που περνά πονά με,\nμια ανάσα που χάθηκε στη σιωπή.\n\nΤο μέλλον μοιάζει άπιαστο στο νου μου,\nενώ το χθες έφυγε σαν σκιά μες τη γη,\nκι ας ψάχνω να βρω κομμάτι του που μου\nέδειξε τη χαρά πριν χαθεί στη βροχή.",
+      "no_verify_time": 4.494693040847778,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ποτέ' / 'τη γη'",
+        "No rhyme: 'πονά με' / 'σιωπή'",
+        "No rhyme: 'νου μου' / 'τη γη'",
+        "No rhyme: 'που μου' / 'βροχή'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ο χρόνος περνά κι αδειάζει το χτες μας\nΣαν κλέφτης που τρέχει στα χνώτα, στα τρες μας\n\nΠερνά σαν αστός και χαράζει το φλας μας\nΣτον τοίχο προχτές που ξεθώριασε μπρας μας\n\nΧορεύει στη στρίβα που κρύβει το δρα σου\nΧωρίς ν' αναζεί την ψυχή στο κλα σου\n\nΣαν χρώμα κυλά και φορά το τρο σου\nΚαι βήμα-βήμα κλωστά στον πρό σου",
+      "with_verify_time": 86.8990330696106,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'τρο σου' / 'πρό σου'"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "claude-sonnet-3.7_WITHOUT-RAG_13",
+      "model": "claude-sonnet-3.7",
+      "use_rag": false,
+      "theme": "ψυχή",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE",
+        "IDV",
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Μέσα στη νύχτα φτερά μου [ME-sa sti NI-chta fte-RA mu]\nΗ ψυχή ψιθυρά μου [i psi-CHI psi-thi-RA mu]\n\nΣτο βάθος του καιρού σου [sto VA-thos tu ke-RU su]\nΑναζητά το φως σου [a-na-zi-TA to FOS su]\n\nΜέσα στην άβυσσο να [ME-sa stin A-vi-SO na]\nΒρίσκει τη λύτρωσή της [VRI-ski ti LI-tro-SI tis]\n\nΣαν αστραπή φτερά σου [san a-stra-PI fte-RA su]\nΚι αγγίζει τα όνειρά σου [ki an-GI-zi ta O-ni-RA su]",
+      "no_verify_time": 5.476261854171753,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "PURE requested but 'φτερά μου' / 'ψιθυρά μου' is RICH",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'i' in 'φτερά μου' / 'ψιθυρά μου'",
+        "No rhyme: 'καιρού σου' / 'φως σου'",
+        "No rhyme: 'άβυσσο να' / 'λύτρωσή της'",
+        "PURE requested but 'φτερά σου' / 'όνειρά σου' is RICH",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'i' in 'φτερά σου' / 'όνειρά σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Η ψυχή παλεύει στα βάθη μου\nΚαι κρύβει πολλά μυστήριά μου\n\nΜια γέφυρα στο σκοτεινό μας\nΠου οδηγεί σε φως δικό μας\n\nΧορεύει μες τη σιωπή μου\nΣαν όνειρο η αναπνοή μου\n\nΦωτίζει την καρδιά μου\nΜε αθάνατη τη ματιά μου",
+      "with_verify_time": 51.141732931137085,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'βάθη μου' / 'μυστήριά μου'"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    }
+  ]
+}

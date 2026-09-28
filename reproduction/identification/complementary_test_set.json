@@ -1,0 +1,138 @@
+[
+  {
+    "text": "κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σοφοί,",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "M-PURE"
+  },
+  {
+    "text": "που πρωτόειδε τη ζωή, / για να ντύσει την τρανή",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "M-PURE"
+  },
+  {
+    "text": "Στέκει, μυρίζεται / και συλλογίζεται",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F3-PURE"
+  },
+  {
+    "text": "φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μας,",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F3-PURE"
+  },
+  {
+    "text": "του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγάρα, που έβρεχες για με;",
+    "poet": "TellosAgras",
+    "rhyme_type": "M",
+    "features": [
+      "MOSAIC"
+    ],
+    "pattern": "M-MOSAIC"
+  },
+  {
+    "text": "Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά καλή! Τα παιδιά σου τα ’τρωε ξένη μια γη,",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "MOSAIC"
+    ],
+    "pattern": "M-MOSAIC"
+  },
+  {
+    "text": "σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ καθαυτό",
+    "poet": "TellosAgras",
+    "rhyme_type": "F2",
+    "features": [
+      "MOSAIC",
+      "IDV"
+    ],
+    "pattern": "F2-MOSAIC-IDV"
+  },
+  {
+    "text": "Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμένοι; οι ναυαγοί;",
+    "poet": "TellosAgras",
+    "rhyme_type": "F2",
+    "features": [
+      "MOSAIC"
+    ],
+    "pattern": "F2-MOSAIC"
+  },
+  {
+    "text": "που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα της φωνής",
+    "poet": "TellosAgras",
+    "rhyme_type": "M",
+    "features": [
+      "IMP",
+      "V",
+      "IMPERFECT"
+    ],
+    "pattern": "M-IMP-V-IMPERFECT"
+  },
+  {
+    "text": "κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπος κάθεται βαρύς και την πλακώνει:",
+    "poet": "TellosAgras",
+    "rhyme_type": "F2",
+    "features": [
+      "IMP",
+      "V",
+      "IMPERFECT"
+    ],
+    "pattern": "F2-IMP-V-IMPERFECT"
+  },
+  {
+    "text": "που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώνας και καλοκαιριά τ’ αταίριαστο ζευγάρι,",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "IMP",
+      "V",
+      "IMPERFECT"
+    ],
+    "pattern": "F2-IMP-V-IMPERFECT"
+  },
+  {
+    "text": "Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "IMP",
+      "C",
+      "IMPERFECT",
+      "IDV"
+    ],
+    "pattern": "F3-IMP-C-IMPERFECT-IDV"
+  },
+  {
+    "text": "μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με παλιά μεταξωτά και τρίχαπτα ντυμένη,",
+    "poet": "KostasOuranis",
+    "rhyme_type": "F2",
+    "features": [
+      "RICH"
+    ],
+    "pattern": "F2-RICH"
+  },
+  {
+    "text": "τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου του και σε περιχύνει",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  }
+]

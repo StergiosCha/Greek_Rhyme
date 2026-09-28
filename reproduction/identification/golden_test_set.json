@@ -1,0 +1,246 @@
+[
+  {
+    "text": "Την εγέννησεν είς δήμος, μία πόλις Ελληνίς, / αλλ’ ευθύς εκείνη έπτη, κι έστησεν εν ουρανοίς",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "RICH"
+    ],
+    "pattern": "M-RICH"
+  },
+  {
+    "text": "Γιασεμιά, και κοράκια. Και των άσπρων ο αφρός / και του μαύρου η φοβέρα πάντα εντός μου κι εμπρός.",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "M-PURE"
+  },
+  {
+    "text": "όλα τα στέλνω στο καλό / μπροστά σε φρέσκο, παχουλό,",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "RICH"
+    ],
+    "pattern": "M-RICH"
+  },
+  {
+    "text": "με τσ’ αγκάλες ανοικτές, / με τα τύμπανα κι εκειές.",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "M-PURE"
+  },
+  {
+    "text": "και βουβή ερημιά / στ’ άσπρα γιασεμιά.",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "M-PURE"
+  },
+  {
+    "text": "άξαφνα το παράθυρο και στάθηκα ορθός, / τις μυρωδιές, τα χρώματα και το ιλαρό το φως.",
+    "poet": "KostasOuranis",
+    "rhyme_type": "M",
+    "features": [
+      "MOSAIC",
+      "IDV"
+    ],
+    "pattern": "M-MOSAIC-IDV"
+  },
+  {
+    "text": "Έτσι από σένα περιμένω κι απαιτώ. / της Τραγωδίας τον Λόγο τον λαμπρό —",
+    "poet": "Anemoskala",
+    "rhyme_type": "M",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "M-PURE"
+  },
+  {
+    "text": "ένα εκκλησίδι με σταυρό, / που λιγουρεύει για σανό,",
+    "poet": "TellosAgras",
+    "rhyme_type": "M",
+    "features": [
+      "PURE",
+      "IDV"
+    ],
+    "pattern": "M-PURE-IDV"
+  },
+  {
+    "text": "Πολεμιστή, τα γαληνά σου νιότα / Όπου έπεσες, κλωνάρια κι απ’ του Ευρώτα",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "Ακούω τ’ αηδόνια, αντιλαλούν τ’ αηδόνια οι Σοφοκλήδες, / Σε μια ματιά ολοπράσινες αγνάντια μου Ατλαντίδες",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "τ᾽ ωτό κι ανάλαφρα στην πόρτα στέκει. / βγάζει κ᾿ η γριά, που σαν τ᾽ αστροπελέκι",
+    "poet": "FotosGiofyllis",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "Κι έχυνε ολοένα / κι έχυνε για μένα",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "Από ρουμπίνια ρόδα, από μαργαριτάρια κρίνοι, / από αμεθύστους μενεξέδες. Ως αυτός τα κρίνει,",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "RICH"
+    ],
+    "pattern": "F2-RICH"
+  },
+  {
+    "text": "τά σύννεφα που μούζωναν τα φρένα, / τού Σιλωάμ με τα μάτια βαρεμένα",
+    "poet": "FotosGiofyllis",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "φαίνετ’ έπειτα η γαλήνη / και τα χρώματα αναδίνει",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE",
+      "IDV"
+    ],
+    "pattern": "F2-PURE-IDV"
+  },
+  {
+    "text": "Τα δικά μας και τα ξένα, / τ’ ακριβά, τα χιλιομασημένα,",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "αρχίζει το μωρό ένα παράπονο, / που ήρθε σ’ έναν κόσμο τόσον άπονο.",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F3-PURE"
+  },
+  {
+    "text": "Τσαρλατάνος; * α! δε γένουμαι. / Ξέρεις τί του αποκραίνουμαι",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F3-PURE"
+  },
+  {
+    "text": "Πολεμάει να φύγει από τα πόδια του κρεβατιού (η μικρή κάσα του παιδιού *). Και το πρόσωπο του παιδιού σαν την έκλειψη του φεγγαριού, και το πρόσωπο του γέρου σα * *, και το πρόσωπο της ηλικιωμένης γυναικός σαν τ’ άγρια μεσάνυχτα. / Πολεμάει να φύγει από τα πόδια του κρεβατιού (η μικρή κάσα του παιδιού *). Και το πρόσωπο του παιδιού ήταν σαν την έκλειψη του φεγγαριού, και το πρόσωπο του γέρου σα * *, και της γριάς σαν τ’ άγρια μεσάνυχτα.",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "RICH",
+      "IDV"
+    ],
+    "pattern": "F3-RICH-IDV"
+  },
+  {
+    "text": "ματάκια μου που κάτι το εδιψάσατε / ματάκια μου που κάτι το εδιψάσατε",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "RICH",
+      "IDV"
+    ],
+    "pattern": "F3-RICH-IDV"
+  },
+  {
+    "text": "Η ζήση κανενού με τα τριαντάφυλλα / Κι αυτά πολλές φορές μαδιώνται κι άφυλλα",
+    "poet": "FotosGiofyllis",
+    "rhyme_type": "F3",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F3-PURE"
+  },
+  {
+    "text": "[Ο επίλογος] / Ο επίλογος",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "RICH",
+      "IDV"
+    ],
+    "pattern": "F3-RICH-IDV"
+  },
+  {
+    "text": "και σαν να μην είμαι ούτε νεράιδα· / του βοσκού με φτάνει εμένα η γκάιδα.",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F3-PURE"
+  },
+  {
+    "text": "αόριστη, με διάβα γρήγορο, / Στου καφενείου την είσοδο",
+    "poet": "Anemoskala",
+    "rhyme_type": "F3",
+    "features": [
+      "IMP",
+      "C",
+      "IMPERFECT"
+    ],
+    "pattern": "F3-IMP-C-IMPERFECT"
+  },
+  {
+    "text": "Ήρθαμε σ’ εσέναν εδώ πέρα / Μα του κάκου, ω δύστυχε, ω πατέρα,",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "PURE"
+    ],
+    "pattern": "F2-PURE"
+  },
+  {
+    "text": "Τώρα η ζωή σαν άλογο στην πόρτα σε προσμένει. / —Μάνα, οι ανέμοι ρίξανε του δρόμου το πλατάνι·",
+    "poet": "Anemoskala",
+    "rhyme_type": "F2",
+    "features": [
+      "IMP",
+      "V",
+      "IMPERFECT"
+    ],
+    "pattern": "F2-IMP-V-IMPERFECT"
+  }
+]

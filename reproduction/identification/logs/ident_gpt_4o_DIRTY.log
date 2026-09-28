@@ -1,0 +1,886 @@
+✓ Sampled 26 test poems
+
+================================================================================
+IDENTIFICATION EVALUATION: gpt-4o
+================================================================================
+Strategies: zero_shot_structured, zero_shot_cot
+Total tests: 104
+================================================================================
+
+
+[1/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_1
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέε...
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.63s
+💾 Checkpoint saved: 1/104
+
+[2/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_2
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Εργάζομ’ εις το έργον μου εγώ. / [...................
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 3.66s
+💾 Checkpoint saved: 2/104
+
+[3/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_3
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: [1819] / ............................................
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 3.05s
+💾 Checkpoint saved: 3/104
+
+[4/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_4
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη ...
+True: M-PURE
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 11.14s
+💾 Checkpoint saved: 4/104
+
+[5/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_5
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτ...
+True: M-PURE+IDV
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.61s
+💾 Checkpoint saved: 5/104
+
+[6/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_6
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Ταχήρ / Αλής...
+True: M-IMP+C+IMPERFECT+IDV
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 2.37s
+💾 Checkpoint saved: 6/104
+
+[7/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_7
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμο...
+True: M-PURE+IDV
+Predicted: OF-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.51s
+💾 Checkpoint saved: 7/104
+
+[8/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_8
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί....
+True: M-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 5.86s
+💾 Checkpoint saved: 8/104
+
+[9/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_9
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το ...
+True: F2-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.28s
+💾 Checkpoint saved: 9/104
+
+[10/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_10
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολά...
+True: F2-IMP+C+IMPERFECT
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.89s
+💾 Checkpoint saved: 10/104
+
+[11/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_11
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια ...
+True: F2-IMP+V+IMPERFECT
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.98s
+💾 Checkpoint saved: 11/104
+
+[12/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_12
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: τι τα αρώματά τους / μες στα σωθικά τους,...
+True: F2-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.37s
+💾 Checkpoint saved: 12/104
+
+[13/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_13
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.26s
+💾 Checkpoint saved: 13/104
+
+[14/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_14
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξε...
+True: F2-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.63s
+💾 Checkpoint saved: 14/104
+
+[15/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_15
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.83s
+💾 Checkpoint saved: 15/104
+
+[16/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_16
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και ...
+True: F2-PURE
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.69s
+💾 Checkpoint saved: 16/104
+
+[17/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_17
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χ...
+True: F3-PURE+IDV
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.19s
+💾 Checkpoint saved: 17/104
+
+[18/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_18
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: λαμβάνει, αι χορδαί αυτής την ποίησιν / εκπέμπουν ...
+True: F3-PURE
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.98s
+💾 Checkpoint saved: 18/104
+
+[19/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_19
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Σπούδαξε, να σε στιμάρουνε! * / Βλέπω γω πώς με τρ...
+True: F3-PURE
+Predicted: F2-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.89s
+💾 Checkpoint saved: 19/104
+
+[20/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_20
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Επέστρεφε συχνά και παίρνε με, / αγαπημένη αίσθησι...
+True: F3-RICH
+Predicted: AT-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.41s
+💾 Checkpoint saved: 20/104
+
+[21/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_21
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: για ν’ ακούστε… τί τηράζετε; / Tromba acustica χρε...
+True: F3-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.67s
+💾 Checkpoint saved: 21/104
+
+[22/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_22
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Και τώρα, νά, κηρύσσεται / στα σπίτια θα γυρίσετε,...
+True: F3-IMP+0+IMPERFECT+IDV
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.41s
+💾 Checkpoint saved: 22/104
+
+[23/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_23
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: Αυτά οπού ευφραίνουν, αυτά πικραίνουνε· / κι επάνω...
+True: F3-PURE
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.67s
+💾 Checkpoint saved: 23/104
+
+[24/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_24
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: παρά καθάριους ουρανούς, αστροφεγγιές και κύματα /...
+True: F3-PURE
+Predicted: F3-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 9.71s
+💾 Checkpoint saved: 24/104
+
+[25/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_25
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: που μου κάνουν των κόσμων οι ομορφάδες· / της καρδ...
+True: F2-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.64s
+💾 Checkpoint saved: 25/104
+
+[26/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITH-RAG_26
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: True
+Poem: το αστροσυγνεφοσκέπαστο της Φαντασίας παλάτι, / χέ...
+True: F2-IMP+C+IMPERFECT
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.16s
+💾 Checkpoint saved: 26/104
+
+[27/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_1
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέε...
+True: M-UNKNOWN
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.55s
+💾 Checkpoint saved: 27/104
+
+[28/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_2
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Εργάζομ’ εις το έργον μου εγώ. / [...................
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.65s
+💾 Checkpoint saved: 28/104
+
+[29/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_3
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: [1819] / ............................................
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.49s
+💾 Checkpoint saved: 29/104
+
+[30/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_4
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη ...
+True: M-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.67s
+💾 Checkpoint saved: 30/104
+
+[31/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_5
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτ...
+True: M-PURE+IDV
+Predicted: F3-RICH
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.77s
+💾 Checkpoint saved: 31/104
+
+[32/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_6
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Ταχήρ / Αλής...
+True: M-IMP+C+IMPERFECT+IDV
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.46s
+💾 Checkpoint saved: 32/104
+
+[33/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_7
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμο...
+True: M-PURE+IDV
+Predicted: M-C2+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 18.92s
+💾 Checkpoint saved: 33/104
+
+[34/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_8
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί....
+True: M-RICH
+Predicted: BOTH-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.08s
+💾 Checkpoint saved: 34/104
+
+[35/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_9
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το ...
+True: F2-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.51s
+💾 Checkpoint saved: 35/104
+
+[36/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_10
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολά...
+True: F2-IMP+C+IMPERFECT
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.05s
+💾 Checkpoint saved: 36/104
+
+[37/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_11
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.47s
+💾 Checkpoint saved: 37/104
+
+[38/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_12
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: τι τα αρώματά τους / μες στα σωθικά τους,...
+True: F2-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.00s
+💾 Checkpoint saved: 38/104
+
+[39/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_13
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέ...
+True: F2-PURE
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.66s
+💾 Checkpoint saved: 39/104
+
+[40/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_14
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξε...
+True: F2-PURE
+Predicted: F3-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.95s
+💾 Checkpoint saved: 40/104
+
+[41/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_15
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσ...
+True: F2-PURE
+Predicted: F3-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.12s
+💾 Checkpoint saved: 41/104
+
+[42/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_16
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Κι εμέ κουρέλια με κακοσκεπάζουν, / παλιούρια και ...
+True: F2-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.23s
+💾 Checkpoint saved: 42/104
+
+[43/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_17
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Δεν τα λέω τα περισσότερα / γιατί in fondo είναι χ...
+True: F3-PURE+IDV
+Predicted: F3-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 13.81s
+💾 Checkpoint saved: 43/104
+
+[44/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_18
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: λαμβάνει, αι χορδαί αυτής την ποίησιν / εκπέμπουν ...
+True: F3-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.37s
+💾 Checkpoint saved: 44/104
+
+[45/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_19
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Σπούδαξε, να σε στιμάρουνε! * / Βλέπω γω πώς με τρ...
+True: F3-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.66s
+💾 Checkpoint saved: 45/104
+
+[46/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_20
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Επέστρεφε συχνά και παίρνε με, / αγαπημένη αίσθησι...
+True: F3-RICH
+Predicted: F2-COPY
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.27s
+💾 Checkpoint saved: 46/104
+
+[47/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_21
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: για ν’ ακούστε… τί τηράζετε; / Tromba acustica χρε...
+True: F3-PURE
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.11s
+💾 Checkpoint saved: 47/104
+
+[48/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_22
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Και τώρα, νά, κηρύσσεται / στα σπίτια θα γυρίσετε,...
+True: F3-IMP+0+IMPERFECT+IDV
+Predicted: F3-COPY
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 13.16s
+💾 Checkpoint saved: 48/104
+
+[49/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_23
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: Αυτά οπού ευφραίνουν, αυτά πικραίνουνε· / κι επάνω...
+True: F3-PURE
+Predicted: F3-IDV+IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 19.74s
+💾 Checkpoint saved: 49/104
+
+[50/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_24
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: παρά καθάριους ουρανούς, αστροφεγγιές και κύματα /...
+True: F3-PURE
+Predicted: F3-IDV
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 13.61s
+💾 Checkpoint saved: 50/104
+
+[51/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_25
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: που μου κάνουν των κόσμων οι ομορφάδες· / της καρδ...
+True: F2-PURE
+Predicted: 1-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.63s
+💾 Checkpoint saved: 51/104
+
+[52/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_structured_WITHOUT-RAG_26
+Model: gpt-4o, Strategy: zero_shot_structured, RAG: False
+Poem: το αστροσυγνεφοσκέπαστο της Φαντασίας παλάτι, / χέ...
+True: F2-IMP+C+IMPERFECT
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.39s
+💾 Checkpoint saved: 52/104
+
+[53/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_1
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: στ. 1-3 / Είδα σε φιλοσοφική ιταλική φυλλάδανα λέε...
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.45s
+💾 Checkpoint saved: 53/104
+
+[54/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_2
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: Εργάζομ’ εις το έργον μου εγώ. / [...................
+True: M-UNKNOWN
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.52s
+💾 Checkpoint saved: 54/104
+
+[55/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_3
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: [1819] / ............................................
+True: M-UNKNOWN
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.33s
+💾 Checkpoint saved: 55/104
+
+[56/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_4
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: απ’ εκείνα που πιέζουν την ερώσαν μου καρδιά / Μη ...
+True: M-PURE
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 21.07s
+💾 Checkpoint saved: 56/104
+
+[57/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_5
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: τυφλή βροχή σπάει, στα γυαλιά. / Αχ, να 'νοιγα –έτ...
+True: M-PURE+IDV
+Predicted: -BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.21s
+💾 Checkpoint saved: 57/104
+
+[58/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_6
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: Ταχήρ / Αλής...
+True: M-IMP+C+IMPERFECT+IDV
+Predicted: M-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 14.17s
+💾 Checkpoint saved: 58/104
+
+[59/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_7
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: φέρνεις τον καλό το μήνα, τον ξανθό, / και το χαμο...
+True: M-PURE+IDV
+Predicted: IN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.27s
+💾 Checkpoint saved: 59/104
+
+[60/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_8
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: η σούστα ουδ᾽ αντηχεί: / βουλιάζουν οι τροχοί....
+True: M-RICH
+Predicted: M-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 15.11s
+💾 Checkpoint saved: 60/104
+
+[61/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_9
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: Ποιά χρυσαυγή στου υπερβορείου, κι όσο αστρικό το ...
+True: F2-PURE
+Predicted: TR-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.21s
+💾 Checkpoint saved: 61/104
+
+[62/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_10
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: Αφήστε μας ελεύτερο το δρόμο, / φαρδύ, γυμνόν, ολά...
+True: F2-IMP+C+IMPERFECT
+Predicted: F2-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.50)
+Time: 17.20s
+💾 Checkpoint saved: 62/104
+
+[63/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_11
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: Για ν’ ανοιχτεί ένας λάκκος, πόσα κρίνα / Τ’ άξια ...
+True: F2-IMP+V+IMPERFECT
+Predicted: MASCULINE-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 21.29s
+💾 Checkpoint saved: 63/104
+
+[64/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_12
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: τι τα αρώματά τους / μες στα σωθικά τους,...
+True: F2-PURE
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.53s
+💾 Checkpoint saved: 64/104
+
+[65/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_13
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: Του νόμου αυτού μαυρίζει ο ίσκιος τ’ άστρο της ημέ...
+True: F2-PURE
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.28s
+💾 Checkpoint saved: 65/104
+
+[66/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_14
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: της οικουμένης τ’ αγαθά στη δέσποινα τη χώρα, / ξε...
+True: F2-PURE
+Predicted: OF-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.81s
+💾 Checkpoint saved: 66/104
+
+[67/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_15
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True
+Poem: στης παραστιάς τα πελεκούδια / γλυκά, απ' τα κρόσσ...
+True: F2-PURE
+Predicted: F3-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.65s
+💾 Checkpoint saved: 67/104
+
+[68/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: gpt-4o_zero_shot_cot_WITH-RAG_16
+Model: gpt-4o, Strategy: zero_shot_cot, RAG: True

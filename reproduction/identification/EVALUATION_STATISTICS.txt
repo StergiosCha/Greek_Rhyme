@@ -1,0 +1,672 @@
+================================================================================
+EVALUATION RESULTS ANALYSIS
+Analyzing first 26 results from each model
+================================================================================
+
+================================================================================
+MODEL: CLAUDE-SONNET-4-5
+================================================================================
+
+📊 OVERALL STATISTICS (n=26)
+────────────────────────────────────────────────────────────────────────────────
+
+✓ WITH VERIFICATION:
+  Valid poems: 9/26 (34.6%)
+  Accuracy: 54.6% (±41.4)
+  Time: 73.0s (±35.7s)
+  Attempts: 10.7 (±4.9)
+
+✗ WITHOUT VERIFICATION:
+  Valid poems: 0/26 (0.0%)
+  Accuracy: 6.4% (±14.2)
+  Time: 12.3s (±2.1s)
+
+📈 IMPROVEMENT FROM VERIFICATION:
+  Average: 48.2% (±38.2%)
+  Median: 45.0%
+  Range: [0.0%, 100.0%]
+
+🔍 BY RAG USAGE:
+
+  WITH RAG (n=13):
+    With verification valid: 7/13 (53.8%)
+    Without verification valid: 0/13 (0.0%)
+
+  WITHOUT RAG (n=13):
+    With verification valid: 2/13 (15.4%)
+    Without verification valid: 0/13 (0.0%)
+
+📝 BY RHYME TYPE:
+
+  F2 (n=10):
+    With verification valid: 3/10 (30.0%)
+    Without verification valid: 0/10 (0.0%)
+    Avg accuracy (with verify): 59.0%
+    Avg accuracy (no verify): 6.2%
+
+  F3 (n=6):
+    With verification valid: 3/6 (50.0%)
+    Without verification valid: 0/6 (0.0%)
+    Avg accuracy (with verify): 54.2%
+    Avg accuracy (no verify): 2.8%
+
+  M (n=10):
+    With verification valid: 3/10 (30.0%)
+    Without verification valid: 0/10 (0.0%)
+    Avg accuracy (with verify): 50.5%
+    Avg accuracy (no verify): 8.7%
+
+🎯 BY FEATURES:
+
+  BASIC (no features) (n=6):
+    With verification valid: 5/6 (83.3%)
+    Without verification valid: 0/6 (0.0%)
+    Avg accuracy (with verify): 96.7%
+    Avg accuracy (no verify): 11.1%
+
+  IDV+IMPERFECT (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+MOSAIC+PURE (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 25.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+PURE (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 37.5%
+    Avg accuracy (no verify): 8.3%
+
+  IDV+RICH (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 50.0%
+    Avg accuracy (no verify): 0.0%
+
+  IMPERFECT (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 62.5%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC (n=4):
+    With verification valid: 2/4 (50.0%)
+    Without verification valid: 0/4 (0.0%)
+    Avg accuracy (with verify): 68.8%
+    Avg accuracy (no verify): 3.1%
+
+  MOSAIC+RICH (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  PURE (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 35.0%
+
+  RICH (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 32.5%
+    Avg accuracy (no verify): 0.0%
+
+================================================================================
+MODEL: CLAUDE-SONNET-3-7
+================================================================================
+
+📊 OVERALL STATISTICS (n=26)
+────────────────────────────────────────────────────────────────────────────────
+
+✓ WITH VERIFICATION:
+  Valid poems: 19/26 (73.1%)
+  Accuracy: 89.4% (±20.2)
+  Time: 32.5s (±21.3s)
+  Attempts: 7.0 (±4.6)
+
+✗ WITHOUT VERIFICATION:
+  Valid poems: 1/26 (3.8%)
+  Accuracy: 9.6% (±24.6)
+  Time: 5.5s (±1.2s)
+
+📈 IMPROVEMENT FROM VERIFICATION:
+  Average: 79.8% (±28.3%)
+  Median: 100.0%
+  Range: [0.0%, 100.0%]
+
+🔍 BY RAG USAGE:
+
+  WITH RAG (n=13):
+    With verification valid: 10/13 (76.9%)
+    Without verification valid: 1/13 (7.7%)
+
+  WITHOUT RAG (n=13):
+    With verification valid: 9/13 (69.2%)
+    Without verification valid: 0/13 (0.0%)
+
+📝 BY RHYME TYPE:
+
+  F2 (n=10):
+    With verification valid: 7/10 (70.0%)
+    Without verification valid: 1/10 (10.0%)
+    Avg accuracy (with verify): 90.0%
+    Avg accuracy (no verify): 12.5%
+
+  F3 (n=6):
+    With verification valid: 5/6 (83.3%)
+    Without verification valid: 0/6 (0.0%)
+    Avg accuracy (with verify): 91.7%
+    Avg accuracy (no verify): 4.2%
+
+  M (n=10):
+    With verification valid: 7/10 (70.0%)
+    Without verification valid: 0/10 (0.0%)
+    Avg accuracy (with verify): 87.5%
+    Avg accuracy (no verify): 10.0%
+
+🎯 BY FEATURES:
+
+  BASIC (no features) (n=6):
+    With verification valid: 6/6 (100.0%)
+    Without verification valid: 1/6 (16.7%)
+    Avg accuracy (with verify): 100.0%
+    Avg accuracy (no verify): 20.8%
+
+  IDV+IMPERFECT (n=2):
+    With verification valid: 2/2 (100.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 100.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+MOSAIC+PURE (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+PURE (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 62.5%
+    Avg accuracy (no verify): 12.5%
+
+  IDV+RICH (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 12.5%
+
+  IMPERFECT (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC (n=4):
+    With verification valid: 3/4 (75.0%)
+    Without verification valid: 0/4 (0.0%)
+    Avg accuracy (with verify): 93.8%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC+RICH (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 87.5%
+    Avg accuracy (no verify): 0.0%
+
+  PURE (n=2):
+    With verification valid: 2/2 (100.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 100.0%
+    Avg accuracy (no verify): 37.5%
+
+  RICH (n=2):
+    With verification valid: 2/2 (100.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 100.0%
+    Avg accuracy (no verify): 0.0%
+
+================================================================================
+MODEL: GEMINI-2-0-FLASH
+================================================================================
+
+📊 OVERALL STATISTICS (n=26)
+────────────────────────────────────────────────────────────────────────────────
+
+✓ WITH VERIFICATION:
+  Valid poems: 16/26 (61.5%)
+  Accuracy: 80.8% (±29.4)
+  Time: 20.5s (±15.8s)
+  Attempts: 8.3 (±5.8)
+
+✗ WITHOUT VERIFICATION:
+  Valid poems: 0/26 (0.0%)
+  Accuracy: 12.5% (±21.5)
+  Time: 3.7s (±0.9s)
+
+📈 IMPROVEMENT FROM VERIFICATION:
+  Average: 68.3% (±29.6%)
+  Median: 75.0%
+  Range: [0.0%, 100.0%]
+
+🔍 BY RAG USAGE:
+
+  WITH RAG (n=26):
+    With verification valid: 16/26 (61.5%)
+    Without verification valid: 0/26 (0.0%)
+
+📝 BY RHYME TYPE:
+
+  F2 (n=7):
+    With verification valid: 3/7 (42.9%)
+    Without verification valid: 0/7 (0.0%)
+    Avg accuracy (with verify): 64.3%
+    Avg accuracy (no verify): 7.1%
+
+  F3 (n=7):
+    With verification valid: 4/7 (57.1%)
+    Without verification valid: 0/7 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 7.1%
+
+  M (n=12):
+    With verification valid: 9/12 (75.0%)
+    Without verification valid: 0/12 (0.0%)
+    Avg accuracy (with verify): 93.8%
+    Avg accuracy (no verify): 18.8%
+
+🎯 BY FEATURES:
+
+  BASIC (no features) (n=11):
+    With verification valid: 10/11 (90.9%)
+    Without verification valid: 0/11 (0.0%)
+    Avg accuracy (with verify): 95.5%
+    Avg accuracy (no verify): 15.9%
+
+  IDV+IMPERFECT (n=1):
+    With verification valid: 1/1 (100.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 100.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+PURE (n=3):
+    With verification valid: 2/3 (66.7%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 91.7%
+    Avg accuracy (no verify): 16.7%
+
+  IDV+RICH (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IMPERFECT (n=3):
+    With verification valid: 1/3 (33.3%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 58.3%
+    Avg accuracy (no verify): 8.3%
+
+  MOSAIC (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 0.0%
+
+  PURE (n=3):
+    With verification valid: 2/3 (66.7%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 91.7%
+    Avg accuracy (no verify): 25.0%
+
+  RICH (n=3):
+    With verification valid: 0/3 (0.0%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 50.0%
+    Avg accuracy (no verify): 0.0%
+
+================================================================================
+MODEL: GPT-4O
+================================================================================
+
+📊 OVERALL STATISTICS (n=26)
+────────────────────────────────────────────────────────────────────────────────
+
+✓ WITH VERIFICATION:
+  Valid poems: 11/26 (42.3%)
+  Accuracy: 55.8% (±45.1)
+  Time: 39.3s (±24.5s)
+  Attempts: 9.5 (±6.0)
+
+✗ WITHOUT VERIFICATION:
+  Valid poems: 0/26 (0.0%)
+  Accuracy: 14.4% (±26.6)
+  Time: 5.8s (±2.2s)
+
+📈 IMPROVEMENT FROM VERIFICATION:
+  Average: 41.3% (±39.6%)
+  Median: 41.7%
+  Range: [0.0%, 100.0%]
+
+🔍 BY RAG USAGE:
+
+  WITH RAG (n=22):
+    With verification valid: 8/22 (36.4%)
+    Without verification valid: 0/22 (0.0%)
+
+  WITHOUT RAG (n=4):
+    With verification valid: 3/4 (75.0%)
+    Without verification valid: 0/4 (0.0%)
+
+📝 BY RHYME TYPE:
+
+  F2 (n=9):
+    With verification valid: 3/9 (33.3%)
+    Without verification valid: 0/9 (0.0%)
+    Avg accuracy (with verify): 42.6%
+    Avg accuracy (no verify): 11.1%
+
+  F3 (n=6):
+    With verification valid: 1/6 (16.7%)
+    Without verification valid: 0/6 (0.0%)
+    Avg accuracy (with verify): 25.0%
+    Avg accuracy (no verify): 8.3%
+
+  M (n=11):
+    With verification valid: 7/11 (63.6%)
+    Without verification valid: 0/11 (0.0%)
+    Avg accuracy (with verify): 83.3%
+    Avg accuracy (no verify): 20.5%
+
+🎯 BY FEATURES:
+
+  BASIC (no features) (n=10):
+    With verification valid: 8/10 (80.0%)
+    Without verification valid: 0/10 (0.0%)
+    Avg accuracy (with verify): 85.0%
+    Avg accuracy (no verify): 22.5%
+
+  IDV+IMPERFECT (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+MOSAIC+PURE (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+PURE (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 83.3%
+    Avg accuracy (no verify): 37.5%
+
+  IDV+RICH (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 16.7%
+    Avg accuracy (no verify): 0.0%
+
+  IMPERFECT (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC (n=2):
+    With verification valid: 1/2 (50.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 50.0%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC+RICH (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  PURE (n=3):
+    With verification valid: 1/3 (33.3%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 83.3%
+    Avg accuracy (no verify): 25.0%
+
+  RICH (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 25.0%
+    Avg accuracy (no verify): 0.0%
+
+================================================================================
+MODEL: MISTRAL-LARGE
+================================================================================
+
+📊 OVERALL STATISTICS (n=26)
+────────────────────────────────────────────────────────────────────────────────
+
+✓ WITH VERIFICATION:
+  Valid poems: 10/26 (38.5%)
+  Accuracy: 66.2% (±35.1)
+  Time: 109.5s (±75.8s)
+  Attempts: 12.2 (±4.0)
+
+✗ WITHOUT VERIFICATION:
+  Valid poems: 0/26 (0.0%)
+  Accuracy: 6.5% (±13.3)
+  Time: 10.8s (±3.8s)
+
+📈 IMPROVEMENT FROM VERIFICATION:
+  Average: 59.6% (±36.7%)
+  Median: 63.3%
+  Range: [-33.3%, 100.0%]
+
+🔍 BY RAG USAGE:
+
+  WITH RAG (n=26):
+    With verification valid: 10/26 (38.5%)
+    Without verification valid: 0/26 (0.0%)
+
+📝 BY RHYME TYPE:
+
+  F2 (n=8):
+    With verification valid: 3/8 (37.5%)
+    Without verification valid: 0/8 (0.0%)
+    Avg accuracy (with verify): 62.8%
+    Avg accuracy (no verify): 12.9%
+
+  F3 (n=7):
+    With verification valid: 1/7 (14.3%)
+    Without verification valid: 0/7 (0.0%)
+    Avg accuracy (with verify): 51.4%
+    Avg accuracy (no verify): 6.0%
+
+  M (n=11):
+    With verification valid: 6/11 (54.5%)
+    Without verification valid: 0/11 (0.0%)
+    Avg accuracy (with verify): 77.9%
+    Avg accuracy (no verify): 2.3%
+
+🎯 BY FEATURES:
+
+  BASIC (no features) (n=12):
+    With verification valid: 7/12 (58.3%)
+    Without verification valid: 0/12 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 7.9%
+
+  IDV+IMPERFECT (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 75.0%
+    Avg accuracy (no verify): 16.7%
+
+  IDV+PURE (n=3):
+    With verification valid: 0/3 (0.0%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 44.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+RICH (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 33.3%
+
+  IMPERFECT (n=3):
+    With verification valid: 1/3 (33.3%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 70.0%
+    Avg accuracy (no verify): 8.3%
+
+  PURE (n=3):
+    With verification valid: 2/3 (66.7%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 91.7%
+    Avg accuracy (no verify): 0.0%
+
+  RICH (n=3):
+    With verification valid: 0/3 (0.0%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 42.6%
+    Avg accuracy (no verify): 0.0%
+
+================================================================================
+MODEL: LLAMA-3-1-70B
+================================================================================
+
+📊 OVERALL STATISTICS (n=26)
+────────────────────────────────────────────────────────────────────────────────
+
+✓ WITH VERIFICATION:
+  Valid poems: 0/26 (0.0%)
+  Accuracy: 0.0% (±0.0)
+  Time: 278.0s (±307.7s)
+  Attempts: 0.3 (±1.4)
+
+✗ WITHOUT VERIFICATION:
+  Valid poems: 0/26 (0.0%)
+  Accuracy: 0.7% (±3.6)
+  Time: 70.1s (±93.8s)
+
+📈 IMPROVEMENT FROM VERIFICATION:
+  Average: -0.7% (±3.6%)
+  Median: 0.0%
+  Range: [-18.2%, 0.0%]
+
+🔍 BY RAG USAGE:
+
+  WITH RAG (n=20):
+    With verification valid: 0/20 (0.0%)
+    Without verification valid: 0/20 (0.0%)
+
+  WITHOUT RAG (n=6):
+    With verification valid: 0/6 (0.0%)
+    Without verification valid: 0/6 (0.0%)
+
+📝 BY RHYME TYPE:
+
+  F2 (n=9):
+    With verification valid: 0/9 (0.0%)
+    Without verification valid: 0/9 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  F3 (n=7):
+    With verification valid: 0/7 (0.0%)
+    Without verification valid: 0/7 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  M (n=10):
+    With verification valid: 0/10 (0.0%)
+    Without verification valid: 0/10 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 1.8%
+
+🎯 BY FEATURES:
+
+  BASIC (no features) (n=9):
+    With verification valid: 0/9 (0.0%)
+    Without verification valid: 0/9 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+IMPERFECT (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+MOSAIC+PURE (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+PURE (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IDV+RICH (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  IMPERFECT (n=3):
+    With verification valid: 0/3 (0.0%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC (n=2):
+    With verification valid: 0/2 (0.0%)
+    Without verification valid: 0/2 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  MOSAIC+RICH (n=1):
+    With verification valid: 0/1 (0.0%)
+    Without verification valid: 0/1 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+  PURE (n=3):
+    With verification valid: 0/3 (0.0%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 6.1%
+
+  RICH (n=3):
+    With verification valid: 0/3 (0.0%)
+    Without verification valid: 0/3 (0.0%)
+    Avg accuracy (with verify): 0.0%
+    Avg accuracy (no verify): 0.0%
+
+
+================================================================================
+COMPARATIVE SUMMARY
+================================================================================
+
+Model                     Valid (verify)  Accuracy (verify)    Improvement    
+────────────────────────────────────────────────────────────────────────────────
+claude-sonnet-4-5           34.6%            54.6%               +48.2%
+claude-sonnet-3-7           73.1%            89.4%               +79.8%
+gemini-2-0-flash            61.5%            80.8%               +68.3%
+gpt-4o                      42.3%            55.8%               +41.3%
+mistral-large               38.5%            66.2%               +59.6%
+llama-3-1-70b                0.0%             0.0%                -0.7%
+
+================================================================================

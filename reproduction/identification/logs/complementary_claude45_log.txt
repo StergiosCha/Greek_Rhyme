@@ -1,0 +1,743 @@
+🌟 Loading Complementary Test Set from complementary_test_set.json...
+✓ Loaded 14 complementary poems.
+
+================================================================================
+IDENTIFICATION EVALUATION: claude-sonnet-4.5
+================================================================================
+Strategies: zero_shot_structured, zero_shot_cot
+Total tests: 56
+================================================================================
+
+
+[1/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.99s
+💾 Checkpoint saved: 1/56
+
+[2/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.70s
+💾 Checkpoint saved: 2/56
+
+[3/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.36s
+💾 Checkpoint saved: 3/56
+
+[4/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: STEP-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.55s
+💾 Checkpoint saved: 4/56
+
+[5/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-COPY
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 9.37s
+💾 Checkpoint saved: 5/56
+
+[6/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.52s
+💾 Checkpoint saved: 6/56
+
+[7/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: STEP-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.26s
+💾 Checkpoint saved: 7/56
+
+[8/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.46s
+💾 Checkpoint saved: 8/56
+
+[9/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.44s
+💾 Checkpoint saved: 9/56
+
+[10/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.02s
+💾 Checkpoint saved: 10/56
+
+[11/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F3-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.06s
+💾 Checkpoint saved: 11/56
+
+[12/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: F3-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.40)
+Time: 12.31s
+💾 Checkpoint saved: 12/56
+
+[13/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: FOLLOWING-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.08s
+💾 Checkpoint saved: 13/56
+
+[14/56] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: SYSTEMATICALLY-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.02s
+💾 Checkpoint saved: 14/56
+
+[15/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 8.39s
+💾 Checkpoint saved: 15/56
+
+[16/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 8.38s
+💾 Checkpoint saved: 16/56
+
+[17/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: F2-COPY
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.95s
+💾 Checkpoint saved: 17/56
+
+[18/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.65s
+💾 Checkpoint saved: 18/56
+
+[19/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-COPY
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 10.54s
+💾 Checkpoint saved: 19/56
+
+[20/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 10.50s
+💾 Checkpoint saved: 20/56
+
+[21/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: BETWEEN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.03s
+💾 Checkpoint saved: 21/56
+
+[22/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.10s
+💾 Checkpoint saved: 22/56
+
+[23/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.62s
+💾 Checkpoint saved: 23/56
+
+[24/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.50)
+Time: 9.80s
+💾 Checkpoint saved: 24/56
+
+[25/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.50)
+Time: 9.88s
+💾 Checkpoint saved: 25/56
+
+[26/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: WITHIN-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.91s
+💾 Checkpoint saved: 26/56
+
+[27/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: M-COPY
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.31s
+💾 Checkpoint saved: 27/56
+
+[28/56] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: MATCHES-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.39s
+💾 Checkpoint saved: 28/56
+
+[29/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 11.20s
+💾 Checkpoint saved: 29/56
+
+[30/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.64s
+💾 Checkpoint saved: 30/56
+
+[31/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: F2-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.65s
+💾 Checkpoint saved: 31/56
+
+[32/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.89s
+💾 Checkpoint saved: 32/56
+
+[33/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-MOSAIC+PURE
+Rhyme type: ✓
+Features: ✗ (F1=0.67)
+Time: 13.76s
+💾 Checkpoint saved: 33/56
+
+[34/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: M-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 11.92s
+💾 Checkpoint saved: 34/56
+
+[35/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: M-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.12s
+💾 Checkpoint saved: 35/56
+
+[36/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.50s
+💾 Checkpoint saved: 36/56
+
+[37/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.91s
+💾 Checkpoint saved: 37/56
+
+[38/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 15.37s
+💾 Checkpoint saved: 38/56
+
+[39/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 17.43s
+💾 Checkpoint saved: 39/56
+
+[40/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: NO-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.66s
+💾 Checkpoint saved: 40/56
+
+[41/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: F2-COPY+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.67)
+Time: 15.33s
+💾 Checkpoint saved: 41/56
+
+[42/56] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: F2-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 17.16s
+💾 Checkpoint saved: 42/56
+
+[43/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: κι ένα παλιό γερό κρασί, / ω γύφτοι, ω μάγοι και σ...
+True: M-PURE
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 11.66s
+💾 Checkpoint saved: 43/56
+
+[44/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: που πρωτόειδε τη ζωή, / για να ντύσει την τρανή...
+True: M-PURE
+Predicted: M-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 13.21s
+💾 Checkpoint saved: 44/56
+
+[45/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Στέκει, μυρίζεται / και συλλογίζεται...
+True: F3-PURE
+Predicted: F3-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 14.39s
+💾 Checkpoint saved: 45/56
+
+[46/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: φωλιά στα περιστέρια μας / Προσμένουμε τα ταίρια μ...
+True: F3-PURE
+Predicted: F3-2W+COPY+IDV+MOSAIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 12.62s
+💾 Checkpoint saved: 46/56
+
+[47/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: του αθηναίικου εσύ χινόπωρου λυγμέ, / ψιχάλα κυνηγ...
+True: M-MOSAIC
+Predicted: M-COPY
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 17.63s
+💾 Checkpoint saved: 47/56
+
+[48/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Κι εσύ, ξέστηθη δούλα, στο πηγάδι γειρτή, / γριά κ...
+True: M-MOSAIC
+Predicted: M-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 14.34s
+💾 Checkpoint saved: 48/56
+
+[49/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: σάστισα και δρόμο που θα βρω; / Έξι η ώρα, βράδυ κ...
+True: F2-MOSAIC+IDV
+Predicted: S-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.22s
+💾 Checkpoint saved: 49/56
+
+[50/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Πούθε; απ' το διάστημα; απ' τη γη; / Μην οι πνιγμέ...
+True: F2-MOSAIC
+Predicted: M-IMPERFECT+RICH
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.49s
+💾 Checkpoint saved: 50/56
+
+[51/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: που φέγγει ο δρόμος μου ο κρυφός / τη σερτή νότα τ...
+True: M-IMP+V+IMPERFECT
+Predicted: M-IMPERFECT+RICH
+Rhyme type: ✓
+Features: ✗ (F1=0.40)
+Time: 12.29s
+💾 Checkpoint saved: 51/56
+
+[52/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: κι όλο παρακαλεί το στέρφο της στεφάνι, / που κόμπ...
+True: F2-IMP+V+IMPERFECT
+Predicted: F2-IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.50)
+Time: 12.40s
+💾 Checkpoint saved: 52/56
+
+[53/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: που τώρα ίσκιο λαχταράς, περίπατο κι αέρι, / Χειμώ...
+True: F2-IMP+V+IMPERFECT
+Predicted: RHYME-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.94s
+💾 Checkpoint saved: 53/56
+
+[54/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Τώρα ναι τώρα αστράψατε / ω Μούσαι, τώρα αρπάξατε...
+True: F3-IMP+C+IMPERFECT+IDV
+Predicted: F3-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 15.08s
+💾 Checkpoint saved: 54/56
+
+[55/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: μες σ' ένα νεκροκρέβατο ρόδινο ξαπλωμένη, / και με...
+True: F2-RICH
+Predicted: F2-BASIC
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 13.05s
+💾 Checkpoint saved: 55/56
+
+[56/56] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: τίποτε από καιρό δεν έχει μείνει· / σκύψε απάνου τ...
+True: F2-PURE
+Predicted: F2-IDV+IMPERFECT
+Rhyme type: ✓
+Features: ✗ (F1=0.00)
+Time: 14.73s
+💾 Checkpoint saved: 56/56
+
+================================================================================
+✅ claude-sonnet-4.5 COMPLETE!
+================================================================================
+📁 Results saved to: complementary_results_claude_sonnet_4.5.json

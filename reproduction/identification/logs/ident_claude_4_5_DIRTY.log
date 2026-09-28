@@ -1,0 +1,1366 @@
+✓ Sampled 26 test poems
+
+================================================================================
+IDENTIFICATION EVALUATION: claude-sonnet-4.5
+================================================================================
+Strategies: zero_shot_structured, zero_shot_cot
+Total tests: 104
+================================================================================
+
+
+[1/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Μαδουρή [1878*] * / Εις τον θάνατοντου αστρονόμου ...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.62s
+💾 Checkpoint saved: 1/104
+
+[2/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Βυζαντινός Άρχων, εξόριστος, στιχουργών / Οι ελαφρ...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.77s
+💾 Checkpoint saved: 2/104
+
+[3/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: μες στα ζώα θαφτές, / να τις πουν κι αυτές;...
+True: M-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.35s
+💾 Checkpoint saved: 3/104
+
+[4/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Στους αγαπημένους τί κακό, / Σπέρνω θέρμη και θανα...
+True: M-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.25s
+💾 Checkpoint saved: 4/104
+
+[5/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: . . . . . . . κι εμπόδισμα δεν είναι / . . . . . ....
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.44s
+💾 Checkpoint saved: 5/104
+
+[6/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: γνώμη πλατιά / παντού η φωτιά....
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.96s
+💾 Checkpoint saved: 6/104
+
+[7/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: στ. 15 / στ. 19...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.04s
+💾 Checkpoint saved: 7/104
+
+[8/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: και τ’ ασπρολούλουδο, άμα με δει, θα λιγωθεί. / κα...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.84s
+💾 Checkpoint saved: 8/104
+
+[9/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: μέσα απ' της πάχνης τη δαντέλα / μοιάζουν σβησμένη...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.38s
+💾 Checkpoint saved: 9/104
+
+[10/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: φαρμακεραί εστρέφοντο επί σειρών πτωμάτων / ισχνών...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.73s
+💾 Checkpoint saved: 10/104
+
+[11/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Συ βλέπεις δύο εραστάς ησύχως να πλανώνται / υπό τ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.69s
+💾 Checkpoint saved: 11/104
+
+[12/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Κι εσείς, της νέας πατρίδας οι κορόνες / κι απ’ το...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.42s
+💾 Checkpoint saved: 12/104
+
+[13/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Όξ’ από μένα, Φλώρο μου… Ελάλησε τ’ ορνίθι… / Ξαπλ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.99s
+💾 Checkpoint saved: 13/104
+
+[14/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: ΠΟΙΗΤΗΣ / ΣΟΦΟΛΟΓΙΟΤΑΤΟΣ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.73s
+💾 Checkpoint saved: 14/104
+
+[15/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_15
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Και με του πρώτου την πανύψηλη μανία, / με τη φιλό...
+True: F2-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.78s
+💾 Checkpoint saved: 15/104
+
+[16/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_16
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: 'Ανήξερη θωριά στα μάτια με γελάει, / πότε στάλα· ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.52s
+💾 Checkpoint saved: 16/104
+
+[17/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_17
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: δεν υπάρχεις ό,τι χρόνος λέγεσαι, / Φλόγα, καις, δ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.05s
+💾 Checkpoint saved: 17/104
+
+[18/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_18
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Τέσσερα τριαντάφυλλα / Τέσσερα τριαντάφυλλα...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.72s
+💾 Checkpoint saved: 18/104
+
+[19/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_19
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: ένα φιλάκι στέλνει στο νιογέννητο… / Κι ας είν’ αφ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.88s
+💾 Checkpoint saved: 19/104
+
+[20/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_20
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Νεκρός, θα ’μαι σαν άθλιο καταστάλαγμα / τη δόξα, ...
+True: F3-IMP+0+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.42s
+💾 Checkpoint saved: 20/104
+
+[21/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_21
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Αλλά αντίκρυ από τα πλάσματα / του προβαίνουν δύο ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.31s
+💾 Checkpoint saved: 21/104
+
+[22/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_22
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: δάκρυα, λατρείες, τα πείσματα, / όλα παραστρατίσμα...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.22s
+💾 Checkpoint saved: 22/104
+
+[23/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_23
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: κι άδεια· και τίποτε / δε φέγγει· τίποτε...
+True: F3-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.48s
+💾 Checkpoint saved: 23/104
+
+[24/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_24
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Φύτρωσαν άντρες πολεμόχαροι, / φύτρωσαν άντρες πολ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.31s
+💾 Checkpoint saved: 24/104
+
+[25/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_25
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: τούς φαίνεται. Και κάτι ψιθυρίζει / Σά «σεβντά», σ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.40s
+💾 Checkpoint saved: 25/104
+
+[26/104] zero_shot_structured - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITH-RAG_26
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: True
+Poem: Μέρες γλυκές, που η μια την άλληνε γιατρεύει! / — ...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.95s
+💾 Checkpoint saved: 26/104
+
+[27/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Μαδουρή [1878*] * / Εις τον θάνατοντου αστρονόμου ...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.32s
+💾 Checkpoint saved: 27/104
+
+[28/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Βυζαντινός Άρχων, εξόριστος, στιχουργών / Οι ελαφρ...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.01s
+💾 Checkpoint saved: 28/104
+
+[29/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: μες στα ζώα θαφτές, / να τις πουν κι αυτές;...
+True: M-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.49s
+💾 Checkpoint saved: 29/104
+
+[30/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Στους αγαπημένους τί κακό, / Σπέρνω θέρμη και θανα...
+True: M-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.66s
+💾 Checkpoint saved: 30/104
+
+[31/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: . . . . . . . κι εμπόδισμα δεν είναι / . . . . . ....
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.11s
+💾 Checkpoint saved: 31/104
+
+[32/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: γνώμη πλατιά / παντού η φωτιά....
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.06s
+💾 Checkpoint saved: 32/104
+
+[33/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: στ. 15 / στ. 19...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.50s
+💾 Checkpoint saved: 33/104
+
+[34/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: και τ’ ασπρολούλουδο, άμα με δει, θα λιγωθεί. / κα...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.37s
+💾 Checkpoint saved: 34/104
+
+[35/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: μέσα απ' της πάχνης τη δαντέλα / μοιάζουν σβησμένη...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.94s
+💾 Checkpoint saved: 35/104
+
+[36/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: φαρμακεραί εστρέφοντο επί σειρών πτωμάτων / ισχνών...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.37s
+💾 Checkpoint saved: 36/104
+
+[37/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Συ βλέπεις δύο εραστάς ησύχως να πλανώνται / υπό τ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.12s
+💾 Checkpoint saved: 37/104
+
+[38/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Κι εσείς, της νέας πατρίδας οι κορόνες / κι απ’ το...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.03s
+💾 Checkpoint saved: 38/104
+
+[39/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Όξ’ από μένα, Φλώρο μου… Ελάλησε τ’ ορνίθι… / Ξαπλ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.45s
+💾 Checkpoint saved: 39/104
+
+[40/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: ΠΟΙΗΤΗΣ / ΣΟΦΟΛΟΓΙΟΤΑΤΟΣ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.37s
+💾 Checkpoint saved: 40/104
+
+[41/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_15
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Και με του πρώτου την πανύψηλη μανία, / με τη φιλό...
+True: F2-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.59s
+💾 Checkpoint saved: 41/104
+
+[42/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_16
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: 'Ανήξερη θωριά στα μάτια με γελάει, / πότε στάλα· ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.21s
+💾 Checkpoint saved: 42/104
+
+[43/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_17
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: δεν υπάρχεις ό,τι χρόνος λέγεσαι, / Φλόγα, καις, δ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.72s
+💾 Checkpoint saved: 43/104
+
+[44/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_18
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Τέσσερα τριαντάφυλλα / Τέσσερα τριαντάφυλλα...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.18s
+💾 Checkpoint saved: 44/104
+
+[45/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_19
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: ένα φιλάκι στέλνει στο νιογέννητο… / Κι ας είν’ αφ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.35s
+💾 Checkpoint saved: 45/104
+
+[46/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_20
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Νεκρός, θα ’μαι σαν άθλιο καταστάλαγμα / τη δόξα, ...
+True: F3-IMP+0+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.51s
+💾 Checkpoint saved: 46/104
+
+[47/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_21
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Αλλά αντίκρυ από τα πλάσματα / του προβαίνουν δύο ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.61s
+💾 Checkpoint saved: 47/104
+
+[48/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_22
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: δάκρυα, λατρείες, τα πείσματα, / όλα παραστρατίσμα...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.19s
+💾 Checkpoint saved: 48/104
+
+[49/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_23
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: κι άδεια· και τίποτε / δε φέγγει· τίποτε...
+True: F3-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 10.55s
+💾 Checkpoint saved: 49/104
+
+[50/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_24
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Φύτρωσαν άντρες πολεμόχαροι, / φύτρωσαν άντρες πολ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.43s
+💾 Checkpoint saved: 50/104
+
+[51/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_25
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: τούς φαίνεται. Και κάτι ψιθυρίζει / Σά «σεβντά», σ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.15s
+💾 Checkpoint saved: 51/104
+
+[52/104] zero_shot_structured - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_structured_WITHOUT-RAG_26
+Model: claude-sonnet-4.5, Strategy: zero_shot_structured, RAG: False
+Poem: Μέρες γλυκές, που η μια την άλληνε γιατρεύει! / — ...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.46s
+💾 Checkpoint saved: 52/104
+
+[53/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Μαδουρή [1878*] * / Εις τον θάνατοντου αστρονόμου ...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 9.82s
+💾 Checkpoint saved: 53/104
+
+[54/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Βυζαντινός Άρχων, εξόριστος, στιχουργών / Οι ελαφρ...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.41s
+💾 Checkpoint saved: 54/104
+
+[55/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: μες στα ζώα θαφτές, / να τις πουν κι αυτές;...
+True: M-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.43s
+💾 Checkpoint saved: 55/104
+
+[56/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Στους αγαπημένους τί κακό, / Σπέρνω θέρμη και θανα...
+True: M-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.99s
+💾 Checkpoint saved: 56/104
+
+[57/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: . . . . . . . κι εμπόδισμα δεν είναι / . . . . . ....
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.06s
+💾 Checkpoint saved: 57/104
+
+[58/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: γνώμη πλατιά / παντού η φωτιά....
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.58s
+💾 Checkpoint saved: 58/104
+
+[59/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: στ. 15 / στ. 19...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.75s
+💾 Checkpoint saved: 59/104
+
+[60/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: και τ’ ασπρολούλουδο, άμα με δει, θα λιγωθεί. / κα...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.69s
+💾 Checkpoint saved: 60/104
+
+[61/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: μέσα απ' της πάχνης τη δαντέλα / μοιάζουν σβησμένη...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.97s
+💾 Checkpoint saved: 61/104
+
+[62/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: φαρμακεραί εστρέφοντο επί σειρών πτωμάτων / ισχνών...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.94s
+💾 Checkpoint saved: 62/104
+
+[63/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Συ βλέπεις δύο εραστάς ησύχως να πλανώνται / υπό τ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.70s
+💾 Checkpoint saved: 63/104
+
+[64/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Κι εσείς, της νέας πατρίδας οι κορόνες / κι απ’ το...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.04s
+💾 Checkpoint saved: 64/104
+
+[65/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Όξ’ από μένα, Φλώρο μου… Ελάλησε τ’ ορνίθι… / Ξαπλ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.09s
+💾 Checkpoint saved: 65/104
+
+[66/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: ΠΟΙΗΤΗΣ / ΣΟΦΟΛΟΓΙΟΤΑΤΟΣ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 8.34s
+💾 Checkpoint saved: 66/104
+
+[67/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_15
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Και με του πρώτου την πανύψηλη μανία, / με τη φιλό...
+True: F2-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.19s
+💾 Checkpoint saved: 67/104
+
+[68/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_16
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: 'Ανήξερη θωριά στα μάτια με γελάει, / πότε στάλα· ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.17s
+💾 Checkpoint saved: 68/104
+
+[69/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_17
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: δεν υπάρχεις ό,τι χρόνος λέγεσαι, / Φλόγα, καις, δ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.64s
+💾 Checkpoint saved: 69/104
+
+[70/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_18
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Τέσσερα τριαντάφυλλα / Τέσσερα τριαντάφυλλα...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.19s
+💾 Checkpoint saved: 70/104
+
+[71/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_19
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: ένα φιλάκι στέλνει στο νιογέννητο… / Κι ας είν’ αφ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.01s
+💾 Checkpoint saved: 71/104
+
+[72/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_20
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Νεκρός, θα ’μαι σαν άθλιο καταστάλαγμα / τη δόξα, ...
+True: F3-IMP+0+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.35s
+💾 Checkpoint saved: 72/104
+
+[73/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_21
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Αλλά αντίκρυ από τα πλάσματα / του προβαίνουν δύο ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 20.76s
+💾 Checkpoint saved: 73/104
+
+[74/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_22
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: δάκρυα, λατρείες, τα πείσματα, / όλα παραστρατίσμα...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.20s
+💾 Checkpoint saved: 74/104
+
+[75/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_23
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: κι άδεια· και τίποτε / δε φέγγει· τίποτε...
+True: F3-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.13s
+💾 Checkpoint saved: 75/104
+
+[76/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_24
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Φύτρωσαν άντρες πολεμόχαροι, / φύτρωσαν άντρες πολ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.65s
+💾 Checkpoint saved: 76/104
+
+[77/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_25
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: τούς φαίνεται. Και κάτι ψιθυρίζει / Σά «σεβντά», σ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.77s
+💾 Checkpoint saved: 77/104
+
+[78/104] zero_shot_cot - WITH RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITH-RAG_26
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: True
+Poem: Μέρες γλυκές, που η μια την άλληνε γιατρεύει! / — ...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.29s
+💾 Checkpoint saved: 78/104
+
+[79/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_1
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Μαδουρή [1878*] * / Εις τον θάνατοντου αστρονόμου ...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 7.53s
+💾 Checkpoint saved: 79/104
+
+[80/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_2
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Βυζαντινός Άρχων, εξόριστος, στιχουργών / Οι ελαφρ...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.08s
+💾 Checkpoint saved: 80/104
+
+[81/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_3
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: μες στα ζώα θαφτές, / να τις πουν κι αυτές;...
+True: M-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.94s
+💾 Checkpoint saved: 81/104
+
+[82/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_4
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Στους αγαπημένους τί κακό, / Σπέρνω θέρμη και θανα...
+True: M-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.80s
+💾 Checkpoint saved: 82/104
+
+[83/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_5
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: . . . . . . . κι εμπόδισμα δεν είναι / . . . . . ....
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 24.14s
+💾 Checkpoint saved: 83/104
+
+[84/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_6
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: γνώμη πλατιά / παντού η φωτιά....
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.60s
+💾 Checkpoint saved: 84/104
+
+[85/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_7
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: στ. 15 / στ. 19...
+True: M-UNKNOWN
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.56s
+💾 Checkpoint saved: 85/104
+
+[86/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_8
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: και τ’ ασπρολούλουδο, άμα με δει, θα λιγωθεί. / κα...
+True: M-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.01s
+💾 Checkpoint saved: 86/104
+
+[87/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_9
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: μέσα απ' της πάχνης τη δαντέλα / μοιάζουν σβησμένη...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.81s
+💾 Checkpoint saved: 87/104
+
+[88/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_10
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: φαρμακεραί εστρέφοντο επί σειρών πτωμάτων / ισχνών...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.87s
+💾 Checkpoint saved: 88/104
+
+[89/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_11
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Συ βλέπεις δύο εραστάς ησύχως να πλανώνται / υπό τ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 19.95s
+💾 Checkpoint saved: 89/104
+
+[90/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_12
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Κι εσείς, της νέας πατρίδας οι κορόνες / κι απ’ το...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.85s
+💾 Checkpoint saved: 90/104
+
+[91/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_13
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Όξ’ από μένα, Φλώρο μου… Ελάλησε τ’ ορνίθι… / Ξαπλ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 17.36s
+💾 Checkpoint saved: 91/104
+
+[92/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_14
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: ΠΟΙΗΤΗΣ / ΣΟΦΟΛΟΓΙΟΤΑΤΟΣ...
+True: F2-IMP+V+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 6.69s
+💾 Checkpoint saved: 92/104
+
+[93/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_15
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Και με του πρώτου την πανύψηλη μανία, / με τη φιλό...
+True: F2-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.33s
+💾 Checkpoint saved: 93/104
+
+[94/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_16
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: 'Ανήξερη θωριά στα μάτια με γελάει, / πότε στάλα· ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.80s
+💾 Checkpoint saved: 94/104
+
+[95/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_17
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: δεν υπάρχεις ό,τι χρόνος λέγεσαι, / Φλόγα, καις, δ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 14.56s
+💾 Checkpoint saved: 95/104
+
+[96/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_18
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Τέσσερα τριαντάφυλλα / Τέσσερα τριαντάφυλλα...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 12.46s
+💾 Checkpoint saved: 96/104
+
+[97/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_19
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: ένα φιλάκι στέλνει στο νιογέννητο… / Κι ας είν’ αφ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.64s
+💾 Checkpoint saved: 97/104
+
+[98/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_20
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Νεκρός, θα ’μαι σαν άθλιο καταστάλαγμα / τη δόξα, ...
+True: F3-IMP+0+IMPERFECT
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 20.76s
+💾 Checkpoint saved: 98/104
+
+[99/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_21
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Αλλά αντίκρυ από τα πλάσματα / του προβαίνουν δύο ...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 13.03s
+💾 Checkpoint saved: 99/104
+
+[100/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_22
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: δάκρυα, λατρείες, τα πείσματα, / όλα παραστρατίσμα...
+True: F3-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.94s
+💾 Checkpoint saved: 100/104
+
+[101/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_23
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: κι άδεια· και τίποτε / δε φέγγει· τίποτε...
+True: F3-RICH
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 11.38s
+💾 Checkpoint saved: 101/104
+
+[102/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_24
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Φύτρωσαν άντρες πολεμόχαροι, / φύτρωσαν άντρες πολ...
+True: F3-RICH+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 16.22s
+💾 Checkpoint saved: 102/104
+
+[103/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_25
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: τούς φαίνεται. Και κάτι ψιθυρίζει / Σά «σεβντά», σ...
+True: F2-PURE
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 15.61s
+💾 Checkpoint saved: 103/104
+
+[104/104] zero_shot_cot - WITHOUT RAG
+
+────────────────────────────────────────────────────────────────────────────────
+TEST: claude-sonnet-4.5_zero_shot_cot_WITHOUT-RAG_26
+Model: claude-sonnet-4.5, Strategy: zero_shot_cot, RAG: False
+Poem: Μέρες γλυκές, που η μια την άλληνε γιατρεύει! / — ...
+True: F2-PURE+IDV
+Predicted: None-BASIC
+Rhyme type: ✗
+Features: ✗ (F1=0.00)
+Time: 18.17s
+💾 Checkpoint saved: 104/104
+
+================================================================================
+✅ claude-sonnet-4.5 COMPLETE!
+================================================================================
+📁 Results saved to: identification_results_claude_sonnet_4.5.json

@@ -1,0 +1,894 @@
+{
+  "model": "gpt-4o",
+  "completed_tests": 29,
+  "results": [
+    {
+      "test_id": "gpt-4o_WITH-RAG_1",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Στην καρδιά μου αντηχεί, / το φως σου, σαν κραυγή,  \nφεύγει η θλίψη αυτή, / όταν σε έχω εκεί,  \nτ' άρωμά σου με πλανεύει, / στις σκιές του πρωί,  \nκι η αγκαλιά σου κρύβει, / το ψύχος στη στιγμὴ.  \n  \nΜέσα στο βλέμμα σου ζω, / σαν άστρο σε νυχτί,  \nη νύχτα σου με καλεί, / μυστικό στην αυγή,  \nο ήχος της φωνής σου, / σαν μελωδία στη ζωή,  \nστα χείλη σου αναπνέω φως, / στην άκρη της καρδής σου εγώ θα βρω σωτηρία.  ",
+      "no_verify_time": 6.726654052734375,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πρωί' / 'στη στιγμὴ'",
+        "No rhyme: 'ζωή' / 'σωτηρία'"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Αγάπη κόκκινη σαν τη φωτιά,  \nΜε χάντρα κόκκινη βαθιά.  \n\nΣτη θάλασσα κοιτάς, μακριά,  \nΤο κύμα αγγίζω, σιγουριά.  \n\nΜε όνειρα σκεπάζει τη σιωπή,  \nΚαι πάντα με οδηγεί σ' αυτή.  \n\nΟ ήλιος φέγγει στη χαρά,  \nΚι η καρδιά μας πάει ψηλά.  ",
+      "with_verify_time": 6.587653875350952,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_2",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στα κύματα, φωνάζει η θάλασσά μου,  \nκαι γνέφει στον ορίζοντα κοντά μου.  \nΨίθυροι αναδύονται, μακριά σου,  \nμε του γυαλού να παίζουν σιγαλά σου.  \n\nΣτάζει η σελήνη πάνω, λάμψη αφήνει,  \nμε το αεράκι, λέξεις μακριά τη ντύνει.  \nΧάνονται οι σκέψεις στη μαγεία μες από όλους,  \nσαλεύουν φύλλα, σαν τους ήχους άλλους.  \n\n[θάλασσά ΜΟΥ / κοντά ΜΟΥ] - Φ2-PURE  \n[μακριά ΣΟΥ / σιγαλά ΣΟΥ] - Φ2-PURE  \n[λάμψη αφήνει / ντύνει] - Φ2-PURE  \n[όλους / άλλους] - Φ2-PURE  ",
+      "no_verify_time": 8.189199686050415,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'όλους' / 'άλλους'"
+      ],
+      "no_verify_correct_pairs": 3,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Απέραντη κι αφεντική, θαλασσιά αρμύρα,  \nόπου το κύμα ψιθυρίζει στη λυκόφωτη μοίρα.  \n\nΛάμπει το θαλασσινό, στη γη απλώνει χάρη  \nμες στου βυθού την αγκαλιά και θάλασσας καμάρι.  \n\nΣτα βάθη της, ηχούνε άσματα αρχαία.  \nΚι ο άνεμος δροσίζει στις δροσιές τα χάδια, ωραία.  \n\nΠαράγγελ' ο ναύτης του πελάγου το νάμα,  \nψιθυριστής η θάλασσα πετάει του τραγουδιού το θάμα.  ",
+      "with_verify_time": 19.323076963424683,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_3",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Στον ουρανό σαν άνεμοι, διαβαίνουνε,  \nζωές που σε μια σκέψη τους σωπαίνουνε.  \nΗ νύχτα κρύβει όνειρα, μας φέρνουνε,  \nόπως τα’ αστέρια, φως γλυκό μας παίρνουνε.  \n\nΣτο χέρι σου το μυστικό αναβιώνει,  \nκαι μέσα στα σκιερά πελάγη απλώνει.  \nΓαλήνης δώρα αιώνια, διαρκούνε,  \nσ’ εμάς τους ίσκιους που ποτέ δε σβούνε.  ",
+      "no_verify_time": 7.148075103759766,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'αναβιώνει' / 'απλώνει'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'διαρκούνε' / 'σβούνε'"
+      ],
+      "no_verify_correct_pairs": 2,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ω θεέ μου, στον ουρανό να ψιθυρίσουμε,  \nτα όνειρά μας να πετάξουν να αγγίξουμε.  \n\nΣτα αστέρια τα κρυφά να αφιερώσουμε,  \nκαι με το φως των ονείρων να γλιστρήσουμε.\n\nΣτων οριζόντων την άκρη λαμπυρίζουνε,  \nόπου οι ελπίδες μας στην άκρη κουρνιάζουνε.  \n\nΤα σύννεφα μυστικά μας κρύβουνε,  \nμε τ' όνειρο που σιωπηλά μας αγγίζουνε.  ",
+      "with_verify_time": 23.75582528114319,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_4",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Φως γλυκό στο παραθύρι μια ζωή,  \nπου μας φέρνει τις αυγές το πρωί.  \nΜεσ' στο δωμάτιο φωλιάζει η στοργή,  \nσαν λουλούδι που ανοίγει στη σιωπή.\n\nΣτον ουρανό το φως παιχνίδι παίζει,  \nκαι στα μάτια μας γλυκά ονειρεύει.  \nΧρωματίζει την καρδιά με ζεστασιά,  \nστην αγάπη σου χάνεται η σκιά.",
+      "no_verify_time": 3.7306089401245117,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'παίζει' / 'ονειρεύει'",
+        "PURE requested but 'παίζει' / 'ονειρεύει' is IMPERFECT"
+      ],
+      "no_verify_correct_pairs": 3,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "το φως μου ονειρεύεται αγγέλους να κοιτώ,  \nκι εγώ θυμάμαι το όνειρο σου θώ,  \nμε την αυγή να χάνεται εκεί στην κορυφή,  \nκι η μέρα μακρύς μου δρόμος συ το βιολί,  \n\nγλυκά στο μέρος το σκιερό που δε λησμονώ,  \nσκεπάστηκα με το πέπλο σας και προσκυνώ,  \nεκεί που με τράβηγες δυο χέρια φωτεινά,  \nκι όταν το σούρουπο σαλεύει φως και δεν ξεχνά.  \n\n1. [[φως μού]] ~ [[θυμ_ό σου]] (MOSAIC)  \n2. [[ονειρεύεται]] ~ [[θυμάμαι σύν_ο] (PURE)  \n3. [[στην_κορυφή]] ~ [[στο_βιολί]] (M-PURE)  \n4. [[θεούλη μου]] ~ [[βιολί]] (M-PURE)  \n5. [[γλυκά στο_μέρος]] ~ [[σαλεύει φως]] (MOSAIC)  \n6. [[ορίζοντα σας]] ~ [[όσο σας]] (MOSAIC)  \n7. [[το_σούρουπο]] ~ [[φως κι_ξέχασα]] (MOSAIC)  \n8. [[πάντα εσύ]] ~ [[δεν_ξεχνά]] (M-PURE)",
+      "with_verify_time": 9.289700031280518,
+      "with_verify_attempts": 1,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "PURE requested but 'λησμονώ' / 'προσκυνώ' is RICH"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_5",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Στη νύχτα που 'ρχεται, ο ουρανός μου / φιλίες φέρνει, χωρίς τελειωμό μου,  \n[ou-ra-NÓ-s mu] ~ [te-li-o-MÓ mu]\n\nΤα αστέρια ένας κόσμος ζωγραφισμένα / με θυμητικές στιγμές δακρυοποτισμένα,  \n[zzo-gra-fi-SMÉ-na] ~ [tha-kri-o-po-ti-SMÉ-na]\n\nΒροχή στο φως το γλυκό ν' απλώνεται / σιγή στα όνειρα να κυριεύεται,  \n[a-PLO-ne-te] ~ [ki-ri-E-ve-te]\n\nΚαι στο σκοτάδι, ψυχή απομένη/ αναζητάει την αυγή λουσμένη.  \n[a-po-MÉ-ni] ~ [lu-SMÉ-ni]",
+      "no_verify_time": 5.893980979919434,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'τελειωμό μου' / 'δακρυοποτισμένα'",
+        "No rhyme: 'κυριεύεται' / 'λουσμένη'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 2,
+      "with_verify_poem": "Στ’ αστέρια φως απλώνει στ’ όνειρα, \\  \nστης νύχτας το σκοτάδι και στ' ασήμια. \\  \nΗ σιγαλιά, το γλυκοψιθύρισμα, \\  \nστην καρδιά μας τρυπώνει με τραγούδια. \\  \nΣτις σκιές, οι σιωπές χορεύουν με φως, \\  \nμυστικά ονειρεύομαι αγκαλιά μου. \\  \nΣαν μουσικιά γλυκόηχη, το φεγγάρι \\  \nμες στα φιλιά ψιθυρίζει, γεμάτο χάρη. \\  \n",
+      "with_verify_time": 72.21504092216492,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'όνειρα, \\' / 'ασήμια. \\'",
+        "No rhyme: 'γλυκοψιθύρισμα, \\' / 'τραγούδια. \\'",
+        "No rhyme: 'φως, \\' / 'μου. \\'",
+        "Stress mismatch: Expected F2, found [(3, 'F3')]/[(3, 'F3')] for 'φεγγάρι \\' / 'χάρη. \\'",
+        "RICH requested but 'φεγγάρι \\' / 'χάρη. \\' is IMPERFECT"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_6",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "```\nΜες στην καρδιά, ελπίζοντας περνάνε οι ώρες,  \nφως μου αναβλύζει και χαρά στα χέρια μου  \nγίνεται, να αγαπάτε, σαν να μην στεριώνει,  \nτα όνειρά μου σε πελάγη μπλέκοντας, τα ρίχνει.\n\nΣαν άστρα σβήνουν φωτα όλου του ουρανού,  \nΤα κύματα κινούνται και σιγής το όνειρο.  \nΣτον ύπνο, ναι, μ' ακούμπησε, το δικό της  \nονειρικό ταξίδι κι άγγιξα, μ' εμένα.\n\nΦωνές, ακόμα γύρω, κάπου πέρα, μοιάζουν  \nνα σβήνουν τα αστέρια, αγάπη, μ' αγαπάς εσύ;  \nΦεύγουν άδεια χρόνια, και μπροστά μαρκάρει  \nμια ελπίδα όνειρο, στην κοιλιά του θυσία.  \n```\n\n**Phonetic Annotation for Rhyme Pattern:**\n\n- [ó-res] / [xé-ria mu]: ώρες, χέρια μου\n- [sté-ri] / [blékontas]: στεριώνει, μπλέκοντας\n- [u-ra-NÚ] / [ó-niro]: ουρανού, όνειρο\n- [e-MÉ-na] / [mè-na]: εμένα\n- [mó-jazon] / [sì]: μοιάζουν, εσύ\n- [mar-KÁ-ri] / [θu-sí-a]: μαρκάρει, θυσία",
+      "no_verify_time": 13.515321254730225,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ώρες' / 'χέρια μου'",
+        "No rhyme: 'στεριώνει' / 'ρίχνει'",
+        "No rhyme: 'ουρανού' / 'όνειρο'",
+        "No rhyme: 'δικό της' / 'εμένα'",
+        "No rhyme: 'μοιάζουν' / 'εσύ'",
+        "No rhyme: 'μαρκάρει' / 'θυσία'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 6,
+      "with_verify_poem": "Στις ενοχλές του χρόνου καθώς κυλώ,  \nμια ελπίδα ζεσταίνει την αγκαλιά.  \nΣαν φως που πάλλεται μες τη γαλήνη,  \nσκιά γλυκιά που πέφτει με μυστικά.\n\nΣτης σιωπής τα όρια ζητώ τη νέα,  \nελαφρά η ψυχή μου ξεκουράζει.  \nΣε πέλαγα που η καρδιά θυμήθηκε,  \nμηνύματα άμαρτωλά της φύσης.",
+      "with_verify_time": 60.93186092376709,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'κυλώ' / 'αγκαλιά'",
+        "No rhyme: 'γαλήνη' / 'μυστικά'",
+        "No rhyme: 'νέα' / 'ξεκουράζει'",
+        "No rhyme: 'θυμήθηκε' / 'φύσης'"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_7",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Σκύβει η καρδιά και ψιθυρίζει δειλά,  \nγλυκιά η αγκαλιά σου, με κρατά ([-ΛΆ σου / κρα-ΤΆ] M-PURE-IDV)  \n\nΣτον ήλιο στεγνώνει, μαύρη μοναξιά,  \nσκίζεται το πέπλο της γενναίας σκιά ([-ΞΙΆ / σκ-ΙΆ] M-PURE-IDV)  \n\nΠνοή της νύχτας, μαζί μου γελά,  \nόπως τρέχει ο άνεμος, και περνά ([-ΛΆ / περ-ΝΆ] M-PURE-IDV)  \n\nΜέσα των άστρων ήρθε η χαρά,  \nσαν βροχή, τρέχει στην καρδιά ([-ΡΔΙΆ / καρ-ΔΙΆ] M-PURE-IDV)  ",
+      "no_verify_time": 6.039872169494629,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'i' vs 'a' in 'δειλά' / 'κρατά'"
+      ],
+      "no_verify_correct_pairs": 3,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Πώς χτυπά στην καρδιά μου η βραδιά,  \nκαι νιώθω τη σιωπή, σαν μοναξιά.  \n\nΠίσω απ' το παράθυρο ο αγέρας μιλά,  \nφέρνοντας ψιθυριστά λόγια γλυκά.  \n\nΣτης νύχτας το πέπλο που αγκαλιάζει γλυκά,  \nη θύμηση φτερουγίζοντας ξυπνά.\n\nΣαν φως απόμακρο, λαμπρό στην καρδιά,  \nέρχεται η ελπίδα τώρα ξανά. ",
+      "with_verify_time": 44.79345917701721,
+      "with_verify_attempts": 11,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 25.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_8",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "όνειρο",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH",
+        "IDV"
+      ],
+      "no_verify_poem": "Στον ύπνο μου την έρημο θα περιπλανηθώ,  \nανάμεσα σε χρώματα τον κόσμο θα ηρεμήσω.  \nΜετάξι σαν χιλιόμετρο πλευρό στο όνειρο.  \nΠού σβήνει στους ανέμους που τώρα του αφήνω;\n\nΟ ουρανός σκοντάφτει κι η σκιά μου παραλύει,  \nσε όνειρα μπολιασμένα γελώντας θα ανοίξει.  \nΤο φως απ' την άκρη μου λάμπει σιωπηλό,  \nκαθώς ο ύπνος πάλι το μυστικό θα δώσει.\n\nΦωνές της νύχτας ακούω, στην παρτίδα μου κοιτώ,  \nμε τον ήχο αφρού να κυματίζει κι ονειρεύει.",
+      "no_verify_time": 8.280486822128296,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'περιπλανηθώ' / 'ηρεμήσω'",
+        "No rhyme: 'όνειρο' / 'αφήνω'",
+        "No rhyme: 'παραλύει' / 'ανοίξει'",
+        "No rhyme: 'σιωπηλό' / 'δώσει'",
+        "No rhyme: 'κοιτώ' / 'ονειρεύει'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 5,
+      "with_verify_poem": "Γυρνάμε στο όνειρο, με άστρα που σε αγκαλιάζουν,  \nοι μορφές στο σκοτάδι πάλι μας μαγεύουν.  \n\nΑφήνω την καρδιά να παραδίνεται σιμά σου,  \nκι οι σκιές στον άνεμο (σαν όνειρα) παίζουν μαζί.  \n\nΤο φως το μαγικό την αυγή σιγά μάς καλύπτει,  \nμέσα από φλόγες χρυσοκόκκινες μάς σκεπάζει.  \n\nΜέσα στις νύχτες που δε σταματούν να ψιθυρίζουν,  \nοι άνεμοι με δέος μας πλημμυρίζουν.  ",
+      "with_verify_time": 79.31445693969727,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'αγκαλιάζουν' / 'μαγεύουν'",
+        "No rhyme: 'σιμά σου' / 'καλύπτει'",
+        "No rhyme: 'σκεπάζει' / 'ψιθυρίζουν'"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 3,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_1",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "\nΣτης καρδιάς τα βάθη, μια φλόγα σβήνει κρυφά,  \nκι η νύχτα δίνει δάκρυα από άγρια βροχή,  \nο άνεμος στα χείλη μου σιγά ψιθυρίζει \"ζωή\",  \nμα στη σιωπή τ' αστέρια ιχνηλατούν την πληγή.  \n\nΣ' ακούω μες στη σιγαλιά, μια αγάπη που γελά,  \nκι η θάλασσα κυματίζει νότες μελωδικές,  \nστο φως του ήλιου κρύβεται η λύτρωση που 'χω βρει,  \nκι η απουσία γονατίζει τα όνειρά μου ξανά.  ",
+      "no_verify_time": 7.621066093444824,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'κρυφά' / 'βροχή'",
+        "No rhyme: 'γελά' / 'μελωδικές'",
+        "No rhyme: ''χω βρει' / 'ξανά'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Φτάνει η νύχτα, σκοτάδι δροσιά,  \nκαι τα αστέρια μας κοιτούν ξανά.  \n\nΣτην άκρη της μέρας το φως.  \nΤους ψιθύρους της νύχτας κλέβει ο καιρός.  \n\nΗ αγάπη μας, λέξεων δεινό,  \nστην καρδιά να μείνει πηλό.  \n\nΜες στο δειλινό, κλείσε την αυγή,  \nεκεί που η ψυχή μου σε καλεί.  ",
+      "with_verify_time": 9.437494039535522,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_2",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στη θάλασσα οι ψίθυροι, τον άνεμο καλούν,  \nκι οι χαρές της προσκαλούν, σαν όνειρο απαλό,   \nνερά χορεύουν με φως, μυστικά τραγουδούν,  \nσε κάθε κύμα μουρμουρίζουν τρυφερό σκοπό.\n\nΖαλίζει το λίκνισμα, δροσερό, ελαφρύ,  \nκαι στις αυγές γαλάζιο φως θωρώ και λάμπει,  \nόσο ζω στη θάλασσα, ο χρόνος είναι καιρός,  \nπου σ' αυτό το ταξίδι μου κερνάει, και το φως.",
+      "no_verify_time": 3.942157745361328,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'καλούν' / 'απαλό'",
+        "No rhyme: 'τραγουδούν' / 'σκοπό'",
+        "No rhyme: 'ελαφρύ' / 'λάμπει'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'καιρός' / 'το φως'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Θάλασσα μου, άσε το κύμα να μιλάει,   \nη σκέψη μου ν' ανοίγει για να σπάει,   \nστα βάθη που η καρδιά μου αγαπάει,   \nστο φως που σαν αέρας τρυφερά θα πάει.   \n\nΤα μάτια μου σαν κύματα κοιτάνε,   \nστις μπλε γραμμές του ορίζοντα γελάνε,   \nόταν η σιωπή της θάλασσας μου θα φαντάνε,   \nστους ήχους που της πόλης δεν λαλάνε.   ",
+      "with_verify_time": 4.632015228271484,
+      "with_verify_attempts": 1,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_3",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Ουρανός ψηλά, ένας κόσμος μαγεμένος,  \nμε τ' άστρα να λάμπουν, δικά μας τα φώτα,  \nστους δρόμους της νύχτας κοιτάν οι ψυχές,  \nμοιράζουν στιγμές, καινούργια συνθήκες.  \n  \nΣε θρύλους γαντζώνονται τα σύννεφα εκεί,  \nσαν όνειρα τρέχουν στου ανέμου το χάδι,  \nφιλί στη σιωπή, δειλές οι ενοχές,  \nσα φλόγες τις νύχτες καρδιές ξαναδές.",
+      "no_verify_time": 4.901838064193726,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'μαγεμένος' / 'φώτα'",
+        "No rhyme: 'ψυχές' / 'συνθήκες'",
+        "No rhyme: 'εκεί' / 'χάδι'",
+        "Stress mismatch: Expected F3, found [(1, 'M')]/[(1, 'M')] for 'ενοχές' / 'ξαναδές'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ασημώνει το βράδυ μ' αστέρια όνειρα,  \nκαι στον ουρανό απλώνονται τα μυστικά.  \nΤο σούρουπο βάφει τις σκιές με χρώματα,  \nκι η νύχτα γεμίζει κουβέντες σε στόματα.  \nΤα φώτα της πόλης χορεύουν φαντάσματα,  \nμα στ' ουρανού τα μάτια σβήνουν τάγματα.  \nΧαιρετούν οι σκιές το φως που πάλι χάνεται,  \nκαθώς ο ουρανός με όνειρα τυλίγεται.  ",
+      "with_verify_time": 52.12508511543274,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'όνειρα' / 'μυστικά'",
+        "No rhyme: 'χάνεται' / 'τυλίγεται'"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_4",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Στο φως των αστεριών, του κόσμου το φως,   \nανατέλλει η ζωή στο κοιμισμένο φως.   \nΌταν η νύχτα κάτειφε φέρνει το φως,    \nο ήλιος δίνει πάλι το ζεστό του φως.    \n\nΣτα μάτια σου, γλυκό, τα λόγια σου φως,   \nκάθε ελπίδα και όνειρο, θα γίνουνε φως.   \nΝα φωτίσεις το δρόμο, να γίνεις φως,    \nνα γεμίσεις το βράδυ με δικό σου φως.   ",
+      "no_verify_time": 3.621466875076294,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'το φως' / 'κοιμισμένο φως'",
+        "PURE requested but 'το φως' / 'του φως' is RICH",
+        "No rhyme: 'σου φως' / 'γίνουνε φως'",
+        "No rhyme: 'γίνεις φως' / 'σου φως'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Χλωμό το φως μες στην αυγή,  \nκρυφή η πηγή, παντοτινή.  \n\nΤου νου η λάμψη σαν χορός,  \nκαι γύρω ο κόσμος θεϊκός.  \n\nΗ αγάπη σε καιρό χαράς,  \nσκορπάει το φως μες της καρδιάς.  \n\nΣβήνουν οι σκιές, το φως μιλούν,  \nκαι οι ψυχές ως το πρωί γελούν.  ",
+      "with_verify_time": 10.304541826248169,
+      "with_verify_attempts": 4,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "PURE requested but 'μιλούν' / 'γελούν' is RICH"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_5",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "νύχτα",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH"
+      ],
+      "no_verify_poem": "Στη νύχτα τ' άστρα λάμπουν, κάθε σκέψη μου ψυχρή,  \nόπως το φεγγάρι λάμπει, σ' αντίφεγγα χρυσή.  \n(ακούω τ' αστέρια πρωί [a-KU-o ts'TÉ-ria proh-Í]  \nκρυφά να γελούν μαζί [kri-FÁ na ye-LUN ma-ZÍ])  \n\nΤα μάτια που κλείνω, το σκοτάδι πια κοιμίζει,  \nστα όνειρα µου ψιθυρίζει κάθε άλλο γύρω φύση.  \n(κι η λύπη μου ρέει χοί [ki LÍ-pi mu RE-i hor-Í]  \nγλυκά με κυκλώνει μαζί [gli-KÁ me ki-KLÓ-ni ma-ZÍ])  ",
+      "no_verify_time": 6.255189895629883,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'ψυχρή' / 'χρυσή'",
+        "RICH requested but 'ψυχρή' / 'χρυσή' is PURE",
+        "No rhyme: 'μαζί' / 'κοιμίζει'",
+        "No rhyme: 'φύση' / 'μαζί'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 3,
+      "with_verify_poem": "Της νύχτας ο αγέρας σιγοψιθυρίζει,  \nΜε τις σκιές παίζει, στη γωνιά μου μυρίζει.  \n  \nΦεγγάρι χρυσαφένιο στον ουρανό θα φέρει,  \nΤις ελπίδες μου ανάβει και τις ξεσυνεφέρει.  \n  \nΜυστικά μουλωχτά στο σκοτάδι παρασέρνει,  \nΚι η ψυχή ταξιδεύει, με το όνειρο παίρνει.  \n  \nΗ μορφή σου αχνά στο φως της λάμπας λυγίζει,  \nΚι η καρδιά μου χτυπά, καθώς σιγοανατριχιάζει.",
+      "with_verify_time": 58.96069693565369,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "RICH requested but 'παρασέρνει' / 'παίρνει' is PURE",
+        "RICH requested but 'λυγίζει' / 'σιγοανατριχιάζει' is IMPERFECT"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 4,
+      "improvement": 50.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_6",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "ελπίδα",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT"
+      ],
+      "no_verify_poem": "Στέκομαι στην ακρογιαλιά, *\n\nΠου χρόνια προσμένω, να *\n\nΦανεί το φως στον ορίζοντα *\n\nΕκεί που πάντα μένει μια *\n\nΣτιγμή βαθιά στην καρδιά μας, *\n\nΣαν όνειρο που περνά μπροστά μου. *\n\nΘα επιστρέψει η αυγή ξανά, *\n\nΚαι θ’ απαλύνει τα δάκρυα. *",
+      "no_verify_time": 3.6006791591644287,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ακρογιαλιά' / 'προσμένω, να'",
+        "No rhyme: 'ορίζοντα' / 'μένει μια'",
+        "No rhyme: 'καρδιά μας' / 'μπροστά μου'",
+        "No rhyme: 'ξανά' / 'δάκρυα'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Τα σύννεφα στο βράδυ κρυσταλλώνουν,<br>\nμέσα στη σιωπή, όνειρα φτερώνουν.<br>\nΤα λόγια σου σαν κύμα που αστράφτει,<br>\nμε τη φωνή της θάλασσας κρυφά να μας χαράσσει.<br>\nΣτο ηλιοβασίλεμα οι καρδιές αναστατώνονται,<br>\nστην αύρα που το μέλλον υποδέχεται ματώνουνε.<br>\nΈλπισα τη στιγμή που η αγάπη φτάνει,<br>\nόπως δάκρυ στη θύμηση σιγοκλαίει και μεθάνει.<br>",
+      "with_verify_time": 61.13313388824463,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'κρυσταλλώνουν,<br>' / 'φτερώνουν.<br>'",
+        "No rhyme: 'αστράφτει,<br>' / 'χαράσσει.<br>'",
+        "No rhyme: 'αναστατώνονται,<br>' / 'ματώνουνε.<br>'",
+        "No rhyme: 'φτάνει,<br>' / 'μεθάνει.<br>'"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_7",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "καρδιά",
+      "rhyme_type": "M",
+      "features": [
+        "PURE",
+        "IDV"
+      ],
+      "no_verify_poem": "Στο χέρι της αλήθεια νιώθω πια,  \nκι η σκέψη της καρδιά μου φορτίζει ανθιστά,  \nόταν το δάκρυ πέφτει σαν σαράκι,  \nκι ο χρόνος να γυρνά μες στην αγκαλιά μου να 'ρθει.  \n\nΜαζί στο όνειρο πλάι, μας καρτερά,  \nπαραμένει πάντα η σκιά κοντά,  \nκι αν ο πόνος φυλλώματα μαγεύει,  \nφέγγω ελπίδα καθώς η καρδιά πνοή.\n\n- Rhyme Pattern: M-PURE-IDV\n- Phonetic structure: πια / ανθιστά / σαράκι / ρθει / καρτερά / κοντά / μαγεύει / πνοή",
+      "no_verify_time": 6.0532708168029785,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'νιώθω πια' / 'ανθιστά'",
+        "No rhyme: 'σαράκι' / 'να 'ρθει'",
+        "IDV requested but pre-stress vowels differ: 'e' vs 'o' in 'καρτερά' / 'κοντά'",
+        "No rhyme: 'μαγεύει' / 'πνοή'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Πνοή μες τη νυχτιά, ρίχνει σιγά,  \nΜα η καρδιά μου πότε θα χτυπά;  \n\nΞεχνάει την χαρά, σαν σκοτεινά,  \nσ' όνειρα πλέει μακριά, τα ποιητικά.  \n\nΧαμόγελο δίνει στην αυγή,  \nκαι η ελπίδα πάντα θα ζει.  ",
+      "with_verify_time": 49.52047896385193,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "IDV requested but pre-stress vowels differ: 'a' vs 'e' in 'αυγή' / 'θα ζει'"
+      ],
+      "with_verify_correct_pairs": 2,
+      "with_verify_total_pairs": 3,
+      "improvement": 66.66666666666666
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_8",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "όνειρο",
+      "rhyme_type": "F2",
+      "features": [
+        "RICH",
+        "IDV"
+      ],
+      "no_verify_poem": "Στα όνειρα τα κρυφά, πλεούμενα οι νύχτες,  \nκοιτώντας στου έρωτα τις πλατιές τις αγές,  \nσα θάλασσες απέραντες σε σκιές γεμάτες,  \nγλυκά στις φλόγες κάηκαν εκεί πάνω οι σκιές.\n\nΌνειρα δικά μου, τις ταπεινές τις μοίρες,  \nψιθύριζε το άσμα τους μες της νύχτας τις γαίες,  \nπροτού η μέρα στείλει φως στης ζωής τις γύρες,  \nγελούσαν σαν λουλούδια στις δροσιές τις απαπλές.",
+      "no_verify_time": 4.640317916870117,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'νύχτες' / 'αγές'",
+        "No rhyme: 'γεμάτες' / 'σκιές'",
+        "No rhyme: 'μοίρες' / 'γαίες'",
+        "No rhyme: 'γύρες' / 'απαπλές'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Φτάνει η φωτιά και μέσα μου καρδιά μου,  \nΚι όλα τα όνειρα κρυφά να λόγω μιλήσουν.  \n\nΚι αν κάποιος κάποτε μπορεί να σε θυμάσαι,  \nΣτρώσε το πέπλο της αυγής, χαράζει και κοιμάσαι.  \n\nΚι αν δρόμοι μακρινοί μέσα τους σβήσουν,  \nΌλα όσα κράτησες, άσε τα να λύσουν.",
+      "with_verify_time": 70.04259395599365,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'καρδιά μου' / 'μιλήσουν'",
+        "RICH requested but 'σβήσουν' / 'λύσουν' is PURE"
+      ],
+      "with_verify_correct_pairs": 1,
+      "with_verify_total_pairs": 3,
+      "improvement": 33.33333333333333
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_9",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "μνήμη",
+      "rhyme_type": "F3",
+      "features": [
+        "IMPERFECT",
+        "IDV"
+      ],
+      "no_verify_poem": "```\nΣτης μνήμης τον καμβά ανθεί [kan-VÁ an-THEI]\nμε κύματα που κλείνει [pu-KLEE-ni]\n\nΚι η θύμησή σου μας καλεί [su MAS ka-LEE]\nστου χρόνου την ριπή σου [sti RE-PEE su]\n\nΜες τα δάκρυα της ψυχής [tis psi-KHÍS]\nπου πόνο δε χαρίζει [pu KHARÍ-zi]\n\nΕικόνες φεύγουν με το φως [me to FOS]\nκαι σβήνει η φωνή σου [i fo-NÍ su]\n```",
+      "no_verify_time": 5.6433539390563965,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ανθεί' / 'κλείνει'",
+        "No rhyme: 'καλεί' / 'ριπή σου'",
+        "No rhyme: 'ψυχής' / 'χαρίζει'",
+        "No rhyme: 'το φως' / 'φωνή σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ονειρεύονται φτερά, θυμίζουν το καλό μου,  \nσαν το κύμα που χτυπά προσμένει μουσικό μου.  \n\nΨιθυρίζουν οι σκιές, σ'αναπνοές ζυγίζουν,  \nαπό τα περασμένα κάτι να κερδίζουν.  \n\nΤ'αστεράκι ξεψυχά, στο φως και πάλι έρχεσαι,  \nστον άνεμο η μορφή σου, τρυφερά σαν έρχεσαι.  \n\nΜνήμες στέκουν και καλούν, να βρουν κάποια ελπίδα,  \nμες στο σκοτάδι γύρω μου, σπάει η φωνή και ελπίδα.  ",
+      "with_verify_time": 48.82330918312073,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'καλό μου' / 'μουσικό μου'",
+        "IMPERFECT requested but 'καλό μου' / 'μουσικό μου' is PURE",
+        "IDV requested but pre-stress vowels differ: 'a' vs 'i' in 'καλό μου' / 'μουσικό μου'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'ζυγίζουν' / 'κερδίζουν'",
+        "IMPERFECT requested but 'ζυγίζουν' / 'κερδίζουν' is PURE",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'e' in 'ζυγίζουν' / 'κερδίζουν'",
+        "IMPERFECT requested but 'έρχεσαι' / 'έρχεσαι' is PURE",
+        "Identical words 'έρχεσαι' / 'έρχεσαι' (COPY) not allowed",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'ελπίδα' / 'ελπίδα'",
+        "IMPERFECT requested but 'ελπίδα' / 'ελπίδα' is RICH",
+        "Identical words 'ελπίδα' / 'ελπίδα' (COPY) not allowed"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_10",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "φεγγάρι",
+      "rhyme_type": "M",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Φεγγάρι, κρυστάλλινη όψη που λες /  \nφάντασμα στον σάλο της νυχτιάς μου, φως,  \n\nστους λόφους λούζεται με άφεγκο χρώμα, /  \nλάμψη αφήνει, τελεία στης γης το σώμα.\n\nΜορφή σκιερή που παίρνει την ψυχή μου, /  \nσου ψιθυρίζει κάλεσμα μέσα στη σιγή,\n\nόταν η νύχτα σπάει, κι εσύ μόνο εδώ, /  \nπληρώνει με φέγγος αυτό που τώρα ζω.  \n\nPhonetic structure:  \nλες / φως  \nχρώμα / το σώμα  \nμου / στη σιγή  \nεδώ / τώρα ζω  ",
+      "no_verify_time": 4.076149940490723,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'λες /' / 'μου, φως'",
+        "No rhyme: 'χρώμα, /' / 'σώμα'",
+        "No rhyme: 'μου, /' / 'σιγή'",
+        "No rhyme: 'εδώ, /' / 'τώρα ζω'",
+        "No rhyme: '/ φως' / 'σώμα'",
+        "No rhyme: 'σιγή' / 'τώρα ζω'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 6,
+      "with_verify_poem": "Κάτω απ' το φεγγάρι, νύχτα λέει, φως μου να πει,  \nσου ψιθυρίζει τ' άσμα, μένει κοντά μου, εκεί.  \n\nΦως μου δανείζει, μου μιλάει για να χαθώ,  \nστα όνειρα δίνει πνοή, ζητάει για να το δω.  \n\nΣτη νυχτιά το μονοπάτι ανοίγει, φως να δω,  \nγεμάτο όνειρα γλυκά, με αγκαλιά εδώ.  \n\nΚαι σιγά προς το τέλος του κόσμου να 'ρθει,  \nόπως το κύμα στη θάλασσα αργά ροβολεί.  ",
+      "with_verify_time": 45.48390793800354,
+      "with_verify_attempts": 14,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_11",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "άνεμος",
+      "rhyme_type": "F2",
+      "features": [
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Κρυφός μέσα στου ανέμου το στενό /  \nη βροχή τραγούδι σιγανό. /  \nΜάτια σπιθοβολούν στη θάλασσα το όνειρο /  \nσκιές στην άκρη του ουρανού το σώμα. /  \nΣτη νύχτα ο άνεμος χαϊδεύει το όνομά του /  \nκαι φέρνει μυστικά την ερημιά του. /  \nΒόρεια το κρύο με πιάνει στο παλτό του, /  \nκι εγώ φοβάμαι μήπως χαθεί το φως του. /\n\n[Phonetic structure:  \n(στενό) / (σιγανό)  \n(όνειρο) / (σώμα)  \n(όνομά του) / (ερημιά του)  \n(παλτό του) / (φως του)]",
+      "no_verify_time": 5.013566970825195,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "MOSAIC requested but 'στενό /' / 'σιγανό. /' is not mosaic",
+        "No rhyme: 'όνειρο /' / 'σώμα. /'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'του /' / 'του. /'",
+        "MOSAIC requested but 'του /' / 'του. /' is not mosaic",
+        "No rhyme: 'του, /' / 'του. /'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στον άνεμο που λυσσομανά, στο φως ένα / εκεί το ρεύμα - ξεφεύγει απ' τα χείλη και πες να 'ρθει.\n\nΚινώντας στ' άνοιγμα με το χέρι μου, το ζει / γίνεται λεπτό αστέρι, και πέφτει πάλι εκεί.\n\nΣτης γης το πράσινο ψηλό σκοτάδι με καλεί, / του ανέμου το δείπνο και κελάηδησε εκεί.\n\nΣαν πέφτει η νύχτα μυστικά, μακριά το φως του / πάνω σε κύμα μακρινό, στον άνεμο το πιστό.",
+      "with_verify_time": 71.89014911651611,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'να 'ρθει' / 'εκεί'",
+        "No rhyme: 'εκεί' / 'πιστό'"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 2,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_12",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "χρόνος",
+      "rhyme_type": "M",
+      "features": [
+        "RICH",
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Στον χρόνο εγώ γυρνώ να βρω,   \n(χRo-nó e-GÓ iR-NÓ na VRO,)  \nφορές μικρές, που είναι φως σου.  \n(fo-RÉS mi-KRÉS, pu Í-ne fos SU.)  \n\nΜες στα όνειρα, ο μπόχας,   \n(mes sta Ó-ni-ra, o MBÓ-xas,)  \nήχοι μου θεριεύουν φως μου.  \n(Í-xi mu the-RIÉ-vun fos MU.)  \n\nΣτο γέλιο μου που σβήνει νυχτιά,   \n(sto YÉ-lio mu pu ZVÍ-ni ni-xTIÁ,)  \nγλυκό μεθύσι, πέρα εκεί.  \n(γli-KÓ me-ΘÍ-si, PÉ-ra e-KÍ.)  \n\nΧαιρέτα τον ήλιο στο πόμολο,   \n(xe-RE-ta ton Í-li-o sto pó-MO-lo,  \nαυτό το όνειρο δεν άντεχε.  \n(aftó to Ó-ni-ro den Án-te-xe.)  ",
+      "no_verify_time": 6.035428047180176,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'να βρω' / 'φως σου'",
+        "No rhyme: 'μπόχας' / 'φως μου'",
+        "No rhyme: 'νυχτιά' / 'εκεί'",
+        "No rhyme: 'πόμολο' / 'άντεχε'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Σαν κύμα που έρχεται στην αμμουδιά να ζήσει,  \nκι αγέρας που 'χασε το δρόμο του, θα σβήσει.  \n  \nΣτις αναμνήσεις μου, παλιές πληγές γιατρεύει,  \nμέσα στου κόσμου την αφή, γλυκά χορεύει.  \n  \nΟ χρόνος στο σκοτάδι ψιθυριστά μιλά,  \nσαν το τραγούδι που αγαπάς, όχι πια.  \n  \nΌνειρα στα χέρια μας, της νύχτας τα στενά,  \nμα η καρδιά μας μες στη λάμψη, γυρνά ξανά.  ",
+      "with_verify_time": 49.464717864990234,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'ζήσει' / 'σβήσει'",
+        "RICH requested but 'ζήσει' / 'σβήσει' is PURE",
+        "MOSAIC requested but 'ζήσει' / 'σβήσει' is not mosaic",
+        "Stress mismatch: Expected M, found [(2, 'F2')]/[(2, 'F2')] for 'γιατρεύει' / 'χορεύει'",
+        "RICH requested but 'γιατρεύει' / 'χορεύει' is PURE",
+        "MOSAIC requested but 'γιατρεύει' / 'χορεύει' is not mosaic",
+        "No rhyme: 'μιλά' / 'όχι πια'",
+        "MOSAIC requested but 'στενά' / 'ξανά' is not mosaic"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 4,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_13",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "ψυχή",
+      "rhyme_type": "F2",
+      "features": [
+        "PURE",
+        "IDV",
+        "MOSAIC"
+      ],
+      "no_verify_poem": "Στη θάλασσα τρέχω, κι ο νους μου πλανιέται,  \nόλη η θλίψη μου σβήνει, καθώς αυτή με καλεί – πουθενά.  \nΗ ψυχή μου πετώ, στη σιωπή ξαφνικά,  \nστη γαλήνη, μπροστά στα κύματα φανερώνεται το φως του αγώνα.\n\nΈνας ψίθυρος φεύγει, καθώς τη χάση αποχαιρετά,  \nσε μαγεμένες νύχτες, που κάθε αστέρι με προσκαλεί – να φτάσω.  \nΤο όνειρο σβήνει στα μάτια μου απαλά,  \nμε αγάπη χαμένο, όπως στων ουρανών το τελικό σκοπό.\n\n\\[Phonetic structure:\\]\n\\[μου πλανιέται (F2), πουθενά (F2-MOS)\\]\n\\[ξαφνικά, φως του αγώνα (F2-MOS)\\]\n\\[αποχαιρετά, να φτάσω (F2-MOS)\\]\n\\[απαλά, σκοπό (F2-MOS)\\]",
+      "no_verify_time": 4.930837869644165,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'πλανιέται' / 'πουθενά'",
+        "No rhyme: 'ξαφνικά' / 'αγώνα'",
+        "No rhyme: 'αποχαιρετά' / 'φτάσω'",
+        "No rhyme: 'απαλά' / 'σκοπό'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Βαδίζει η ψυχή στα μονοπάτια που διαβαίνω,   \nσε λουλουδιών τους κήπους που θωρώ.  \nΜα δίχως το χέρι μου για να σου δίνω,  \nθαρρείς μες στον βυθό πως εγώ υπάρχω.  \n\nΗ γη κι η θάλασσα μου μιλούν ψιθυριστά,   \nσε κάθε κύμα και σε κάθε στεριά.  \nΨάχνω ένα φως βαθύ για να βρω στη βροχή,   \nνα φωτίσει το σκοτάδι μου στη σιωπή.  \n\nΗ αγάπη ανθίζει μέσα σε ουρανούς γαλήνιους,   \nσαν τ' άνεμο που ψυχή μου πνοή γεννάει.  \nΚάθε ανοιξιάτικο πρωί φέρνει κοντά,   \nστον ήχο της καρδιάς μου που χτυπάει ξανά.  ",
+      "with_verify_time": 70.3596441745758,
+      "with_verify_attempts": 15,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "No rhyme: 'διαβαίνω' / 'θωρώ'",
+        "No rhyme: 'δίνω' / 'υπάρχω'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'ψιθυριστά' / 'στεριά'",
+        "MOSAIC requested but 'ψιθυριστά' / 'στεριά' is not mosaic",
+        "IDV requested but pre-stress vowels differ: 'i' vs 'e' in 'ψιθυριστά' / 'στεριά'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'βροχή' / 'σιωπή'",
+        "MOSAIC requested but 'βροχή' / 'σιωπή' is not mosaic",
+        "No rhyme: 'γαλήνιους' / 'γεννάει'",
+        "Stress mismatch: Expected F2, found [(1, 'M')]/[(1, 'M')] for 'κοντά' / 'ξανά'",
+        "MOSAIC requested but 'κοντά' / 'ξανά' is not mosaic",
+        "IDV requested but pre-stress vowels differ: 'o' vs 'a' in 'κοντά' / 'ξανά'"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 6,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITHOUT-RAG_1",
+      "model": "gpt-4o",
+      "use_rag": false,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "1. Στα μάτια ήταν η αγάπη μου, βλέπεις;\n2. Το βλέμμα σου μετρά την κάθε στιγμή μου.\n3. Με χάδια φτιάχνεις όνειρα, δέχτεις;\n4. Κι η καρδιά μου απλόχερα χτυπάει για σένα, φίλη μου.\n\n5. Στους κήπους της αγάπης μας, γίνεσαι φως μου.\n6. Σκιές μακριά αφήνουν την ζωή μας.\n7. Μαζί περνάμε τη θάλασσα, μένουμε εδώ μου.\n8. Κι οι σιωπές μας μιλούν για το δικό μας ταξίδι, μιλήσει μας.",
+      "no_verify_time": 3.748516082763672,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'βλέπεις' / 'στιγμή μου'",
+        "No rhyme: 'δέχτεις' / 'φίλη μου'",
+        "No rhyme: 'φως μου' / 'ζωή μας'",
+        "No rhyme: 'εδώ μου' / 'μιλήσει μας'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στην καρδιά μου μια φωτιά καίει ξανά  \nΣαν του ανέμου το φιλί που μετρά  \n\nΜες στα μάτια σου η ζωή λάμπει εδώ  \nΚι απ' το φως σου θα βρεθώ στο κενό  \n\nΣτους παλμούς μου όταν ακούς την ηχώ  \nΚαι το χρώμα σου γλυκά σε λατρεύω εγώ  \n\nΌταν στέκεις και κοιτάς το νοτιά  \nΓίνεσαι όρκος που κρατώ τόσο βαθιά  ",
+      "with_verify_time": 27.475401163101196,
+      "with_verify_attempts": 7,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITHOUT-RAG_2",
+      "model": "gpt-4o",
+      "use_rag": false,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "```\nΣτην άκρη θάλασσας, στέκομαι γυμνός μου,      [θá.la.sas GY.mnos mu]\nπάντα δίπλα σου, το νιώθω φως σου.             [pán.ta fos su]\n\nΚύμα έρχεται, αγγίζει το κορμί μου,            [ké.rxe.tai KOR.mi mu]\nκρύα ανάσα, σαν χάδι στο ψυχή μου.             [KRí.a psi.xí mu]\n\nΗ αρμύρα του, δίνει ζωή μου,                   [zi.KÍ mu]\nκάθε μέρα, μια νέα αρχή σου.                   [aKÍ su]\n\nΧρώματα ουρανού, ζωντανεύουν ξανά σου,         [xu.raNU ksa.NÁ su]\nμες στη θάλασσα, λούζονται δικά μας.           [LU.zo.nte DI.ká mas]\n```",
+      "no_verify_time": 6.826674938201904,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'γυμνός μου' / 'φως σου'",
+        "No rhyme: 'ζωή μου' / 'αρχή σου'",
+        "No rhyme: 'ξανά σου' / 'δικά μας'"
+      ],
+      "no_verify_correct_pairs": 1,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "```\nΣτα κύματα η νύχτα απαλά κυλάει,  \nστο όνειρο μια αγκαλιά φυλάει.\n\nΚαι κύματα ορμούν και στροβιλίζουν,  \nστις ακτές απαλά μας αγγίζουν.\n\nΨιθυρίζουν οι ψυχές με φωνή που αργοσβήνει,  \nμε τ'όνειρο της νύχτας σιωπηλά πλημμυρίζει.\n\nΣτους γλάρους που φεύγει το όνειρο κλαίει,  \nγραμμές στον ουρανό το βλέμμα πλέει.\n```",
+      "with_verify_time": 29.128224849700928,
+      "with_verify_attempts": 7,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    },
+    {
+      "test_id": "gpt-4o_WITHOUT-RAG_3",
+      "model": "gpt-4o",
+      "use_rag": false,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Ω ουρανέ, γεμάτος με όνειρα που,\n[ó-u-ra-NÉ] ~ [ó-ni-ra pu]\n\nΣτάσου απαλός όπως το φως του.\n[STA-su a-pa-LÓS] ~ [fos tu]\n\nΑστέρια χορεύουν στη σκιά του.\n[a-STÉ-ria xo-RÉ-voun] ~ [sti s-kiÁ tu]\n\nΜε λησμονιά ζει η καρδιά του.\n[me lis-mo-NIÁ] ~ [kar-diÁ tu]\n\nΚάθε σπιθαμή, γεμάτη μυστήρια.\n[KÁ-the spi-tha-MÍ] ~ [ge-MÁ-ti MIS-ti-ria]\n\nΣύννεφα ταξιδεύουν στην καρδιά ου.\n[SY-ne-fa ta-xi-DÉ-voun] ~ [stin kar-diÁ u]\n\nΈνα όνειρο στο ταξίδι το φως σου.\n[É-na Ó-ni-ro] ~ [sto ta-ksí-di to fos su]\n\nΒλέπω τη δόξα στον ουρανό σου.\n[VLÉ-po ti DÓ-xa] ~ [ston u-ra-NÓ su]",
+      "no_verify_time": 7.188774108886719,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'όνειρα που' / 'φως του'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'σκιά του' / 'καρδιά του'",
+        "No rhyme: 'μυστήρια' / 'καρδιά ου'",
+        "No rhyme: 'φως σου' / 'ουρανό σου'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Ο ουρανός σαν εικόνα είναι (É-na)  \nμε τα αστέρια νύχτας (NY-khtas) πάντα φυλακή.  \n\nΟ άνεμος φυσά απαλά στον (apá-los) ουρανό μου (moú),   \nη νύχτα έρχεται σιγά με τ' άστρά μου (moú).   \n\nΣ' όνειρα ελεύθερα πετά με τ' ουρανό μας (mas),  \nλήθη και όνειρα σμίγουν σαν αστέρι τόσο κοντά μας (mas).  \n\nΣτα σύννεφα αυτό το βράδυ, αγκαλιά μου (moú),    \nφεγγάρι, φέρ' μου του κόσμου τα όνειρά σου (soú).  \n\nΑπάντησέ (É-se) το φως στου ορίζοντα (o-rí-zo-nda) την αγκαλιά,   \nτου αύριο στιχούς να γράφεις στην καρδιά σου (soú).",
+      "with_verify_time": 14.979921102523804,
+      "with_verify_attempts": 0,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "Too few lines: 1"
+      ],
+      "with_verify_correct_pairs": 0,
+      "with_verify_total_pairs": 0,
+      "improvement": 0.0
+    },
+    {
+      "test_id": "gpt-4o_WITHOUT-RAG_4",
+      "model": "gpt-4o",
+      "use_rag": false,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Φως του ήλιου `λάμπει ξανά` μου,  \nσε κάθε χρώμα `τραγουδά` του,  \nμ' ελπίδα ο `ουρανός` μου,  \nστο όνειρό σου `χαϊδεύει` φως.  \n\nΣκιές που `παραλύουν` δες,  \nστο φως που `ανασαίνεις` με,  \nστα βλέφαρά μου `λάμπει το` μου,  \nστην αυγή `που γεννιέται` μας.  ",
+      "no_verify_time": 2.9185612201690674,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ξανά` μου' / '`τραγουδά` του'",
+        "No rhyme: '`ουρανός` μου' / '`χαϊδεύει` φως'",
+        "No rhyme: '`παραλύουν` δες' / '`ανασαίνεις` με'",
+        "No rhyme: 'το` μου' / 'γεννιέται` μας'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Φως στο σκοτάδι δίνεις, σημάδια μυστικά,  \nκαι την ψυχή μου έλκεις με ρεύμα ανοιχτά.  \n\nΣαν άστρο που χρυσίζει το βράδυ πριν χαθεί,  \nφέρ' το φως δικό μου, πριν το σκοτάδι ακουστεί.  \n\nΟ ήλιος ανατέλλει στη χώρα των ψυχών,  \nκάθε άκρη φέγγει απ’ των ονείρων τους δεσμών.  \n\nΜαζί ξυπνούμε φως μου, σε κόσμους φωτεινούς,  \nκι η ψυχή μου λάμπει, όπως της μέρας τους παλμούς.  ",
+      "with_verify_time": 17.16299295425415,
+      "with_verify_attempts": 5,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_1",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "αγάπη",
+      "rhyme_type": "M",
+      "features": [],
+      "no_verify_poem": "Δίχως της άνοιξης το φως να λείπει,  \nστην αγάπη μας ανθίζει ελπίδα.  \nΟ χαμός σου στο πλάι μου δείχνει,  \nότι η καρδιά πάλι θα ανοίξει.  \n\nΟνειρευόμαστε τον ίδιο πόνο,  \nτο ξενύχτι μες στο χρόνο φωτά.  \nΚαι στις σκιές που περνάει μόνο,  \nκάθε ψυχή το φως της ζητά.  ",
+      "no_verify_time": 5.259190082550049,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'λείπει' / 'ελπίδα'",
+        "No rhyme: 'δείχνει' / 'ανοίξει'",
+        "No rhyme: 'πόνο' / 'φωτά'",
+        "No rhyme: 'μόνο' / 'ζητά'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Στη νύχτα ανθεί η ψυχή, μες τα σκοτάδια της πουλά,  \nκαι η καρδιά ελευθερώνεται, κι ο πόνος ξεχνά.\n\nΚάθε πρωί που ανατέλλει μια νέα αρχή,  \nτο φως γεμίζει το χώρο μου και παίρνει ψυχή.\n\nΌταν το χέρι σου κρατώ, σβήνει η μοναξιά,  \nσαν μια αγάπη αληθινή, που γλυκά σεργιανά.\n\nΗ αγκαλιά σου το βράδυ, ζεσταίνει το κορμί,  \nσε κάθε όνειρο μαζί, κι η αγάπη ηχεί.",
+      "with_verify_time": 14.719795942306519,
+      "with_verify_attempts": 3,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_2",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "θάλασσα",
+      "rhyme_type": "F2",
+      "features": [],
+      "no_verify_poem": "Στης θάλασσας το κύμα μεσ' το ηλιοβασίλεμα,  \nστα δροσερά της χάδια λησμονώ κάθε θλίψη.  \nΦεύγουνε τα καράβια στ' ότι κι αν φέρει την αυγή.  \nΣτους αναστεναγμούς της ψυχή μου κλέβει νίκη.\n\nΣτον αφρό της ζήσης με παίρνει το τραγούδι,  \nκι αγκαλιάζει η γαλήνη την ψυχή μου.  \nΚι ενώ ο ουρανός σκυθρωπός, ανασαίνω.  \nΣτη σιωπή της νύχτας ονειρεύομαι το τέλος της βροχής.",
+      "no_verify_time": 4.113248109817505,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'ηλιοβασίλεμα' / 'θλίψη'",
+        "No rhyme: 'αυγή' / 'νίκη'",
+        "No rhyme: 'τραγούδι' / 'ψυχή μου'",
+        "No rhyme: 'ανασαίνω' / 'βροχής'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Σαν άνεμος φέρνει μια γλυκιά απάτη,  \nκι η θάλασσα μ' αγκαλιά άλλη αγάπη.  \n\nκι όνειρα μακρινά γλυκά την ώρα,  \nμέσα της θα σβηστούν σαν άδεια χώρα.  \n\nΗ κύματα της, μες στη νυχτή μαγεία,  \nφέρνει στο σκοτάδι η ακριβή αρμονία,  \n\nκι από τη χλόη μας το ύδωρ γαληνεύει,  \nκαθώς ο ψίθυρος γλυκά μας αγκαλεύει.  ",
+      "with_verify_time": 5.068709850311279,
+      "with_verify_attempts": 2,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_3",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "ουρανός",
+      "rhyme_type": "F3",
+      "features": [],
+      "no_verify_poem": "Ο ουρανός κερνάει την ομορφιά μαζί του,  \nστου φεγγαριού την άκρη, φως να δίνει στο σώμα του.  \n\nΜακριά η θάλασσα δεν χάνει την ευωδιά της,  \nστο κύμα που κρυφά μετράνε τα βήματά της.  \n\nΨηλά οι αστέρες, κυλήσανε σε όνειρο,  \nμέσα στην ποίηση μιας νύχτας, ένα χειροκρότημα,  \n\nτα σύννεφά του κρύβουν την αγκαλιά του,  \nσ' απόκρυφα λημέρια, στης καρδιάς τη φράση του.",
+      "no_verify_time": 4.963190078735352,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'μαζί του' / 'σώμα του'",
+        "Stress mismatch: Expected F3, found [(2, 'F2')]/[(2, 'F2')] for 'ευωδιά της' / 'βήματά της'",
+        "No rhyme: 'όνειρο' / 'χειροκρότημα'",
+        "No rhyme: 'αγκαλιά του' / 'φράση του'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 4,
+      "with_verify_poem": "Πάνω στου ουρανού τα κύματα,  \nτο φως βλέπουν τα πρίσματα.  \n\nΣε ασημένιες φλέβες, κρύβεται,  \nκάθε μυστήριο που αναδύεται.  \n\nΣτου ανέμου την αγκάλη θρέφεται,  \nκάθε όνειρο που στέκεται.  \n\nΣτα βάθη του ουρανού χαρίζεται,  \nκι ο κόσμος γύρω του στροβιλίζεται.  ",
+      "with_verify_time": 32.673744201660156,
+      "with_verify_attempts": 13,
+      "with_verify_valid": true,
+      "with_verify_errors": [],
+      "with_verify_correct_pairs": 4,
+      "with_verify_total_pairs": 4,
+      "improvement": 100.0
+    },
+    {
+      "test_id": "gpt-4o_WITH-RAG_4",
+      "model": "gpt-4o",
+      "use_rag": true,
+      "theme": "φως",
+      "rhyme_type": "M",
+      "features": [
+        "PURE"
+      ],
+      "no_verify_poem": "Στο φως κοιτάζω την αυγή / δάκρυ στη ματιά μου, φιλί.  \nΧρυσή σιωπή με τον καπνό / φτάνει στο στόμα μου, σκοπό.  \nΜεσ' στο φως, να ζωγραφίζω παντού / χρώματα μες στο όνειρό μου αυτού.  \nΔε θα φύγει το φως μου, αχτίδα / καρδιά ανοιχτή στο δικό της μονοπάτι!",
+      "no_verify_time": 3.563025951385498,
+      "no_verify_valid": false,
+      "no_verify_errors": [
+        "No rhyme: 'φιλί' / 'σκοπό'",
+        "No rhyme: 'αυτού' / 'μονοπάτι'"
+      ],
+      "no_verify_correct_pairs": 0,
+      "no_verify_total_pairs": 2,
+      "with_verify_poem": "Στου ήλιου το φως μου, ζει  \nουρανός σαν οργιστεί.  \n\nΤο φως αγγίζω καθώς περνώ  \nτις σκιές που προσπερνώ.  \n\nΡύθμισε η καρδιά μου τον παλμό,  \nκαι το γέλιο αντηχεί κρυφό.  \n\nΦως τη νύχτα η καρδιά πεθυμεί,  \nλαμπρό αστέρι σαν φανεί.  \n",
+      "with_verify_time": 20.060487985610962,
+      "with_verify_attempts": 6,
+      "with_verify_valid": false,
+      "with_verify_errors": [
+        "PURE requested but 'περνώ' / 'προσπερνώ' is RICH"
+      ],
+      "with_verify_correct_pairs": 3,
+      "with_verify_total_pairs": 4,
+      "improvement": 75.0
+    }
+  ]
+}
